@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.noinnion.android.newsplus.extension.bazqux",
+    "label" : "BazQux Reader | News+",
+    "icon" : "res/drawable-mdpi/icon.png",
+    "versionName" : "1.0.1",
+    "versionCode" : 101,
+    "installLocation" : "auto",
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "16",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : true,
+    "smallScreens" : true,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/icon.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 898,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"101\" android:versionName=\"1.0.1\" android:installLocation=\"auto\" package=\"com.noinnion.android.newsplus.extension.bazqux\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"16\" />\n\t<supports-screens android:anyDensity=\"true\" android:smallScreens=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\" android:xlargeScreens=\"true\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0a0055\" android:label=\"BazQux Reader | News+\" android:icon=\"res/drawable-mdpi/icon.png\" android:allowBackup=\"true\">\n\t\t<activity android:name=\".WelcomeActivity\" android:configChanges=\"0x20\" android:windowSoftInputMode=\"0x22\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:label=\"BazQux Reader\" android:name=\".BazquxClient\" android:permission=\"com.noinnion.android.reader.permission.READ_EXTENSION_DATA\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.noinnion.android.reader.api.Extension\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"protocolVersion\" android:value=\"1\" />\n\t\t\t<meta-data android:name=\"description\" android:value=\"RSS reader that shows comments to posts.\" />\n\t\t\t<meta-data android:name=\"loginActivity\" android:value=\".LoginActivity\" />\n\t\t\t<meta-data android:name=\"settingsActivity\" android:value=\".SettingsActivity\" />\n\t\t</service>\n\t\t<activity android:theme=\"resourceId:0x7f0a0059\" android:label=\"Login\" android:name=\".LoginActivity\" android:exported=\"true\" />\n\t\t<activity android:name=\".SettingsActivity\" android:exported=\"true\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0059\" android:name=\".SendLogActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 875989,
+  "crc32" : 1877268760,
+  "sha256" : "81629d5772c243a4a47d7d04c876bda9903bbf5763d136d9a2de48c7807b195b",
+  "buildTime" : 1496784445000
+}

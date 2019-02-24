@@ -1,0 +1,613 @@
+2018-05-16 04:03:52,356 INFO  DownloadService - Downloading "https://github.com/square/okio/archive/master.zip", attempt 3
+2018-05-16 04:03:54,164 INFO  DownloadService - Downloaded https://github.com/square/okio/archive/master.zip, attempt 3
+2018-05-16 04:03:54,165 INFO  DownloadService - Size of file "/tmp/rdisk/522/master.zip": 272 KB
+2018-05-16 04:03:54,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 04:03:54,165 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/522/master.zip: true
+2018-05-16 04:03:54,165 DEBUG ZipUtil - Extracting '/tmp/rdisk/522/master.zip' into '/tmp/rdisk/522/src'.
+2018-05-16 04:03:54,185 INFO  FullProcessService - Size of directory with sources: 745 KB
+2018-05-16 04:03:54,185 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/522/src]
+2018-05-16 04:03:54,190 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/522/src/.git/
+
+2018-05-16 04:03:54,194 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/522/src/okio-master/gradlew
+2018-05-16 04:03:54,197 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/522/src/okio-master/build.gradle /tmp/rdisk/522/src/okio-master/okio/build.gradle /tmp/rdisk/522/src/okio-master/okio/js/build.gradle /tmp/rdisk/522/src/okio-master/okio/jvm/build.gradle /tmp/rdisk/522/src/okio-master/samples/build.gradle
+2018-05-16 04:03:54,200 INFO  ProjectBuildService - All script(s): /tmp/rdisk/522/src/okio-master/settings.gradle /tmp/rdisk/522/src/okio-master/samples/build.gradle /tmp/rdisk/522/src/okio-master/okio/jvm/build.gradle /tmp/rdisk/522/src/okio-master/okio/js/build.gradle /tmp/rdisk/522/src/okio-master/okio/build.gradle /tmp/rdisk/522/src/okio-master/gradle/gradle-mvn-push.gradle /tmp/rdisk/522/src/okio-master/build.gradle
+2018-05-16 04:03:54,201 INFO  ProjectBuildService - Remote scripts: none
+2018-05-16 04:03:54,201 INFO  ProjectFixService - Fixing project...
+2018-05-16 04:03:54,214 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/522/src/okio-master/local.properties
+2018-05-16 04:03:54,217 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
+2018-05-16 04:03:54,218 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
+2018-05-16 04:03:54,222 INFO  ProjectFixService - Build info for "/tmp/rdisk/522/src/okio-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 04:03:54,223 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/522/src/okio-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 04:03:54,224 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/522/src/okio-master/okio/local.properties
+2018-05-16 04:03:54,228 INFO  ProjectFixService - Build info for "/tmp/rdisk/522/src/okio-master/okio/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 04:03:54,228 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/522/src/okio-master/okio/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 04:03:54,228 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/522/src/okio-master/okio/js/local.properties
+2018-05-16 04:03:54,232 INFO  ProjectFixService - Build info for "/tmp/rdisk/522/src/okio-master/okio/js/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 04:03:54,232 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/522/src/okio-master/okio/js/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 04:03:54,236 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/522/src/okio-master/okio/jvm/local.properties
+2018-05-16 04:03:54,240 INFO  ProjectFixService - Build info for "/tmp/rdisk/522/src/okio-master/okio/jvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 04:03:54,240 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/522/src/okio-master/okio/jvm/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 04:03:54,241 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/522/src/okio-master/samples/local.properties
+2018-05-16 04:03:54,245 INFO  ProjectFixService - Build info for "/tmp/rdisk/522/src/okio-master/samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 04:03:54,245 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/522/src/okio-master/samples/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 04:03:54,245 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 04:03:54,245 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 04:03:54,245 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 04:04:07,223 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-05-16 04:04:07,223 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-05-16 04:04:07,223 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-05-16 04:05:11,590 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :okio:compileJava NO-SOURCE
+> Task :okio:compileKotlinCommon
+> Task :okio:processResources NO-SOURCE
+> Task :okio:classes
+> Task :okio:jar
+> Task :okio:assemble
+> Task :okio:build
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/AsyncTimeout.kt: (298, 44): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/AsyncTimeout.kt: (341, 38): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/AsyncTimeout.kt: (357, 38): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (114, 9): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (115, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (145, 9): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (146, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (183, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (223, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (864, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1019, 9): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1068, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1132, 9): Name shadowed: v
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1198, 9): Name shadowed: v
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1243, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1335, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1380, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1381, 9): Name shadowed: toIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1388, 11): Name shadowed: s
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1389, 11): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1418, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1423, 11): Name shadowed: s
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1424, 11): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1454, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1458, 11): Name shadowed: s
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1459, 11): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1539, 9): Name shadowed: segment
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Buffer.kt: (1540, 9): Name shadowed: segmentPos
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/ByteString.kt: (224, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/ByteString.kt: (246, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/GzipSource.kt: (175, 9): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/GzipSource.kt: (176, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Options.kt: (130, 11): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Pipe.kt: (50, 11): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Pipe.kt: (66, 22): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Pipe.kt: (83, 20): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Pipe.kt: (104, 20): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Pipe.kt: (112, 20): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/RealBufferedSink.kt: (110, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/RealBufferedSource.kt: (317, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/RealBufferedSource.kt: (334, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/RealBufferedSource.kt: (356, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/RealBufferedSource.kt: (374, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (87, 30): Unchecked cast: Array<ByteArray?> to Array<ByteArray>
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (195, 9): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (196, 9): Name shadowed: otherOffset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (197, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (222, 9): Name shadowed: offset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (223, 9): Name shadowed: otherOffset
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/SegmentedByteString.kt: (224, 9): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Timeout.kt: (165, 21): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java/okio/Timeout.kt: (184, 21): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+> Task :okio:jvm:compileKotlin
+> Task :okio:jvm:compileJava NO-SOURCE
+> Task :samples:compileKotlin
+> Task :samples:compileJava
+> Task :samples:processResources NO-SOURCE
+> Task :samples:classes
+> Task :samples:jar
+> Task :samples:assemble
+> Task :samples:build
+> Task :okio:js:compileJava NO-SOURCE
+w: /tmp/rdisk/522/src/okio-master/okio/js/src/main/kotlin/okio/ByteString.kt: (153, 9): Name shadowed: fromIndex
+w: /tmp/rdisk/522/src/okio-master/okio/js/src/main/kotlin/okio/ByteString.kt: (175, 9): Name shadowed: fromIndex
+> Task :okio:js:compileKotlin2Js
+> Task :okio:js:processResources NO-SOURCE
+> Task :okio:js:classes
+> Task :okio:js:jar
+> Task :okio:js:assemble
+> Task :okio:js:build
+> Task :okio:jvm:processResources NO-SOURCE
+> Task :okio:jvm:classes UP-TO-DATE
+
+> Task :okio:jvm:dokka
+warning: duplicate source root: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java
+No documentation for okio.AsyncTimeout$enter() (AsyncTimeout.kt:48)
+Unresolved link to .timedOut in doc comment of okio.AsyncTimeout$sink(okio.Sink) (AsyncTimeout.kt:78)
+No documentation for okio.Buffer$size (Buffer.kt:47)
+No documentation for okio.Buffer$read(java.nio.ByteBuffer) (Buffer.kt:837)
+No documentation for okio.Buffer$write(okio.ByteString) (Buffer.kt:880)
+No documentation for okio.Buffer$write(java.nio.ByteBuffer) (Buffer.kt:1037)
+No documentation for okio.Buffer$isOpen() (Buffer.kt:1566)
+No documentation for okio.Buffer$close() (Buffer.kt:1568)
+No documentation for okio.Buffer$equals(kotlin.Any) (Buffer.kt:1624)
+No documentation for okio.Buffer$hashCode() (Buffer.kt:1659)
+No documentation for okio.Buffer$readUnsafe(okio.Buffer.UnsafeCursor) (Buffer.kt:1708)
+No documentation for okio.Buffer$readAndWriteUnsafe(okio.Buffer.UnsafeCursor) (Buffer.kt:1716)
+Unresolved link to .resizeBuffer in doc comment of okio.Buffer.UnsafeCursor (Buffer.kt:1725)
+Unresolved link to .resizeBuffer in doc comment of okio.Buffer.UnsafeCursor$<init>() (Buffer.kt:1725)
+No documentation for okio.Buffer.UnsafeCursor$buffer (Buffer.kt:1920)
+No documentation for okio.Buffer.UnsafeCursor$readWrite (Buffer.kt:1921)
+No documentation for okio.Buffer.UnsafeCursor$offset (Buffer.kt:1924)
+No documentation for okio.Buffer.UnsafeCursor$data (Buffer.kt:1925)
+No documentation for okio.Buffer.UnsafeCursor$start (Buffer.kt:1926)
+No documentation for okio.Buffer.UnsafeCursor$end (Buffer.kt:1927)
+No documentation for okio.Buffer.UnsafeCursor$close() (Buffer.kt:2132)
+No documentation for okio.BufferedSink$write(okio.ByteString) (BufferedSink.kt:31)
+No documentation for okio.ByteString$startsWith(okio.ByteString) (ByteString.kt:209)
+No documentation for okio.ByteString$startsWith(kotlin.ByteArray) (ByteString.kt:211)
+No documentation for okio.ByteString$endsWith(okio.ByteString) (ByteString.kt:213)
+No documentation for okio.ByteString$endsWith(kotlin.ByteArray) (ByteString.kt:215)
+No documentation for okio.ByteString$indexOf(okio.ByteString, kotlin.Int) (ByteString.kt:219)
+No documentation for okio.ByteString$indexOf(kotlin.ByteArray, kotlin.Int) (ByteString.kt:222)
+No documentation for okio.ByteString$lastIndexOf(okio.ByteString, kotlin.Int) (ByteString.kt:240)
+No documentation for okio.ByteString$lastIndexOf(kotlin.ByteArray, kotlin.Int) (ByteString.kt:244)
+No documentation for okio.ByteString$equals(kotlin.Any) (ByteString.kt:256)
+No documentation for okio.ByteString$hashCode() (ByteString.kt:258)
+No documentation for okio.ByteString$compareTo(okio.ByteString) (ByteString.kt:260)
+No documentation for okio.DeflaterSink$<init>(okio.Sink, java.util.zip.Deflater) (DeflaterSink.kt:48)
+No documentation for okio.DeflaterSink$toString() (DeflaterSink.kt:152)
+No documentation for okio.ForwardingSink$toString() (ForwardingSink.kt:39)
+No documentation for okio.ForwardingSource$toString() (ForwardingSource.kt:36)
+No documentation for okio.ForwardingTimeout$setDelegate(okio.Timeout) (ForwardingTimeout.kt:28)
+Unresolved link to InterruptedIOException in doc comment of okio.ForwardingTimeout$throwIfReached() (ForwardingTimeout.kt:49)
+No documentation for okio.ForwardingTimeout$delegate (ForwardingTimeout.kt:23)
+No documentation for okio.InflaterSource$<init>(okio.Source, java.util.zip.Inflater) (InflaterSource.kt:45)
+No documentation for okio.Options$size (Options.kt:27)
+No documentation for okio.Options$get(kotlin.Int) (Options.kt:30)
+No documentation for okio.Options.Companion$of(kotlin.Array((okio.ByteString))) (Options.kt:33)
+No documentation for okio.Pipe$sink (Pipe.kt:45)
+No documentation for okio.Pipe$source (Pipe.kt:90)
+No documentation for okio.JvmOverloads (platform.kt:21)
+No documentation for okio.JvmField (platform.kt:22)
+No documentation for okio.JvmStatic (platform.kt:23)
+No documentation for okio.JvmName (platform.kt:24)
+No documentation for okio.IndexOutOfBoundsException (platform.kt:44)
+No documentation for okio.ArrayIndexOutOfBoundsException (platform.kt:47)
+No documentation for okio.JvmOverloads (platform.kt:25)
+No documentation for okio.JvmOverloads$<init>() (platform.kt:28)
+No documentation for okio.JvmField (platform.kt:30)
+No documentation for okio.JvmField$<init>() (platform.kt:33)
+No documentation for okio.JvmStatic (platform.kt:35)
+No documentation for okio.JvmStatic$<init>() (platform.kt:38)
+No documentation for okio.JvmName (platform.kt:40)
+No documentation for okio.JvmName$<init>(kotlin.String) (platform.kt:43)
+No documentation for okio.JvmName$name (platform.kt:43)
+No documentation for okio.IndexOutOfBoundsException (platform.kt:61)
+No documentation for okio.IndexOutOfBoundsException$<init>(kotlin.String) (platform.kt:62)
+No documentation for okio.ArrayIndexOutOfBoundsException (platform.kt:64)
+No documentation for okio.ArrayIndexOutOfBoundsException$<init>(kotlin.String) (platform.kt:65)
+
+> Task :okio:jvm:docJar
+> Task :okio:jvm:jar
+> Task :okio:jvm:compileJmhKotlin
+
+> Task :okio:jvm:compileJmhJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+> Task :okio:jvm:processJmhResources NO-SOURCE
+> Task :okio:jvm:jmhClasses
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/test/java/okio/TestUtil.kt: (74, 13): Name shadowed: byteCount
+w: /tmp/rdisk/522/src/okio-master/okio/jvm/src/test/java/okio/TestUtil.kt: (134, 17): Condition 'b1 == null' is always 'false'
+> Task :okio:jvm:compileTestKotlin
+
+> Task :okio:jvm:compileTestJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+> Task :okio:jvm:processTestResources NO-SOURCE
+> Task :okio:jvm:testClasses
+> Task :okio:jvm:sourcesJar
+> Task :okio:jvm:signArchives SKIPPED
+
+> Task :okio:jvm:jmhRunBytecodeGenerator
+Processing 56 classes from /tmp/rdisk/522/src/okio-master/okio/jvm/build/classes/java/jmh with "reflection" generator
+Processing 0 classes from /tmp/rdisk/522/src/okio-master/okio/jvm/build/classes/kotlin/jmh with "reflection" generator
+Writing out Java source to /tmp/rdisk/522/src/okio-master/okio/jvm/build/jmh-generated-sources and resources to /tmp/rdisk/522/src/okio-master/okio/jvm/build/jmh-generated-classes
+
+> Task :okio:jvm:jmhCompileGeneratedClasses
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+> Task :okio:jvm:jmhJar
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekBackward_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekBeginning_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekEnd_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekForward_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_select_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_cold_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads16hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads1hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads2hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads32hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads4hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads8hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_getByteBeginning_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_getByteEnd_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_getByteMiddle_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_indexOfByte_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_indexOfByteString_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_indexOfElement_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "okio/ByteStringTest.class" during copy operation configured with DuplicatesStrategy.WARN
+
+> Task :okio:jvm:assemble
+> Task :okio:jvm:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.7/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 3s
+19 actionable tasks: 19 executed
+
+2018-05-16 04:05:11,614 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 04:05:11,614 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/okio/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 04:05:17,771 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-05-16 04:05:17,772 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-05-16 04:05:17,772 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/okio/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-05-16 04:05:49,847 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :okio:compileJava NO-SOURCE
+> Task :okio:compileKotlinCommon UP-TO-DATE
+> Task :okio:processResources NO-SOURCE
+> Task :okio:classes UP-TO-DATE
+> Task :okio:jar UP-TO-DATE
+> Task :okio:assemble UP-TO-DATE
+> Task :okio:build
+> Task :okio:js:compileJava NO-SOURCE
+> Task :okio:js:compileKotlin2Js UP-TO-DATE
+> Task :okio:js:processResources NO-SOURCE
+> Task :okio:js:classes UP-TO-DATE
+> Task :okio:js:jar UP-TO-DATE
+> Task :okio:js:assemble UP-TO-DATE
+> Task :okio:js:build
+> Task :okio:jvm:compileKotlin UP-TO-DATE
+> Task :okio:jvm:compileJava NO-SOURCE
+> Task :okio:jvm:processResources NO-SOURCE
+> Task :okio:jvm:classes UP-TO-DATE
+
+> Task :okio:jvm:dokka
+warning: duplicate source root: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java
+No documentation for okio.AsyncTimeout$enter() (AsyncTimeout.kt:48)
+Unresolved link to .timedOut in doc comment of okio.AsyncTimeout$sink(okio.Sink) (AsyncTimeout.kt:78)
+No documentation for okio.Buffer$size (Buffer.kt:47)
+No documentation for okio.Buffer$read(java.nio.ByteBuffer) (Buffer.kt:837)
+No documentation for okio.Buffer$write(okio.ByteString) (Buffer.kt:880)
+No documentation for okio.Buffer$write(java.nio.ByteBuffer) (Buffer.kt:1037)
+No documentation for okio.Buffer$isOpen() (Buffer.kt:1566)
+No documentation for okio.Buffer$close() (Buffer.kt:1568)
+No documentation for okio.Buffer$equals(kotlin.Any) (Buffer.kt:1624)
+No documentation for okio.Buffer$hashCode() (Buffer.kt:1659)
+No documentation for okio.Buffer$readUnsafe(okio.Buffer.UnsafeCursor) (Buffer.kt:1708)
+No documentation for okio.Buffer$readAndWriteUnsafe(okio.Buffer.UnsafeCursor) (Buffer.kt:1716)
+Unresolved link to .resizeBuffer in doc comment of okio.Buffer.UnsafeCursor (Buffer.kt:1725)
+Unresolved link to .resizeBuffer in doc comment of okio.Buffer.UnsafeCursor$<init>() (Buffer.kt:1725)
+No documentation for okio.Buffer.UnsafeCursor$buffer (Buffer.kt:1920)
+No documentation for okio.Buffer.UnsafeCursor$readWrite (Buffer.kt:1921)
+No documentation for okio.Buffer.UnsafeCursor$offset (Buffer.kt:1924)
+No documentation for okio.Buffer.UnsafeCursor$data (Buffer.kt:1925)
+No documentation for okio.Buffer.UnsafeCursor$start (Buffer.kt:1926)
+No documentation for okio.Buffer.UnsafeCursor$end (Buffer.kt:1927)
+No documentation for okio.Buffer.UnsafeCursor$close() (Buffer.kt:2132)
+No documentation for okio.BufferedSink$write(okio.ByteString) (BufferedSink.kt:31)
+No documentation for okio.ByteString$startsWith(okio.ByteString) (ByteString.kt:209)
+No documentation for okio.ByteString$startsWith(kotlin.ByteArray) (ByteString.kt:211)
+No documentation for okio.ByteString$endsWith(okio.ByteString) (ByteString.kt:213)
+No documentation for okio.ByteString$endsWith(kotlin.ByteArray) (ByteString.kt:215)
+No documentation for okio.ByteString$indexOf(okio.ByteString, kotlin.Int) (ByteString.kt:219)
+No documentation for okio.ByteString$indexOf(kotlin.ByteArray, kotlin.Int) (ByteString.kt:222)
+No documentation for okio.ByteString$lastIndexOf(okio.ByteString, kotlin.Int) (ByteString.kt:240)
+No documentation for okio.ByteString$lastIndexOf(kotlin.ByteArray, kotlin.Int) (ByteString.kt:244)
+No documentation for okio.ByteString$equals(kotlin.Any) (ByteString.kt:256)
+No documentation for okio.ByteString$hashCode() (ByteString.kt:258)
+No documentation for okio.ByteString$compareTo(okio.ByteString) (ByteString.kt:260)
+No documentation for okio.DeflaterSink$<init>(okio.Sink, java.util.zip.Deflater) (DeflaterSink.kt:48)
+No documentation for okio.DeflaterSink$toString() (DeflaterSink.kt:152)
+No documentation for okio.ForwardingSink$toString() (ForwardingSink.kt:39)
+No documentation for okio.ForwardingSource$toString() (ForwardingSource.kt:36)
+No documentation for okio.ForwardingTimeout$setDelegate(okio.Timeout) (ForwardingTimeout.kt:28)
+Unresolved link to InterruptedIOException in doc comment of okio.ForwardingTimeout$throwIfReached() (ForwardingTimeout.kt:49)
+No documentation for okio.ForwardingTimeout$delegate (ForwardingTimeout.kt:23)
+No documentation for okio.InflaterSource$<init>(okio.Source, java.util.zip.Inflater) (InflaterSource.kt:45)
+No documentation for okio.Options$size (Options.kt:27)
+No documentation for okio.Options$get(kotlin.Int) (Options.kt:30)
+No documentation for okio.Options.Companion$of(kotlin.Array((okio.ByteString))) (Options.kt:33)
+No documentation for okio.Pipe$sink (Pipe.kt:45)
+No documentation for okio.Pipe$source (Pipe.kt:90)
+No documentation for okio.JvmOverloads (platform.kt:21)
+No documentation for okio.JvmField (platform.kt:22)
+No documentation for okio.JvmStatic (platform.kt:23)
+No documentation for okio.JvmName (platform.kt:24)
+No documentation for okio.IndexOutOfBoundsException (platform.kt:44)
+No documentation for okio.ArrayIndexOutOfBoundsException (platform.kt:47)
+No documentation for okio.JvmOverloads (platform.kt:25)
+No documentation for okio.JvmOverloads$<init>() (platform.kt:28)
+No documentation for okio.JvmField (platform.kt:30)
+No documentation for okio.JvmField$<init>() (platform.kt:33)
+No documentation for okio.JvmStatic (platform.kt:35)
+No documentation for okio.JvmStatic$<init>() (platform.kt:38)
+No documentation for okio.JvmName (platform.kt:40)
+No documentation for okio.JvmName$<init>(kotlin.String) (platform.kt:43)
+No documentation for okio.JvmName$name (platform.kt:43)
+No documentation for okio.IndexOutOfBoundsException (platform.kt:61)
+No documentation for okio.IndexOutOfBoundsException$<init>(kotlin.String) (platform.kt:62)
+No documentation for okio.ArrayIndexOutOfBoundsException (platform.kt:64)
+No documentation for okio.ArrayIndexOutOfBoundsException$<init>(kotlin.String) (platform.kt:65)
+
+> Task :okio:jvm:docJar UP-TO-DATE
+> Task :okio:jvm:jar UP-TO-DATE
+> Task :okio:jvm:compileJmhKotlin
+
+> Task :okio:jvm:compileJmhJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+> Task :okio:jvm:processJmhResources NO-SOURCE
+> Task :okio:jvm:jmhClasses
+> Task :okio:jvm:compileTestKotlin UP-TO-DATE
+> Task :okio:jvm:compileTestJava UP-TO-DATE
+> Task :okio:jvm:processTestResources NO-SOURCE
+> Task :okio:jvm:testClasses UP-TO-DATE
+> Task :okio:jvm:sourcesJar UP-TO-DATE
+> Task :okio:jvm:signArchives SKIPPED
+
+> Task :okio:jvm:jmhRunBytecodeGenerator
+Processing 56 classes from /tmp/rdisk/522/src/okio-master/okio/jvm/build/classes/java/jmh with "reflection" generator
+Processing 0 classes from /tmp/rdisk/522/src/okio-master/okio/jvm/build/classes/kotlin/jmh with "reflection" generator
+Writing out Java source to /tmp/rdisk/522/src/okio-master/okio/jvm/build/jmh-generated-sources and resources to /tmp/rdisk/522/src/okio-master/okio/jvm/build/jmh-generated-classes
+
+> Task :okio:jvm:jmhCompileGeneratedClasses
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+> Task :okio:jvm:jmhJar
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekBackward_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekBeginning_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekEnd_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferCursorSeekBenchmark_seekForward_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_select_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/SelectBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_cold_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_ColdBuffers_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads16hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads1hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads2hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads32hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads4hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_HotBuffers_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/BufferPerformanceBenchmark_threads8hot_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_getByteBeginning_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_getByteEnd_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/GetByteBenchmark_getByteMiddle_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_indexOfByte_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_indexOfByteString_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType_B1.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType_B2.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType_B3.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_jmhType.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "com/squareup/okio/benchmarks/generated/IndexOfElementBenchmark_indexOfElement_jmhTest.class" during copy operation configured with DuplicatesStrategy.WARN
+Encountered duplicate path "okio/ByteStringTest.class" during copy operation configured with DuplicatesStrategy.WARN
+
+> Task :okio:jvm:assemble
+> Task :okio:jvm:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.7/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 31s
+16 actionable tasks: 6 executed, 10 up-to-date
+
+2018-05-16 04:05:49,868 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 04:05:49,869 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/okio/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 04:05:54,989 INFO  ProjectTaskService - Detected possible tasks: 45
+2018-05-16 04:05:54,989 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-05-16 04:05:54,989 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/okio/js/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-05-16 04:06:00,869 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :okio:compileJava NO-SOURCE
+> Task :okio:compileKotlinCommon UP-TO-DATE
+> Task :okio:processResources NO-SOURCE
+> Task :okio:classes UP-TO-DATE
+> Task :okio:jar UP-TO-DATE
+> Task :okio:js:compileJava NO-SOURCE
+> Task :okio:js:compileKotlin2Js UP-TO-DATE
+> Task :okio:js:processResources NO-SOURCE
+> Task :okio:js:classes UP-TO-DATE
+> Task :okio:js:jar UP-TO-DATE
+> Task :okio:js:assemble UP-TO-DATE
+> Task :okio:js:build
+
+BUILD SUCCESSFUL in 5s
+4 actionable tasks: 4 up-to-date
+
+2018-05-16 04:06:00,891 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 04:06:00,892 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/okio/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 04:06:06,867 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-05-16 04:06:06,869 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-05-16 04:06:06,869 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/okio/jvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-05-16 04:06:36,488 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :okio:compileJava NO-SOURCE
+> Task :okio:compileKotlinCommon UP-TO-DATE
+> Task :okio:processResources NO-SOURCE
+> Task :okio:classes UP-TO-DATE
+> Task :okio:jar UP-TO-DATE
+> Task :okio:jvm:compileKotlin UP-TO-DATE
+> Task :okio:jvm:compileJava NO-SOURCE
+> Task :okio:jvm:processResources NO-SOURCE
+> Task :okio:jvm:classes UP-TO-DATE
+
+> Task :okio:jvm:dokka
+warning: duplicate source root: /tmp/rdisk/522/src/okio-master/okio/jvm/src/main/java
+No documentation for okio.AsyncTimeout$enter() (AsyncTimeout.kt:48)
+Unresolved link to .timedOut in doc comment of okio.AsyncTimeout$sink(okio.Sink) (AsyncTimeout.kt:78)
+No documentation for okio.Buffer$size (Buffer.kt:47)
+No documentation for okio.Buffer$read(java.nio.ByteBuffer) (Buffer.kt:837)
+No documentation for okio.Buffer$write(okio.ByteString) (Buffer.kt:880)
+No documentation for okio.Buffer$write(java.nio.ByteBuffer) (Buffer.kt:1037)
+No documentation for okio.Buffer$isOpen() (Buffer.kt:1566)
+No documentation for okio.Buffer$close() (Buffer.kt:1568)
+No documentation for okio.Buffer$equals(kotlin.Any) (Buffer.kt:1624)
+No documentation for okio.Buffer$hashCode() (Buffer.kt:1659)
+No documentation for okio.Buffer$readUnsafe(okio.Buffer.UnsafeCursor) (Buffer.kt:1708)
+No documentation for okio.Buffer$readAndWriteUnsafe(okio.Buffer.UnsafeCursor) (Buffer.kt:1716)
+Unresolved link to .resizeBuffer in doc comment of okio.Buffer.UnsafeCursor (Buffer.kt:1725)
+Unresolved link to .resizeBuffer in doc comment of okio.Buffer.UnsafeCursor$<init>() (Buffer.kt:1725)
+No documentation for okio.Buffer.UnsafeCursor$buffer (Buffer.kt:1920)
+No documentation for okio.Buffer.UnsafeCursor$readWrite (Buffer.kt:1921)
+No documentation for okio.Buffer.UnsafeCursor$offset (Buffer.kt:1924)
+No documentation for okio.Buffer.UnsafeCursor$data (Buffer.kt:1925)
+No documentation for okio.Buffer.UnsafeCursor$start (Buffer.kt:1926)
+No documentation for okio.Buffer.UnsafeCursor$end (Buffer.kt:1927)
+No documentation for okio.Buffer.UnsafeCursor$close() (Buffer.kt:2132)
+No documentation for okio.BufferedSink$write(okio.ByteString) (BufferedSink.kt:31)
+No documentation for okio.ByteString$startsWith(okio.ByteString) (ByteString.kt:209)
+No documentation for okio.ByteString$startsWith(kotlin.ByteArray) (ByteString.kt:211)
+No documentation for okio.ByteString$endsWith(okio.ByteString) (ByteString.kt:213)
+No documentation for okio.ByteString$endsWith(kotlin.ByteArray) (ByteString.kt:215)
+No documentation for okio.ByteString$indexOf(okio.ByteString, kotlin.Int) (ByteString.kt:219)
+No documentation for okio.ByteString$indexOf(kotlin.ByteArray, kotlin.Int) (ByteString.kt:222)
+No documentation for okio.ByteString$lastIndexOf(okio.ByteString, kotlin.Int) (ByteString.kt:240)
+No documentation for okio.ByteString$lastIndexOf(kotlin.ByteArray, kotlin.Int) (ByteString.kt:244)
+No documentation for okio.ByteString$equals(kotlin.Any) (ByteString.kt:256)
+No documentation for okio.ByteString$hashCode() (ByteString.kt:258)
+No documentation for okio.ByteString$compareTo(okio.ByteString) (ByteString.kt:260)
+No documentation for okio.DeflaterSink$<init>(okio.Sink, java.util.zip.Deflater) (DeflaterSink.kt:48)
+No documentation for okio.DeflaterSink$toString() (DeflaterSink.kt:152)
+No documentation for okio.ForwardingSink$toString() (ForwardingSink.kt:39)
+No documentation for okio.ForwardingSource$toString() (ForwardingSource.kt:36)
+No documentation for okio.ForwardingTimeout$setDelegate(okio.Timeout) (ForwardingTimeout.kt:28)
+Unresolved link to InterruptedIOException in doc comment of okio.ForwardingTimeout$throwIfReached() (ForwardingTimeout.kt:49)
+No documentation for okio.ForwardingTimeout$delegate (ForwardingTimeout.kt:23)
+No documentation for okio.InflaterSource$<init>(okio.Source, java.util.zip.Inflater) (InflaterSource.kt:45)
+No documentation for okio.Options$size (Options.kt:27)
+No documentation for okio.Options$get(kotlin.Int) (Options.kt:30)
+No documentation for okio.Options.Companion$of(kotlin.Array((okio.ByteString))) (Options.kt:33)
+No documentation for okio.Pipe$sink (Pipe.kt:45)
+No documentation for okio.Pipe$source (Pipe.kt:90)
+No documentation for okio.JvmOverloads (platform.kt:21)
+No documentation for okio.JvmField (platform.kt:22)
+No documentation for okio.JvmStatic (platform.kt:23)
+No documentation for okio.JvmName (platform.kt:24)
+No documentation for okio.IndexOutOfBoundsException (platform.kt:44)
+No documentation for okio.ArrayIndexOutOfBoundsException (platform.kt:47)
+No documentation for okio.JvmOverloads (platform.kt:25)
+No documentation for okio.JvmOverloads$<init>() (platform.kt:28)
+No documentation for okio.JvmField (platform.kt:30)
+No documentation for okio.JvmField$<init>() (platform.kt:33)
+No documentation for okio.JvmStatic (platform.kt:35)
+No documentation for okio.JvmStatic$<init>() (platform.kt:38)
+No documentation for okio.JvmName (platform.kt:40)
+No documentation for okio.JvmName$<init>(kotlin.String) (platform.kt:43)
+No documentation for okio.JvmName$name (platform.kt:43)
+No documentation for okio.IndexOutOfBoundsException (platform.kt:61)
+No documentation for okio.IndexOutOfBoundsException$<init>(kotlin.String) (platform.kt:62)
+No documentation for okio.ArrayIndexOutOfBoundsException (platform.kt:64)
+No documentation for okio.ArrayIndexOutOfBoundsException$<init>(kotlin.String) (platform.kt:65)
+
+> Task :okio:jvm:docJar UP-TO-DATE
+> Task :okio:jvm:jar UP-TO-DATE
+> Task :okio:jvm:compileJmhKotlin UP-TO-DATE
+> Task :okio:jvm:compileJmhJava UP-TO-DATE
+> Task :okio:jvm:processJmhResources NO-SOURCE
+> Task :okio:jvm:jmhClasses UP-TO-DATE
+> Task :okio:jvm:compileTestKotlin UP-TO-DATE
+> Task :okio:jvm:compileTestJava UP-TO-DATE
+> Task :okio:jvm:processTestResources NO-SOURCE
+> Task :okio:jvm:testClasses UP-TO-DATE
+> Task :okio:jvm:sourcesJar UP-TO-DATE
+> Task :okio:jvm:signArchives SKIPPED
+
+> Task :okio:jvm:jmhRunBytecodeGenerator
+Processing 56 classes from /tmp/rdisk/522/src/okio-master/okio/jvm/build/classes/java/jmh with "reflection" generator
+Processing 0 classes from /tmp/rdisk/522/src/okio-master/okio/jvm/build/classes/kotlin/jmh with "reflection" generator
+Writing out Java source to /tmp/rdisk/522/src/okio-master/okio/jvm/build/jmh-generated-sources and resources to /tmp/rdisk/522/src/okio-master/okio/jvm/build/jmh-generated-classes
+
+> Task :okio:jvm:jmhCompileGeneratedClasses
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+> Task :okio:jvm:jmhJar UP-TO-DATE
+> Task :okio:jvm:assemble UP-TO-DATE
+> Task :okio:jvm:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.7/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 29s
+14 actionable tasks: 3 executed, 11 up-to-date
+
+2018-05-16 04:06:36,509 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 04:06:36,509 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 04:06:41,211 INFO  ProjectTaskService - Detected possible tasks: 39
+2018-05-16 04:06:41,212 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2018-05-16 04:06:41,212 INFO  SysUtils - Execute command: [/tmp/rdisk/522/src/okio-master/gradlew, -b, /tmp/rdisk/522/src/okio-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2018-05-16 04:06:48,064 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :okio:compileJava NO-SOURCE
+> Task :okio:compileKotlinCommon UP-TO-DATE
+> Task :okio:processResources NO-SOURCE
+> Task :okio:classes UP-TO-DATE
+> Task :okio:jar UP-TO-DATE
+> Task :okio:jvm:compileKotlin UP-TO-DATE
+> Task :okio:jvm:compileJava NO-SOURCE
+> Task :samples:compileKotlin UP-TO-DATE
+> Task :samples:compileJava UP-TO-DATE
+> Task :samples:processResources NO-SOURCE
+> Task :samples:classes UP-TO-DATE
+> Task :samples:jar UP-TO-DATE
+> Task :samples:assemble UP-TO-DATE
+> Task :samples:build
+
+BUILD SUCCESSFUL in 6s
+6 actionable tasks: 6 up-to-date
+
+2018-05-16 04:06:48,085 ERROR FullProcessService - Project build has not produced APK file
+2018-05-16 04:06:48,105 ERROR FullProcessService - Could not find generated or existed APK file

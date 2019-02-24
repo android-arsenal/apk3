@@ -1,0 +1,77 @@
+2018-04-09 19:30:49,865 INFO  DownloadService - Downloading "https://github.com/ozodrukh/android-movies-demo/archive/master.zip", attempt 3
+2018-04-09 19:31:50,366 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:31:51,083 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:31:51,083 INFO  DownloadService - Downloading "https://github.com/ozodrukh/android-movies-demo/archive/master.zip", attempt 3
+2018-04-09 19:32:52,376 DEBUG FullProcessService - Repository https://github.com/ozodrukh/android-movies-demo available: true
+2018-04-09 19:32:52,376 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:32:52,376 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ozodrukh/android-movies-demo, /tmp/rdisk/621/src]
+2018-04-09 19:32:54,323 INFO  SysUtils - 
+2018-04-09 19:32:54,327 INFO  GitService - Deleted "/tmp/rdisk/621/src/.git": true
+2018-04-09 19:32:54,330 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-09 19:32:54,330 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/621/src]
+2018-04-09 19:32:54,335 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/621/src/.git/
+
+2018-04-09 19:32:54,337 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/621/src/MoviesDemoProject/gradlew
+2018-04-09 19:32:54,339 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build.gradle /tmp/rdisk/621/src/MoviesDemoProject/build.gradle
+2018-04-09 19:32:54,341 INFO  ProjectBuildService - All script(s): /tmp/rdisk/621/src/MoviesDemoProject/settings.gradle /tmp/rdisk/621/src/MoviesDemoProject/build.gradle /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build.gradle
+2018-04-09 19:32:54,342 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 19:32:54,342 INFO  ProjectFixService - Fixing project...
+2018-04-09 19:32:54,346 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/local.properties
+2018-04-09 19:32:54,347 INFO  ProjectFixService - Build info for "/tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build.gradle": [buildToolsVersion=18.0.1,compileSdkVersion=18,minSdkVersion=14,targetSdkVersion=18]
+2018-04-09 19:32:54,347 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=18,minSdkVersion=14,targetSdkVersion=18]
+2018-04-09 19:32:54,347 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/621/src/MoviesDemoProject/local.properties
+2018-04-09 19:32:54,347 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.8-bin.zip
+2018-04-09 19:32:54,348 INFO  ProjectFixService - Build info for "/tmp/rdisk/621/src/MoviesDemoProject/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=18,minSdkVersion=14,targetSdkVersion=18]
+2018-04-09 19:32:54,348 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 19:32:54,348 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 19:32:54,348 INFO  SysUtils - Execute command: [/tmp/rdisk/621/src/MoviesDemoProject/gradlew, -b, /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 19:33:02,382 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-04-09 19:33:02,382 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint uninstallRelease connectedCheck uninstallAll check installDebug uninstallDebug
+2018-04-09 19:33:02,382 INFO  SysUtils - Execute command: [/tmp/rdisk/621/src/MoviesDemoProject/gradlew, -b, /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, installDebug, -x, uninstallDebug, build]
+2018-04-09 19:33:25,773 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:MoviesDemo:preBuild UP-TO-DATE
+:MoviesDemo:preDebugBuild UP-TO-DATE
+:MoviesDemo:preReleaseBuild UP-TO-DATE
+:MoviesDemo:prepareComAndroidSupportAppcompatV71800Library
+:MoviesDemo:prepareDebugDependencies
+:MoviesDemo:compileDebugAidl
+:MoviesDemo:compileDebugRenderscript
+:MoviesDemo:generateDebugBuildConfig
+:MoviesDemo:mergeDebugAssets
+:MoviesDemo:mergeDebugResources
+:MoviesDemo:processDebugManifest
+:MoviesDemo:processDebugResources
+:MoviesDemo:generateDebugSources
+:MoviesDemo:compileDebugNote: /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/src/main/java/com/idunnolol/moviesdemo/view/ViewPager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:MoviesDemo:dexDebug
+:MoviesDemo:processDebugJavaRes UP-TO-DATE
+:MoviesDemo:validateDebugSigning
+:MoviesDemo:packageDebug
+:MoviesDemo:assembleDebug
+:MoviesDemo:prepareReleaseDependencies
+:MoviesDemo:compileReleaseAidl
+:MoviesDemo:compileReleaseRenderscript
+:MoviesDemo:generateReleaseBuildConfig
+:MoviesDemo:mergeReleaseAssets
+:MoviesDemo:mergeReleaseResources
+:MoviesDemo:processReleaseManifest
+:MoviesDemo:processReleaseResources
+:MoviesDemo:generateReleaseSources
+:MoviesDemo:compileReleaseNote: /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/src/main/java/com/idunnolol/moviesdemo/view/ViewPager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:MoviesDemo:dexRelease
+:MoviesDemo:processReleaseJavaRes UP-TO-DATE
+:MoviesDemo:packageRelease
+:MoviesDemo:assembleRelease
+:MoviesDemo:assemble
+:MoviesDemo:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.989 secs
+
+2018-04-09 19:33:25,794 INFO  FullProcessService - Found APK file: /tmp/rdisk/621/src/MoviesDemoProject/MoviesDemo/build/apk/MoviesDemo-release-unsigned.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.flavienlaurent.activityanimation.app",
+    "label" : "Activity animations",
+    "icon" : "res/drawable-mdpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABfVBMVEUAAAD/S0T/S0X/SUX/SUX/R0f/SkX/SUn/VVX/SkT/SkL/SkX/UUP/S0T/SkX/S0T/S0T/SkD/SkX/Skb/Rkb/SkX/SUX/SkX/SkX/SkX/SkX/SkX/TUD/SUn/SkX/R0f/S0b/SUX/SUX/R0f/SkT/Skb/VTn/SkX/SkX/TUT/SkX/R0f/S0X/SkX/UED/SUX/TEX/SUX/SkX/Rkb/SkX/SkT/SkX/SkX/SkX/S0v/SkT/S0X/SkX/Skb/SkT/SUT/SUb/TU3/SUT/TUb/SkX/SUP/SkX/SkX/Tk7/S0b/SkX/SkX/VVX/SkX/SkX/TEP/S0T/SkX/Skb/S0X/S0T/SkX/SkT/SkX/SkX/SUX/S0X/Skb/SkX/RET/SkX/SUb/SET/SkX/S0T/TkX/SkX/SkT/SkX/SkP/SkX/SkX/SkT/SUX/Skb/S0X/SkX/SkX/SkX/gID/SkX/Skb/S0b/SkX/SkX/SkX/SkX/SUX/AAD/S0X/SkX/SkX/SEV5IrQwAAAAf3RSTlMAcFU/gRLFBwO+H28TR4l0SxhZhwvQsff/+7rTFBz+JDPl7CvyNwnV4x6XGdTiEHoliJwd2Y7o/fQRWn6UobNlWwo4KGcq6s4Nmu2pBsDwOZ1opbVStINyqnNcRfoP3Vc8myIan4qiJvH5LaC7vM/LpgLhTDrgo/XruAGr9tZKYcxzPQAAAXJJREFUSMdjYBj8gJEJmcfMQlADKxs7gsPByUWEFdwMPLyMfHz8AoIMQsJEuElEVExcAgwkpaRlCKuXFZOTQABOeULqFRQlUIASM371ykoSEkg2AJkqqvjUq6lLSGhossDUa2nrSEjo6uHRoA9UpWhgCNNgZGwCJE1xq2c3AykzRzgJzLSwxKmBVwIrsMKpwRq7BhucGmyxa7DDplbb3sGRwcAJK3BmYGdy0URV7+omIeHu4emFFXj7+EpI+PmjaAgAWR0YhN1JwSEgMhRFgxRIKAyXhnAQ6U6CBv5RDcNGQwRIKBKXhigQ6YuiITpGQsJNFpeG2Dhgbo1HTd8JiaZJDLg0MCQbpvBiy0U4NeACqdg1pOHUkJ6BTX2mE+6CKSs7JxdcdOfl5OSDCybOnIIE/KVrYRFIYTEDQwmIFhchWNwPCw2lIIUCDAxOIFpFjXAlVwZUV57MwOBRAWRUVhHWwFpdU1sHTl55mZXaQ6ApwgAAWbuQ8SHYDKQAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 27,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.flavienlaurent.activityanimation.app\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"19\" />\n\t<application android:theme=\"resourceId:0x7f060000\" android:label=\"Activity animations\" android:icon=\"res/drawable-mdpi/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Activity animations\" android:name=\"com.flavienlaurent.activityanimation.app.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f060001\" android:label=\"SecondActivity\" android:name=\"com.flavienlaurent.activityanimation.app.SecondActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f060001\" android:label=\"DoorActivity\" android:name=\"com.flavienlaurent.activityanimation.app.DoorActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f060001\" android:label=\"ThirdActivity\" android:name=\"com.flavienlaurent.activityanimation.app.ThirdActivity\" android:windowSoftInputMode=\"0x2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 294133,
+  "crc32" : 1838161496,
+  "sha256" : "9bcf74176206a78972a7090df53414b3045bc92ea53a0a431817868b2dda47c3",
+  "buildTime" : 1523302536000
+}

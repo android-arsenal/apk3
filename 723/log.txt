@@ -1,0 +1,1706 @@
+2018-04-09 17:49:13,503 INFO  DownloadService - Downloading "https://github.com/JoanZapata/android-iconify/archive/master.zip", attempt 3
+2018-04-09 17:49:15,694 INFO  DownloadService - Downloaded https://github.com/JoanZapata/android-iconify/archive/master.zip, attempt 3
+2018-04-09 17:49:15,694 INFO  DownloadService - Size of file "/tmp/rdisk/723/master.zip": 1 MB
+2018-04-09 17:49:15,694 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 17:49:15,694 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/723/master.zip: true
+2018-04-09 17:49:15,695 DEBUG ZipUtil - Extracting '/tmp/rdisk/723/master.zip' into '/tmp/rdisk/723/src'.
+2018-04-09 17:49:15,732 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-09 17:49:15,732 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/723/src]
+2018-04-09 17:49:15,741 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/723/src/.git/
+
+2018-04-09 17:49:15,747 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/723/src/android-iconify-master/gradlew
+2018-04-09 17:49:15,754 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-simplelineicons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-typicons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-weathericons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify/build.gradle /tmp/rdisk/723/src/android-iconify-master/build.gradle
+2018-04-09 17:49:15,759 INFO  ProjectBuildService - All script(s): /tmp/rdisk/723/src/android-iconify-master/settings.gradle /tmp/rdisk/723/src/android-iconify-master/gradle/gradle-mvn-push.gradle /tmp/rdisk/723/src/android-iconify-master/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-weathericons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-typicons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-simplelineicons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build.gradle /tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build.gradle
+2018-04-09 17:49:15,760 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 17:49:15,760 INFO  ProjectFixService - Fixing project...
+2018-04-09 17:49:15,785 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/local.properties
+2018-04-09 17:49:15,789 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,789 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,789 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/local.properties
+2018-04-09 17:49:15,792 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,793 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,793 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/local.properties
+2018-04-09 17:49:15,797 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,804 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,805 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/local.properties
+2018-04-09 17:49:15,809 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,810 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,810 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-material/local.properties
+2018-04-09 17:49:15,814 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,814 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,814 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/local.properties
+2018-04-09 17:49:15,818 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,818 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,818 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/local.properties
+2018-04-09 17:49:15,822 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=<null>]
+2018-04-09 17:49:15,822 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=8,targetSdkVersion=27]
+2018-04-09 17:49:15,822 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-simplelineicons/local.properties
+2018-04-09 17:49:15,826 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-simplelineicons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,826 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-simplelineicons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,826 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-typicons/local.properties
+2018-04-09 17:49:15,830 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-typicons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,830 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-typicons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,831 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify-weathericons/local.properties
+2018-04-09 17:49:15,834 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-weathericons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,834 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify-weathericons/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,835 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/android-iconify/local.properties
+2018-04-09 17:49:15,838 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,838 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/android-iconify/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,839 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/723/src/android-iconify-master/local.properties
+2018-04-09 17:49:15,839 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-09 17:49:15,839 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-09 17:49:15,841 INFO  ProjectFixService - Build info for "/tmp/rdisk/723/src/android-iconify-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 17:49:15,842 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/723/src/android-iconify-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 17:49:15,842 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 17:49:15,842 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:49:15,842 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:49:34,346 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 17:49:34,347 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 17:49:34,347 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 17:49:34,347 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 17:49:55,172 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-entypo:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/src/main/java/com/joanzapata/iconify/fonts/EntypoModule.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/src/main/java/com/joanzapata/iconify/fonts/EntypoModule.java:4: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/src/main/java/com/joanzapata/iconify/fonts/EntypoModule.java:6: error: cannot find symbol
+public class EntypoModule implements IconFontDescriptor {
+                                     ^
+  symbol: class IconFontDescriptor
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/src/main/java/com/joanzapata/iconify/fonts/EntypoModule.java:14: error: cannot find symbol
+    public Icon[] characters() {
+           ^
+  symbol:   class Icon
+  location: class EntypoModule
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/src/main/java/com/joanzapata/iconify/fonts/EntypoIcons.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/src/main/java/com/joanzapata/iconify/fonts/EntypoIcons.java:5: error: cannot find symbol
+public enum EntypoIcons implements Icon {
+                                   ^
+  symbol: class Icon
+
+6 warnings
+:android-iconify-entypo:androidJavadocsJar
+:android-iconify-entypo:androidSourcesJar
+:android-iconify-entypo:compileLint
+:android-iconify-entypo:copyDebugLint UP-TO-DATE
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl
+:android-iconify:compileReleaseRenderscript
+:android-iconify:generateReleaseBuildConfig
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets
+:android-iconify:generateReleaseResValues
+:android-iconify:generateReleaseResources
+:android-iconify:mergeReleaseResources
+:android-iconify:processReleaseManifest
+:android-iconify:processReleaseResources
+:android-iconify:generateReleaseSources
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac
+:android-iconify:extractReleaseAnnotations
+:android-iconify:mergeReleaseProguardFiles
+:android-iconify:packageReleaseJar
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources
+:android-iconify:bundleRelease
+:android-iconify-entypo:preBuild UP-TO-DATE
+:android-iconify-entypo:preDebugBuild UP-TO-DATE
+:android-iconify-entypo:checkDebugManifest
+:android-iconify-entypo:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-entypo:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-entypo:preReleaseBuild UP-TO-DATE
+:android-iconify-entypo:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-entypo:prepareComAndroidSupportSupportV42221Library
+:android-iconify-entypo:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-entypo:prepareDebugDependencies
+:android-iconify-entypo:compileDebugAidl
+:android-iconify-entypo:compileDebugRenderscript
+:android-iconify-entypo:generateDebugBuildConfig
+:android-iconify-entypo:generateDebugAssets UP-TO-DATE
+:android-iconify-entypo:mergeDebugAssets
+:android-iconify-entypo:generateDebugResValues
+:android-iconify-entypo:generateDebugResources
+:android-iconify-entypo:mergeDebugResources
+:android-iconify-entypo:processDebugManifest
+:android-iconify-entypo:processDebugResources
+:android-iconify-entypo:generateDebugSources
+:android-iconify-entypo:processDebugJavaRes UP-TO-DATE
+:android-iconify-entypo:compileDebugJavaWithJavac
+:android-iconify-entypo:extractDebugAnnotations
+:android-iconify-entypo:mergeDebugProguardFiles
+:android-iconify-entypo:packageDebugJar
+:android-iconify-entypo:compileDebugNdk UP-TO-DATE
+:android-iconify-entypo:packageDebugJniLibs UP-TO-DATE
+:android-iconify-entypo:packageDebugLocalJar UP-TO-DATE
+:android-iconify-entypo:packageDebugRenderscript UP-TO-DATE
+:android-iconify-entypo:packageDebugResources
+:android-iconify-entypo:bundleDebug
+:android-iconify-entypo:compileDebugSources
+:android-iconify-entypo:assembleDebug
+:android-iconify-entypo:copyReleaseLint UP-TO-DATE
+:android-iconify-entypo:checkReleaseManifest
+:android-iconify-entypo:prepareReleaseDependencies
+:android-iconify-entypo:compileReleaseAidl
+:android-iconify-entypo:compileReleaseRenderscript
+:android-iconify-entypo:generateReleaseBuildConfig
+:android-iconify-entypo:generateReleaseAssets UP-TO-DATE
+:android-iconify-entypo:mergeReleaseAssets
+:android-iconify-entypo:generateReleaseResValues
+:android-iconify-entypo:generateReleaseResources
+:android-iconify-entypo:mergeReleaseResources
+:android-iconify-entypo:processReleaseManifest
+:android-iconify-entypo:processReleaseResources
+:android-iconify-entypo:generateReleaseSources
+:android-iconify-entypo:processReleaseJavaRes UP-TO-DATE
+:android-iconify-entypo:compileReleaseJavaWithJavac
+:android-iconify-entypo:extractReleaseAnnotations
+:android-iconify-entypo:mergeReleaseProguardFiles
+:android-iconify-entypo:packageReleaseJar
+:android-iconify-entypo:compileReleaseNdk UP-TO-DATE
+:android-iconify-entypo:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-entypo:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-entypo:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-entypo:packageReleaseResources
+:android-iconify-entypo:bundleRelease
+:android-iconify-entypo:compileReleaseSources
+:android-iconify-entypo:assembleRelease
+:android-iconify-entypo:signArchives SKIPPED
+:android-iconify-entypo:assemble
+:android-iconify-entypo:lint
+Ran lint on variant release: 0 issues found
+Ran lint on variant debug: 0 issues found
+Wrote HTML report to file:/tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/723/src/android-iconify-master/android-iconify-entypo/build/outputs/lint-results.xml
+:android-iconify-entypo:prepareDebugUnitTestDependencies
+:android-iconify-entypo:processDebugUnitTestJavaRes UP-TO-DATE
+:android-iconify-entypo:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-entypo:compileDebugUnitTestSources UP-TO-DATE
+:android-iconify-entypo:mockableAndroidJar
+:android-iconify-entypo:assembleDebugUnitTest
+:android-iconify-entypo:testDebugUnitTest
+:android-iconify-entypo:prepareReleaseUnitTestDependencies
+:android-iconify-entypo:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-iconify-entypo:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-entypo:compileReleaseUnitTestSources UP-TO-DATE
+:android-iconify-entypo:assembleReleaseUnitTest
+:android-iconify-entypo:testReleaseUnitTest
+:android-iconify-entypo:test
+:android-iconify-entypo:check
+:android-iconify-entypo:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.375 secs
+
+2018-04-09 17:49:55,187 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:49:55,187 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:50:04,088 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 17:50:04,089 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 17:50:04,089 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 17:50:04,089 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 17:50:21,783 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-fontawesome:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/src/main/java/com/joanzapata/iconify/fonts/FontAwesomeModule.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/src/main/java/com/joanzapata/iconify/fonts/FontAwesomeModule.java:4: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/src/main/java/com/joanzapata/iconify/fonts/FontAwesomeModule.java:6: error: cannot find symbol
+public class FontAwesomeModule implements IconFontDescriptor {
+                                          ^
+  symbol: class IconFontDescriptor
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/src/main/java/com/joanzapata/iconify/fonts/FontAwesomeModule.java:14: error: cannot find symbol
+    public Icon[] characters() {
+           ^
+  symbol:   class Icon
+  location: class FontAwesomeModule
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/src/main/java/com/joanzapata/iconify/fonts/FontAwesomeIcons.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/src/main/java/com/joanzapata/iconify/fonts/FontAwesomeIcons.java:5: error: cannot find symbol
+public enum FontAwesomeIcons implements Icon {
+                                        ^
+  symbol: class Icon
+
+6 warnings
+:android-iconify-fontawesome:androidJavadocsJar
+:android-iconify-fontawesome:androidSourcesJar
+:android-iconify-fontawesome:compileLint
+:android-iconify-fontawesome:copyDebugLint UP-TO-DATE
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl UP-TO-DATE
+:android-iconify:compileReleaseRenderscript UP-TO-DATE
+:android-iconify:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets UP-TO-DATE
+:android-iconify:generateReleaseResValues UP-TO-DATE
+:android-iconify:generateReleaseResources UP-TO-DATE
+:android-iconify:mergeReleaseResources UP-TO-DATE
+:android-iconify:processReleaseManifest UP-TO-DATE
+:android-iconify:processReleaseResources UP-TO-DATE
+:android-iconify:generateReleaseSources UP-TO-DATE
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify:extractReleaseAnnotations UP-TO-DATE
+:android-iconify:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify:packageReleaseJar UP-TO-DATE
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources UP-TO-DATE
+:android-iconify:bundleRelease UP-TO-DATE
+:android-iconify-fontawesome:preBuild UP-TO-DATE
+:android-iconify-fontawesome:preDebugBuild UP-TO-DATE
+:android-iconify-fontawesome:checkDebugManifest
+:android-iconify-fontawesome:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-fontawesome:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-fontawesome:preReleaseBuild UP-TO-DATE
+:android-iconify-fontawesome:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-fontawesome:prepareComAndroidSupportSupportV42221Library
+:android-iconify-fontawesome:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-fontawesome:prepareDebugDependencies
+:android-iconify-fontawesome:compileDebugAidl
+:android-iconify-fontawesome:compileDebugRenderscript
+:android-iconify-fontawesome:generateDebugBuildConfig
+:android-iconify-fontawesome:generateDebugAssets UP-TO-DATE
+:android-iconify-fontawesome:mergeDebugAssets
+:android-iconify-fontawesome:generateDebugResValues
+:android-iconify-fontawesome:generateDebugResources
+:android-iconify-fontawesome:mergeDebugResources
+:android-iconify-fontawesome:processDebugManifest
+:android-iconify-fontawesome:processDebugResources
+:android-iconify-fontawesome:generateDebugSources
+:android-iconify-fontawesome:processDebugJavaRes UP-TO-DATE
+:android-iconify-fontawesome:compileDebugJavaWithJavac
+:android-iconify-fontawesome:extractDebugAnnotations
+:android-iconify-fontawesome:mergeDebugProguardFiles
+:android-iconify-fontawesome:packageDebugJar
+:android-iconify-fontawesome:compileDebugNdk UP-TO-DATE
+:android-iconify-fontawesome:packageDebugJniLibs UP-TO-DATE
+:android-iconify-fontawesome:packageDebugLocalJar UP-TO-DATE
+:android-iconify-fontawesome:packageDebugRenderscript UP-TO-DATE
+:android-iconify-fontawesome:packageDebugResources
+:android-iconify-fontawesome:bundleDebug
+:android-iconify-fontawesome:compileDebugSources
+:android-iconify-fontawesome:assembleDebug
+:android-iconify-fontawesome:copyReleaseLint UP-TO-DATE
+:android-iconify-fontawesome:checkReleaseManifest
+:android-iconify-fontawesome:prepareReleaseDependencies
+:android-iconify-fontawesome:compileReleaseAidl
+:android-iconify-fontawesome:compileReleaseRenderscript
+:android-iconify-fontawesome:generateReleaseBuildConfig
+:android-iconify-fontawesome:generateReleaseAssets UP-TO-DATE
+:android-iconify-fontawesome:mergeReleaseAssets
+:android-iconify-fontawesome:generateReleaseResValues
+:android-iconify-fontawesome:generateReleaseResources
+:android-iconify-fontawesome:mergeReleaseResources
+:android-iconify-fontawesome:processReleaseManifest
+:android-iconify-fontawesome:processReleaseResources
+:android-iconify-fontawesome:generateReleaseSources
+:android-iconify-fontawesome:processReleaseJavaRes UP-TO-DATE
+:android-iconify-fontawesome:compileReleaseJavaWithJavac
+:android-iconify-fontawesome:extractReleaseAnnotations
+:android-iconify-fontawesome:mergeReleaseProguardFiles
+:android-iconify-fontawesome:packageReleaseJar
+:android-iconify-fontawesome:compileReleaseNdk UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseResources
+:android-iconify-fontawesome:bundleRelease
+:android-iconify-fontawesome:compileReleaseSources
+:android-iconify-fontawesome:assembleRelease
+:android-iconify-fontawesome:signArchives SKIPPED
+:android-iconify-fontawesome:assemble
+:android-iconify-fontawesome:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:/tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/723/src/android-iconify-master/android-iconify-fontawesome/build/outputs/lint-results.xml
+:android-iconify-fontawesome:prepareDebugUnitTestDependencies
+:android-iconify-fontawesome:processDebugUnitTestJavaRes UP-TO-DATE
+:android-iconify-fontawesome:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-fontawesome:compileDebugUnitTestSources UP-TO-DATE
+:android-iconify-fontawesome:mockableAndroidJar
+:android-iconify-fontawesome:assembleDebugUnitTest
+:android-iconify-fontawesome:testDebugUnitTest
+:android-iconify-fontawesome:prepareReleaseUnitTestDependencies
+:android-iconify-fontawesome:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-iconify-fontawesome:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-fontawesome:compileReleaseUnitTestSources UP-TO-DATE
+:android-iconify-fontawesome:assembleReleaseUnitTest
+:android-iconify-fontawesome:testReleaseUnitTest
+:android-iconify-fontawesome:test
+:android-iconify-fontawesome:check
+:android-iconify-fontawesome:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.256 secs
+
+2018-04-09 17:50:21,805 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:50:21,805 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:50:30,819 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 17:50:30,819 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 17:50:30,820 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 17:50:30,820 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 17:50:48,137 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-ionicons:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/src/main/java/com/joanzapata/iconify/fonts/IoniconsModule.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/src/main/java/com/joanzapata/iconify/fonts/IoniconsModule.java:4: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/src/main/java/com/joanzapata/iconify/fonts/IoniconsModule.java:6: error: cannot find symbol
+public class IoniconsModule implements IconFontDescriptor {
+                                       ^
+  symbol: class IconFontDescriptor
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/src/main/java/com/joanzapata/iconify/fonts/IoniconsModule.java:14: error: cannot find symbol
+    public Icon[] characters() {
+           ^
+  symbol:   class Icon
+  location: class IoniconsModule
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/src/main/java/com/joanzapata/iconify/fonts/IoniconsIcons.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/src/main/java/com/joanzapata/iconify/fonts/IoniconsIcons.java:5: error: cannot find symbol
+public enum IoniconsIcons implements Icon {
+                                     ^
+  symbol: class Icon
+
+6 warnings
+:android-iconify-ionicons:androidJavadocsJar
+:android-iconify-ionicons:androidSourcesJar
+:android-iconify-ionicons:compileLint
+:android-iconify-ionicons:copyDebugLint UP-TO-DATE
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl UP-TO-DATE
+:android-iconify:compileReleaseRenderscript UP-TO-DATE
+:android-iconify:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets UP-TO-DATE
+:android-iconify:generateReleaseResValues UP-TO-DATE
+:android-iconify:generateReleaseResources UP-TO-DATE
+:android-iconify:mergeReleaseResources UP-TO-DATE
+:android-iconify:processReleaseManifest UP-TO-DATE
+:android-iconify:processReleaseResources UP-TO-DATE
+:android-iconify:generateReleaseSources UP-TO-DATE
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify:extractReleaseAnnotations UP-TO-DATE
+:android-iconify:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify:packageReleaseJar UP-TO-DATE
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources UP-TO-DATE
+:android-iconify:bundleRelease UP-TO-DATE
+:android-iconify-ionicons:preBuild UP-TO-DATE
+:android-iconify-ionicons:preDebugBuild UP-TO-DATE
+:android-iconify-ionicons:checkDebugManifest
+:android-iconify-ionicons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-ionicons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-ionicons:preReleaseBuild UP-TO-DATE
+:android-iconify-ionicons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-ionicons:prepareComAndroidSupportSupportV42221Library
+:android-iconify-ionicons:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-ionicons:prepareDebugDependencies
+:android-iconify-ionicons:compileDebugAidl
+:android-iconify-ionicons:compileDebugRenderscript
+:android-iconify-ionicons:generateDebugBuildConfig
+:android-iconify-ionicons:generateDebugAssets UP-TO-DATE
+:android-iconify-ionicons:mergeDebugAssets
+:android-iconify-ionicons:generateDebugResValues
+:android-iconify-ionicons:generateDebugResources
+:android-iconify-ionicons:mergeDebugResources
+:android-iconify-ionicons:processDebugManifest
+:android-iconify-ionicons:processDebugResources
+:android-iconify-ionicons:generateDebugSources
+:android-iconify-ionicons:processDebugJavaRes UP-TO-DATE
+:android-iconify-ionicons:compileDebugJavaWithJavac
+:android-iconify-ionicons:extractDebugAnnotations
+:android-iconify-ionicons:mergeDebugProguardFiles
+:android-iconify-ionicons:packageDebugJar
+:android-iconify-ionicons:compileDebugNdk UP-TO-DATE
+:android-iconify-ionicons:packageDebugJniLibs UP-TO-DATE
+:android-iconify-ionicons:packageDebugLocalJar UP-TO-DATE
+:android-iconify-ionicons:packageDebugRenderscript UP-TO-DATE
+:android-iconify-ionicons:packageDebugResources
+:android-iconify-ionicons:bundleDebug
+:android-iconify-ionicons:compileDebugSources
+:android-iconify-ionicons:assembleDebug
+:android-iconify-ionicons:copyReleaseLint UP-TO-DATE
+:android-iconify-ionicons:checkReleaseManifest
+:android-iconify-ionicons:prepareReleaseDependencies
+:android-iconify-ionicons:compileReleaseAidl
+:android-iconify-ionicons:compileReleaseRenderscript
+:android-iconify-ionicons:generateReleaseBuildConfig
+:android-iconify-ionicons:generateReleaseAssets UP-TO-DATE
+:android-iconify-ionicons:mergeReleaseAssets
+:android-iconify-ionicons:generateReleaseResValues
+:android-iconify-ionicons:generateReleaseResources
+:android-iconify-ionicons:mergeReleaseResources
+:android-iconify-ionicons:processReleaseManifest
+:android-iconify-ionicons:processReleaseResources
+:android-iconify-ionicons:generateReleaseSources
+:android-iconify-ionicons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-ionicons:compileReleaseJavaWithJavac
+:android-iconify-ionicons:extractReleaseAnnotations
+:android-iconify-ionicons:mergeReleaseProguardFiles
+:android-iconify-ionicons:packageReleaseJar
+:android-iconify-ionicons:compileReleaseNdk UP-TO-DATE
+:android-iconify-ionicons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-ionicons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-ionicons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-ionicons:packageReleaseResources
+:android-iconify-ionicons:bundleRelease
+:android-iconify-ionicons:compileReleaseSources
+:android-iconify-ionicons:assembleRelease
+:android-iconify-ionicons:signArchives SKIPPED
+:android-iconify-ionicons:assemble
+:android-iconify-ionicons:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:/tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/723/src/android-iconify-master/android-iconify-ionicons/build/outputs/lint-results.xml
+:android-iconify-ionicons:prepareDebugUnitTestDependencies
+:android-iconify-ionicons:processDebugUnitTestJavaRes UP-TO-DATE
+:android-iconify-ionicons:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-ionicons:compileDebugUnitTestSources UP-TO-DATE
+:android-iconify-ionicons:mockableAndroidJar
+:android-iconify-ionicons:assembleDebugUnitTest
+:android-iconify-ionicons:testDebugUnitTest
+:android-iconify-ionicons:prepareReleaseUnitTestDependencies
+:android-iconify-ionicons:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-iconify-ionicons:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-ionicons:compileReleaseUnitTestSources UP-TO-DATE
+:android-iconify-ionicons:assembleReleaseUnitTest
+:android-iconify-ionicons:testReleaseUnitTest
+:android-iconify-ionicons:test
+:android-iconify-ionicons:check
+:android-iconify-ionicons:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.907 secs
+
+2018-04-09 17:50:48,164 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:50:48,164 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:50:57,043 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 17:50:57,043 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 17:50:57,043 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 17:50:57,043 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 17:51:15,112 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-material-community:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/src/main/java/com/joanzapata/iconify/fonts/MaterialCommunityModule.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/src/main/java/com/joanzapata/iconify/fonts/MaterialCommunityModule.java:4: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/src/main/java/com/joanzapata/iconify/fonts/MaterialCommunityModule.java:6: error: cannot find symbol
+public class MaterialCommunityModule implements IconFontDescriptor {
+                                                ^
+  symbol: class IconFontDescriptor
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/src/main/java/com/joanzapata/iconify/fonts/MaterialCommunityModule.java:14: error: cannot find symbol
+    public Icon[] characters() {
+           ^
+  symbol:   class Icon
+  location: class MaterialCommunityModule
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/src/main/java/com/joanzapata/iconify/fonts/MaterialCommunityIcons.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/src/main/java/com/joanzapata/iconify/fonts/MaterialCommunityIcons.java:5: error: cannot find symbol
+public enum MaterialCommunityIcons implements Icon {
+                                              ^
+  symbol: class Icon
+
+6 warnings
+:android-iconify-material-community:androidJavadocsJar
+:android-iconify-material-community:androidSourcesJar
+:android-iconify-material-community:compileLint
+:android-iconify-material-community:copyDebugLint UP-TO-DATE
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl UP-TO-DATE
+:android-iconify:compileReleaseRenderscript UP-TO-DATE
+:android-iconify:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets UP-TO-DATE
+:android-iconify:generateReleaseResValues UP-TO-DATE
+:android-iconify:generateReleaseResources UP-TO-DATE
+:android-iconify:mergeReleaseResources UP-TO-DATE
+:android-iconify:processReleaseManifest UP-TO-DATE
+:android-iconify:processReleaseResources UP-TO-DATE
+:android-iconify:generateReleaseSources UP-TO-DATE
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify:extractReleaseAnnotations UP-TO-DATE
+:android-iconify:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify:packageReleaseJar UP-TO-DATE
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources UP-TO-DATE
+:android-iconify:bundleRelease UP-TO-DATE
+:android-iconify-material-community:preBuild UP-TO-DATE
+:android-iconify-material-community:preDebugBuild UP-TO-DATE
+:android-iconify-material-community:checkDebugManifest
+:android-iconify-material-community:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-material-community:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-material-community:preReleaseBuild UP-TO-DATE
+:android-iconify-material-community:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-material-community:prepareComAndroidSupportSupportV42221Library
+:android-iconify-material-community:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-material-community:prepareDebugDependencies
+:android-iconify-material-community:compileDebugAidl
+:android-iconify-material-community:compileDebugRenderscript
+:android-iconify-material-community:generateDebugBuildConfig
+:android-iconify-material-community:generateDebugAssets UP-TO-DATE
+:android-iconify-material-community:mergeDebugAssets
+:android-iconify-material-community:generateDebugResValues
+:android-iconify-material-community:generateDebugResources
+:android-iconify-material-community:mergeDebugResources
+:android-iconify-material-community:processDebugManifest
+:android-iconify-material-community:processDebugResources
+:android-iconify-material-community:generateDebugSources
+:android-iconify-material-community:processDebugJavaRes UP-TO-DATE
+:android-iconify-material-community:compileDebugJavaWithJavac
+:android-iconify-material-community:extractDebugAnnotations
+:android-iconify-material-community:mergeDebugProguardFiles
+:android-iconify-material-community:packageDebugJar
+:android-iconify-material-community:compileDebugNdk UP-TO-DATE
+:android-iconify-material-community:packageDebugJniLibs UP-TO-DATE
+:android-iconify-material-community:packageDebugLocalJar UP-TO-DATE
+:android-iconify-material-community:packageDebugRenderscript UP-TO-DATE
+:android-iconify-material-community:packageDebugResources
+:android-iconify-material-community:bundleDebug
+:android-iconify-material-community:compileDebugSources
+:android-iconify-material-community:assembleDebug
+:android-iconify-material-community:copyReleaseLint UP-TO-DATE
+:android-iconify-material-community:checkReleaseManifest
+:android-iconify-material-community:prepareReleaseDependencies
+:android-iconify-material-community:compileReleaseAidl
+:android-iconify-material-community:compileReleaseRenderscript
+:android-iconify-material-community:generateReleaseBuildConfig
+:android-iconify-material-community:generateReleaseAssets UP-TO-DATE
+:android-iconify-material-community:mergeReleaseAssets
+:android-iconify-material-community:generateReleaseResValues
+:android-iconify-material-community:generateReleaseResources
+:android-iconify-material-community:mergeReleaseResources
+:android-iconify-material-community:processReleaseManifest
+:android-iconify-material-community:processReleaseResources
+:android-iconify-material-community:generateReleaseSources
+:android-iconify-material-community:processReleaseJavaRes UP-TO-DATE
+:android-iconify-material-community:compileReleaseJavaWithJavac
+:android-iconify-material-community:extractReleaseAnnotations
+:android-iconify-material-community:mergeReleaseProguardFiles
+:android-iconify-material-community:packageReleaseJar
+:android-iconify-material-community:compileReleaseNdk UP-TO-DATE
+:android-iconify-material-community:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-material-community:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-material-community:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-material-community:packageReleaseResources
+:android-iconify-material-community:bundleRelease
+:android-iconify-material-community:compileReleaseSources
+:android-iconify-material-community:assembleRelease
+:android-iconify-material-community:signArchives SKIPPED
+:android-iconify-material-community:assemble
+:android-iconify-material-community:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:/tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/723/src/android-iconify-master/android-iconify-material-community/build/outputs/lint-results.xml
+:android-iconify-material-community:prepareDebugUnitTestDependencies
+:android-iconify-material-community:processDebugUnitTestJavaRes UP-TO-DATE
+:android-iconify-material-community:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-material-community:compileDebugUnitTestSources UP-TO-DATE
+:android-iconify-material-community:mockableAndroidJar
+:android-iconify-material-community:assembleDebugUnitTest
+:android-iconify-material-community:testDebugUnitTest
+:android-iconify-material-community:prepareReleaseUnitTestDependencies
+:android-iconify-material-community:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-iconify-material-community:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-material-community:compileReleaseUnitTestSources UP-TO-DATE
+:android-iconify-material-community:assembleReleaseUnitTest
+:android-iconify-material-community:testReleaseUnitTest
+:android-iconify-material-community:test
+:android-iconify-material-community:check
+:android-iconify-material-community:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.642 secs
+
+2018-04-09 17:51:15,144 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:51:15,144 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:51:23,801 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 17:51:23,802 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 17:51:23,802 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 17:51:23,802 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 17:51:41,029 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-material:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/src/main/java/com/joanzapata/iconify/fonts/MaterialModule.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/src/main/java/com/joanzapata/iconify/fonts/MaterialModule.java:4: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/src/main/java/com/joanzapata/iconify/fonts/MaterialModule.java:6: error: cannot find symbol
+public class MaterialModule implements IconFontDescriptor {
+                                       ^
+  symbol: class IconFontDescriptor
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/src/main/java/com/joanzapata/iconify/fonts/MaterialModule.java:14: error: cannot find symbol
+    public Icon[] characters() {
+           ^
+  symbol:   class Icon
+  location: class MaterialModule
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/src/main/java/com/joanzapata/iconify/fonts/MaterialIcons.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/src/main/java/com/joanzapata/iconify/fonts/MaterialIcons.java:5: error: cannot find symbol
+public enum MaterialIcons implements Icon {
+                                     ^
+  symbol: class Icon
+
+6 warnings
+:android-iconify-material:androidJavadocsJar
+:android-iconify-material:androidSourcesJar
+:android-iconify-material:compileLint
+:android-iconify-material:copyDebugLint UP-TO-DATE
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl UP-TO-DATE
+:android-iconify:compileReleaseRenderscript UP-TO-DATE
+:android-iconify:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets UP-TO-DATE
+:android-iconify:generateReleaseResValues UP-TO-DATE
+:android-iconify:generateReleaseResources UP-TO-DATE
+:android-iconify:mergeReleaseResources UP-TO-DATE
+:android-iconify:processReleaseManifest UP-TO-DATE
+:android-iconify:processReleaseResources UP-TO-DATE
+:android-iconify:generateReleaseSources UP-TO-DATE
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify:extractReleaseAnnotations UP-TO-DATE
+:android-iconify:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify:packageReleaseJar UP-TO-DATE
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources UP-TO-DATE
+:android-iconify:bundleRelease UP-TO-DATE
+:android-iconify-material:preBuild UP-TO-DATE
+:android-iconify-material:preDebugBuild UP-TO-DATE
+:android-iconify-material:checkDebugManifest
+:android-iconify-material:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-material:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-material:preReleaseBuild UP-TO-DATE
+:android-iconify-material:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-material:prepareComAndroidSupportSupportV42221Library
+:android-iconify-material:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-material:prepareDebugDependencies
+:android-iconify-material:compileDebugAidl
+:android-iconify-material:compileDebugRenderscript
+:android-iconify-material:generateDebugBuildConfig
+:android-iconify-material:generateDebugAssets UP-TO-DATE
+:android-iconify-material:mergeDebugAssets
+:android-iconify-material:generateDebugResValues
+:android-iconify-material:generateDebugResources
+:android-iconify-material:mergeDebugResources
+:android-iconify-material:processDebugManifest
+:android-iconify-material:processDebugResources
+:android-iconify-material:generateDebugSources
+:android-iconify-material:processDebugJavaRes UP-TO-DATE
+:android-iconify-material:compileDebugJavaWithJavac
+:android-iconify-material:extractDebugAnnotations
+:android-iconify-material:mergeDebugProguardFiles
+:android-iconify-material:packageDebugJar
+:android-iconify-material:compileDebugNdk UP-TO-DATE
+:android-iconify-material:packageDebugJniLibs UP-TO-DATE
+:android-iconify-material:packageDebugLocalJar UP-TO-DATE
+:android-iconify-material:packageDebugRenderscript UP-TO-DATE
+:android-iconify-material:packageDebugResources
+:android-iconify-material:bundleDebug
+:android-iconify-material:compileDebugSources
+:android-iconify-material:assembleDebug
+:android-iconify-material:copyReleaseLint UP-TO-DATE
+:android-iconify-material:checkReleaseManifest
+:android-iconify-material:prepareReleaseDependencies
+:android-iconify-material:compileReleaseAidl
+:android-iconify-material:compileReleaseRenderscript
+:android-iconify-material:generateReleaseBuildConfig
+:android-iconify-material:generateReleaseAssets UP-TO-DATE
+:android-iconify-material:mergeReleaseAssets
+:android-iconify-material:generateReleaseResValues
+:android-iconify-material:generateReleaseResources
+:android-iconify-material:mergeReleaseResources
+:android-iconify-material:processReleaseManifest
+:android-iconify-material:processReleaseResources
+:android-iconify-material:generateReleaseSources
+:android-iconify-material:processReleaseJavaRes UP-TO-DATE
+:android-iconify-material:compileReleaseJavaWithJavac
+:android-iconify-material:extractReleaseAnnotations
+:android-iconify-material:mergeReleaseProguardFiles
+:android-iconify-material:packageReleaseJar
+:android-iconify-material:compileReleaseNdk UP-TO-DATE
+:android-iconify-material:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-material:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-material:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-material:packageReleaseResources
+:android-iconify-material:bundleRelease
+:android-iconify-material:compileReleaseSources
+:android-iconify-material:assembleRelease
+:android-iconify-material:signArchives SKIPPED
+:android-iconify-material:assemble
+:android-iconify-material:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:/tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/723/src/android-iconify-master/android-iconify-material/build/outputs/lint-results.xml
+:android-iconify-material:prepareDebugUnitTestDependencies
+:android-iconify-material:processDebugUnitTestJavaRes UP-TO-DATE
+:android-iconify-material:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-material:compileDebugUnitTestSources UP-TO-DATE
+:android-iconify-material:mockableAndroidJar
+:android-iconify-material:assembleDebugUnitTest
+:android-iconify-material:testDebugUnitTest
+:android-iconify-material:prepareReleaseUnitTestDependencies
+:android-iconify-material:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-iconify-material:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-material:compileReleaseUnitTestSources UP-TO-DATE
+:android-iconify-material:assembleReleaseUnitTest
+:android-iconify-material:testReleaseUnitTest
+:android-iconify-material:test
+:android-iconify-material:check
+:android-iconify-material:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.82 secs
+
+2018-04-09 17:51:41,067 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:51:41,067 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:51:49,920 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 17:51:49,920 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 17:51:49,920 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 17:51:49,920 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 17:52:06,808 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-meteocons:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/src/main/java/com/joanzapata/iconify/fonts/MeteoconsModule.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/src/main/java/com/joanzapata/iconify/fonts/MeteoconsModule.java:4: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/src/main/java/com/joanzapata/iconify/fonts/MeteoconsModule.java:6: error: cannot find symbol
+public class MeteoconsModule implements IconFontDescriptor {
+                                        ^
+  symbol: class IconFontDescriptor
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/src/main/java/com/joanzapata/iconify/fonts/MeteoconsModule.java:14: error: cannot find symbol
+    public Icon[] characters() {
+           ^
+  symbol:   class Icon
+  location: class MeteoconsModule
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/src/main/java/com/joanzapata/iconify/fonts/MeteoconsIcons.java:3: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/src/main/java/com/joanzapata/iconify/fonts/MeteoconsIcons.java:5: error: cannot find symbol
+public enum MeteoconsIcons implements Icon {
+                                      ^
+  symbol: class Icon
+
+6 warnings
+:android-iconify-meteocons:androidJavadocsJar
+:android-iconify-meteocons:androidSourcesJar
+:android-iconify-meteocons:compileLint
+:android-iconify-meteocons:copyDebugLint UP-TO-DATE
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl UP-TO-DATE
+:android-iconify:compileReleaseRenderscript UP-TO-DATE
+:android-iconify:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets UP-TO-DATE
+:android-iconify:generateReleaseResValues UP-TO-DATE
+:android-iconify:generateReleaseResources UP-TO-DATE
+:android-iconify:mergeReleaseResources UP-TO-DATE
+:android-iconify:processReleaseManifest UP-TO-DATE
+:android-iconify:processReleaseResources UP-TO-DATE
+:android-iconify:generateReleaseSources UP-TO-DATE
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify:extractReleaseAnnotations UP-TO-DATE
+:android-iconify:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify:packageReleaseJar UP-TO-DATE
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources UP-TO-DATE
+:android-iconify:bundleRelease UP-TO-DATE
+:android-iconify-meteocons:preBuild UP-TO-DATE
+:android-iconify-meteocons:preDebugBuild UP-TO-DATE
+:android-iconify-meteocons:checkDebugManifest
+:android-iconify-meteocons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-meteocons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-meteocons:preReleaseBuild UP-TO-DATE
+:android-iconify-meteocons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-meteocons:prepareComAndroidSupportSupportV42221Library
+:android-iconify-meteocons:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-meteocons:prepareDebugDependencies
+:android-iconify-meteocons:compileDebugAidl
+:android-iconify-meteocons:compileDebugRenderscript
+:android-iconify-meteocons:generateDebugBuildConfig
+:android-iconify-meteocons:generateDebugAssets UP-TO-DATE
+:android-iconify-meteocons:mergeDebugAssets
+:android-iconify-meteocons:generateDebugResValues
+:android-iconify-meteocons:generateDebugResources
+:android-iconify-meteocons:mergeDebugResources
+:android-iconify-meteocons:processDebugManifest
+:android-iconify-meteocons:processDebugResources
+:android-iconify-meteocons:generateDebugSources
+:android-iconify-meteocons:processDebugJavaRes UP-TO-DATE
+:android-iconify-meteocons:compileDebugJavaWithJavac
+:android-iconify-meteocons:extractDebugAnnotations
+:android-iconify-meteocons:mergeDebugProguardFiles
+:android-iconify-meteocons:packageDebugJar
+:android-iconify-meteocons:compileDebugNdk UP-TO-DATE
+:android-iconify-meteocons:packageDebugJniLibs UP-TO-DATE
+:android-iconify-meteocons:packageDebugLocalJar UP-TO-DATE
+:android-iconify-meteocons:packageDebugRenderscript UP-TO-DATE
+:android-iconify-meteocons:packageDebugResources
+:android-iconify-meteocons:bundleDebug
+:android-iconify-meteocons:compileDebugSources
+:android-iconify-meteocons:assembleDebug
+:android-iconify-meteocons:copyReleaseLint UP-TO-DATE
+:android-iconify-meteocons:checkReleaseManifest
+:android-iconify-meteocons:prepareReleaseDependencies
+:android-iconify-meteocons:compileReleaseAidl
+:android-iconify-meteocons:compileReleaseRenderscript
+:android-iconify-meteocons:generateReleaseBuildConfig
+:android-iconify-meteocons:generateReleaseAssets UP-TO-DATE
+:android-iconify-meteocons:mergeReleaseAssets
+:android-iconify-meteocons:generateReleaseResValues
+:android-iconify-meteocons:generateReleaseResources
+:android-iconify-meteocons:mergeReleaseResources
+:android-iconify-meteocons:processReleaseManifest
+:android-iconify-meteocons:processReleaseResources
+:android-iconify-meteocons:generateReleaseSources
+:android-iconify-meteocons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-meteocons:compileReleaseJavaWithJavac
+:android-iconify-meteocons:extractReleaseAnnotations
+:android-iconify-meteocons:mergeReleaseProguardFiles
+:android-iconify-meteocons:packageReleaseJar
+:android-iconify-meteocons:compileReleaseNdk UP-TO-DATE
+:android-iconify-meteocons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-meteocons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-meteocons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-meteocons:packageReleaseResources
+:android-iconify-meteocons:bundleRelease
+:android-iconify-meteocons:compileReleaseSources
+:android-iconify-meteocons:assembleRelease
+:android-iconify-meteocons:signArchives SKIPPED
+:android-iconify-meteocons:assemble
+:android-iconify-meteocons:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:/tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/723/src/android-iconify-master/android-iconify-meteocons/build/outputs/lint-results.xml
+:android-iconify-meteocons:prepareDebugUnitTestDependencies
+:android-iconify-meteocons:processDebugUnitTestJavaRes UP-TO-DATE
+:android-iconify-meteocons:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-meteocons:compileDebugUnitTestSources UP-TO-DATE
+:android-iconify-meteocons:mockableAndroidJar
+:android-iconify-meteocons:assembleDebugUnitTest
+:android-iconify-meteocons:testDebugUnitTest
+:android-iconify-meteocons:prepareReleaseUnitTestDependencies
+:android-iconify-meteocons:processReleaseUnitTestJavaRes UP-TO-DATE
+:android-iconify-meteocons:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:android-iconify-meteocons:compileReleaseUnitTestSources UP-TO-DATE
+:android-iconify-meteocons:assembleReleaseUnitTest
+:android-iconify-meteocons:testReleaseUnitTest
+:android-iconify-meteocons:test
+:android-iconify-meteocons:check
+:android-iconify-meteocons:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.477 secs
+
+2018-04-09 17:52:06,851 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:52:06,851 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:52:15,615 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-04-09 17:52:15,615 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 17:52:15,616 INFO  SysUtils - Execute command: [/tmp/rdisk/723/src/android-iconify-master/gradlew, -b, /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 17:52:52,230 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 17:52:52,231 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-iconify-sample:androidJavadocs/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/SampleApplication.java:4: error: cannot find symbol
+import com.joanzapata.iconify.Iconify;
+                             ^
+  symbol:   class Iconify
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:4: error: package android.support.design.widget does not exist
+import android.support.design.widget.TabLayout;
+                                    ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:5: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:6: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:7: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.Toolbar;
+                                ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:8: error: package butterknife does not exist
+import butterknife.Bind;
+                  ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:9: error: package butterknife does not exist
+import butterknife.ButterKnife;
+                  ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:11: error: cannot find symbol
+public class MainActivity extends AppCompatActivity {
+                                  ^
+  symbol: class AppCompatActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:13: error: cannot find symbol
+    @Bind(R.id.tabs) TabLayout tabLayout;
+                     ^
+  symbol:   class TabLayout
+  location: class MainActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:14: error: cannot find symbol
+    @Bind(R.id.toolbar) Toolbar toolbar;
+                        ^
+  symbol:   class Toolbar
+  location: class MainActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:15: error: cannot find symbol
+    @Bind(R.id.viewPager) ViewPager viewPager;
+                          ^
+  symbol:   class ViewPager
+  location: class MainActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:3: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:8: error: package butterknife does not exist
+import butterknife.Bind;
+                  ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:9: error: package butterknife does not exist
+import butterknife.ButterKnife;
+                  ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:10: error: cannot find symbol
+import com.joanzapata.iconify.Icon;
+                             ^
+  symbol:   class Icon
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:12: error: package RecyclerView does not exist
+public class IconAdapter extends RecyclerView.Adapter<IconAdapter.ViewHolder> {
+                                             ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:40: error: package RecyclerView does not exist
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+                                                       ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:14: error: cannot find symbol
+    private final Icon[] icons;
+                  ^
+  symbol:   class Icon
+  location: class IconAdapter
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:16: error: cannot find symbol
+    public IconAdapter(Icon[] icons) {
+                       ^
+  symbol:   class Icon
+  location: class IconAdapter
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/FontIconsViewPagerAdapter.java:5: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/FontIconsViewPagerAdapter.java:6: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/FontIconsViewPagerAdapter.java:7: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/FontIconsViewPagerAdapter.java:11: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/FontIconsViewPagerAdapter.java:14: error: cannot find symbol
+public class FontIconsViewPagerAdapter extends PagerAdapter {
+                                               ^
+  symbol: class PagerAdapter
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/FontIconsViewPagerAdapter.java:17: error: cannot find symbol
+        IconFontDescriptor getFont();
+        ^
+  symbol:   class IconFontDescriptor
+  location: interface FontWithTitle
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/Font.java:3: error: cannot find symbol
+import com.joanzapata.iconify.IconFontDescriptor;
+                             ^
+  symbol:   class IconFontDescriptor
+  location: package com.joanzapata.iconify
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/Font.java:4: error: package com.joanzapata.iconify.fonts does not exist
+import com.joanzapata.iconify.fonts.*;
+^
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/Font.java:18: error: cannot find symbol
+    private final IconFontDescriptor descriptor;
+                  ^
+  symbol:   class IconFontDescriptor
+  location: class Font
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/Font.java:25: error: cannot find symbol
+    public IconFontDescriptor getFont() {
+           ^
+  symbol:   class IconFontDescriptor
+  location: class Font
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/Font.java:29: error: cannot find symbol
+    Font(String title, IconFontDescriptor descriptor) {
+                       ^
+  symbol:   class IconFontDescriptor
+  location: class Font
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:13: error: cannot find symbol
+    @Bind(R.id.tabs) TabLayout tabLayout;
+     ^
+  symbol:   class Bind
+  location: class MainActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:14: error: cannot find symbol
+    @Bind(R.id.toolbar) Toolbar toolbar;
+     ^
+  symbol:   class Bind
+  location: class MainActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/MainActivity.java:15: error: cannot find symbol
+    @Bind(R.id.viewPager) ViewPager viewPager;
+     ^
+  symbol:   class Bind
+  location: class MainActivity
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:42: error: cannot find symbol
+        @Bind(R.id.icon) TextView icon;
+         ^
+  symbol:   class Bind
+  location: class ViewHolder
+/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/IconAdapter.java:43: error: cannot find symbol
+        @Bind(R.id.name) TextView name;
+         ^
+  symbol:   class Bind
+  location: class ViewHolder
+
+35 warnings
+:android-iconify-sample:androidJavadocsJar
+:android-iconify-sample:androidSourcesJar
+:android-iconify:compileLint
+:android-iconify:copyReleaseLint UP-TO-DATE
+:android-iconify:preBuild UP-TO-DATE
+:android-iconify:preReleaseBuild UP-TO-DATE
+:android-iconify:checkReleaseManifest
+:android-iconify:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify:preDebugBuild UP-TO-DATE
+:android-iconify:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify:prepareReleaseDependencies
+:android-iconify:compileReleaseAidl UP-TO-DATE
+:android-iconify:compileReleaseRenderscript UP-TO-DATE
+:android-iconify:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify:generateReleaseAssets UP-TO-DATE
+:android-iconify:mergeReleaseAssets UP-TO-DATE
+:android-iconify:generateReleaseResValues UP-TO-DATE
+:android-iconify:generateReleaseResources UP-TO-DATE
+:android-iconify:mergeReleaseResources UP-TO-DATE
+:android-iconify:processReleaseManifest UP-TO-DATE
+:android-iconify:processReleaseResources UP-TO-DATE
+:android-iconify:generateReleaseSources UP-TO-DATE
+:android-iconify:processReleaseJavaRes UP-TO-DATE
+:android-iconify:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify:extractReleaseAnnotations UP-TO-DATE
+:android-iconify:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify:packageReleaseJar UP-TO-DATE
+:android-iconify:compileReleaseNdk UP-TO-DATE
+:android-iconify:packageReleaseJniLibs UP-TO-DATE
+:android-iconify:packageReleaseLocalJar UP-TO-DATE
+:android-iconify:packageReleaseRenderscript UP-TO-DATE
+:android-iconify:packageReleaseResources UP-TO-DATE
+:android-iconify:bundleRelease UP-TO-DATE
+:android-iconify-entypo:compileLint
+:android-iconify-entypo:copyReleaseLint UP-TO-DATE
+:android-iconify-entypo:preBuild UP-TO-DATE
+:android-iconify-entypo:preReleaseBuild UP-TO-DATE
+:android-iconify-entypo:checkReleaseManifest
+:android-iconify-entypo:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-entypo:preDebugBuild UP-TO-DATE
+:android-iconify-entypo:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-entypo:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-entypo:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify-entypo:prepareComJoanzapataIconifyAndroidIconify222Library UP-TO-DATE
+:android-iconify-entypo:prepareReleaseDependencies
+:android-iconify-entypo:compileReleaseAidl UP-TO-DATE
+:android-iconify-entypo:compileReleaseRenderscript UP-TO-DATE
+:android-iconify-entypo:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify-entypo:generateReleaseAssets UP-TO-DATE
+:android-iconify-entypo:mergeReleaseAssets UP-TO-DATE
+:android-iconify-entypo:generateReleaseResValues UP-TO-DATE
+:android-iconify-entypo:generateReleaseResources UP-TO-DATE
+:android-iconify-entypo:mergeReleaseResources UP-TO-DATE
+:android-iconify-entypo:processReleaseManifest UP-TO-DATE
+:android-iconify-entypo:processReleaseResources UP-TO-DATE
+:android-iconify-entypo:generateReleaseSources UP-TO-DATE
+:android-iconify-entypo:processReleaseJavaRes UP-TO-DATE
+:android-iconify-entypo:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify-entypo:extractReleaseAnnotations UP-TO-DATE
+:android-iconify-entypo:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify-entypo:packageReleaseJar UP-TO-DATE
+:android-iconify-entypo:compileReleaseNdk UP-TO-DATE
+:android-iconify-entypo:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-entypo:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-entypo:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-entypo:packageReleaseResources UP-TO-DATE
+:android-iconify-entypo:bundleRelease UP-TO-DATE
+:android-iconify-fontawesome:compileLint
+:android-iconify-fontawesome:copyReleaseLint UP-TO-DATE
+:android-iconify-fontawesome:preBuild UP-TO-DATE
+:android-iconify-fontawesome:preReleaseBuild UP-TO-DATE
+:android-iconify-fontawesome:checkReleaseManifest
+:android-iconify-fontawesome:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-fontawesome:preDebugBuild UP-TO-DATE
+:android-iconify-fontawesome:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-fontawesome:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-fontawesome:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify-fontawesome:prepareComJoanzapataIconifyAndroidIconify222Library UP-TO-DATE
+:android-iconify-fontawesome:prepareReleaseDependencies
+:android-iconify-fontawesome:compileReleaseAidl UP-TO-DATE
+:android-iconify-fontawesome:compileReleaseRenderscript UP-TO-DATE
+:android-iconify-fontawesome:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify-fontawesome:generateReleaseAssets UP-TO-DATE
+:android-iconify-fontawesome:mergeReleaseAssets UP-TO-DATE
+:android-iconify-fontawesome:generateReleaseResValues UP-TO-DATE
+:android-iconify-fontawesome:generateReleaseResources UP-TO-DATE
+:android-iconify-fontawesome:mergeReleaseResources UP-TO-DATE
+:android-iconify-fontawesome:processReleaseManifest UP-TO-DATE
+:android-iconify-fontawesome:processReleaseResources UP-TO-DATE
+:android-iconify-fontawesome:generateReleaseSources UP-TO-DATE
+:android-iconify-fontawesome:processReleaseJavaRes UP-TO-DATE
+:android-iconify-fontawesome:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify-fontawesome:extractReleaseAnnotations UP-TO-DATE
+:android-iconify-fontawesome:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseJar UP-TO-DATE
+:android-iconify-fontawesome:compileReleaseNdk UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-fontawesome:packageReleaseResources UP-TO-DATE
+:android-iconify-fontawesome:bundleRelease UP-TO-DATE
+:android-iconify-ionicons:compileLint
+:android-iconify-ionicons:copyReleaseLint UP-TO-DATE
+:android-iconify-ionicons:preBuild UP-TO-DATE
+:android-iconify-ionicons:preReleaseBuild UP-TO-DATE
+:android-iconify-ionicons:checkReleaseManifest
+:android-iconify-ionicons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-ionicons:preDebugBuild UP-TO-DATE
+:android-iconify-ionicons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-ionicons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-ionicons:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify-ionicons:prepareComJoanzapataIconifyAndroidIconify222Library UP-TO-DATE
+:android-iconify-ionicons:prepareReleaseDependencies
+:android-iconify-ionicons:compileReleaseAidl UP-TO-DATE
+:android-iconify-ionicons:compileReleaseRenderscript UP-TO-DATE
+:android-iconify-ionicons:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify-ionicons:generateReleaseAssets UP-TO-DATE
+:android-iconify-ionicons:mergeReleaseAssets UP-TO-DATE
+:android-iconify-ionicons:generateReleaseResValues UP-TO-DATE
+:android-iconify-ionicons:generateReleaseResources UP-TO-DATE
+:android-iconify-ionicons:mergeReleaseResources UP-TO-DATE
+:android-iconify-ionicons:processReleaseManifest UP-TO-DATE
+:android-iconify-ionicons:processReleaseResources UP-TO-DATE
+:android-iconify-ionicons:generateReleaseSources UP-TO-DATE
+:android-iconify-ionicons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-ionicons:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify-ionicons:extractReleaseAnnotations UP-TO-DATE
+:android-iconify-ionicons:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify-ionicons:packageReleaseJar UP-TO-DATE
+:android-iconify-ionicons:compileReleaseNdk UP-TO-DATE
+:android-iconify-ionicons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-ionicons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-ionicons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-ionicons:packageReleaseResources UP-TO-DATE
+:android-iconify-ionicons:bundleRelease UP-TO-DATE
+:android-iconify-material:compileLint
+:android-iconify-material:copyReleaseLint UP-TO-DATE
+:android-iconify-material:preBuild UP-TO-DATE
+:android-iconify-material:preReleaseBuild UP-TO-DATE
+:android-iconify-material:checkReleaseManifest
+:android-iconify-material:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-material:preDebugBuild UP-TO-DATE
+:android-iconify-material:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-material:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-material:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify-material:prepareComJoanzapataIconifyAndroidIconify222Library UP-TO-DATE
+:android-iconify-material:prepareReleaseDependencies
+:android-iconify-material:compileReleaseAidl UP-TO-DATE
+:android-iconify-material:compileReleaseRenderscript UP-TO-DATE
+:android-iconify-material:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify-material:generateReleaseAssets UP-TO-DATE
+:android-iconify-material:mergeReleaseAssets UP-TO-DATE
+:android-iconify-material:generateReleaseResValues UP-TO-DATE
+:android-iconify-material:generateReleaseResources UP-TO-DATE
+:android-iconify-material:mergeReleaseResources UP-TO-DATE
+:android-iconify-material:processReleaseManifest UP-TO-DATE
+:android-iconify-material:processReleaseResources UP-TO-DATE
+:android-iconify-material:generateReleaseSources UP-TO-DATE
+:android-iconify-material:processReleaseJavaRes UP-TO-DATE
+:android-iconify-material:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify-material:extractReleaseAnnotations UP-TO-DATE
+:android-iconify-material:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify-material:packageReleaseJar UP-TO-DATE
+:android-iconify-material:compileReleaseNdk UP-TO-DATE
+:android-iconify-material:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-material:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-material:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-material:packageReleaseResources UP-TO-DATE
+:android-iconify-material:bundleRelease UP-TO-DATE
+:android-iconify-material-community:compileLint
+:android-iconify-material-community:copyReleaseLint UP-TO-DATE
+:android-iconify-material-community:preBuild UP-TO-DATE
+:android-iconify-material-community:preReleaseBuild UP-TO-DATE
+:android-iconify-material-community:checkReleaseManifest
+:android-iconify-material-community:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-material-community:preDebugBuild UP-TO-DATE
+:android-iconify-material-community:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-material-community:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-material-community:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify-material-community:prepareComJoanzapataIconifyAndroidIconify222Library UP-TO-DATE
+:android-iconify-material-community:prepareReleaseDependencies
+:android-iconify-material-community:compileReleaseAidl UP-TO-DATE
+:android-iconify-material-community:compileReleaseRenderscript UP-TO-DATE
+:android-iconify-material-community:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify-material-community:generateReleaseAssets UP-TO-DATE
+:android-iconify-material-community:mergeReleaseAssets UP-TO-DATE
+:android-iconify-material-community:generateReleaseResValues UP-TO-DATE
+:android-iconify-material-community:generateReleaseResources UP-TO-DATE
+:android-iconify-material-community:mergeReleaseResources UP-TO-DATE
+:android-iconify-material-community:processReleaseManifest UP-TO-DATE
+:android-iconify-material-community:processReleaseResources UP-TO-DATE
+:android-iconify-material-community:generateReleaseSources UP-TO-DATE
+:android-iconify-material-community:processReleaseJavaRes UP-TO-DATE
+:android-iconify-material-community:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify-material-community:extractReleaseAnnotations UP-TO-DATE
+:android-iconify-material-community:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify-material-community:packageReleaseJar UP-TO-DATE
+:android-iconify-material-community:compileReleaseNdk UP-TO-DATE
+:android-iconify-material-community:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-material-community:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-material-community:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-material-community:packageReleaseResources UP-TO-DATE
+:android-iconify-material-community:bundleRelease UP-TO-DATE
+:android-iconify-meteocons:compileLint
+:android-iconify-meteocons:copyReleaseLint UP-TO-DATE
+:android-iconify-meteocons:preBuild UP-TO-DATE
+:android-iconify-meteocons:preReleaseBuild UP-TO-DATE
+:android-iconify-meteocons:checkReleaseManifest
+:android-iconify-meteocons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-meteocons:preDebugBuild UP-TO-DATE
+:android-iconify-meteocons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-meteocons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-meteocons:prepareComAndroidSupportSupportV42221Library UP-TO-DATE
+:android-iconify-meteocons:prepareComJoanzapataIconifyAndroidIconify222Library UP-TO-DATE
+:android-iconify-meteocons:prepareReleaseDependencies
+:android-iconify-meteocons:compileReleaseAidl UP-TO-DATE
+:android-iconify-meteocons:compileReleaseRenderscript UP-TO-DATE
+:android-iconify-meteocons:generateReleaseBuildConfig UP-TO-DATE
+:android-iconify-meteocons:generateReleaseAssets UP-TO-DATE
+:android-iconify-meteocons:mergeReleaseAssets UP-TO-DATE
+:android-iconify-meteocons:generateReleaseResValues UP-TO-DATE
+:android-iconify-meteocons:generateReleaseResources UP-TO-DATE
+:android-iconify-meteocons:mergeReleaseResources UP-TO-DATE
+:android-iconify-meteocons:processReleaseManifest UP-TO-DATE
+:android-iconify-meteocons:processReleaseResources UP-TO-DATE
+:android-iconify-meteocons:generateReleaseSources UP-TO-DATE
+:android-iconify-meteocons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-meteocons:compileReleaseJavaWithJavac UP-TO-DATE
+:android-iconify-meteocons:extractReleaseAnnotations UP-TO-DATE
+:android-iconify-meteocons:mergeReleaseProguardFiles UP-TO-DATE
+:android-iconify-meteocons:packageReleaseJar UP-TO-DATE
+:android-iconify-meteocons:compileReleaseNdk UP-TO-DATE
+:android-iconify-meteocons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-meteocons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-meteocons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-meteocons:packageReleaseResources UP-TO-DATE
+:android-iconify-meteocons:bundleRelease UP-TO-DATE
+:android-iconify-sample:preBuild UP-TO-DATE
+:android-iconify-sample:preDebugBuild UP-TO-DATE
+:android-iconify-sample:checkDebugManifest
+:android-iconify-sample:preReleaseBuild UP-TO-DATE
+:android-iconify-simplelineicons:compileLint
+:android-iconify-simplelineicons:copyReleaseLint UP-TO-DATE
+:android-iconify-simplelineicons:preBuild UP-TO-DATE
+:android-iconify-simplelineicons:preReleaseBuild UP-TO-DATE
+:android-iconify-simplelineicons:checkReleaseManifest
+:android-iconify-simplelineicons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-simplelineicons:preDebugBuild UP-TO-DATE
+:android-iconify-simplelineicons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-simplelineicons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-simplelineicons:prepareComAndroidSupportSupportV42221Library
+:android-iconify-simplelineicons:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-simplelineicons:prepareReleaseDependencies
+:android-iconify-simplelineicons:compileReleaseAidl
+:android-iconify-simplelineicons:compileReleaseRenderscript
+:android-iconify-simplelineicons:generateReleaseBuildConfig
+:android-iconify-simplelineicons:generateReleaseAssets UP-TO-DATE
+:android-iconify-simplelineicons:mergeReleaseAssets
+:android-iconify-simplelineicons:generateReleaseResValues
+:android-iconify-simplelineicons:generateReleaseResources
+:android-iconify-simplelineicons:mergeReleaseResources
+:android-iconify-simplelineicons:processReleaseManifest
+:android-iconify-simplelineicons:processReleaseResources
+:android-iconify-simplelineicons:generateReleaseSources
+:android-iconify-simplelineicons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-simplelineicons:compileReleaseJavaWithJavac
+:android-iconify-simplelineicons:extractReleaseAnnotations
+:android-iconify-simplelineicons:mergeReleaseProguardFiles
+:android-iconify-simplelineicons:packageReleaseJar
+:android-iconify-simplelineicons:compileReleaseNdk UP-TO-DATE
+:android-iconify-simplelineicons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-simplelineicons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-simplelineicons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-simplelineicons:packageReleaseResources
+:android-iconify-simplelineicons:bundleRelease
+:android-iconify-typicons:compileLint
+:android-iconify-typicons:copyReleaseLint UP-TO-DATE
+:android-iconify-typicons:preBuild UP-TO-DATE
+:android-iconify-typicons:preReleaseBuild UP-TO-DATE
+:android-iconify-typicons:checkReleaseManifest
+:android-iconify-typicons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-typicons:preDebugBuild UP-TO-DATE
+:android-iconify-typicons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-typicons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-typicons:prepareComAndroidSupportSupportV42221Library
+:android-iconify-typicons:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-typicons:prepareReleaseDependencies
+:android-iconify-typicons:compileReleaseAidl
+:android-iconify-typicons:compileReleaseRenderscript
+:android-iconify-typicons:generateReleaseBuildConfig
+:android-iconify-typicons:generateReleaseAssets UP-TO-DATE
+:android-iconify-typicons:mergeReleaseAssets
+:android-iconify-typicons:generateReleaseResValues
+:android-iconify-typicons:generateReleaseResources
+:android-iconify-typicons:mergeReleaseResources
+:android-iconify-typicons:processReleaseManifest
+:android-iconify-typicons:processReleaseResources
+:android-iconify-typicons:generateReleaseSources
+:android-iconify-typicons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-typicons:compileReleaseJavaWithJavac
+:android-iconify-typicons:extractReleaseAnnotations
+:android-iconify-typicons:mergeReleaseProguardFiles
+:android-iconify-typicons:packageReleaseJar
+:android-iconify-typicons:compileReleaseNdk UP-TO-DATE
+:android-iconify-typicons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-typicons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-typicons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-typicons:packageReleaseResources
+:android-iconify-typicons:bundleRelease
+:android-iconify-weathericons:compileLint
+:android-iconify-weathericons:copyReleaseLint UP-TO-DATE
+:android-iconify-weathericons:preBuild UP-TO-DATE
+:android-iconify-weathericons:preReleaseBuild UP-TO-DATE
+:android-iconify-weathericons:checkReleaseManifest
+:android-iconify-weathericons:preDebugAndroidTestBuild UP-TO-DATE
+:android-iconify-weathericons:preDebugBuild UP-TO-DATE
+:android-iconify-weathericons:preDebugUnitTestBuild UP-TO-DATE
+:android-iconify-weathericons:preReleaseUnitTestBuild UP-TO-DATE
+:android-iconify-weathericons:prepareComAndroidSupportSupportV42221Library
+:android-iconify-weathericons:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-weathericons:prepareReleaseDependencies
+:android-iconify-weathericons:compileReleaseAidl
+:android-iconify-weathericons:compileReleaseRenderscript
+:android-iconify-weathericons:generateReleaseBuildConfig
+:android-iconify-weathericons:generateReleaseAssets UP-TO-DATE
+:android-iconify-weathericons:mergeReleaseAssets
+:android-iconify-weathericons:generateReleaseResValues
+:android-iconify-weathericons:generateReleaseResources
+:android-iconify-weathericons:mergeReleaseResources
+:android-iconify-weathericons:processReleaseManifest
+:android-iconify-weathericons:processReleaseResources
+:android-iconify-weathericons:generateReleaseSources
+:android-iconify-weathericons:processReleaseJavaRes UP-TO-DATE
+:android-iconify-weathericons:compileReleaseJavaWithJavac
+:android-iconify-weathericons:extractReleaseAnnotations
+:android-iconify-weathericons:mergeReleaseProguardFiles
+:android-iconify-weathericons:packageReleaseJar
+:android-iconify-weathericons:compileReleaseNdk UP-TO-DATE
+:android-iconify-weathericons:packageReleaseJniLibs UP-TO-DATE
+:android-iconify-weathericons:packageReleaseLocalJar UP-TO-DATE
+:android-iconify-weathericons:packageReleaseRenderscript UP-TO-DATE
+:android-iconify-weathericons:packageReleaseResources
+:android-iconify-weathericons:bundleRelease
+:android-iconify-sample:prepareComAndroidSupportAppcompatV72221Library
+:android-iconify-sample:prepareComAndroidSupportDesign2221Library
+:android-iconify-sample:prepareComAndroidSupportRecyclerviewV72221Library
+:android-iconify-sample:prepareComAndroidSupportSupportV42221Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconify222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyEntypo222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyFontawesome222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyIonicons222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyMaterial222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyMaterialCommunity222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyMeteocons222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifySimplelineicons222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyTypicons222Library
+:android-iconify-sample:prepareComJoanzapataIconifyAndroidIconifyWeathericons222Library
+:android-iconify-sample:prepareDebugDependencies
+:android-iconify-sample:compileDebugAidl
+:android-iconify-sample:compileDebugRenderscript
+:android-iconify-sample:generateDebugBuildConfig
+:android-iconify-sample:generateDebugAssets UP-TO-DATE
+:android-iconify-sample:mergeDebugAssets
+:android-iconify-sample:generateDebugResValues
+:android-iconify-sample:generateDebugResources
+:android-iconify-sample:mergeDebugResources
+:android-iconify-sample:processDebugManifest
+:android-iconify-sample:processDebugResources
+:android-iconify-sample:generateDebugSources
+:android-iconify-sample:processDebugJavaRes UP-TO-DATE
+:android-iconify-sample:compileDebugJavaWithJavacNote: /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/utils/AndroidUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:android-iconify-sample:compileDebugNdk UP-TO-DATE
+:android-iconify-sample:compileDebugSources
+:android-iconify-sample:preDexDebug
+:android-iconify-sample:dexDebug
+:android-iconify-sample:validateDebugSigning
+:android-iconify-sample:packageDebug
+:android-iconify-sample:zipalignDebug
+:android-iconify-sample:assembleDebug
+:android-iconify-sample:checkReleaseManifest
+:android-iconify-sample:prepareReleaseDependencies
+:android-iconify-sample:compileReleaseAidl
+:android-iconify-sample:compileReleaseRenderscript
+:android-iconify-sample:generateReleaseBuildConfig
+:android-iconify-sample:generateReleaseAssets UP-TO-DATE
+:android-iconify-sample:mergeReleaseAssets
+:android-iconify-sample:generateReleaseResValues
+:android-iconify-sample:generateReleaseResources
+:android-iconify-sample:mergeReleaseResources
+:android-iconify-sample:processReleaseManifest
+:android-iconify-sample:processReleaseResources
+:android-iconify-sample:generateReleaseSources
+:android-iconify-sample:processReleaseJavaRes UP-TO-DATE
+:android-iconify-sample:compileReleaseJavaWithJavacNote: /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/src/main/java/com/joanzapata/iconify/sample/utils/AndroidUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:android-iconify-sample:compileReleaseNdk UP-TO-DATE
+:android-iconify-sample:compileReleaseSources
+:android-iconify-sample:preDexRelease
+:android-iconify-sample:dexRelease
+:android-iconify-sample:validateReleaseSigning
+:android-iconify-sample:packageRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':android-iconify-sample:packageRelease'.
+> Failed to read key android-iconify from store "/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/keystore": Keystore was tampered with, or password was incorrect
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':android-iconify-sample:packageRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.tooling.BuildException: Failed to read key android-iconify from store "/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/keystore": Keystore was tampered with, or password was incorrect
+	at com.android.build.gradle.tasks.PackageApplication.doFullTaskAction(PackageApplication.java:226)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:79)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:243)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:230)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+Caused by: com.android.ide.common.signing.KeytoolException: Failed to read key android-iconify from store "/tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/keystore": Keystore was tampered with, or password was incorrect
+	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:229)
+	at com.android.builder.core.AndroidBuilder.packageApk(AndroidBuilder.java:1771)
+	at com.android.build.gradle.tasks.PackageApplication.doFullTaskAction(PackageApplication.java:206)
+	... 57 more
+Caused by: java.io.IOException: Keystore was tampered with, or password was incorrect
+	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:214)
+	... 59 more
+Caused by: java.security.UnrecoverableKeyException: Password verification failed
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 36.186 secs
+
+2018-04-09 17:52:52,319 INFO  FullProcessService - Found APK file: /tmp/rdisk/723/src/android-iconify-master/android-iconify-sample/build/outputs/apk/android-iconify-sample-debug.apk

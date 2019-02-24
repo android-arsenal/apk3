@@ -1,0 +1,4 @@
+{
+  "com.alihafizji.example" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "R$styleable" ],
+  "com.alihafizji.splitimageview" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$id", "R$string", "R$styleable", "SplitImageView", "SplitImageView$1", "SplitImageView$2", "SplitImageView$3", "SplitImageView$4", "SplitImageView$5", "SplitImageView$6", "SplitImageView$7", "SplitImageView$8", "SplitImageView$OpenResourceIdResult", "SplitImageView$SavedState", "SplitImageView$SavedState$1", "SplitImageView$ScaleType" ]
+}

@@ -1,0 +1,313 @@
+2018-05-16 17:35:55,104 INFO  DownloadService - Downloading "https://github.com/MarcusWolschon/osmeditor4android/archive/master.zip", attempt 3
+2018-05-16 17:35:58,597 INFO  DownloadService - Downloaded https://github.com/MarcusWolschon/osmeditor4android/archive/master.zip, attempt 3
+2018-05-16 17:35:58,597 INFO  DownloadService - Size of file "/tmp/rdisk/648/master.zip": 11 MB
+2018-05-16 17:35:58,597 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 17:35:58,601 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/648/master.zip: true
+2018-05-16 17:35:58,601 DEBUG ZipUtil - Extracting '/tmp/rdisk/648/master.zip' into '/tmp/rdisk/648/src'.
+2018-05-16 17:35:59,018 INFO  FullProcessService - Size of directory with sources: 32 MB
+2018-05-16 17:35:59,018 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/648/src]
+2018-05-16 17:35:59,023 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/648/src/.git/
+
+2018-05-16 17:35:59,054 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/648/src/osmeditor4android-master/gradlew
+2018-05-16 17:35:59,086 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/648/src/osmeditor4android-master/build.gradle
+2018-05-16 17:35:59,117 INFO  ProjectBuildService - All script(s): /tmp/rdisk/648/src/osmeditor4android-master/build.gradle
+2018-05-16 17:35:59,118 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/simonpoole/gradle-tasks/master/eclipse-android-3", attempt 3
+2018-05-16 17:35:59,489 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/simonpoole/gradle-tasks/master/eclipse-android-3, attempt 3
+2018-05-16 17:35:59,489 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/simonpoole/gradle-tasks/master/eclipse-android-3
+2018-05-16 17:35:59,489 INFO  ProjectFixService - Fixing project...
+2018-05-16 17:35:59,557 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/648/src/osmeditor4android-master/local.properties
+2018-05-16 17:35:59,557 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-05-16 17:35:59,557 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-05-16 17:35:59,560 INFO  ProjectFixService - Build info for "/tmp/rdisk/648/src/osmeditor4android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:35:59,561 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/648/src/osmeditor4android-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=25,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:35:59,564 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 17:35:59,564 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:35:59,564 INFO  SysUtils - Execute command: [/tmp/rdisk/648/src/osmeditor4android-master/gradlew, -b, /tmp/rdisk/648/src/osmeditor4android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:36:17,591 INFO  ProjectTaskService - Detected possible tasks: 93
+2018-05-16 17:36:17,591 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-16 17:36:17,591 INFO  SysUtils - Execute command: [/tmp/rdisk/648/src/osmeditor4android-master/gradlew, -b, /tmp/rdisk/648/src/osmeditor4android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-16 17:38:01,259 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild
+:compileDebugAidl
+:compileDebugRenderscript
+:checkDebugManifest
+:generateDebugBuildConfig
+:prepareLintJar
+:mainApkListPersistenceDebug
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:createDebugCompatibleScreenManifests
+:processDebugManifest
+:splitsDiscoveryTaskDebug
+:processDebugResources
+:generateDebugSources
+:javaPreCompileDebug
+:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:compileDebugNdk NO-SOURCE
+:compileDebugSources
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:transformClassesWithJacocoForDebug
+:transformClassesWithDexBuilderForDebug
+:transformDexArchiveWithExternalLibsDexMergerForDebug
+:transformDexArchiveWithDexMergerForDebug
+:mergeDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForDebug
+:transformNativeLibsWithStripDebugSymbolForDebug
+:processDebugJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForDebug
+:validateSigningDebug
+:packageDebug
+:assembleDebug
+:preReleaseBuild
+:compileReleaseAidl
+:compileReleaseRenderscript
+:checkReleaseManifest
+:generateReleaseBuildConfig
+:mainApkListPersistenceRelease
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:createReleaseCompatibleScreenManifests
+:processReleaseManifest
+:splitsDiscoveryTaskRelease
+:processReleaseResources
+:generateReleaseSources
+:javaPreCompileRelease
+:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:compileReleaseNdk NO-SOURCE
+:compileReleaseSources
+:lintVitalRelease/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ca/strings.xml:378: Error: "config_licensebutton_summary" is translated here but not found in default locale [ExtraTranslation]
+  <string name="config_licensebutton_summary">Mostra els autors i la informació de llicència</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:557: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-da/strings.xml:246: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:586: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-el/strings.xml:330: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:488: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-eu/strings.xml:158: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fa/strings.xml:197: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:480: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:457: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:485: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:533: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-is/strings.xml:322: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:588: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ja/strings.xml:342: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ko/strings.xml:427: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-nb/strings.xml:228: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-nn/strings.xml:123: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-no/strings.xml:138: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:526: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:590: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ro/strings.xml:131: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:589: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sk/strings.xml:376: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-tr/strings.xml:354: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:460: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:566: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh/strings.xml:327: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:589: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:432: Error: "menu_tools_flush_background_tile_cache" is translated here but not found in default locale [ExtraTranslation]
+  <string name="menu_tools_flush_background_tile_cache">Vyčistit mezipaměť dlaždic pozadí</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:460: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-el/strings.xml:246: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:373: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:365: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:354: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:370: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:418: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-is/strings.xml:236: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:461: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ja/strings.xml:260: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:407: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:464: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt-rBR/strings.xml:149: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:463: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sk/strings.xml:301: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sv/strings.xml:315: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-tr/strings.xml:265: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:356: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:443: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh/strings.xml:240: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:462: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:433: Error: "menu_tools_flush_overlay_tile_cache" is translated here but not found in default locale [ExtraTranslation]
+  <string name="menu_tools_flush_overlay_tile_cache">Vyčistit mezipaměť překryvných dlaždic</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:461: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-el/strings.xml:247: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:374: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:366: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:355: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:371: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:419: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-is/strings.xml:237: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:462: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ja/strings.xml:261: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:408: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:465: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt-rBR/strings.xml:150: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:464: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sk/strings.xml:302: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sv/strings.xml:316: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-tr/strings.xml:266: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:357: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:444: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh/strings.xml:241: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:463: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:559: Error: "config_debugbutton_summary" is translated here but not found in default locale [ExtraTranslation]
+  <string name="config_debugbutton_summary">Zobrazí některé vnitřní informace</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:588: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:490: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:482: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:459: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:487: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:535: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:590: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ko/strings.xml:429: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:528: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:592: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:591: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sk/strings.xml:378: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:462: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:568: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:591: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:579: Error: "config_enableAutoPreset_title" is translated here but not found in default locale [ExtraTranslation]
+  <string name="config_enableAutoPreset_title">Povolit automatickou předvolbu</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:609: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-el/strings.xml:346: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:509: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:501: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:478: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:506: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:554: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-is/strings.xml:333: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:611: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ja/strings.xml:354: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ko/strings.xml:443: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:549: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:613: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:612: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-tr/strings.xml:373: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:481: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:589: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh/strings.xml:338: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:612: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:580: Error: "config_enableAutoPreset_summary" is translated here but not found in default locale [ExtraTranslation]
+  <string name="config_enableAutoPreset_summary">Automaticky přidat předvolbu, pokud je zvolen návrh názvů</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:610: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-el/strings.xml:347: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:510: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:502: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:479: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:507: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:555: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-is/strings.xml:334: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:612: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ja/strings.xml:355: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:550: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:614: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:613: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sv/strings.xml:408: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-tr/strings.xml:374: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:482: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:590: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh/strings.xml:339: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:613: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:634: Error: "confirm_one_upload_text" is translated here but not found in default locale [ExtraTranslation]
+  <string name="confirm_one_upload_text">Nahrát následující změnu?\n\n%1$s</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:669: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:671: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:673: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:672: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:672: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:635: Error: "confirm_multiple_upload_text" is translated here but not found in default locale [ExtraTranslation]
+  <string name="confirm_multiple_upload_text">Nahrát následujících %1$d změn?\n\n%2$s</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:670: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:672: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:674: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:673: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:673: Also translated here
+/tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-cs-rCZ/strings.xml:708: Error: "config_category_acra" is translated here but not found in default locale [ExtraTranslation]
+  <string name="config_category_acra">Hlášení pádu</string>
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-da/strings.xml:309: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-de/strings.xml:743: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-el/strings.xml:421: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-es/strings.xml:623: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-eu/strings.xml:216: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fa/strings.xml:245: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fi/strings.xml:615: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-fr/strings.xml:582: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-gl/strings.xml:620: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-hu/strings.xml:668: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-is/strings.xml:407: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-it/strings.xml:745: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ja/strings.xml:423: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ko/strings.xml:521: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-nb/strings.xml:273: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-nn/strings.xml:165: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-no/strings.xml:180: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pl/strings.xml:673: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-pt/strings.xml:747: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-ru/strings.xml:746: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sk/strings.xml:454: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-sv/strings.xml:482: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-tr/strings.xml:453: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-uk/strings.xml:575: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-vi/strings.xml:714: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh/strings.xml:415: Also translated here
+    /tmp/rdisk/648/src/osmeditor4android-master/src/main/res/values-zh-rTW/strings.xml:746: Also translated here
+
+   Explanation for issues of type "ExtraTranslation":
+   If a string appears in a specific language translation file, but there is
+   no corresponding string in the default locale, then this string is probably
+   unused. (It's technically possible that your application is only intended
+   to run in a specific locale, but it's still a good idea to provide a
+   fallback.).
+
+   Note that these strings can lead to crashes if the string is looked up on
+   any locale not providing a translation, so it's important to clean them
+   up.
+
+9 errors, 0 warnings
+
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:transformClassesWithDexBuilderForRelease
+:transformDexArchiveWithExternalLibsDexMergerForRelease
+:transformDexArchiveWithDexMergerForRelease
+:mergeReleaseJniLibFolders
+:transformNativeLibsWithMergeJniLibsForRelease
+:transformNativeLibsWithStripDebugSymbolForRelease
+:processReleaseJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForRelease
+:packageRelease
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL in 1m 43s
+54 actionable tasks: 54 executed
+
+2018-05-16 17:38:01,451 INFO  FullProcessService - Found APK file: /tmp/rdisk/648/src/osmeditor4android-master/build/outputs/apk/release/osmeditor4android-master-release-unsigned.apk

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.witheyjr.listviewanimator",
+    "label" : "ListViewAnimator",
+    "icon" : "res/drawable-mdpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 823,
+  "locales" : [ "", "sl", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "pt", "ar", "ru", "fa", "sk", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "es", "hy_AM", "tr", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "fr", "ja", "lo_LA", "iw", "de", "en_IN", "es_US", "nb", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.witheyjr.listviewanimator\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"\" />\n\t<application android:theme=\"resourceId:0x7f0b0084\" android:label=\"ListViewAnimator\" android:icon=\"res/drawable-mdpi/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ListViewAnimator\" android:name=\"com.witheyjr.listviewanimator.EggsampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2570413,
+  "crc32" : 2826807359,
+  "sha256" : "9407da48477282efc70b24c0f21acc91645a06a4439109d4179257be5213baa6",
+  "buildTime" : 1523298658000
+}

@@ -1,0 +1,1745 @@
+2018-04-09 19:38:26,183 INFO  DownloadService - Downloading "https://github.com/Kickflip/kickflip-android-sdk/archive/master.zip", attempt 3
+2018-04-09 19:39:26,789 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:39:27,478 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:39:27,478 INFO  DownloadService - Downloading "https://github.com/Kickflip/kickflip-android-sdk/archive/master.zip", attempt 3
+2018-04-09 19:40:28,833 DEBUG FullProcessService - Repository https://github.com/Kickflip/kickflip-android-sdk available: true
+2018-04-09 19:40:28,833 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:40:28,833 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Kickflip/kickflip-android-sdk, /tmp/rdisk/618/src]
+2018-04-09 19:40:33,013 INFO  SysUtils - 
+2018-04-09 19:40:33,020 INFO  GitService - Deleted "/tmp/rdisk/618/src/.git": true
+2018-04-09 19:40:33,025 INFO  FullProcessService - Size of directory with sources: 26 MB
+2018-04-09 19:40:33,025 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/618/src]
+2018-04-09 19:40:33,036 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/618/src/.git/
+
+2018-04-09 19:40:33,039 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/618/src/gradlew
+2018-04-09 19:40:33,043 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/618/src/sdk/build.gradle /tmp/rdisk/618/src/build.gradle
+2018-04-09 19:40:33,046 INFO  ProjectBuildService - All script(s): /tmp/rdisk/618/src/settings.gradle /tmp/rdisk/618/src/sdk/build.gradle /tmp/rdisk/618/src/build.gradle
+2018-04-09 19:40:33,047 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 19:40:33,047 INFO  ProjectFixService - Fixing project...
+2018-04-09 19:40:33,054 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/618/src/sdk/local.properties
+2018-04-09 19:40:33,054 INFO  ProjectFixService - Build info for "/tmp/rdisk/618/src/sdk/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-09 19:40:33,055 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/618/src/local.properties
+2018-04-09 19:40:33,055 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-09 19:40:33,055 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-09 19:40:33,056 INFO  ProjectFixService - Build info for "/tmp/rdisk/618/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=18,targetSdkVersion=22]
+2018-04-09 19:40:33,056 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 19:40:33,056 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 19:40:33,056 INFO  SysUtils - Execute command: [/tmp/rdisk/618/src/gradlew, -b, /tmp/rdisk/618/src/sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 19:45:03,264 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-09 19:45:03,264 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2018-04-09 19:45:03,264 INFO  SysUtils - Execute command: [/tmp/rdisk/618/src/gradlew, -b, /tmp/rdisk/618/src/sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2018-04-09 19:45:25,333 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 19:45:25,333 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.1 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.1 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.1 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+:sdk:compileLint
+:sdk:copyDebugLint UP-TO-DATE
+:sdk:preBuild UP-TO-DATE
+:sdk:preDebugBuild UP-TO-DATE
+:sdk:checkDebugManifest
+:sdk:preDebugAndroidTestBuild UP-TO-DATE
+:sdk:preDebugUnitTestBuild UP-TO-DATE
+:sdk:preReleaseBuild UP-TO-DATE
+:sdk:preReleaseUnitTestBuild UP-TO-DATE
+:sdk:prepareComAndroidSupportSupportV42211Library
+:sdk:prepareDebugDependencies
+:sdk:compileDebugAidl
+:sdk:compileDebugRenderscript
+:sdk:generateDebugBuildConfig
+:sdk:generateDebugAssets UP-TO-DATE
+:sdk:mergeDebugAssets
+:sdk:generateDebugResValues
+:sdk:generateDebugResources
+:sdk:mergeDebugResources
+:sdk:processDebugManifest
+:sdk:processDebugResources
+:sdk:generateDebugSources
+:sdk:processDebugJavaRes UP-TO-DATE
+:sdk:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sdk:extractDebugAnnotations
+:sdk:mergeDebugProguardFiles
+:sdk:packageDebugJar
+:sdk:compileDebugNdk UP-TO-DATE
+:sdk:packageDebugJniLibs
+:sdk:packageDebugLocalJar
+:sdk:packageDebugRenderscript UP-TO-DATE
+:sdk:packageDebugResources
+:sdk:bundleDebug
+:sdk:compileDebugSources
+:sdk:assembleDebug
+:sdk:copyReleaseLint UP-TO-DATE
+:sdk:checkReleaseManifest
+:sdk:prepareReleaseDependencies
+:sdk:compileReleaseAidl
+:sdk:compileReleaseRenderscript
+:sdk:generateReleaseBuildConfig
+:sdk:generateReleaseAssets UP-TO-DATE
+:sdk:mergeReleaseAssets
+:sdk:generateReleaseResValues
+:sdk:generateReleaseResources
+:sdk:mergeReleaseResources
+:sdk:processReleaseManifest
+:sdk:processReleaseResources
+:sdk:generateReleaseSources
+:sdk:processReleaseJavaRes UP-TO-DATE
+:sdk:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sdk:extractReleaseAnnotations
+:sdk:mergeReleaseProguardFiles
+:sdk:compileReleaseNdk UP-TO-DATE
+:sdk:packageReleaseJniLibs
+:sdk:packageReleaseRenderscript UP-TO-DATE
+:sdk:packageReleaseResources
+:sdk:proguardRelease
+:sdk:bundleRelease
+:sdk:compileReleaseSources
+:sdk:assembleRelease
+:sdk:javadoc/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:11: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:11: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:12: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:12: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:13: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:29: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:29: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:8: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:14: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:14: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Stream.java:3: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Stream.java:4: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Stream.java:5: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Response.java:3: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:9: error: package com.amazonaws.auth does not exist
+import com.amazonaws.auth.BasicAWSCredentials;
+                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:10: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.GenericUrl;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:11: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpContent;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:12: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequest;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:13: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequestFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:14: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpResponse;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:15: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpResponseException;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:16: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.UrlEncodedContent;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:17: error: package com.google.api.client.json does not exist
+import com.google.api.client.json.JsonFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:18: error: package com.google.api.client.json does not exist
+import com.google.api.client.json.JsonObjectParser;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:19: error: package com.google.api.client.json.jackson2 does not exist
+import com.google.api.client.json.jackson2.JacksonFactory;
+                                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:20: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.GenericData;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:21: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:22: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:31: error: cannot find symbol
+import io.kickflip.sdk.R;
+                      ^
+  symbol:   class R
+  location: package io.kickflip.sdk
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:39: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:39: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:8: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.BearerToken;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:9: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.ClientCredentialsTokenRequest;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:10: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.Credential;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:11: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.TokenResponse;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:12: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.BasicAuthentication;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:13: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.GenericUrl;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:14: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequestFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:15: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpResponse;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:16: error: package com.google.api.client.http.javanet does not exist
+import com.google.api.client.http.javanet.NetHttpTransport;
+                                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:17: error: package com.google.api.client.json.jackson2 does not exist
+import com.google.api.client.json.jackson2.JacksonFactory;
+                                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:191: error: cannot find symbol
+    public static void addLocationToStream(final Context context, final Stream stream, final EventBus eventBus) {
+                                                                                             ^
+  symbol:   class EventBus
+  location: class Kickflip
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:35: error: cannot find symbol
+    private EventBus mEventBus;
+            ^
+  symbol:   class EventBus
+  location: class Muxer
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:50: error: cannot find symbol
+    public void setEventBus(EventBus eventBus){
+                            ^
+  symbol:   class EventBus
+  location: class Muxer
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:71: error: cannot find symbol
+    private JsonObjectParser mJsonObjectParser;             // Re-used across requests
+            ^
+  symbol:   class JsonObjectParser
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:72: error: cannot find symbol
+    private JsonFactory mJsonFactory;                       // Re-used across requests
+            ^
+  symbol:   class JsonFactory
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/User.java:5: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/User.java:6: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:557: error: cannot find symbol
+    private void post(final String endpoint, final HttpContent body, final Class responseClass, final KickflipCallback cb) {
+                                                   ^
+  symbol:   class HttpContent
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:571: error: cannot find symbol
+    private void request(HttpRequestFactory requestFactory, final METHOD method, final String url, final HttpContent content, final Class responseClass, final KickflipCallback cb) {
+                         ^
+  symbol:   class HttpRequestFactory
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:571: error: cannot find symbol
+    private void request(HttpRequestFactory requestFactory, final METHOD method, final String url, final HttpContent content, final Class responseClass, final KickflipCallback cb) {
+                                                                                                         ^
+  symbol:   class HttpContent
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:642: error: cannot find symbol
+    private void executeAndRetryRequest(HttpRequest request, Class responseClass, KickflipCallback cb) throws IOException {
+                                        ^
+  symbol:   class HttpRequest
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:660: error: cannot find symbol
+    private void executeAndHandleHttpRequest(HttpRequest request, Class responseClass, KickflipCallback cb) throws IOException {
+                                             ^
+  symbol:   class HttpRequest
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:677: error: cannot find symbol
+    private void handleHttpResponse(HttpResponse response, Class<? extends Response> responseClass, KickflipCallback cb) throws IOException {
+                                    ^
+  symbol:   class HttpResponse
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:699: error: cannot find symbol
+    private void handleKickflipResponse(HttpResponse response, Class<? extends Response> responseClass, KickflipCallback cb) throws IOException {
+                                        ^
+  symbol:   class HttpResponse
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:742: error: cannot find symbol
+    private BasicAWSCredentials getAWSCredentials() {
+            ^
+  symbol:   class BasicAWSCredentials
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:774: error: cannot find symbol
+    private JsonFactory getJsonFactory() {
+            ^
+  symbol:   class JsonFactory
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:780: error: cannot find symbol
+    private JsonObjectParser getJsonObjectParser() {
+            ^
+  symbol:   class JsonObjectParser
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:861: error: cannot find symbol
+    private void addPaginationData(int pageNumber, int itemsPerPage, GenericData target) {
+                                                                     ^
+  symbol:   class GenericData
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:39: error: cannot find symbol
+    private HttpRequestFactory mRequestFactory;         // RequestFactory cached for life of mOAuthAccessToken
+            ^
+  symbol:   class HttpRequestFactory
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthCallback.java:3: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequestFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:156: error: cannot find symbol
+    protected HttpRequestFactory getRequestFactoryFromCachedCredentials() {
+              ^
+  symbol:   class HttpRequestFactory
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:160: error: cannot find symbol
+    private HttpRequestFactory getRequestFactoryFromAccessToken(String accessToken) {
+            ^
+  symbol:   class HttpRequestFactory
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:187: error: cannot find symbol
+    protected void storeAccessToken(TokenResponse tokenResponse) {
+                                    ^
+  symbol:   class TokenResponse
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:205: error: cannot find symbol
+    protected boolean isSuccessResponse(HttpResponse response) {
+                                        ^
+  symbol:   class HttpResponse
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthCallback.java:9: error: cannot find symbol
+    public void onSuccess(HttpRequestFactory oauthRequestFactory);
+                          ^
+  symbol:   class HttpRequestFactory
+  location: interface OAuthCallback
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:15: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:26: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:26: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:27: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:27: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:91: error: cannot find symbol
+    private EventBus mEventBus;
+            ^
+  symbol:   class EventBus
+  location: class CameraEncoder
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:1024: error: cannot find symbol
+    public void setEventBus(EventBus eventBus) {
+                            ^
+  symbol:   class EventBus
+  location: class CameraEncoder
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:20: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.Element;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:21: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.Playlist;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:26: error: cannot find symbol
+import io.kickflip.sdk.R;
+                      ^
+  symbol:   class R
+  location: package io.kickflip.sdk
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:7: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.ParseException;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:8: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.Playlist;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:125: error: cannot find symbol
+    private void updateUIWithM3u8Playlist(Playlist playlist) {
+                                          ^
+  symbol:   class Playlist
+  location: class MediaPlayerFragment
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:26: error: cannot find symbol
+        public void onSuccess(Playlist playlist);
+                              ^
+  symbol:   class Playlist
+  location: interface M3u8ParserCallback
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/GlassBroadcastFragment.java:18: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.Subscribe;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/GlassBroadcastFragment.java:23: error: cannot find symbol
+import io.kickflip.sdk.R;
+                      ^
+  symbol:   class R
+  location: package io.kickflip.sdk
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:7: error: package com.amazonaws.auth does not exist
+import com.amazonaws.auth.BasicSessionCredentials;
+                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:8: error: package com.amazonaws.services.s3.model does not exist
+import com.amazonaws.services.s3.model.ObjectMetadata;
+                                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:9: error: package com.amazonaws.services.s3.model does not exist
+import com.amazonaws.services.s3.model.PutObjectRequest;
+                                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:10: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.DeadEvent;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:11: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:12: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.Subscribe;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:36: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:36: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/HlsStream.java:3: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/HlsFileObserver.java:23: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:6: error: package com.amazonaws.auth does not exist
+import com.amazonaws.auth.AWSCredentials;
+                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:7: error: package com.amazonaws.event does not exist
+import com.amazonaws.event.ProgressEvent;
+                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:8: error: package com.amazonaws.event does not exist
+import com.amazonaws.event.ProgressListener;
+                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:9: error: package com.amazonaws.mobileconnectors.s3.transfermanager does not exist
+import com.amazonaws.mobileconnectors.s3.transfermanager.TransferManager;
+                                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:10: error: package com.amazonaws.mobileconnectors.s3.transfermanager does not exist
+import com.amazonaws.mobileconnectors.s3.transfermanager.Upload;
+                                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:11: error: package com.amazonaws.regions does not exist
+import com.amazonaws.regions.Region;
+                            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:12: error: package com.amazonaws.regions does not exist
+import com.amazonaws.regions.Regions;
+                            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:13: error: package com.amazonaws.services.s3.model does not exist
+import com.amazonaws.services.s3.model.AmazonS3Exception;
+                                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AndroidEncoder.java:15: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AndroidMuxer.java:12: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AudioEncoderConfig.java:4: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AudioEncoderCore.java:64: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AudioEncoderCore.java:11: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AVRecorder.java:21: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:140: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:155: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:165: error: reference not found
+     * Set an {@link com.google.common.eventbus.EventBus} to be notified
+                     ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:179: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:258: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:261: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:334: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:390: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:497: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:44: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:46: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:48: error: reference not found
+ * <li>Construct {@link Broadcaster()} with your Kickflip.io Client ID and Secret</li>
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:55: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:182: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:195: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:397: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:415: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:602: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:946: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:963: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:964: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:29: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglCore.java:31: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglStateSaver.java:11: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:56: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:143: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:36: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:38: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/FFmpegMuxer.java:26: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Filters.java:45: error: invalid use of @return
+     * @return the int code of the new filter
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Filters.java:10: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/FullFrameRect.java:28: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/GlUtil.java:35: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/HlsFileObserver.java:38: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:20: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/MicrophoneEncoder.java:16: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:19: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:198: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:201: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:203: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:205: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:207: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:208: error: unknown tag: UUID
+         * /sdcard/<UUID>/test.m3u8
+                   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:209: error: unknown tag: UUID
+         * /sdcard/<UUID>/test0.ts
+                   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:210: error: unknown tag: UUID
+         * /sdcard/<UUID>/test1.ts
+                   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:212: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:217: error: unknown tag: outputLocationParent
+         *                       recordings will be stored at <outputLocationParent>/<UUID>/<outputLocationFileName>
+                                                              ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:217: error: unknown tag: UUID
+         *                       recordings will be stored at <outputLocationParent>/<UUID>/<outputLocationFileName>
+                                                                                     ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:217: error: unknown tag: outputLocationFileName
+         *                       recordings will be stored at <outputLocationParent>/<UUID>/<outputLocationFileName>
+                                                                                            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SizeableFrameRect.java:29: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Texture2dProgram.java:28: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderConfig.java:4: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:31: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:35: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/WindowSurface.java:27: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/activity/ImmersiveActivity.java:14: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/activity/MediaPlayerActivity.java:13: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:30: error: reference not found
+ * a single instance of {@link com.amazonaws.auth.AWSCredentials}.
+                               ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/FileUtils.java:35: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:127: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:165: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:170: error: unknown tag: stream_id
+     * @param streamUrl a path of format https://kickflip.io/<stream_id> or https://xxx.xxx/xxx.m3u8
+                                                             ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:189: error: reference not found
+     * @param eventBus an {@link com.google.common.eventbus.EventBus} to be notified of the complete action
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:254: error: unknown tag: hide
+     * @hide
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:265: error: unknown tag: hide
+     * @hide
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:302: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:34: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:41: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:50: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:51: error: self-closing element not allowed
+ * <br/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:53: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:57: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:60: error: self-closing element not allowed
+ *     <br/>&nbsp.withTitle(Util.getHumanDateString())
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:60: error: semicolon missing
+ *     <br/>&nbsp.withTitle(Util.getHumanDateString())
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:61: error: self-closing element not allowed
+ *     <br/>&nbsp.withDescription("Example Description")
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:61: error: semicolon missing
+ *     <br/>&nbsp.withDescription("Example Description")
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:62: error: self-closing element not allowed
+ *     <br/>&nbsp.withVideoResolution(1280, 720)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:62: error: semicolon missing
+ *     <br/>&nbsp.withVideoResolution(1280, 720)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:63: error: self-closing element not allowed
+ *     <br/>&nbsp.withVideoBitrate(2 * 1000 * 1000)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:63: error: semicolon missing
+ *     <br/>&nbsp.withVideoBitrate(2 * 1000 * 1000)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:64: error: self-closing element not allowed
+ *     <br/>&nbsp.withAudioBitrate(192 * 1000)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:64: error: semicolon missing
+ *     <br/>&nbsp.withAudioBitrate(192 * 1000)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:65: error: self-closing element not allowed
+ *     <br/>&nbsp.withAdaptiveStreaming(true)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:65: error: semicolon missing
+ *     <br/>&nbsp.withAdaptiveStreaming(true)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:66: error: self-closing element not allowed
+ *     <br/>&nbsp.withVerticalVideoCorrection(true)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:66: error: semicolon missing
+ *     <br/>&nbsp.withVerticalVideoCorrection(true)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:67: error: self-closing element not allowed
+ *     <br/>&nbsp.withExtraInfo(extraDataMap)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:67: error: semicolon missing
+ *     <br/>&nbsp.withExtraInfo(extraDataMap)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:68: error: self-closing element not allowed
+ *     <br/>&nbsp.withPrivateVisibility(false)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:68: error: semicolon missing
+ *     <br/>&nbsp.withPrivateVisibility(false)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:69: error: self-closing element not allowed
+ *     <br/>&nbsp.withLocation(true)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:69: error: semicolon missing
+ *     <br/>&nbsp.withLocation(true)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:71: error: self-closing element not allowed
+ *     <br/>&nbsp.build();
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:71: error: semicolon missing
+ *     <br/>&nbsp.build();
+            ^
+
+100 errors
+100 warnings
+:sdk:javadoc FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sdk:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/618/src/sdk/build/tmp/javadoc/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+
+BUILD FAILED
+
+Total time: 21.661 secs
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sdk:javadoc'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/618/src/sdk/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:57)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:143)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:131)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:226)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:589)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:572)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 60 more
+
+
+2018-04-09 19:45:25,352 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 19:45:25,352 INFO  SysUtils - Execute command: [/tmp/rdisk/618/src/gradlew, -b, /tmp/rdisk/618/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 19:45:31,637 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-09 19:45:31,637 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2018-04-09 19:45:31,637 INFO  SysUtils - Execute command: [/tmp/rdisk/618/src/gradlew, -b, /tmp/rdisk/618/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2018-04-09 19:45:41,187 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 19:45:41,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.1 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debug as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.1 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for release as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.1 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugAndroidTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+:sdk:compileLint
+:sdk:copyDebugLint UP-TO-DATE
+:sdk:preBuild UP-TO-DATE
+:sdk:preDebugBuild UP-TO-DATE
+:sdk:checkDebugManifest
+:sdk:preDebugAndroidTestBuild UP-TO-DATE
+:sdk:preDebugUnitTestBuild UP-TO-DATE
+:sdk:preReleaseBuild UP-TO-DATE
+:sdk:preReleaseUnitTestBuild UP-TO-DATE
+:sdk:prepareComAndroidSupportSupportV42211Library UP-TO-DATE
+:sdk:prepareDebugDependencies
+:sdk:compileDebugAidl UP-TO-DATE
+:sdk:compileDebugRenderscript UP-TO-DATE
+:sdk:generateDebugBuildConfig UP-TO-DATE
+:sdk:generateDebugAssets UP-TO-DATE
+:sdk:mergeDebugAssets UP-TO-DATE
+:sdk:generateDebugResValues UP-TO-DATE
+:sdk:generateDebugResources UP-TO-DATE
+:sdk:mergeDebugResources UP-TO-DATE
+:sdk:processDebugManifest UP-TO-DATE
+:sdk:processDebugResources UP-TO-DATE
+:sdk:generateDebugSources UP-TO-DATE
+:sdk:processDebugJavaRes UP-TO-DATE
+:sdk:compileDebugJava UP-TO-DATE
+:sdk:extractDebugAnnotations UP-TO-DATE
+:sdk:mergeDebugProguardFiles UP-TO-DATE
+:sdk:packageDebugJar UP-TO-DATE
+:sdk:compileDebugNdk UP-TO-DATE
+:sdk:packageDebugJniLibs UP-TO-DATE
+:sdk:packageDebugLocalJar UP-TO-DATE
+:sdk:packageDebugRenderscript UP-TO-DATE
+:sdk:packageDebugResources UP-TO-DATE
+:sdk:bundleDebug UP-TO-DATE
+:sdk:compileDebugSources UP-TO-DATE
+:sdk:assembleDebug UP-TO-DATE
+:sdk:copyReleaseLint UP-TO-DATE
+:sdk:checkReleaseManifest
+:sdk:prepareReleaseDependencies
+:sdk:compileReleaseAidl UP-TO-DATE
+:sdk:compileReleaseRenderscript UP-TO-DATE
+:sdk:generateReleaseBuildConfig UP-TO-DATE
+:sdk:generateReleaseAssets UP-TO-DATE
+:sdk:mergeReleaseAssets UP-TO-DATE
+:sdk:generateReleaseResValues UP-TO-DATE
+:sdk:generateReleaseResources UP-TO-DATE
+:sdk:mergeReleaseResources UP-TO-DATE
+:sdk:processReleaseManifest UP-TO-DATE
+:sdk:processReleaseResources UP-TO-DATE
+:sdk:generateReleaseSources UP-TO-DATE
+:sdk:processReleaseJavaRes UP-TO-DATE
+:sdk:compileReleaseJava UP-TO-DATE
+:sdk:extractReleaseAnnotations UP-TO-DATE
+:sdk:mergeReleaseProguardFiles UP-TO-DATE
+:sdk:compileReleaseNdk UP-TO-DATE
+:sdk:packageReleaseJniLibs UP-TO-DATE
+:sdk:packageReleaseRenderscript UP-TO-DATE
+:sdk:packageReleaseResources UP-TO-DATE
+:sdk:proguardRelease UP-TO-DATE
+:sdk:bundleRelease UP-TO-DATE
+:sdk:compileReleaseSources UP-TO-DATE
+:sdk:assembleRelease UP-TO-DATE
+:sdk:javadoc/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:11: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:11: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:12: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:12: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:13: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:29: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:29: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:8: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:14: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:14: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Stream.java:3: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Stream.java:4: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Stream.java:5: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/Response.java:3: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:9: error: package com.amazonaws.auth does not exist
+import com.amazonaws.auth.BasicAWSCredentials;
+                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:10: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.GenericUrl;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:11: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpContent;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:12: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequest;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:13: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequestFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:14: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpResponse;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:15: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpResponseException;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:16: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.UrlEncodedContent;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:17: error: package com.google.api.client.json does not exist
+import com.google.api.client.json.JsonFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:18: error: package com.google.api.client.json does not exist
+import com.google.api.client.json.JsonObjectParser;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:19: error: package com.google.api.client.json.jackson2 does not exist
+import com.google.api.client.json.jackson2.JacksonFactory;
+                                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:20: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.GenericData;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:21: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:22: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:31: error: cannot find symbol
+import io.kickflip.sdk.R;
+                      ^
+  symbol:   class R
+  location: package io.kickflip.sdk
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:39: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:39: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:8: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.BearerToken;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:9: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.ClientCredentialsTokenRequest;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:10: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.Credential;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:11: error: package com.google.api.client.auth.oauth2 does not exist
+import com.google.api.client.auth.oauth2.TokenResponse;
+                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:12: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.BasicAuthentication;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:13: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.GenericUrl;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:14: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequestFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:15: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpResponse;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:16: error: package com.google.api.client.http.javanet does not exist
+import com.google.api.client.http.javanet.NetHttpTransport;
+                                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:17: error: package com.google.api.client.json.jackson2 does not exist
+import com.google.api.client.json.jackson2.JacksonFactory;
+                                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:191: error: cannot find symbol
+    public static void addLocationToStream(final Context context, final Stream stream, final EventBus eventBus) {
+                                                                                             ^
+  symbol:   class EventBus
+  location: class Kickflip
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:35: error: cannot find symbol
+    private EventBus mEventBus;
+            ^
+  symbol:   class EventBus
+  location: class Muxer
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:50: error: cannot find symbol
+    public void setEventBus(EventBus eventBus){
+                            ^
+  symbol:   class EventBus
+  location: class Muxer
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:71: error: cannot find symbol
+    private JsonObjectParser mJsonObjectParser;             // Re-used across requests
+            ^
+  symbol:   class JsonObjectParser
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:72: error: cannot find symbol
+    private JsonFactory mJsonFactory;                       // Re-used across requests
+            ^
+  symbol:   class JsonFactory
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/User.java:5: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/User.java:6: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:557: error: cannot find symbol
+    private void post(final String endpoint, final HttpContent body, final Class responseClass, final KickflipCallback cb) {
+                                                   ^
+  symbol:   class HttpContent
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:571: error: cannot find symbol
+    private void request(HttpRequestFactory requestFactory, final METHOD method, final String url, final HttpContent content, final Class responseClass, final KickflipCallback cb) {
+                         ^
+  symbol:   class HttpRequestFactory
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:571: error: cannot find symbol
+    private void request(HttpRequestFactory requestFactory, final METHOD method, final String url, final HttpContent content, final Class responseClass, final KickflipCallback cb) {
+                                                                                                         ^
+  symbol:   class HttpContent
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:642: error: cannot find symbol
+    private void executeAndRetryRequest(HttpRequest request, Class responseClass, KickflipCallback cb) throws IOException {
+                                        ^
+  symbol:   class HttpRequest
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:660: error: cannot find symbol
+    private void executeAndHandleHttpRequest(HttpRequest request, Class responseClass, KickflipCallback cb) throws IOException {
+                                             ^
+  symbol:   class HttpRequest
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:677: error: cannot find symbol
+    private void handleHttpResponse(HttpResponse response, Class<? extends Response> responseClass, KickflipCallback cb) throws IOException {
+                                    ^
+  symbol:   class HttpResponse
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:699: error: cannot find symbol
+    private void handleKickflipResponse(HttpResponse response, Class<? extends Response> responseClass, KickflipCallback cb) throws IOException {
+                                        ^
+  symbol:   class HttpResponse
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:742: error: cannot find symbol
+    private BasicAWSCredentials getAWSCredentials() {
+            ^
+  symbol:   class BasicAWSCredentials
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:774: error: cannot find symbol
+    private JsonFactory getJsonFactory() {
+            ^
+  symbol:   class JsonFactory
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:780: error: cannot find symbol
+    private JsonObjectParser getJsonObjectParser() {
+            ^
+  symbol:   class JsonObjectParser
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/KickflipApiClient.java:861: error: cannot find symbol
+    private void addPaginationData(int pageNumber, int itemsPerPage, GenericData target) {
+                                                                     ^
+  symbol:   class GenericData
+  location: class KickflipApiClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:39: error: cannot find symbol
+    private HttpRequestFactory mRequestFactory;         // RequestFactory cached for life of mOAuthAccessToken
+            ^
+  symbol:   class HttpRequestFactory
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthCallback.java:3: error: package com.google.api.client.http does not exist
+import com.google.api.client.http.HttpRequestFactory;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:156: error: cannot find symbol
+    protected HttpRequestFactory getRequestFactoryFromCachedCredentials() {
+              ^
+  symbol:   class HttpRequestFactory
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:160: error: cannot find symbol
+    private HttpRequestFactory getRequestFactoryFromAccessToken(String accessToken) {
+            ^
+  symbol:   class HttpRequestFactory
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:187: error: cannot find symbol
+    protected void storeAccessToken(TokenResponse tokenResponse) {
+                                    ^
+  symbol:   class TokenResponse
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthClient.java:205: error: cannot find symbol
+    protected boolean isSuccessResponse(HttpResponse response) {
+                                        ^
+  symbol:   class HttpResponse
+  location: class OAuthClient
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/OAuthCallback.java:9: error: cannot find symbol
+    public void onSuccess(HttpRequestFactory oauthRequestFactory);
+                          ^
+  symbol:   class HttpRequestFactory
+  location: interface OAuthCallback
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:15: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:26: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:26: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:27: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:27: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:91: error: cannot find symbol
+    private EventBus mEventBus;
+            ^
+  symbol:   class EventBus
+  location: class CameraEncoder
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:1024: error: cannot find symbol
+    public void setEventBus(EventBus eventBus) {
+                            ^
+  symbol:   class EventBus
+  location: class CameraEncoder
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:20: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.Element;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:21: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.Playlist;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:26: error: cannot find symbol
+import io.kickflip.sdk.R;
+                      ^
+  symbol:   class R
+  location: package io.kickflip.sdk
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:7: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.ParseException;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:8: error: package net.chilicat.m3u8 does not exist
+import net.chilicat.m3u8.Playlist;
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/MediaPlayerFragment.java:125: error: cannot find symbol
+    private void updateUIWithM3u8Playlist(Playlist playlist) {
+                                          ^
+  symbol:   class Playlist
+  location: class MediaPlayerFragment
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:26: error: cannot find symbol
+        public void onSuccess(Playlist playlist);
+                              ^
+  symbol:   class Playlist
+  location: interface M3u8ParserCallback
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/GlassBroadcastFragment.java:18: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.Subscribe;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/fragment/GlassBroadcastFragment.java:23: error: cannot find symbol
+import io.kickflip.sdk.R;
+                      ^
+  symbol:   class R
+  location: package io.kickflip.sdk
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:7: error: package com.amazonaws.auth does not exist
+import com.amazonaws.auth.BasicSessionCredentials;
+                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:8: error: package com.amazonaws.services.s3.model does not exist
+import com.amazonaws.services.s3.model.ObjectMetadata;
+                                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:9: error: package com.amazonaws.services.s3.model does not exist
+import com.amazonaws.services.s3.model.PutObjectRequest;
+                                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:10: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.DeadEvent;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:11: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:12: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.Subscribe;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:36: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:36: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/json/HlsStream.java:3: error: package com.google.api.client.util does not exist
+import com.google.api.client.util.Key;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/HlsFileObserver.java:23: error: package com.google.common.eventbus does not exist
+import com.google.common.eventbus.EventBus;
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:6: error: package com.amazonaws.auth does not exist
+import com.amazonaws.auth.AWSCredentials;
+                         ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:7: error: package com.amazonaws.event does not exist
+import com.amazonaws.event.ProgressEvent;
+                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:8: error: package com.amazonaws.event does not exist
+import com.amazonaws.event.ProgressListener;
+                          ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:9: error: package com.amazonaws.mobileconnectors.s3.transfermanager does not exist
+import com.amazonaws.mobileconnectors.s3.transfermanager.TransferManager;
+                                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:10: error: package com.amazonaws.mobileconnectors.s3.transfermanager does not exist
+import com.amazonaws.mobileconnectors.s3.transfermanager.Upload;
+                                                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:11: error: package com.amazonaws.regions does not exist
+import com.amazonaws.regions.Region;
+                            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:12: error: package com.amazonaws.regions does not exist
+import com.amazonaws.regions.Regions;
+                            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:13: error: package com.amazonaws.services.s3.model does not exist
+import com.amazonaws.services.s3.model.AmazonS3Exception;
+                                      ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AndroidEncoder.java:15: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AndroidMuxer.java:12: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AudioEncoderConfig.java:4: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AudioEncoderCore.java:64: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AudioEncoderCore.java:11: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/AVRecorder.java:21: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:140: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:155: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:165: error: reference not found
+     * Set an {@link com.google.common.eventbus.EventBus} to be notified
+                     ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:179: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:258: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:261: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:334: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:390: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:497: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:44: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:46: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:48: error: reference not found
+ * <li>Construct {@link Broadcaster()} with your Kickflip.io Client ID and Secret</li>
+                        ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Broadcaster.java:55: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:182: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:195: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:397: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:415: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:602: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:946: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:963: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:964: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/CameraEncoder.java:29: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglCore.java:31: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglStateSaver.java:11: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:56: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:143: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:36: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/EglSurfaceBase.java:38: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/FFmpegMuxer.java:26: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Filters.java:45: error: invalid use of @return
+     * @return the int code of the new filter
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Filters.java:10: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/FullFrameRect.java:28: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/GlUtil.java:35: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/HlsFileObserver.java:38: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/M3u8Parser.java:20: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/MicrophoneEncoder.java:16: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Muxer.java:19: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:198: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:201: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:203: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:205: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:207: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:208: error: unknown tag: UUID
+         * /sdcard/<UUID>/test.m3u8
+                   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:209: error: unknown tag: UUID
+         * /sdcard/<UUID>/test0.ts
+                   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:210: error: unknown tag: UUID
+         * /sdcard/<UUID>/test1.ts
+                   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:212: error: self-closing element not allowed
+         * <p/>
+           ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:217: error: unknown tag: outputLocationParent
+         *                       recordings will be stored at <outputLocationParent>/<UUID>/<outputLocationFileName>
+                                                              ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:217: error: unknown tag: UUID
+         *                       recordings will be stored at <outputLocationParent>/<UUID>/<outputLocationFileName>
+                                                                                     ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SessionConfig.java:217: error: unknown tag: outputLocationFileName
+         *                       recordings will be stored at <outputLocationParent>/<UUID>/<outputLocationFileName>
+                                                                                            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/SizeableFrameRect.java:29: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/Texture2dProgram.java:28: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderConfig.java:4: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:31: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/VideoEncoderCore.java:35: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/av/WindowSurface.java:27: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/activity/ImmersiveActivity.java:14: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/activity/MediaPlayerActivity.java:13: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/api/s3/S3BroadcastManager.java:30: error: reference not found
+ * a single instance of {@link com.amazonaws.auth.AWSCredentials}.
+                               ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/FileUtils.java:35: error: unknown tag: hide
+ * @hide
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:127: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:165: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:170: error: unknown tag: stream_id
+     * @param streamUrl a path of format https://kickflip.io/<stream_id> or https://xxx.xxx/xxx.m3u8
+                                                             ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:189: error: reference not found
+     * @param eventBus an {@link com.google.common.eventbus.EventBus} to be notified of the complete action
+                                 ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:254: error: unknown tag: hide
+     * @hide
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:265: error: unknown tag: hide
+     * @hide
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:302: error: self-closing element not allowed
+     * <p/>
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:34: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:41: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:50: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:51: error: self-closing element not allowed
+ * <br/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:53: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:57: error: self-closing element not allowed
+ * <p/>
+   ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:60: error: self-closing element not allowed
+ *     <br/>&nbsp.withTitle(Util.getHumanDateString())
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:60: error: semicolon missing
+ *     <br/>&nbsp.withTitle(Util.getHumanDateString())
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:61: error: self-closing element not allowed
+ *     <br/>&nbsp.withDescription("Example Description")
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:61: error: semicolon missing
+ *     <br/>&nbsp.withDescription("Example Description")
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:62: error: self-closing element not allowed
+ *     <br/>&nbsp.withVideoResolution(1280, 720)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:62: error: semicolon missing
+ *     <br/>&nbsp.withVideoResolution(1280, 720)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:63: error: self-closing element not allowed
+ *     <br/>&nbsp.withVideoBitrate(2 * 1000 * 1000)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:63: error: semicolon missing
+ *     <br/>&nbsp.withVideoBitrate(2 * 1000 * 1000)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:64: error: self-closing element not allowed
+ *     <br/>&nbsp.withAudioBitrate(192 * 1000)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:64: error: semicolon missing
+ *     <br/>&nbsp.withAudioBitrate(192 * 1000)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:65: error: self-closing element not allowed
+ *     <br/>&nbsp.withAdaptiveStreaming(true)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:65: error: semicolon missing
+ *     <br/>&nbsp.withAdaptiveStreaming(true)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:66: error: self-closing element not allowed
+ *     <br/>&nbsp.withVerticalVideoCorrection(true)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:66: error: semicolon missing
+ *     <br/>&nbsp.withVerticalVideoCorrection(true)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:67: error: self-closing element not allowed
+ *     <br/>&nbsp.withExtraInfo(extraDataMap)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:67: error: semicolon missing
+ *     <br/>&nbsp.withExtraInfo(extraDataMap)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:68: error: self-closing element not allowed
+ *     <br/>&nbsp.withPrivateVisibility(false)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:68: error: semicolon missing
+ *     <br/>&nbsp.withPrivateVisibility(false)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:69: error: self-closing element not allowed
+ *     <br/>&nbsp.withLocation(true)
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:69: error: semicolon missing
+ *     <br/>&nbsp.withLocation(true)
+            ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:71: error: self-closing element not allowed
+ *     <br/>&nbsp.build();
+       ^
+/tmp/rdisk/618/src/sdk/src/main/java/io/kickflip/sdk/Kickflip.java:71: error: semicolon missing
+ *     <br/>&nbsp.build();
+            ^
+
+100 errors
+100 warnings
+:sdk:javadoc FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sdk:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/618/src/sdk/build/tmp/javadoc/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sdk:javadoc'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/618/src/sdk/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:57)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:143)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:131)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:226)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:589)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:572)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 9.141 secs
+
+2018-04-09 19:45:41,208 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 19:45:41,228 ERROR FullProcessService - Could not find generated or existed APK file

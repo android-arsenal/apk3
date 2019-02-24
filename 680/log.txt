@@ -1,0 +1,148 @@
+2018-04-09 18:08:02,945 INFO  DownloadService - Downloading "https://github.com/vinc3m1/RoundedImageView/archive/master.zip", attempt 3
+2018-04-09 18:08:03,804 INFO  DownloadService - Downloaded https://github.com/vinc3m1/RoundedImageView/archive/master.zip, attempt 3
+2018-04-09 18:08:03,804 INFO  DownloadService - Size of file "/tmp/rdisk/680/master.zip": 5 MB
+2018-04-09 18:08:03,804 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:08:03,805 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/680/master.zip: true
+2018-04-09 18:08:03,805 DEBUG ZipUtil - Extracting '/tmp/rdisk/680/master.zip' into '/tmp/rdisk/680/src'.
+2018-04-09 18:08:03,833 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-09 18:08:03,833 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/680/src]
+2018-04-09 18:08:03,838 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/680/src/.git/
+
+2018-04-09 18:08:03,840 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/680/src/RoundedImageView-master/gradlew
+2018-04-09 18:08:03,843 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/680/src/RoundedImageView-master/example/build.gradle /tmp/rdisk/680/src/RoundedImageView-master/roundedimageview/build.gradle /tmp/rdisk/680/src/RoundedImageView-master/build.gradle
+2018-04-09 18:08:03,845 INFO  ProjectBuildService - All script(s): /tmp/rdisk/680/src/RoundedImageView-master/settings.gradle /tmp/rdisk/680/src/RoundedImageView-master/roundedimageview/build.gradle /tmp/rdisk/680/src/RoundedImageView-master/example/build.gradle /tmp/rdisk/680/src/RoundedImageView-master/build.gradle
+2018-04-09 18:08:03,845 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:08:03,845 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:08:03,850 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/680/src/RoundedImageView-master/example/local.properties
+2018-04-09 18:08:03,851 INFO  ProjectFixService - Build info for "/tmp/rdisk/680/src/RoundedImageView-master/example/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-04-09 18:08:03,851 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/680/src/RoundedImageView-master/roundedimageview/local.properties
+2018-04-09 18:08:03,853 INFO  ProjectFixService - Build info for "/tmp/rdisk/680/src/RoundedImageView-master/roundedimageview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-04-09 18:08:03,853 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/680/src/RoundedImageView-master/local.properties
+2018-04-09 18:08:03,853 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-09 18:08:03,854 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-09 18:08:03,854 INFO  ProjectFixService - Build info for "/tmp/rdisk/680/src/RoundedImageView-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-04-09 18:08:03,854 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:08:03,855 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:08:03,855 INFO  SysUtils - Execute command: [/tmp/rdisk/680/src/RoundedImageView-master/gradlew, -b, /tmp/rdisk/680/src/RoundedImageView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:08:11,908 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-09 18:08:11,908 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:08:11,908 INFO  SysUtils - Execute command: [/tmp/rdisk/680/src/RoundedImageView-master/gradlew, -b, /tmp/rdisk/680/src/RoundedImageView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:08:31,093 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:checkDebugManifest
+:example:preReleaseBuild UP-TO-DATE
+:example:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:example:prepareComAndroidSupportAppcompatV72531Library
+:example:prepareComAndroidSupportSupportCompat2531Library
+:example:prepareComAndroidSupportSupportCoreUi2531Library
+:example:prepareComAndroidSupportSupportCoreUtils2531Library
+:example:prepareComAndroidSupportSupportFragment2531Library
+:example:prepareComAndroidSupportSupportMediaCompat2531Library
+:example:prepareComAndroidSupportSupportV42531Library
+:example:prepareComAndroidSupportSupportVectorDrawable2531Library
+:roundedimageview:preBuild UP-TO-DATE
+:roundedimageview:preReleaseBuild UP-TO-DATE
+:roundedimageview:checkReleaseManifest
+:roundedimageview:prepareReleaseDependencies
+:roundedimageview:compileReleaseAidl
+:roundedimageview:compileReleaseNdk UP-TO-DATE
+:roundedimageview:compileLint
+:roundedimageview:copyReleaseLint UP-TO-DATE
+:roundedimageview:compileReleaseRenderscript
+:roundedimageview:generateReleaseBuildConfig
+:roundedimageview:generateReleaseResValues
+:roundedimageview:generateReleaseResources
+:roundedimageview:packageReleaseResources
+:roundedimageview:processReleaseManifest
+:roundedimageview:processReleaseResources
+:roundedimageview:generateReleaseSources
+:roundedimageview:incrementalReleaseJavaCompilationSafeguard
+:roundedimageview:javaPreCompileRelease
+:roundedimageview:compileReleaseJavaWithJavac
+:roundedimageview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:roundedimageview:extractReleaseAnnotations
+:roundedimageview:mergeReleaseShaders
+:roundedimageview:compileReleaseShaders
+:roundedimageview:generateReleaseAssets
+:roundedimageview:mergeReleaseAssets
+:roundedimageview:mergeReleaseProguardFiles
+:roundedimageview:packageReleaseRenderscript UP-TO-DATE
+:roundedimageview:processReleaseJavaRes UP-TO-DATE
+:roundedimageview:transformResourcesWithMergeJavaResForRelease
+:roundedimageview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:roundedimageview:mergeReleaseJniLibFolders
+:roundedimageview:transformNativeLibsWithMergeJniLibsForRelease
+:roundedimageview:transformNativeLibsWithStripDebugSymbolForRelease
+:roundedimageview:transformNativeLibsWithSyncJniLibsForRelease
+:roundedimageview:bundleRelease
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:incrementalDebugJavaCompilationSafeguard
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:example:compileDebugNdk UP-TO-DATE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexForDebug
+:example:mergeDebugJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:processDebugJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:incrementalReleaseJavaCompilationSafeguard
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:example:compileReleaseNdk UP-TO-DATE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:processReleaseJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.931 secs
+
+2018-04-09 18:08:31,143 INFO  FullProcessService - Found APK file: /tmp/rdisk/680/src/RoundedImageView-master/example/build/outputs/apk/example-release-unsigned.apk

@@ -1,0 +1,10 @@
+2018-04-09 18:19:23,167 INFO  DownloadService - Downloading "https://github.com/stepinto/android-sshd/archive/master.zip", attempt 3
+2018-04-09 18:19:25,980 INFO  DownloadService - Downloaded https://github.com/stepinto/android-sshd/archive/master.zip, attempt 3
+2018-04-09 18:19:25,980 INFO  DownloadService - Size of file "/tmp/rdisk/657/master.zip": 2 MB
+2018-04-09 18:19:25,980 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:19:25,980 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/657/master.zip: false
+2018-04-09 18:19:25,980 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-09 18:19:25,980 ERROR FullProcessService - Could not find directory with sources
+2018-04-09 18:19:25,980 ERROR FullProcessService - Project will not be processed
+2018-04-09 18:19:25,980 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 18:19:25,981 ERROR FullProcessService - Could not find generated or existed APK file

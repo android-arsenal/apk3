@@ -1,0 +1,83 @@
+2018-04-09 20:12:59,533 INFO  DownloadService - Downloading "https://github.com/imbryk/LoopingViewPager/archive/master.zip", attempt 3
+2018-04-09 20:14:00,014 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:14:00,691 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:14:00,691 INFO  DownloadService - Downloading "https://github.com/imbryk/LoopingViewPager/archive/master.zip", attempt 3
+2018-04-09 20:15:01,957 DEBUG FullProcessService - Repository https://github.com/imbryk/LoopingViewPager available: true
+2018-04-09 20:15:01,957 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:15:01,957 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/imbryk/LoopingViewPager, /tmp/rdisk/541/src]
+2018-04-09 20:15:08,011 INFO  SysUtils - 
+2018-04-09 20:15:08,017 INFO  GitService - Deleted "/tmp/rdisk/541/src/.git": true
+2018-04-09 20:15:08,018 INFO  FullProcessService - Size of directory with sources: 625 KB
+2018-04-09 20:15:08,018 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/541/src]
+2018-04-09 20:15:08,022 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/541/src/.git/
+
+2018-04-09 20:15:08,023 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/541/src/gradlew
+2018-04-09 20:15:08,024 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/541/src/build.gradle
+2018-04-09 20:15:08,025 INFO  ProjectBuildService - All script(s): /tmp/rdisk/541/src/build.gradle
+2018-04-09 20:15:08,025 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:15:08,025 INFO  ProjectFixService - Fixing project...
+2018-04-09 20:15:08,029 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/541/src/local.properties
+2018-04-09 20:15:08,029 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.8-bin.zip
+2018-04-09 20:15:08,030 INFO  ProjectFixService - Build info for "/tmp/rdisk/541/src/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=17,minSdkVersion=4,targetSdkVersion=<null>]
+2018-04-09 20:15:08,030 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/541/src/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=17,minSdkVersion=7,targetSdkVersion=27]
+2018-04-09 20:15:08,030 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 20:15:08,031 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 20:15:08,031 INFO  SysUtils - Execute command: [/tmp/rdisk/541/src/gradlew, -b, /tmp/rdisk/541/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 20:15:14,331 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-04-09 20:15:14,331 INFO  ProjectTaskService - Excluded tasks (5): deviceCheck lint connectedCheck uninstallAll check
+2018-04-09 20:15:14,331 INFO  SysUtils - Execute command: [/tmp/rdisk/541/src/gradlew, -b, /tmp/rdisk/541/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, build]
+2018-04-09 20:15:20,671 INFO  SysUtils - Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Configuration on demand is an incubating feature.
+:compileLint
+:copyDebugLint UP-TO-DATE
+:mergeDebugProguardFiles
+:packageDebugAidl UP-TO-DATE
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:mergeDebugAssets
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:compileDebug
+:processDebugJavaRes UP-TO-DATE
+:packageDebugJar
+:packageDebugLocalJar
+:packageDebugRenderscript UP-TO-DATE
+:packageDebugResources
+:bundleDebug
+:assembleDebug
+:copyReleaseLint UP-TO-DATE
+:mergeReleaseProguardFiles
+:packageReleaseAidl UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:mergeReleaseAssets
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:compileRelease
+:processReleaseJavaRes UP-TO-DATE
+:packageReleaseJar
+:packageReleaseLocalJar
+:packageReleaseRenderscript UP-TO-DATE
+:packageReleaseResources
+:bundleRelease
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.927 secs
+
+2018-04-09 20:15:20,675 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 20:15:20,679 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,21 @@
+{
+  "com.novoda.demo" : [ "Example", "SEXParsingDemo" ],
+  "com.novoda.demo.advanced.podcast" : [ "PodcastExample", "PodcastExample$1", "PodcastExample$PodcastInstigator", "PodcastExampleHelper" ],
+  "com.novoda.demo.advanced.podcast.parser" : [ "ChannelImageParser", "ChannelImageParser$1", "ChannelImageParser$ImageHolder", "PodcastChannelParser", "PodcastChannelParser$1", "PodcastChannelParser$2", "PodcastChannelParser$ChannelHolder", "PodcastItemParser", "PodcastItemParser$1", "PodcastItemParser$ImageAttributeMarshaller", "PodcastItemParser$ItemHolder" ],
+  "com.novoda.demo.advanced.podcast.pojo" : [ "Author", "Channel", "ChannelImage", "Link", "PodcastItem", "Title" ],
+  "com.novoda.demo.advanced.podcast.pojo.itunes" : [ "ItunesDuration" ],
+  "com.novoda.demo.onetag" : [ "OneElementInstigator", "OneElementInstigator$1", "OneTagExample", "OneTagExample$1" ],
+  "com.novoda.demo.simple" : [ "SimpleExample", "SimpleExample$1", "SimpleExample$SimpleInstigator" ],
+  "com.novoda.demo.team" : [ "TeamExample", "TeamExample$1", "TeamExample$TeamInstigator", "TeamMember" ],
+  "com.novoda.demoandroid" : [ "BuildConfig", "MenuActivity", "MenuActivity$1", "MenuActivity$NavigationItem", "ParsingTask", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SecondLevelBaseActivity" ],
+  "com.novoda.demoandroid.onetag" : [ "OneTagActivity", "OneTagActivity$1", "OneTagActivity$1$1" ],
+  "com.novoda.demoandroid.podcast" : [ "PodcastExampleActivity", "PodcastExampleActivity$1", "PodcastExampleActivity$1$1", "PodcastExampleActivity$PodcastInstigator", "PodcastExampleHelper" ],
+  "com.novoda.demoandroid.returnvalue" : [ "ReturnValueActivity", "ReturnValueActivity$ParsingTask", "ReturnValueActivity$SimpleStreamer" ],
+  "com.novoda.demoandroid.simple" : [ "SimpleExampleActivity", "SimpleExampleActivity$1", "SimpleExampleActivity$1$1", "SimpleExampleActivity$SimpleInstigator" ],
+  "com.novoda.demoandroid.team" : [ "TeamExampleActivity", "TeamExampleActivity$1", "TeamExampleActivity$1$1", "TeamExampleActivity$TeamInstigator" ],
+  "com.novoda.sax" : [ "BadXmlException", "Children", "Children$Child", "Element", "ElementListener", "EndElementListener", "EndTextElementListener", "RootElement", "RootElement$Handler", "StartElementListener", "TextElementListener" ],
+  "com.novoda.sexp" : [ "Instigator", "RootTag", "SimpleEasyXmlParser", "SimpleEasyXmlParser$1", "SimpleTagInstigator", "Streamer", "XMLReaderBuilder", "XMLReaderBuilder$XMLReaderCreationException", "XmlParser" ],
+  "com.novoda.sexp.finder" : [ "BasicElementFinder", "BasicElementFinder$ResultNotFoundException", "ElementFinder", "ElementFinderFactory", "ListElementFinder" ],
+  "com.novoda.sexp.marshaller" : [ "AttributeMarshaller", "BodyMarshaller", "BooleanBodyMarshaller", "DoubleBodyMarshaller", "DoubleWrapperBodyMarshaller", "IntegerBodyMarshaller", "IntegerWrapperBodyMarshaller", "LongBodyMarshaller", "LongWrapperBodyMarshaller", "StringBodyMarshaller", "StringWrapperBodyMarshaller" ],
+  "com.novoda.sexp.parser" : [ "BasicAttributeParser", "BasicParser", "BasicParser$1", "ListParseWatcher", "ListParser", "ParseFinishWatcher", "ParseWatcher", "Parser" ]
+}

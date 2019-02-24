@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "cgeo.contacts",
+    "label" : "c:geo - contacts (add-on)",
+    "icon" : "res/drawable-ldpi-v4/cgeo.png",
+    "versionName" : "1.6",
+    "versionCode" : 6,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : true,
+    "smallScreens" : true,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ "android.permission.READ_CONTACTS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/cgeo.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 438,
+  "locales" : [ "", "sl", "it", "ko", "da", "fi", "es", "lv", "tr", "��", "ro", "lt", "pl", "pt", "fr", "ru", "ja", "sk", "de", "nb", "cs", "sv", "ca", "nl", "hu" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"1.6\" package=\"cgeo.contacts\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.READ_CONTACTS\" />\n\t<supports-screens android:anyDensity=\"true\" android:smallScreens=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\" />\n\t<application android:label=\"c:geo - contacts (add-on)\" android:icon=\"res/drawable-ldpi-v4/cgeo.png\" android:allowBackup=\"false\">\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:label=\"c:geo - contacts (add-on)\" android:name=\"cgeo.contacts.ContactsActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"cgeo.contacts.FIND\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<data android:scheme=\"find\" android:host=\"cgeo.org\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 298011,
+  "crc32" : 1232928919,
+  "sha256" : "7a9eafdad9f078d8090dba3a35fc82d86ce0fca1dc57cad486ef9b078e9f4f9e",
+  "buildTime" : 1526357862000
+}

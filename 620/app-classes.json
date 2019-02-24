@@ -1,0 +1,3 @@
+{
+  "com.flavienlaurent.activityanimation.app" : [ "AnimatedDoorActivity", "AnimatedDoorActivity$1", "AnimatedDoorActivity$2", "AnimatedDoorLayout", "AnimatedRectActivity", "AnimatedRectActivity$1", "AnimatedRectActivity$2", "AnimatedRectLayout", "AnimatedRectLayout$1", "AnimatedRectLayout$2", "AnimatedRectLayout$3", "AnimatedRectLayout$4", "AnimatedRectLayout$5", "AnimatedRectLayout$IndexesBuilder", "BuildConfig", "DoorActivity", "MainActivity", "R", "R$attr", "R$color", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SecondActivity", "ThirdActivity" ]
+}

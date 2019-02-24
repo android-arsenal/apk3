@@ -1,0 +1,10 @@
+2018-04-09 17:53:40,963 INFO  DownloadService - Downloading "https://github.com/sephiroth74/AndroidWheel/archive/master.zip", attempt 3
+2018-04-09 17:53:41,705 INFO  DownloadService - Downloaded https://github.com/sephiroth74/AndroidWheel/archive/master.zip, attempt 3
+2018-04-09 17:53:41,705 INFO  DownloadService - Size of file "/tmp/rdisk/721/master.zip": 61 KB
+2018-04-09 17:53:41,705 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 17:53:41,706 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/721/master.zip: false
+2018-04-09 17:53:41,706 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-09 17:53:41,706 ERROR FullProcessService - Could not find directory with sources
+2018-04-09 17:53:41,706 ERROR FullProcessService - Project will not be processed
+2018-04-09 17:53:41,706 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 17:53:41,706 ERROR FullProcessService - Could not find generated or existed APK file

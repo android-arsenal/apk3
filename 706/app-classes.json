@@ -1,0 +1,4 @@
+{
+  "android.annotation" : [ "SuppressLint", "TargetApi" ],
+  "com.dianping.example.activity" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$string", "SampleActivity" ]
+}

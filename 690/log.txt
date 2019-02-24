@@ -1,0 +1,115 @@
+2018-04-09 18:03:46,601 INFO  DownloadService - Downloading "https://github.com/akexorcist/Android-BluetoothSPPLibrary/archive/master.zip", attempt 3
+2018-04-09 18:03:47,730 INFO  DownloadService - Downloaded https://github.com/akexorcist/Android-BluetoothSPPLibrary/archive/master.zip, attempt 3
+2018-04-09 18:03:47,730 INFO  DownloadService - Size of file "/tmp/rdisk/690/master.zip": 1 MB
+2018-04-09 18:03:47,730 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:03:47,731 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/690/master.zip: true
+2018-04-09 18:03:47,731 DEBUG ZipUtil - Extracting '/tmp/rdisk/690/master.zip' into '/tmp/rdisk/690/src'.
+2018-04-09 18:03:47,761 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-04-09 18:03:47,761 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/690/src]
+2018-04-09 18:03:47,766 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/690/src/.git/
+
+2018-04-09 18:03:47,770 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/gradlew
+2018-04-09 18:03:47,773 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build.gradle /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/library/build.gradle /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/build.gradle
+2018-04-09 18:03:47,777 INFO  ProjectBuildService - All script(s): /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/settings.gradle /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/maven_push.gradle /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/library/build.gradle /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/build.gradle /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build.gradle
+2018-04-09 18:03:47,777 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:03:47,777 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:03:47,786 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/local.properties
+2018-04-09 18:03:47,789 INFO  ProjectFixService - Build info for "/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:03:47,789 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:03:47,790 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/library/local.properties
+2018-04-09 18:03:47,792 INFO  ProjectFixService - Build info for "/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:03:47,793 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:03:47,793 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/local.properties
+2018-04-09 18:03:47,793 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 18:03:47,793 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 18:03:47,796 INFO  ProjectFixService - Build info for "/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:03:47,796 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:03:47,797 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:03:47,797 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:03:47,797 INFO  SysUtils - Execute command: [/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/gradlew, -b, /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:03:54,627 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-09 18:03:54,628 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:03:54,628 INFO  SysUtils - Execute command: [/tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/gradlew, -b, /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:04:07,118 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:app:preBuild
+:app:compileDebugNdk
+:app:preDebugBuild
+:app:checkDebugManifest
+:app:preReleaseBuild
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:app:prepareComAkexorcistLibrary100Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.083 secs
+
+2018-04-09 18:04:07,131 INFO  FullProcessService - Found APK file: /tmp/rdisk/690/src/Android-BluetoothSPPLibrary-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,114 @@
+2018-04-09 18:00:35,323 INFO  DownloadService - Downloading "https://github.com/noveogroup/Highlightify/archive/master.zip", attempt 3
+2018-04-09 18:00:35,968 INFO  DownloadService - Downloaded https://github.com/noveogroup/Highlightify/archive/master.zip, attempt 3
+2018-04-09 18:00:35,969 INFO  DownloadService - Size of file "/tmp/rdisk/696/master.zip": 1 MB
+2018-04-09 18:00:35,969 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:00:35,969 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/696/master.zip: true
+2018-04-09 18:00:35,969 DEBUG ZipUtil - Extracting '/tmp/rdisk/696/master.zip' into '/tmp/rdisk/696/src'.
+2018-04-09 18:00:35,992 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-09 18:00:35,992 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/696/src]
+2018-04-09 18:00:36,003 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/696/src/.git/
+
+2018-04-09 18:00:36,006 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/696/src/Highlightify-master/gradlew
+2018-04-09 18:00:36,008 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/696/src/Highlightify-master/HighlightifySample/build.gradle /tmp/rdisk/696/src/Highlightify-master/highlightify/build.gradle /tmp/rdisk/696/src/Highlightify-master/build.gradle
+2018-04-09 18:00:36,011 INFO  ProjectBuildService - All script(s): /tmp/rdisk/696/src/Highlightify-master/settings.gradle /tmp/rdisk/696/src/Highlightify-master/highlightify/deploy.gradle /tmp/rdisk/696/src/Highlightify-master/highlightify/build.gradle /tmp/rdisk/696/src/Highlightify-master/gradle/check.gradle /tmp/rdisk/696/src/Highlightify-master/build.gradle /tmp/rdisk/696/src/Highlightify-master/HighlightifySample/build.gradle
+2018-04-09 18:00:36,011 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:00:36,011 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:00:36,019 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/696/src/Highlightify-master/HighlightifySample/local.properties
+2018-04-09 18:00:36,022 INFO  ProjectFixService - Build info for "/tmp/rdisk/696/src/Highlightify-master/HighlightifySample/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-09 18:00:36,023 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/696/src/Highlightify-master/highlightify/local.properties
+2018-04-09 18:00:36,026 INFO  ProjectFixService - Build info for "/tmp/rdisk/696/src/Highlightify-master/highlightify/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 18:00:36,027 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/696/src/Highlightify-master/local.properties
+2018-04-09 18:00:36,027 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-04-09 18:00:36,027 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-04-09 18:00:36,030 INFO  ProjectFixService - Build info for "/tmp/rdisk/696/src/Highlightify-master/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 18:00:36,030 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:00:36,030 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:00:36,030 INFO  SysUtils - Execute command: [/tmp/rdisk/696/src/Highlightify-master/gradlew, -b, /tmp/rdisk/696/src/Highlightify-master/HighlightifySample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:00:46,938 INFO  ProjectTaskService - Detected possible tasks: 49
+2018-04-09 18:00:46,938 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:00:46,938 INFO  SysUtils - Execute command: [/tmp/rdisk/696/src/Highlightify-master/gradlew, -b, /tmp/rdisk/696/src/Highlightify-master/HighlightifySample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:01:03,576 INFO  SysUtils - Configuration on demand is an incubating feature.
+:HighlightifySample:preBuild
+:HighlightifySample:compileDebugNdk
+:HighlightifySample:preDebugBuild
+:HighlightifySample:checkDebugManifest
+:HighlightifySample:preReleaseBuild
+:highlightify:compileLint
+:highlightify:copyReleaseLint UP-TO-DATE
+:highlightify:mergeReleaseProguardFiles
+:highlightify:preBuild
+:highlightify:preReleaseBuild
+:highlightify:checkReleaseManifest
+:highlightify:prepareReleaseDependencies
+:highlightify:compileReleaseAidl
+:highlightify:compileReleaseRenderscript
+:highlightify:generateReleaseBuildConfig
+:highlightify:generateReleaseAssets UP-TO-DATE
+:highlightify:mergeReleaseAssets
+:highlightify:generateReleaseResValues
+:highlightify:generateReleaseResources
+:highlightify:packageReleaseResources
+:highlightify:processReleaseManifest
+:highlightify:processReleaseResources
+:highlightify:generateReleaseSources
+:highlightify:compileReleaseJavaNote: /tmp/rdisk/696/src/Highlightify-master/highlightify/src/main/java/com/noveogroup/highlightify/HighlightUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:highlightify:processReleaseJavaRes UP-TO-DATE
+:highlightify:packageReleaseJar
+:highlightify:compileReleaseNdk
+:highlightify:packageReleaseJniLibs UP-TO-DATE
+:highlightify:packageReleaseLocalJar UP-TO-DATE
+:highlightify:packageReleaseRenderscript UP-TO-DATE
+:highlightify:bundleRelease
+:HighlightifySample:prepareComLarswerkmanHoloColorPicker15Library
+:HighlightifySample:prepareComNoveogroupAndroidHighlightify01Library
+:HighlightifySample:prepareDebugDependencies
+:HighlightifySample:compileDebugAidl
+:HighlightifySample:compileDebugRenderscript
+:HighlightifySample:generateDebugBuildConfig
+:HighlightifySample:generateDebugAssets UP-TO-DATE
+:HighlightifySample:mergeDebugAssets
+:HighlightifySample:generateDebugResValues
+:HighlightifySample:generateDebugResources
+:HighlightifySample:mergeDebugResources
+:HighlightifySample:processDebugManifest
+:HighlightifySample:processDebugResources
+:HighlightifySample:generateDebugSources
+:HighlightifySample:compileDebugJava
+:HighlightifySample:preDexDebug
+:HighlightifySample:dexDebug
+:HighlightifySample:processDebugJavaRes UP-TO-DATE
+:HighlightifySample:validateDebugSigning
+:HighlightifySample:packageDebug
+:HighlightifySample:zipalignDebug
+:HighlightifySample:assembleDebug
+:HighlightifySample:checkReleaseManifest
+:HighlightifySample:prepareReleaseDependencies
+:HighlightifySample:compileReleaseAidl
+:HighlightifySample:compileReleaseRenderscript
+:HighlightifySample:generateReleaseBuildConfig
+:HighlightifySample:generateReleaseAssets UP-TO-DATE
+:HighlightifySample:mergeReleaseAssets
+:HighlightifySample:generateReleaseResValues
+:HighlightifySample:generateReleaseResources
+:HighlightifySample:mergeReleaseResources
+:HighlightifySample:processReleaseManifest
+:HighlightifySample:processReleaseResources
+:HighlightifySample:generateReleaseSources
+:HighlightifySample:compileReleaseJava
+:HighlightifySample:lintVitalRelease
+:HighlightifySample:compileReleaseNdk
+:HighlightifySample:preDexRelease
+:HighlightifySample:dexRelease
+:HighlightifySample:processReleaseJavaRes UP-TO-DATE
+:HighlightifySample:packageRelease
+:HighlightifySample:assembleRelease
+:HighlightifySample:assemble
+:HighlightifySample:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.2 secs
+
+2018-04-09 18:01:03,587 INFO  FullProcessService - Found APK file: /tmp/rdisk/696/src/Highlightify-master/HighlightifySample/build/outputs/apk/HighlightifySample-release-unsigned.apk

@@ -1,0 +1,136 @@
+2016-07-16 05:42:38,284 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/kivy/python-for-android/archive/master.zip", attempt 3
+2016-07-16 05:42:41,176 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/kivy/python-for-android/archive/master.zip, attempt 3
+2016-07-16 05:42:43,041 DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src'.
+2016-07-16 05:42:43,313 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 4 MB
+2016-07-16 05:42:43,383 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): none
+2016-07-16 05:42:43,383 ERROR c.g.v.a.s.a.ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2016-07-16 05:42:43,416 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/build.gradle
+2016-07-16 05:42:43,450 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/templates/app.build.tmpl.gradle
+2016-07-16 05:42:43,472 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-07-16 05:42:43,474 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-07-16 05:42:43,597 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-07-16 05:42:43,598 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-07-16 05:42:43,601 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-16 05:42:43,604 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-16 05:42:43,608 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-07-16 05:42:43,610 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-07-16 05:42:43,612 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/local.properties
+2016-07-16 05:42:43,630 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-16 05:42:43,648 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-16 05:42:43,650 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-07-16 05:42:43,658 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-16 05:42:43,661 INFO  c.g.v.a.u.SysUtils - Execute command: [gradle, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/build.gradle, tasks]
+2016-07-16 05:42:49,562 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 25
+2016-07-16 05:42:49,563 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: none
+2016-07-16 05:42:49,563 INFO  c.g.v.a.u.SysUtils - Execute command: [gradle, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468626157724-0/src/python-for-android-master/pythonforandroid/bootstraps/service_only/build/build.gradle, --stacktrace, build]
+2016-07-16 05:42:55,060 INFO  c.g.v.a.s.a.ProjectBuildService - :buildEnvironment
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+classpath
+\--- com.android.tools.build:gradle-experimental:0.7.0
+     \--- com.android.tools.build:gradle-core:2.1.0
+          +--- com.android.tools.build:builder:2.1.0
+          |    +--- com.android.tools.build:builder-model:2.1.0
+          |    |    \--- com.android.tools:annotations:25.1.0
+          |    +--- com.android.tools.build:builder-test-api:2.1.0
+          |    |    \--- com.android.tools.ddms:ddmlib:25.1.0
+          |    |         +--- com.android.tools:common:25.1.0
+          |    |         |    +--- com.android.tools:annotations:25.1.0
+          |    |         |    \--- com.google.guava:guava:17.0
+          |    |         \--- net.sf.kxml:kxml2:2.3.0
+          |    +--- com.android.tools:sdklib:25.1.0
+          |    |    +--- com.android.tools.layoutlib:layoutlib-api:25.1.0
+          |    |    |    +--- com.android.tools:common:25.1.0 (*)
+          |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+          |    |    |    +--- com.android.tools:annotations:25.1.0
+          |    |    |    \--- com.intellij:annotations:12.0
+          |    |    +--- com.android.tools:dvlib:25.1.0
+          |    |    |    \--- com.android.tools:common:25.1.0 (*)
+          |    |    +--- com.android.tools:repository:25.1.0
+          |    |    |    +--- com.android.tools:common:25.1.0 (*)
+          |    |    |    \--- org.apache.commons:commons-compress:1.8.1
+          |    |    +--- com.google.code.gson:gson:2.2.4
+          |    |    +--- org.apache.commons:commons-compress:1.8.1
+          |    |    +--- org.apache.httpcomponents:httpclient:4.1.1
+          |    |    |    +--- org.apache.httpcomponents:httpcore:4.1
+          |    |    |    +--- commons-logging:commons-logging:1.1.1
+          |    |    |    \--- commons-codec:commons-codec:1.4
+          |    |    \--- org.apache.httpcomponents:httpmime:4.1
+          |    |         +--- org.apache.httpcomponents:httpcore:4.1
+          |    |         \--- commons-logging:commons-logging:1.1.1
+          |    +--- com.android.tools:sdk-common:25.1.0
+          |    |    +--- com.android.tools:sdklib:25.1.0 (*)
+          |    |    +--- com.android.tools.build:builder-test-api:2.1.0 (*)
+          |    |    +--- com.android.tools.build:builder-model:2.1.0 (*)
+          |    |    +--- org.bouncycastle:bcpkix-jdk15on:1.48
+          |    |    |    \--- org.bouncycastle:bcprov-jdk15on:1.48
+          |    |    \--- org.bouncycastle:bcprov-jdk15on:1.48
+          |    +--- com.android.tools:common:25.1.0 (*)
+          |    +--- com.android.tools.build:manifest-merger:25.1.0
+          |    |    +--- com.android.tools:common:25.1.0 (*)
+          |    |    +--- com.android.tools:sdklib:25.1.0 (*)
+          |    |    +--- com.android.tools:sdk-common:25.1.0 (*)
+          |    |    +--- net.sf.kxml:kxml2:2.3.0
+          |    |    \--- com.google.code.gson:gson:2.2.4
+          |    +--- com.android.tools.ddms:ddmlib:25.1.0 (*)
+          |    +--- com.android.tools.jack:jack-api:0.10.0
+          |    +--- com.android.tools.jill:jill-api:0.10.0
+          |    +--- com.squareup:javawriter:2.5.0
+          |    +--- org.bouncycastle:bcpkix-jdk15on:1.48 (*)
+          |    +--- org.bouncycastle:bcprov-jdk15on:1.48
+          |    +--- org.ow2.asm:asm:5.0.3
+          |    \--- org.ow2.asm:asm-tree:5.0.3
+          |         \--- org.ow2.asm:asm:5.0.3
+          +--- com.android.tools.lint:lint:25.1.0
+          |    +--- com.android.tools.lint:lint-checks:25.1.0
+          |    |    +--- com.android.tools.lint:lint-api:25.1.0
+          |    |    |    +--- com.android.tools:sdk-common:25.1.0 (*)
+          |    |    |    +--- com.android.tools.build:builder-model:2.1.0 (*)
+          |    |    |    +--- com.android.tools.external.lombok:lombok-ast:0.2.3
+          |    |    |    |    \--- com.google.guava:guava:17.0
+          |    |    |    +--- org.ow2.asm:asm:5.0.3
+          |    |    |    \--- org.ow2.asm:asm-tree:5.0.3 (*)
+          |    |    \--- org.ow2.asm:asm-analysis:5.0.3
+          |    |         \--- org.ow2.asm:asm-tree:5.0.3 (*)
+          |    \--- org.eclipse.jdt.core.compiler:ecj:4.4.2
+          +--- com.android.tools.build:transform-api:2.0.0-deprecated-use-gradle-api
+          +--- com.android.tools.build:gradle-api:2.1.0
+          |    +--- com.android.tools:annotations:25.1.0
+          |    \--- com.google.guava:guava:17.0
+          +--- com.android.databinding:compilerCommon:2.1.0
+          |    +--- com.android.databinding:baseLibrary:2.1.0
+          |    +--- com.tunnelvisionlabs:antlr4:4.5
+          |    |    +--- com.tunnelvisionlabs:antlr4-runtime:4.5
+          |    |    |    +--- org.abego.treelayout:org.abego.treelayout.core:1.0.1
+          |    |    |    \--- com.tunnelvisionlabs:antlr4-annotations:4.5
+          |    |    +--- com.tunnelvisionlabs:antlr4-annotations:4.5
+          |    |    +--- org.antlr:antlr-runtime:3.5.2
+          |    |    \--- org.antlr:ST4:4.0.8
+          |    |         \--- org.antlr:antlr-runtime:3.5.2
+          |    +--- commons-io:commons-io:2.4
+          |    +--- com.googlecode.juniversalchardet:juniversalchardet:1.0.3
+          |    \--- com.google.guava:guava:17.0
+          +--- org.ow2.asm:asm:5.0.3
+          +--- org.ow2.asm:asm-commons:5.0.3
+          |    \--- org.ow2.asm:asm-tree:5.0.3 (*)
+          +--- net.sf.proguard:proguard-gradle:5.2.1
+          |    \--- net.sf.proguard:proguard-base:5.2.1
+          +--- org.jacoco:org.jacoco.core:0.7.4.201502262128
+          |    \--- org.ow2.asm:asm-debug-all:5.0.1
+          \--- org.antlr:antlr:3.5.2
+               +--- org.antlr:antlr-runtime:3.5.2
+               \--- org.antlr:ST4:4.0.8 (*)
+
+(*) - dependencies omitted (listed previously)
+
+BUILD SUCCESSFUL
+
+Total time: 4.947 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.10/userguide/gradle_daemon.html
+
+2016-07-16 05:42:55,097 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-16 05:42:55,121 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

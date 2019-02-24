@@ -1,0 +1,247 @@
+2018-05-14 06:28:01,421 INFO  DownloadService - Downloading "https://github.com/ikew0ng/SwipeBackLayout/archive/master.zip", attempt 3
+2018-05-14 06:28:04,122 INFO  DownloadService - Downloaded https://github.com/ikew0ng/SwipeBackLayout/archive/master.zip, attempt 3
+2018-05-14 06:28:04,122 INFO  DownloadService - Size of file "/tmp/rdisk/734/master.zip": 1002 KB
+2018-05-14 06:28:04,123 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-14 06:28:04,123 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/734/master.zip: true
+2018-05-14 06:28:04,123 DEBUG ZipUtil - Extracting '/tmp/rdisk/734/master.zip' into '/tmp/rdisk/734/src'.
+2018-05-14 06:28:04,140 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-14 06:28:04,140 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/734/src]
+2018-05-14 06:28:04,145 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/734/src/.git/
+
+2018-05-14 06:28:04,147 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/734/src/SwipeBackLayout-master/gradlew
+2018-05-14 06:28:04,150 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/734/src/SwipeBackLayout-master/library/build.gradle /tmp/rdisk/734/src/SwipeBackLayout-master/samples/build.gradle /tmp/rdisk/734/src/SwipeBackLayout-master/build.gradle
+2018-05-14 06:28:04,152 INFO  ProjectBuildService - All script(s): /tmp/rdisk/734/src/SwipeBackLayout-master/settings.gradle /tmp/rdisk/734/src/SwipeBackLayout-master/samples/build.gradle /tmp/rdisk/734/src/SwipeBackLayout-master/library/build.gradle /tmp/rdisk/734/src/SwipeBackLayout-master/build.gradle
+2018-05-14 06:28:04,153 INFO  ProjectBuildService - Remote scripts: none
+2018-05-14 06:28:04,153 INFO  ProjectFixService - Fixing project...
+2018-05-14 06:28:04,158 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/734/src/SwipeBackLayout-master/library/local.properties
+2018-05-14 06:28:04,158 INFO  ProjectFixService - Build info for "/tmp/rdisk/734/src/SwipeBackLayout-master/library/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-05-14 06:28:04,159 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/734/src/SwipeBackLayout-master/samples/local.properties
+2018-05-14 06:28:04,159 INFO  ProjectFixService - Build info for "/tmp/rdisk/734/src/SwipeBackLayout-master/samples/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-05-14 06:28:04,159 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/734/src/SwipeBackLayout-master/local.properties
+2018-05-14 06:28:04,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-05-14 06:28:04,160 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-05-14 06:28:04,161 INFO  ProjectFixService - Build info for "/tmp/rdisk/734/src/SwipeBackLayout-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-05-14 06:28:04,161 INFO  ProjectFixService - Project was maybe fixed
+2018-05-14 06:28:04,161 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-14 06:28:04,161 INFO  SysUtils - Execute command: [/tmp/rdisk/734/src/SwipeBackLayout-master/gradlew, -b, /tmp/rdisk/734/src/SwipeBackLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-14 06:28:13,003 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-14 06:28:13,003 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-14 06:28:13,003 INFO  SysUtils - Execute command: [/tmp/rdisk/734/src/SwipeBackLayout-master/gradlew, -b, /tmp/rdisk/734/src/SwipeBackLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-14 06:28:31,439 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl
+:library:compileDebugNdk NO-SOURCE
+:library:compileDebugRenderscript
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:platformAttrExtractor
+:library:processDebugManifest
+:library:javaPreCompileDebug
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugConsumerProguardFiles
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl
+:library:compileReleaseNdk NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:javaPreCompileRelease
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractDebugAnnotations
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseConsumerProguardFiles
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:mergeReleaseResources
+:library:verifyReleaseResources
+:library:assembleRelease
+:library:sourcesJar
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 18s
+49 actionable tasks: 49 executed
+
+2018-05-14 06:28:31,476 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-14 06:28:31,477 INFO  SysUtils - Execute command: [/tmp/rdisk/734/src/SwipeBackLayout-master/gradlew, -b, /tmp/rdisk/734/src/SwipeBackLayout-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-14 06:28:38,767 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-14 06:28:38,767 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-14 06:28:38,768 INFO  SysUtils - Execute command: [/tmp/rdisk/734/src/SwipeBackLayout-master/gradlew, -b, /tmp/rdisk/734/src/SwipeBackLayout-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-14 06:29:09,407 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:checkDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:prepareLintJar UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:platformAttrExtractor UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:javaPreCompileDebug UP-TO-DATE
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:samples:preBuild UP-TO-DATE
+:samples:preDebugBuild
+:samples:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:samples:compileDebugRenderscript
+:samples:checkDebugManifest
+:samples:generateDebugBuildConfig
+:samples:prepareLintJar
+:samples:generateDebugResValues
+:samples:generateDebugResources
+:samples:mergeDebugResources
+:samples:createDebugCompatibleScreenManifests
+:samples:processDebugManifest
+:samples:splitsDiscoveryTaskDebug
+:samples:processDebugResources
+:samples:generateDebugSources
+:samples:javaPreCompileDebug
+:samples:compileDebugJavaWithJavacNote: /tmp/rdisk/734/src/SwipeBackLayout-master/samples/src/main/java/me/imid/swipebacklayout/demo/DemoActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:samples:compileDebugNdk NO-SOURCE
+:samples:compileDebugSources
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:samples:mergeDebugShaders
+:samples:compileDebugShaders
+:samples:generateDebugAssets
+:samples:mergeDebugAssets
+:samples:transformClassesWithDexBuilderForDebug
+:samples:transformDexArchiveWithExternalLibsDexMergerForDebug
+:samples:transformDexArchiveWithDexMergerForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:samples:mergeDebugJniLibFolders
+:samples:transformNativeLibsWithMergeJniLibsForDebug
+:samples:transformNativeLibsWithStripDebugSymbolForDebug
+:samples:processDebugJavaRes NO-SOURCE
+:samples:transformResourcesWithMergeJavaResForDebug
+:samples:validateSigningDebug
+:samples:packageDebug
+:samples:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:checkReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:javaPreCompileRelease UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:samples:preReleaseBuild
+:samples:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:samples:compileReleaseRenderscript
+:samples:checkReleaseManifest
+:samples:generateReleaseBuildConfig
+:samples:generateReleaseResValues
+:samples:generateReleaseResources
+:samples:mergeReleaseResources
+:samples:createReleaseCompatibleScreenManifests
+:samples:processReleaseManifest
+:samples:splitsDiscoveryTaskRelease
+:samples:processReleaseResources
+:samples:generateReleaseSources
+:samples:javaPreCompileRelease
+:samples:compileReleaseJavaWithJavacNote: /tmp/rdisk/734/src/SwipeBackLayout-master/samples/src/main/java/me/imid/swipebacklayout/demo/DemoActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:samples:compileReleaseNdk NO-SOURCE
+:samples:compileReleaseSources
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:samples:mergeReleaseShaders
+:samples:compileReleaseShaders
+:samples:generateReleaseAssets
+:samples:mergeReleaseAssets
+:samples:transformClassesWithPreDexForRelease
+:samples:transformDexWithDexForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:samples:mergeReleaseJniLibFolders
+:samples:transformNativeLibsWithMergeJniLibsForRelease
+:samples:transformNativeLibsWithStripDebugSymbolForRelease
+:samples:processReleaseJavaRes NO-SOURCE
+:samples:transformResourcesWithMergeJavaResForRelease
+:samples:packageRelease
+:samples:lintVitalRelease
+:samples:assembleRelease
+:samples:assemble
+:samples:build
+
+BUILD SUCCESSFUL in 30s
+88 actionable tasks: 54 executed, 34 up-to-date
+
+2018-05-14 06:29:09,485 INFO  FullProcessService - Found APK file: /tmp/rdisk/734/src/SwipeBackLayout-master/samples/build/outputs/apk/release/samples-release-unsigned.apk

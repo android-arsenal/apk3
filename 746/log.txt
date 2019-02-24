@@ -1,0 +1,195 @@
+2018-05-22 09:08:34,219 INFO  DownloadService - Downloading "https://github.com/curioustechizen/android-ago/archive/master.zip", attempt 3
+2018-05-22 09:09:34,220 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 09:09:35,095 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 09:09:35,095 INFO  DownloadService - Downloading "https://github.com/curioustechizen/android-ago/archive/master.zip", attempt 3
+2018-05-22 09:10:35,969 DEBUG FullProcessService - Repository https://github.com/curioustechizen/android-ago available: true
+2018-05-22 09:10:35,969 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 09:10:35,969 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/curioustechizen/android-ago, /tmp/rdisk/746/src]
+2018-05-22 09:10:37,997 INFO  SysUtils - 
+2018-05-22 09:10:38,003 INFO  GitService - Deleted "/tmp/rdisk/746/src/.git": true
+2018-05-22 09:10:38,006 INFO  FullProcessService - Size of directory with sources: 388 KB
+2018-05-22 09:10:38,006 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/746/src]
+2018-05-22 09:10:38,011 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/746/src/.git/
+
+2018-05-22 09:10:38,015 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/746/src/gradlew
+2018-05-22 09:10:38,018 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/746/src/android-ago-sample-databinding/build.gradle /tmp/rdisk/746/src/android-ago-sample/build.gradle /tmp/rdisk/746/src/android-ago/build.gradle /tmp/rdisk/746/src/build.gradle
+2018-05-22 09:10:38,022 INFO  ProjectBuildService - All script(s): /tmp/rdisk/746/src/settings.gradle /tmp/rdisk/746/src/build.gradle /tmp/rdisk/746/src/android-ago/maven-publish.gradle /tmp/rdisk/746/src/android-ago/build.gradle /tmp/rdisk/746/src/android-ago-sample/build.gradle /tmp/rdisk/746/src/android-ago-sample-databinding/build.gradle
+2018-05-22 09:10:38,022 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 09:10:38,022 INFO  ProjectFixService - Fixing project...
+2018-05-22 09:10:38,031 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/746/src/android-ago-sample-databinding/local.properties
+2018-05-22 09:10:38,032 INFO  ProjectFixService - Build info for "/tmp/rdisk/746/src/android-ago-sample-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:10:38,033 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/746/src/android-ago-sample-databinding/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:10:38,033 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/746/src/android-ago-sample/local.properties
+2018-05-22 09:10:38,034 INFO  ProjectFixService - Build info for "/tmp/rdisk/746/src/android-ago-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:10:38,034 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/746/src/android-ago-sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:10:38,035 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/746/src/android-ago/local.properties
+2018-05-22 09:10:38,037 INFO  ProjectFixService - Build info for "/tmp/rdisk/746/src/android-ago/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-05-22 09:10:38,037 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/746/src/android-ago/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-05-22 09:10:38,038 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/746/src/local.properties
+2018-05-22 09:10:38,038 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-05-22 09:10:38,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-05-22 09:10:38,041 INFO  ProjectFixService - Build info for "/tmp/rdisk/746/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-05-22 09:10:38,041 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/746/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-05-22 09:10:38,041 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 09:10:38,041 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 09:10:38,041 INFO  SysUtils - Execute command: [/tmp/rdisk/746/src/gradlew, -b, /tmp/rdisk/746/src/android-ago-sample-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 09:10:45,905 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-22 09:10:45,905 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-22 09:10:45,905 INFO  SysUtils - Execute command: [/tmp/rdisk/746/src/gradlew, -b, /tmp/rdisk/746/src/android-ago-sample-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-22 09:11:20,336 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-ago:preBuild UP-TO-DATE
+:android-ago:preDebugBuild UP-TO-DATE
+:android-ago:compileDebugAidl
+:android-ago:compileDebugRenderscript
+:android-ago:checkDebugManifest
+:android-ago:generateDebugBuildConfig
+:android-ago:generateDebugResValues
+:android-ago:generateDebugResources
+:android-ago:packageDebugResources
+:android-ago:platformAttrExtractor
+:android-ago:processDebugManifest
+:android-ago:prepareLintJar
+:android-ago:generateDebugRFile
+:android-ago:generateDebugSources
+:android-ago:javaPreCompileDebug
+:android-ago:compileDebugJavaWithJavac
+:android-ago:processDebugJavaRes NO-SOURCE
+:android-ago:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:android-ago-sample-databinding:preBuild UP-TO-DATE
+:android-ago-sample-databinding:preDebugBuild
+:android-ago-sample-databinding:compileDebugAidl
+:android-ago:packageDebugRenderscript NO-SOURCE
+:android-ago-sample-databinding:compileDebugRenderscript
+:android-ago-sample-databinding:generateDebugResValues
+:android-ago-sample-databinding:generateDebugResources
+:android-ago-sample-databinding:mergeDebugResources
+:android-ago-sample-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:android-ago-sample-databinding:dataBindingGenBaseClassesDebug
+:android-ago-sample-databinding:checkDebugManifest
+:android-ago-sample-databinding:generateDebugBuildConfig
+:android-ago-sample-databinding:prepareLintJar
+:android-ago-sample-databinding:mainApkListPersistenceDebug
+:android-ago-sample-databinding:createDebugCompatibleScreenManifests
+:android-ago-sample-databinding:processDebugManifest
+:android-ago-sample-databinding:splitsDiscoveryTaskDebug
+:android-ago-sample-databinding:processDebugResources
+:android-ago-sample-databinding:generateDebugSources
+:android-ago-sample-databinding:dataBindingExportBuildInfoDebug
+:android-ago-sample-databinding:javaPreCompileDebug
+:android-ago-sample-databinding:transformDataBindingWithDataBindingMergeArtifactsForDebug
+:android-ago-sample-databinding:compileDebugJavaWithJavac/tmp/rdisk/746/src/android-ago-sample-databinding/src/com/github/curioustechizen/ago/sample2/RelativeTimeTextViewBindingAdapter.java:14: warning: Application namespace for attribute rttv:reference_time will be ignored.
+    public static void setReferenceTime(RelativeTimeTextView view, long time) {
+                       ^
+/tmp/rdisk/746/src/android-ago-sample-databinding/src/com/github/curioustechizen/ago/sample2/RelativeTimeTextViewBindingAdapter.java:12: warning: Application namespace for attribute rttv:relative_time_prefix will be ignored.
+public class RelativeTimeTextViewBindingAdapter {
+       ^
+/tmp/rdisk/746/src/android-ago-sample-databinding/src/com/github/curioustechizen/ago/sample2/RelativeTimeTextViewBindingAdapter.java:12: warning: Application namespace for attribute rttv:relative_time_suffix will be ignored.
+public class RelativeTimeTextViewBindingAdapter {
+       ^
+3 warnings
+
+:android-ago-sample-databinding:compileDebugNdk NO-SOURCE
+:android-ago-sample-databinding:compileDebugSources
+:android-ago:mergeDebugShaders
+:android-ago:compileDebugShaders
+:android-ago:generateDebugAssets
+:android-ago:packageDebugAssets
+:android-ago-sample-databinding:mergeDebugShaders
+:android-ago-sample-databinding:compileDebugShaders
+:android-ago-sample-databinding:generateDebugAssets
+:android-ago-sample-databinding:mergeDebugAssets
+:android-ago-sample-databinding:transformClassesWithDexBuilderForDebug
+:android-ago-sample-databinding:transformDexArchiveWithExternalLibsDexMergerForDebug
+:android-ago-sample-databinding:transformDexArchiveWithDexMergerForDebug
+:android-ago:compileDebugNdk NO-SOURCE
+:android-ago:mergeDebugJniLibFolders
+:android-ago:transformNativeLibsWithMergeJniLibsForDebug
+:android-ago:transformNativeLibsWithStripDebugSymbolForDebug
+:android-ago:transformNativeLibsWithIntermediateJniLibsForDebug
+:android-ago-sample-databinding:mergeDebugJniLibFolders
+:android-ago-sample-databinding:transformNativeLibsWithMergeJniLibsForDebug
+:android-ago-sample-databinding:transformNativeLibsWithStripDebugSymbolForDebug
+:android-ago-sample-databinding:processDebugJavaRes NO-SOURCE
+:android-ago-sample-databinding:transformResourcesWithMergeJavaResForDebug
+:android-ago-sample-databinding:validateSigningDebug
+:android-ago-sample-databinding:packageDebug
+:android-ago-sample-databinding:assembleDebug
+:android-ago:preReleaseBuild UP-TO-DATE
+:android-ago:compileReleaseAidl
+:android-ago:compileReleaseRenderscript
+:android-ago:checkReleaseManifest
+:android-ago:generateReleaseBuildConfig
+:android-ago:generateReleaseResValues
+:android-ago:generateReleaseResources
+:android-ago:packageReleaseResources
+:android-ago:processReleaseManifest
+:android-ago:generateReleaseRFile
+:android-ago:generateReleaseSources
+:android-ago:javaPreCompileRelease
+:android-ago:compileReleaseJavaWithJavac
+:android-ago:processReleaseJavaRes NO-SOURCE
+:android-ago:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:android-ago-sample-databinding:preReleaseBuild
+:android-ago-sample-databinding:compileReleaseAidl
+:android-ago:packageReleaseRenderscript NO-SOURCE
+:android-ago-sample-databinding:compileReleaseRenderscript
+:android-ago-sample-databinding:generateReleaseResValues
+:android-ago-sample-databinding:generateReleaseResources
+:android-ago-sample-databinding:mergeReleaseResources
+:android-ago-sample-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:android-ago-sample-databinding:dataBindingGenBaseClassesRelease
+:android-ago-sample-databinding:checkReleaseManifest
+:android-ago-sample-databinding:generateReleaseBuildConfig
+:android-ago-sample-databinding:mainApkListPersistenceRelease
+:android-ago-sample-databinding:createReleaseCompatibleScreenManifests
+:android-ago-sample-databinding:processReleaseManifest
+:android-ago-sample-databinding:splitsDiscoveryTaskRelease
+:android-ago-sample-databinding:processReleaseResources
+:android-ago-sample-databinding:generateReleaseSources
+:android-ago-sample-databinding:dataBindingExportBuildInfoRelease
+:android-ago-sample-databinding:javaPreCompileRelease
+:android-ago-sample-databinding:transformDataBindingWithDataBindingMergeArtifactsForRelease
+:android-ago-sample-databinding:compileReleaseJavaWithJavac/tmp/rdisk/746/src/android-ago-sample-databinding/src/com/github/curioustechizen/ago/sample2/RelativeTimeTextViewBindingAdapter.java:14: warning: Application namespace for attribute rttv:reference_time will be ignored.
+    public static void setReferenceTime(RelativeTimeTextView view, long time) {
+                       ^
+/tmp/rdisk/746/src/android-ago-sample-databinding/src/com/github/curioustechizen/ago/sample2/RelativeTimeTextViewBindingAdapter.java:12: warning: Application namespace for attribute rttv:relative_time_prefix will be ignored.
+public class RelativeTimeTextViewBindingAdapter {
+       ^
+/tmp/rdisk/746/src/android-ago-sample-databinding/src/com/github/curioustechizen/ago/sample2/RelativeTimeTextViewBindingAdapter.java:12: warning: Application namespace for attribute rttv:relative_time_suffix will be ignored.
+public class RelativeTimeTextViewBindingAdapter {
+       ^
+3 warnings
+
+:android-ago-sample-databinding:compileReleaseNdk NO-SOURCE
+:android-ago-sample-databinding:compileReleaseSources
+:android-ago-sample-databinding:lintVitalRelease
+:android-ago:mergeReleaseShaders
+:android-ago:compileReleaseShaders
+:android-ago:generateReleaseAssets
+:android-ago:packageReleaseAssets
+:android-ago-sample-databinding:mergeReleaseShaders
+:android-ago-sample-databinding:compileReleaseShaders
+:android-ago-sample-databinding:generateReleaseAssets
+:android-ago-sample-databinding:mergeReleaseAssets
+:android-ago-sample-databinding:transformClassesWithDexBuilderForRelease
+:android-ago-sample-databinding:transformDexArchiveWithExternalLibsDexMergerForRelease
+:android-ago-sample-databinding:transformDexArchiveWithDexMergerForRelease
+:android-ago:compileReleaseNdk NO-SOURCE
+:android-ago:mergeReleaseJniLibFolders
+:android-ago:transformNativeLibsWithMergeJniLibsForRelease
+:android-ago:transformNativeLibsWithStripDebugSymbolForRelease
+:android-ago:transformNativeLibsWithIntermediateJniLibsForRelease
+:android-ago-sample-databinding:mergeReleaseJniLibFolders
+:android-ago-sample-databinding:transformNativeLibsWithMergeJniLibsForRelease
+:android-ago-sample-databinding:transformNativeLibsWithStripDebugSymbolForRelease
+:android-ago-sample-databinding:processReleaseJavaRes NO-SOURCE
+:android-ago-sample-databinding:transformResourcesWithMergeJavaResForRelease
+:android-ago-sample-databinding:packageRelease
+:android-ago-sample-databinding:assembleRelease
+:android-ago-sample-databinding:assemble
+:android-ago-sample-databinding:build
+
+BUILD SUCCESSFUL in 34s
+99 actionable tasks: 99 executed
+
+2018-05-22 09:11:20,392 INFO  FullProcessService - Found APK file: /tmp/rdisk/746/src/android-ago-sample-databinding/build/outputs/apk/release/android-ago-sample-databinding-release-unsigned.apk

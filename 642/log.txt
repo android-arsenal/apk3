@@ -1,0 +1,21 @@
+2018-04-09 18:33:14,782 INFO  DownloadService - Downloading "https://github.com/PomepuyN/BlurEffectForAndroidDesign/archive/master.zip", attempt 3
+2018-04-09 18:34:15,228 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 18:34:15,935 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 18:34:15,935 INFO  DownloadService - Downloading "https://github.com/PomepuyN/BlurEffectForAndroidDesign/archive/master.zip", attempt 3
+2018-04-09 18:35:17,313 DEBUG FullProcessService - Repository https://github.com/PomepuyN/BlurEffectForAndroidDesign available: true
+2018-04-09 18:35:17,313 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 18:35:17,313 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PomepuyN/BlurEffectForAndroidDesign, /tmp/rdisk/642/src]
+2018-04-09 18:35:19,319 INFO  SysUtils - 
+2018-04-09 18:35:19,328 INFO  GitService - Deleted "/tmp/rdisk/642/src/.git": true
+2018-04-09 18:35:19,330 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-09 18:35:19,330 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/642/src]
+2018-04-09 18:35:19,335 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/642/src/.git/
+
+2018-04-09 18:35:19,336 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 18:35:19,336 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 18:35:19,338 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 18:35:19,339 INFO  ProjectBuildService - All script(s): none
+2018-04-09 18:35:19,339 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:35:19,339 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 18:35:19,339 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 18:35:19,341 ERROR FullProcessService - Could not find generated or existed APK file

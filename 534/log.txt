@@ -1,0 +1,22 @@
+2018-04-09 20:30:19,975 INFO  DownloadService - Downloading "https://github.com/jfeinstein10/JazzyViewPager/archive/master.zip", attempt 3
+2018-04-09 20:31:20,607 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:31:21,330 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:31:21,331 INFO  DownloadService - Downloading "https://github.com/jfeinstein10/JazzyViewPager/archive/master.zip", attempt 3
+2018-04-09 20:32:22,634 DEBUG FullProcessService - Repository https://github.com/jfeinstein10/JazzyViewPager available: true
+2018-04-09 20:32:22,634 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:32:22,634 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jfeinstein10/JazzyViewPager, /tmp/rdisk/534/src]
+2018-04-09 20:32:24,523 INFO  SysUtils - 
+2018-04-09 20:32:24,532 INFO  GitService - Deleted "/tmp/rdisk/534/src/.git": true
+2018-04-09 20:32:24,533 INFO  FullProcessService - Size of directory with sources: 784 KB
+2018-04-09 20:32:24,533 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/534/src]
+2018-04-09 20:32:24,538 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/534/src/.git/
+
+2018-04-09 20:32:24,539 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 20:32:24,539 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 20:32:24,540 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 20:32:24,541 INFO  ProjectBuildService - All script(s): none
+2018-04-09 20:32:24,541 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:32:24,541 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 20:32:24,541 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 20:32:24,543 INFO  FullProcessService - Found existed APK file in the project: /tmp/rdisk/534/src/JazzyViewPager.apk
+2018-04-09 20:32:24,543 INFO  FullProcessService - Found APK file: /tmp/rdisk/534/src/JazzyViewPager.apk

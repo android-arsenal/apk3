@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.dianping.example.activity",
+    "label" : "ActivityDeveloper",
+    "icon" : "res/drawable-mdpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "15",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 8,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.dianping.example.activity\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"15\" />\n\t<application android:label=\"ActivityDeveloper\" android:icon=\"res/drawable-mdpi/ic_launcher.png\">\n\t\t<activity android:label=\"ActivityDeveloper\" android:name=\".SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 17623,
+  "crc32" : 3977816999,
+  "sha256" : "4ca67125fc3549b3322aeccc3562b751c58f7aff7ea1d003f338b347b50baa20",
+  "buildTime" : 1496784445000
+}

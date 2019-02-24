@@ -1,0 +1,123 @@
+2018-05-15 04:17:11,979 INFO  DownloadService - Downloading "https://github.com/cgeo/cgeo/archive/master.zip", attempt 3
+2018-05-15 04:17:15,421 INFO  DownloadService - Downloaded https://github.com/cgeo/cgeo/archive/master.zip, attempt 3
+2018-05-15 04:17:15,421 INFO  DownloadService - Size of file "/tmp/rdisk/639/master.zip": 21 MB
+2018-05-15 04:17:15,421 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:17:15,426 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/639/master.zip: true
+2018-05-15 04:17:15,426 DEBUG ZipUtil - Extracting '/tmp/rdisk/639/master.zip' into '/tmp/rdisk/639/src'.
+2018-05-15 04:17:16,038 INFO  FullProcessService - Size of directory with sources: 33 MB
+2018-05-15 04:17:16,039 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/639/src]
+2018-05-15 04:17:16,057 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/639/src/.git/
+
+2018-05-15 04:17:16,114 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/639/src/cgeo-master/gradlew
+2018-05-15 04:17:16,172 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build.gradle /tmp/rdisk/639/src/cgeo-master/main/build.gradle /tmp/rdisk/639/src/cgeo-master/mapswithme-api/build.gradle /tmp/rdisk/639/src/cgeo-master/build.gradle /tmp/rdisk/639/src/cgeo-master/cgeo-calendar/build.gradle /tmp/rdisk/639/src/cgeo-master/showcaseview/build.gradle
+2018-05-15 04:17:16,228 INFO  ProjectBuildService - All script(s): /tmp/rdisk/639/src/cgeo-master/showcaseview/build.gradle /tmp/rdisk/639/src/cgeo-master/settings.gradle /tmp/rdisk/639/src/cgeo-master/mapswithme-api/build.gradle /tmp/rdisk/639/src/cgeo-master/main/build.gradle /tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build.gradle /tmp/rdisk/639/src/cgeo-master/cgeo-calendar/build.gradle /tmp/rdisk/639/src/cgeo-master/build.gradle
+2018-05-15 04:17:16,229 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:17:16,229 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:17:16,350 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/639/src/cgeo-master/cgeo-contacts/local.properties
+2018-05-15 04:17:16,357 INFO  ProjectFixService - Build info for "/tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=<null>,targetSdkVersion=22]
+2018-05-15 04:17:16,357 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=27,targetSdkVersion=22]
+2018-05-15 04:17:16,358 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/639/src/cgeo-master/main/local.properties
+2018-05-15 04:17:16,365 INFO  ProjectFixService - Build info for "/tmp/rdisk/639/src/cgeo-master/main/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=<null>,targetSdkVersion=22]
+2018-05-15 04:17:16,365 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/639/src/cgeo-master/main/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=27,targetSdkVersion=22]
+2018-05-15 04:17:16,370 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/639/src/cgeo-master/mapswithme-api/local.properties
+2018-05-15 04:17:16,376 INFO  ProjectFixService - Build info for "/tmp/rdisk/639/src/cgeo-master/mapswithme-api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=<null>,targetSdkVersion=19]
+2018-05-15 04:17:16,376 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/639/src/cgeo-master/mapswithme-api/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=27,targetSdkVersion=19]
+2018-05-15 04:17:16,377 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/639/src/cgeo-master/local.properties
+2018-05-15 04:17:16,377 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
+2018-05-15 04:17:16,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
+2018-05-15 04:17:16,385 INFO  ProjectFixService - Build info for "/tmp/rdisk/639/src/cgeo-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=<null>,targetSdkVersion=19]
+2018-05-15 04:17:16,385 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/639/src/cgeo-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=27,targetSdkVersion=19]
+2018-05-15 04:17:16,386 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/639/src/cgeo-master/cgeo-calendar/local.properties
+2018-05-15 04:17:16,393 INFO  ProjectFixService - Build info for "/tmp/rdisk/639/src/cgeo-master/cgeo-calendar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=<null>,targetSdkVersion=19]
+2018-05-15 04:17:16,393 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/639/src/cgeo-master/cgeo-calendar/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=27,targetSdkVersion=19]
+2018-05-15 04:17:16,394 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/639/src/cgeo-master/showcaseview/local.properties
+2018-05-15 04:17:16,400 INFO  ProjectFixService - Build info for "/tmp/rdisk/639/src/cgeo-master/showcaseview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=23,minSdkVersion=<null>,targetSdkVersion=19]
+2018-05-15 04:17:16,400 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/639/src/cgeo-master/showcaseview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=27,targetSdkVersion=19]
+2018-05-15 04:17:16,401 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:17:16,401 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:17:16,401 INFO  SysUtils - Execute command: [/tmp/rdisk/639/src/cgeo-master/gradlew, -b, /tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:17:25,131 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-05-15 04:17:25,132 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:17:25,132 INFO  SysUtils - Execute command: [/tmp/rdisk/639/src/cgeo-master/gradlew, -b, /tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:17:43,482 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :cgeo-contacts
+WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
+Use 'android.enableAapt2=true' to remove this warning.
+It will be removed at the end of 2018..
+
+> Task :cgeo-contacts:preBuild UP-TO-DATE
+> Task :cgeo-contacts:preDebugBuild
+> Task :cgeo-contacts:compileDebugAidl
+> Task :cgeo-contacts:compileDebugRenderscript
+> Task :cgeo-contacts:checkDebugManifest
+> Task :cgeo-contacts:generateDebugBuildConfig
+> Task :cgeo-contacts:prepareLintJar
+> Task :cgeo-contacts:mainApkListPersistenceDebug
+> Task :cgeo-contacts:generateDebugResValues
+> Task :cgeo-contacts:generateDebugResources
+> Task :cgeo-contacts:mergeDebugResources
+> Task :cgeo-contacts:createDebugCompatibleScreenManifests
+> Task :cgeo-contacts:processDebugManifest
+> Task :cgeo-contacts:splitsDiscoveryTaskDebug
+> Task :cgeo-contacts:processDebugResources
+> Task :cgeo-contacts:generateDebugSources
+> Task :cgeo-contacts:javaPreCompileDebug
+> Task :cgeo-contacts:compileDebugJavaWithJavac
+> Task :cgeo-contacts:compileDebugNdk NO-SOURCE
+> Task :cgeo-contacts:compileDebugSources
+> Task :cgeo-contacts:mergeDebugShaders
+> Task :cgeo-contacts:compileDebugShaders
+> Task :cgeo-contacts:generateDebugAssets
+> Task :cgeo-contacts:mergeDebugAssets
+> Task :cgeo-contacts:transformClassesWithDexBuilderForDebug
+> Task :cgeo-contacts:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :cgeo-contacts:transformDexArchiveWithDexMergerForDebug
+> Task :cgeo-contacts:mergeDebugJniLibFolders
+> Task :cgeo-contacts:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cgeo-contacts:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cgeo-contacts:processDebugJavaRes NO-SOURCE
+> Task :cgeo-contacts:transformResourcesWithMergeJavaResForDebug
+> Task :cgeo-contacts:validateSigningDebug
+> Task :cgeo-contacts:packageDebug
+> Task :cgeo-contacts:assembleDebug
+> Task :cgeo-contacts:preReleaseBuild
+> Task :cgeo-contacts:compileReleaseAidl
+> Task :cgeo-contacts:compileReleaseRenderscript
+> Task :cgeo-contacts:checkReleaseManifest
+> Task :cgeo-contacts:generateReleaseBuildConfig
+> Task :cgeo-contacts:mainApkListPersistenceRelease
+> Task :cgeo-contacts:generateReleaseResValues
+> Task :cgeo-contacts:generateReleaseResources
+> Task :cgeo-contacts:mergeReleaseResources
+> Task :cgeo-contacts:createReleaseCompatibleScreenManifests
+> Task :cgeo-contacts:processReleaseManifest
+> Task :cgeo-contacts:splitsDiscoveryTaskRelease
+> Task :cgeo-contacts:processReleaseResources
+> Task :cgeo-contacts:generateReleaseSources
+> Task :cgeo-contacts:javaPreCompileRelease
+> Task :cgeo-contacts:compileReleaseJavaWithJavac
+> Task :cgeo-contacts:compileReleaseNdk NO-SOURCE
+> Task :cgeo-contacts:compileReleaseSources
+> Task :cgeo-contacts:lintVitalRelease
+> Task :cgeo-contacts:mergeReleaseShaders
+> Task :cgeo-contacts:compileReleaseShaders
+> Task :cgeo-contacts:generateReleaseAssets
+> Task :cgeo-contacts:mergeReleaseAssets
+> Task :cgeo-contacts:transformClassesWithDexBuilderForRelease
+> Task :cgeo-contacts:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :cgeo-contacts:transformDexArchiveWithDexMergerForRelease
+> Task :cgeo-contacts:mergeReleaseJniLibFolders
+> Task :cgeo-contacts:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cgeo-contacts:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cgeo-contacts:processReleaseJavaRes NO-SOURCE
+> Task :cgeo-contacts:transformResourcesWithMergeJavaResForRelease
+> Task :cgeo-contacts:packageRelease
+> Task :cgeo-contacts:assembleRelease
+> Task :cgeo-contacts:assemble
+> Task :cgeo-contacts:build
+
+BUILD SUCCESSFUL in 17s
+53 actionable tasks: 53 executed
+
+2018-05-15 04:17:43,555 INFO  FullProcessService - Found APK file: /tmp/rdisk/639/src/cgeo-master/cgeo-contacts/build/outputs/apk/release/cgeo-contacts-release-unsigned.apk

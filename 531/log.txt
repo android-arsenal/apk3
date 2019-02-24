@@ -1,0 +1,21 @@
+2018-05-14 07:09:52,822 INFO  DownloadService - Downloading "https://github.com/fyhertz/libstreaming/archive/master.zip", attempt 3
+2018-05-14 07:10:53,480 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-14 07:10:54,236 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-14 07:10:54,236 INFO  DownloadService - Downloading "https://github.com/fyhertz/libstreaming/archive/master.zip", attempt 3
+2018-05-14 07:11:55,635 DEBUG FullProcessService - Repository https://github.com/fyhertz/libstreaming available: true
+2018-05-14 07:11:55,635 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-14 07:11:55,636 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/fyhertz/libstreaming, /tmp/rdisk/531/src]
+2018-05-14 07:11:57,701 INFO  SysUtils - 
+2018-05-14 07:11:57,705 INFO  GitService - Deleted "/tmp/rdisk/531/src/.git": true
+2018-05-14 07:11:57,709 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-14 07:11:57,709 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/531/src]
+2018-05-14 07:11:57,713 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/531/src/.git/
+
+2018-05-14 07:11:57,716 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-05-14 07:11:57,716 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-05-14 07:11:57,719 INFO  ProjectBuildService - Build script(s): none
+2018-05-14 07:11:57,722 INFO  ProjectBuildService - All script(s): none
+2018-05-14 07:11:57,722 INFO  ProjectBuildService - Remote scripts: none
+2018-05-14 07:11:57,722 ERROR FullProcessService - Project is not correct Gradle project
+2018-05-14 07:11:57,722 ERROR FullProcessService - Project build has not produced APK file
+2018-05-14 07:11:57,724 ERROR FullProcessService - Could not find generated or existed APK file

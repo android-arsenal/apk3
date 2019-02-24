@@ -1,0 +1,83 @@
+2018-04-09 17:55:59,394 INFO  DownloadService - Downloading "https://github.com/flavienlaurent/NotBoringActionBar/archive/master.zip", attempt 3
+2018-04-09 17:56:00,344 INFO  DownloadService - Downloaded https://github.com/flavienlaurent/NotBoringActionBar/archive/master.zip, attempt 3
+2018-04-09 17:56:00,344 INFO  DownloadService - Size of file "/tmp/rdisk/709/master.zip": 5 MB
+2018-04-09 17:56:00,344 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 17:56:00,345 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/709/master.zip: true
+2018-04-09 17:56:00,345 DEBUG ZipUtil - Extracting '/tmp/rdisk/709/master.zip' into '/tmp/rdisk/709/src'.
+2018-04-09 17:56:00,387 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-04-09 17:56:00,387 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/709/src]
+2018-04-09 17:56:00,392 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/709/src/.git/
+
+2018-04-09 17:56:00,394 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/709/src/NotBoringActionBar-master/gradlew
+2018-04-09 17:56:00,395 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/709/src/NotBoringActionBar-master/App/build.gradle /tmp/rdisk/709/src/NotBoringActionBar-master/build.gradle
+2018-04-09 17:56:00,397 INFO  ProjectBuildService - All script(s): /tmp/rdisk/709/src/NotBoringActionBar-master/settings.gradle /tmp/rdisk/709/src/NotBoringActionBar-master/build.gradle /tmp/rdisk/709/src/NotBoringActionBar-master/App/build.gradle
+2018-04-09 17:56:00,397 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 17:56:00,397 INFO  ProjectFixService - Fixing project...
+2018-04-09 17:56:00,401 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/709/src/NotBoringActionBar-master/App/local.properties
+2018-04-09 17:56:00,402 INFO  ProjectFixService - Build info for "/tmp/rdisk/709/src/NotBoringActionBar-master/App/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-09 17:56:00,402 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/709/src/NotBoringActionBar-master/local.properties
+2018-04-09 17:56:00,402 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-bin.zip
+2018-04-09 17:56:00,403 INFO  ProjectFixService - Build info for "/tmp/rdisk/709/src/NotBoringActionBar-master/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-09 17:56:00,403 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 17:56:00,403 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:56:00,403 INFO  SysUtils - Execute command: [/tmp/rdisk/709/src/NotBoringActionBar-master/gradlew, -b, /tmp/rdisk/709/src/NotBoringActionBar-master/App/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 17:56:07,886 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-09 17:56:07,886 INFO  ProjectTaskService - Excluded tasks (7): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll check connectedAndroidTest
+2018-04-09 17:56:07,886 INFO  SysUtils - Execute command: [/tmp/rdisk/709/src/NotBoringActionBar-master/gradlew, -b, /tmp/rdisk/709/src/NotBoringActionBar-master/App/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, build]
+2018-04-09 17:56:23,153 INFO  SysUtils - Configuration on demand is an incubating feature.
+:App:preBuild
+:App:compileDefaultFlavorDebugNdk
+:App:preDefaultFlavorDebugBuild
+:App:checkDefaultFlavorDebugManifest
+:App:prepareDefaultFlavorDebugDependencies
+:App:compileDefaultFlavorDebugAidl
+:App:compileDefaultFlavorDebugRenderscript
+:App:generateDefaultFlavorDebugBuildConfig
+:App:generateDefaultFlavorDebugAssets UP-TO-DATE
+:App:mergeDefaultFlavorDebugAssets
+:App:generateDefaultFlavorDebugResValues
+:App:generateDefaultFlavorDebugResources
+:App:mergeDefaultFlavorDebugResources
+:App:processDefaultFlavorDebugManifest
+:App:processDefaultFlavorDebugResources
+:App:generateDefaultFlavorDebugSources
+:App:compileDefaultFlavorDebugJava
+:App:preDexDefaultFlavorDebug
+:App:dexDefaultFlavorDebug
+:App:processDefaultFlavorDebugJavaRes UP-TO-DATE
+:App:validateDebugSigning
+:App:packageDefaultFlavorDebug
+:App:zipalignDefaultFlavorDebug
+:App:assembleDefaultFlavorDebug
+:App:assembleDebug
+:App:preDefaultFlavorReleaseBuild
+:App:checkDefaultFlavorReleaseManifest
+:App:prepareDefaultFlavorReleaseDependencies
+:App:compileDefaultFlavorReleaseAidl
+:App:compileDefaultFlavorReleaseRenderscript
+:App:generateDefaultFlavorReleaseBuildConfig
+:App:generateDefaultFlavorReleaseAssets UP-TO-DATE
+:App:mergeDefaultFlavorReleaseAssets
+:App:generateDefaultFlavorReleaseResValues
+:App:generateDefaultFlavorReleaseResources
+:App:mergeDefaultFlavorReleaseResources
+:App:processDefaultFlavorReleaseManifest
+:App:processDefaultFlavorReleaseResources
+:App:generateDefaultFlavorReleaseSources
+:App:compileDefaultFlavorReleaseJava
+:App:lintVitalDefaultFlavorRelease
+:App:compileDefaultFlavorReleaseNdk
+:App:proguardDefaultFlavorRelease
+:App:dexDefaultFlavorRelease
+:App:processDefaultFlavorReleaseJavaRes UP-TO-DATE
+:App:packageDefaultFlavorRelease
+:App:assembleDefaultFlavorRelease
+:App:assembleRelease
+:App:assemble
+:App:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.823 secs
+
+2018-04-09 17:56:23,161 INFO  FullProcessService - Found APK file: /tmp/rdisk/709/src/NotBoringActionBar-master/App/build/outputs/apk/App-defaultFlavor-release-unsigned.apk

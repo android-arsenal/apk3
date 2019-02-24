@@ -1,0 +1,122 @@
+2018-05-14 07:24:35,568 INFO  DownloadService - Downloading "https://github.com/mik3y/usb-serial-for-android/archive/master.zip", attempt 3
+2018-05-14 07:25:36,224 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-14 07:25:37,066 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-14 07:25:37,066 INFO  DownloadService - Downloading "https://github.com/mik3y/usb-serial-for-android/archive/master.zip", attempt 3
+2018-05-14 07:26:38,433 DEBUG FullProcessService - Repository https://github.com/mik3y/usb-serial-for-android available: true
+2018-05-14 07:26:38,434 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-14 07:26:38,434 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mik3y/usb-serial-for-android, /tmp/rdisk/512/src]
+2018-05-14 07:26:40,164 INFO  SysUtils - 
+2018-05-14 07:26:40,176 INFO  GitService - Deleted "/tmp/rdisk/512/src/.git": true
+2018-05-14 07:26:40,178 INFO  FullProcessService - Size of directory with sources: 238 KB
+2018-05-14 07:26:40,178 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/512/src]
+2018-05-14 07:26:40,183 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/512/src/.git/
+
+2018-05-14 07:26:40,185 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/512/src/gradlew
+2018-05-14 07:26:40,187 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/512/src/usbSerialExamples/build.gradle /tmp/rdisk/512/src/usbSerialForAndroid/build.gradle /tmp/rdisk/512/src/build.gradle
+2018-05-14 07:26:40,189 INFO  ProjectBuildService - All script(s): /tmp/rdisk/512/src/usbSerialForAndroid/build.gradle /tmp/rdisk/512/src/usbSerialExamples/build.gradle /tmp/rdisk/512/src/settings.gradle /tmp/rdisk/512/src/build.gradle
+2018-05-14 07:26:40,190 INFO  ProjectBuildService - Remote scripts: none
+2018-05-14 07:26:40,190 INFO  ProjectFixService - Fixing project...
+2018-05-14 07:26:40,195 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/512/src/usbSerialExamples/local.properties
+2018-05-14 07:26:40,195 INFO  ProjectFixService - Build info for "/tmp/rdisk/512/src/usbSerialExamples/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-05-14 07:26:40,195 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/512/src/usbSerialForAndroid/local.properties
+2018-05-14 07:26:40,196 INFO  ProjectFixService - Build info for "/tmp/rdisk/512/src/usbSerialForAndroid/build.gradle": [buildToolsVersion=19.1,compileSdkVersion=19,minSdkVersion=12,targetSdkVersion=19]
+2018-05-14 07:26:40,196 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/512/src/usbSerialForAndroid/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=12,targetSdkVersion=19]
+2018-05-14 07:26:40,197 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/512/src/local.properties
+2018-05-14 07:26:40,197 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-14 07:26:40,197 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-14 07:26:40,198 INFO  ProjectFixService - Build info for "/tmp/rdisk/512/src/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=12,targetSdkVersion=19]
+2018-05-14 07:26:40,198 INFO  ProjectFixService - Project was maybe fixed
+2018-05-14 07:26:40,198 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-14 07:26:40,198 INFO  SysUtils - Execute command: [/tmp/rdisk/512/src/gradlew, -b, /tmp/rdisk/512/src/usbSerialExamples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-14 07:26:47,321 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-05-14 07:26:47,322 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-05-14 07:26:47,322 INFO  SysUtils - Execute command: [/tmp/rdisk/512/src/gradlew, -b, /tmp/rdisk/512/src/usbSerialExamples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-05-14 07:27:01,208 INFO  SysUtils - Configuration on demand is an incubating feature.
+SNAPSHOT BUILD
+:usbSerialExamples:preBuild UP-TO-DATE
+:usbSerialExamples:preDebugBuild UP-TO-DATE
+:usbSerialExamples:checkDebugManifest
+:usbSerialExamples:preReleaseBuild UP-TO-DATE
+:usbSerialForAndroid:compileLint
+:usbSerialForAndroid:copyReleaseLint UP-TO-DATE
+:usbSerialForAndroid:mergeReleaseProguardFiles
+:usbSerialForAndroid:preBuild UP-TO-DATE
+:usbSerialForAndroid:preReleaseBuild UP-TO-DATE
+:usbSerialForAndroid:checkReleaseManifest
+:usbSerialForAndroid:prepareReleaseDependencies
+:usbSerialForAndroid:compileReleaseAidl
+:usbSerialForAndroid:compileReleaseRenderscript
+:usbSerialForAndroid:generateReleaseBuildConfig
+:usbSerialForAndroid:generateReleaseAssets UP-TO-DATE
+:usbSerialForAndroid:mergeReleaseAssets
+:usbSerialForAndroid:generateReleaseResValues
+:usbSerialForAndroid:generateReleaseResources
+:usbSerialForAndroid:packageReleaseResources
+:usbSerialForAndroid:processReleaseManifest
+:usbSerialForAndroid:processReleaseResources
+:usbSerialForAndroid:generateReleaseSources
+:usbSerialForAndroid:processReleaseJavaRes UP-TO-DATE
+:usbSerialForAndroid:compileReleaseJava
+:usbSerialForAndroid:packageReleaseJar
+:usbSerialForAndroid:compileReleaseNdk UP-TO-DATE
+:usbSerialForAndroid:packageReleaseJniLibs UP-TO-DATE
+:usbSerialForAndroid:packageReleaseLocalJar UP-TO-DATE
+:usbSerialForAndroid:packageReleaseRenderscript UP-TO-DATE
+:usbSerialForAndroid:bundleRelease
+:usbSerialExamples:prepareComHohoAndroidUsbSerialForAndroid020SNAPSHOTLibrary
+:usbSerialExamples:prepareDebugDependencies
+:usbSerialExamples:compileDebugAidl
+:usbSerialExamples:compileDebugRenderscript
+:usbSerialExamples:generateDebugBuildConfig
+:usbSerialExamples:generateDebugAssets UP-TO-DATE
+:usbSerialExamples:mergeDebugAssets
+:usbSerialExamples:generateDebugResValues
+:usbSerialExamples:generateDebugResources
+:usbSerialExamples:mergeDebugResources
+:usbSerialExamples:processDebugManifest
+:usbSerialExamples:processDebugResources
+:usbSerialExamples:generateDebugSources
+:usbSerialExamples:processDebugJavaRes UP-TO-DATE
+:usbSerialExamples:compileDebugJavaNote: /tmp/rdisk/512/src/usbSerialExamples/src/main/java/src/com/hoho/android/usbserial/examples/DeviceListActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:usbSerialExamples:compileDebugNdk UP-TO-DATE
+:usbSerialExamples:compileDebugSources
+:usbSerialExamples:preDexDebug
+:usbSerialExamples:dexDebug
+:usbSerialExamples:validateDebugSigning
+:usbSerialExamples:packageDebug
+:usbSerialExamples:zipalignDebug
+:usbSerialExamples:assembleDebug
+:usbSerialExamples:checkReleaseManifest
+:usbSerialExamples:prepareReleaseDependencies
+:usbSerialExamples:compileReleaseAidl
+:usbSerialExamples:compileReleaseRenderscript
+:usbSerialExamples:generateReleaseBuildConfig
+:usbSerialExamples:generateReleaseAssets UP-TO-DATE
+:usbSerialExamples:mergeReleaseAssets
+:usbSerialExamples:generateReleaseResValues
+:usbSerialExamples:generateReleaseResources
+:usbSerialExamples:mergeReleaseResources
+:usbSerialExamples:processReleaseManifest
+:usbSerialExamples:processReleaseResources
+:usbSerialExamples:generateReleaseSources
+:usbSerialExamples:processReleaseJavaRes UP-TO-DATE
+:usbSerialExamples:compileReleaseJavaNote: /tmp/rdisk/512/src/usbSerialExamples/src/main/java/src/com/hoho/android/usbserial/examples/DeviceListActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:usbSerialExamples:compileReleaseNdk UP-TO-DATE
+:usbSerialExamples:compileReleaseSources
+:usbSerialExamples:lintVitalRelease
+:usbSerialExamples:proguardRelease
+:usbSerialExamples:dexRelease
+:usbSerialExamples:packageRelease
+:usbSerialExamples:assembleRelease
+:usbSerialExamples:assemble
+:usbSerialExamples:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.469 secs
+
+2018-05-14 07:27:01,218 INFO  FullProcessService - Found APK file: /tmp/rdisk/512/src/usbSerialExamples/build/outputs/apk/usbSerialExamples-release-unsigned.apk

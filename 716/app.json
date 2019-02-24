@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "jp.co.cyberagent.android.gpuimage.sample",
+    "label" : "GPUImage Sample",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.CAMERA", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAACW1BMVEUAAAAkJCQvLy80NDQ6Ojo9PT0wMDAAAAAmJiY1NTU3NzcxMTEkJCQZGRkNDQ0HBwceHh4wMDAvLy8gICAMDAwBAQEAAAAgICAtLS0AAAAgICAlJSUWFhYDAwMZGRkREREREREcHBwMDAwSEhIUFBQTExMLCwsAAAADAwMCAgINMD0QOkoMLDkFEBUupNMtotAVFRUDAwMEBAQNDQ0LCwsrmMMztuotn80XUWkCBwkIGyMytOcCBggBBAUAAAAAAAATExMXUWgMLDgOMkAebIseaokAAAAAAAAKCgoNLjwgcZIvqNkztektoc8qlcAvp9cAAAAnirEdaIYHGB8AAQEKJC8jfaEAAAAAAAAJCQknjLQxsOMPNEMAAQIKJTAPN0cIHSUXU2oAAAAAAAAICAgVTGEJISoql8Mlhasfb48AAAAAAAAAAAAGBgYsnssBAgMEEBQvptYoj7gFERYysuUAAAAAAAAAAAAcZYIZW3UmibAAAAAVTGIkgKQaW3UfcJAAAAAAAAAhd5kXVGshdpgAAAAieJoSP1EztegIHSYrm8cAAAAAAAAxr+EjfqINLjsAAAAAAAAqlsEnjbUDCg0rmcQAAAAAAAAAAAADCQwGFRwAAAAAAAAAAAAAAAAnirIupdQaXXgOMT8QOEgxruAAAAAAAAAAAAAAAAAAAAATRFcZWXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCTPpyAAAAyXRSTlMADmKr2f1mATy9+f//////K7D//////1jyAoH8//+E/1n8KvT/9C4Esv//////////s0X9/////////////wW/////////GPn//////////2r///////8Gtv///////////wvY////////2g/x///////////zEfv///8S/////xP0////3///////4cL///8MkP////8HO/7//z8DF9H////////SDWQczP//UJKVCSGzJaoOJIf4H1oIK3H9LEaUyejqFSkwNDhGIApHAAACfUlEQVQ4y5XU51/TQBgH8EOKZa82DwRaCorWiogC1knBQYsTXAylYBFXK6KgVq1KURQHanFgVag7FEXZUPYef5Zpmua6eOHvTT65fHPPXXJ3CP1v/Fb483gBATye/0o/34IfGBQcEhoWHhERHhYaEhwUyPcmkVHRAiEBbAihIDoq0oPxY2IFQnCLUBAb46bIuHiRGDwiFsXHkS4mQSAhwCuERJDAKX5ikgR8RpKUyFbkr1qdTPhGRPKatQ4lXSeSAaxPSdkAkLqRSZpTyTZtljIdpWdk0rdb5Fu3wfYdciY7dzmSBZkZ6fauFNk59mK79+zdlyb3SC4QOdkKGilVebTZf+Cgo/3Q4SP5LgjyVEp6+gVie0dH2TrHjgOcOFmIESEuIFFRcYl9hKeYxtOloC4rPwOg4RCUFBehirOVGJ2D8xfoy8VUuMShSm0F0l2u4tCV6qvXmIc11bXXnajqhg7d1Ms4dAtus4MphztOJNMbkEEPHLoL91h0H+qcCPRGZKzHSAMPWPQQGjhUb0SGRxg9hkaHefIUnnHouQHpmjB6Uat+yVZ7xc0OmnTI1IyRvFCdpXmd/6YR3r7DqNmEWt6bMZI3fGBe+ViDP6b5UwtqbbPYmz+zI/7y9VvZ99wf+LfAz7ZWhKh2M/53XqsAzO0UvVYU1g4a/frtK6UAHVb7UuFTnSpYNqpOilm/UuWf5dFfpdSxEbq6e5YzPd1d7HYhqd4+sy9i7uuluI1H9g8MDnmbocGBftctbLINWzyNZdhmIt0OgxHl6Jh2HItx7diocoT0OFaklHVicmp6ZhZgdmZ6anLCSkl9nFAKas42v7C4tLS4MG+boxSY/ANl6PfeRyb6twAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1300,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"jp.co.cyberagent.android.gpuimage.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f050000\" android:label=\"GPUImage Sample\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"true\">\n\t\t<activity android:label=\"GPUImage Sample\" android:name=\"jp.co.cyberagent.android.gpuimage.sample.activity.ActivityMain\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"jp.co.cyberagent.android.gpuimage.sample.activity.ActivityGallery\" />\n\t\t<activity android:theme=\"resourceId:0x7f050002\" android:name=\"jp.co.cyberagent.android.gpuimage.sample.activity.ActivityCamera\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 608921,
+  "crc32" : 588795437,
+  "sha256" : "fa27f6c89865380548fae6106dd0ef1876e4da397d613c0a35827aafb7b49de4",
+  "buildTime" : 1496784445000
+}

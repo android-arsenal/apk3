@@ -1,0 +1,186 @@
+2018-04-09 18:04:08,349 INFO  DownloadService - Downloading "https://github.com/arissa34/Android-Bluetooth-Library/archive/master.zip", attempt 3
+2018-04-09 18:04:08,755 INFO  DownloadService - Downloaded https://github.com/arissa34/Android-Bluetooth-Library/archive/master.zip, attempt 3
+2018-04-09 18:04:08,755 INFO  DownloadService - Size of file "/tmp/rdisk/689/master.zip": 263 KB
+2018-04-09 18:04:08,755 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:04:08,755 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/689/master.zip: true
+2018-04-09 18:04:08,755 DEBUG ZipUtil - Extracting '/tmp/rdisk/689/master.zip' into '/tmp/rdisk/689/src'.
+2018-04-09 18:04:08,769 INFO  FullProcessService - Size of directory with sources: 309 KB
+2018-04-09 18:04:08,769 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/689/src]
+2018-04-09 18:04:08,774 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/689/src/.git/
+
+2018-04-09 18:04:08,777 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/gradlew
+2018-04-09 18:04:08,780 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/build.gradle /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build.gradle /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/build.gradle
+2018-04-09 18:04:08,783 INFO  ProjectBuildService - All script(s): /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/settings.gradle /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/build.gradle /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build.gradle /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/build.gradle
+2018-04-09 18:04:08,783 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:04:08,783 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:04:08,791 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/local.properties
+2018-04-09 18:04:08,791 INFO  ProjectFixService - Build info for "/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/build.gradle": [buildToolsVersion=19.0.3,compileSdkVersion=18,minSdkVersion=8,targetSdkVersion=16]
+2018-04-09 18:04:08,791 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=18,minSdkVersion=8,targetSdkVersion=16]
+2018-04-09 18:04:08,792 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/local.properties
+2018-04-09 18:04:08,792 INFO  ProjectFixService - Build info for "/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build.gradle": [buildToolsVersion=19.0.3,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 18:04:08,792 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 18:04:08,793 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/local.properties
+2018-04-09 18:04:08,793 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.10-all.zip
+2018-04-09 18:04:08,793 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.10-bin.zip)
+2018-04-09 18:04:08,794 INFO  ProjectFixService - Build info for "/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 18:04:08,794 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:04:08,794 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:04:08,794 INFO  SysUtils - Execute command: [/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/gradlew, -b, /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:04:17,396 INFO  ProjectTaskService - Detected possible tasks: 46
+2018-04-09 18:04:17,397 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-09 18:04:17,397 INFO  SysUtils - Execute command: [/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/gradlew, -b, /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-09 18:04:26,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:Bluetooth_lib:compileLint
+:Bluetooth_lib:copyDebugLint UP-TO-DATE
+:Bluetooth_lib:mergeDebugProguardFiles
+:Bluetooth_lib:packageDebugAidl UP-TO-DATE
+:Bluetooth_lib:preBuild
+:Bluetooth_lib:preDebugBuild
+:Bluetooth_lib:checkDebugManifest
+:Bluetooth_lib:preDebugTestBuild
+:Bluetooth_lib:preReleaseBuild
+:Bluetooth_lib:prepareComAndroidSupportAppcompatV71910Library
+:Bluetooth_lib:prepareDebugDependencies
+:Bluetooth_lib:compileDebugAidl
+:Bluetooth_lib:compileDebugRenderscript
+:Bluetooth_lib:generateDebugBuildConfig
+:Bluetooth_lib:mergeDebugAssets
+:Bluetooth_lib:generateDebugResValues
+:Bluetooth_lib:generateDebugResources
+:Bluetooth_lib:mergeDebugResources
+:Bluetooth_lib:processDebugManifest
+:Bluetooth_lib:processDebugResources
+:Bluetooth_lib:generateDebugSources
+:Bluetooth_lib:compileDebugJava
+:Bluetooth_lib:processDebugJavaRes UP-TO-DATE
+:Bluetooth_lib:packageDebugJar
+:Bluetooth_lib:compileDebugNdk
+:Bluetooth_lib:packageDebugJniLibs UP-TO-DATE
+:Bluetooth_lib:packageDebugLocalJar UP-TO-DATE
+:Bluetooth_lib:packageDebugRenderscript UP-TO-DATE
+:Bluetooth_lib:packageDebugResources
+:Bluetooth_lib:bundleDebug
+:Bluetooth_lib:assembleDebug
+:Bluetooth_lib:copyReleaseLint UP-TO-DATE
+:Bluetooth_lib:mergeReleaseProguardFiles
+:Bluetooth_lib:packageReleaseAidl UP-TO-DATE
+:Bluetooth_lib:checkReleaseManifest
+:Bluetooth_lib:prepareReleaseDependencies
+:Bluetooth_lib:compileReleaseAidl
+:Bluetooth_lib:compileReleaseRenderscript
+:Bluetooth_lib:generateReleaseBuildConfig
+:Bluetooth_lib:mergeReleaseAssets
+:Bluetooth_lib:generateReleaseResValues
+:Bluetooth_lib:generateReleaseResources
+:Bluetooth_lib:mergeReleaseResources
+:Bluetooth_lib:processReleaseManifest
+:Bluetooth_lib:processReleaseResources
+:Bluetooth_lib:generateReleaseSources
+:Bluetooth_lib:compileReleaseJava
+:Bluetooth_lib:processReleaseJavaRes UP-TO-DATE
+:Bluetooth_lib:packageReleaseJar
+:Bluetooth_lib:compileReleaseNdk
+:Bluetooth_lib:packageReleaseJniLibs UP-TO-DATE
+:Bluetooth_lib:packageReleaseLocalJar UP-TO-DATE
+:Bluetooth_lib:packageReleaseRenderscript UP-TO-DATE
+:Bluetooth_lib:packageReleaseResources
+:Bluetooth_lib:bundleRelease
+:Bluetooth_lib:assembleRelease
+:Bluetooth_lib:assemble
+:Bluetooth_lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.623 secs
+
+2018-04-09 18:04:26,488 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:04:26,488 INFO  SysUtils - Execute command: [/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/gradlew, -b, /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:04:34,099 INFO  ProjectTaskService - Detected possible tasks: 49
+2018-04-09 18:04:34,099 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:04:34,100 INFO  SysUtils - Execute command: [/tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/gradlew, -b, /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:05:01,319 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:Bluetooth_sample:compileDebugNdk
+:Bluetooth_lib:compileLint
+:Bluetooth_lib:copyReleaseLint UP-TO-DATE
+:Bluetooth_lib:mergeReleaseProguardFiles UP-TO-DATE
+:Bluetooth_lib:packageReleaseAidl UP-TO-DATE
+:Bluetooth_lib:preBuild
+:Bluetooth_lib:preReleaseBuild
+:Bluetooth_lib:checkReleaseManifest
+:Bluetooth_lib:preDebugBuild
+:Bluetooth_lib:preDebugTestBuild
+:Bluetooth_lib:prepareComAndroidSupportAppcompatV71910Library UP-TO-DATE
+:Bluetooth_lib:prepareReleaseDependencies
+:Bluetooth_lib:compileReleaseAidl UP-TO-DATE
+:Bluetooth_lib:compileReleaseRenderscript UP-TO-DATE
+:Bluetooth_lib:generateReleaseBuildConfig UP-TO-DATE
+:Bluetooth_lib:mergeReleaseAssets UP-TO-DATE
+:Bluetooth_lib:generateReleaseResValues UP-TO-DATE
+:Bluetooth_lib:generateReleaseResources UP-TO-DATE
+:Bluetooth_lib:mergeReleaseResources UP-TO-DATE
+:Bluetooth_lib:processReleaseManifest UP-TO-DATE
+:Bluetooth_lib:processReleaseResources UP-TO-DATE
+:Bluetooth_lib:generateReleaseSources UP-TO-DATE
+:Bluetooth_lib:compileReleaseJava UP-TO-DATE
+:Bluetooth_lib:processReleaseJavaRes UP-TO-DATE
+:Bluetooth_lib:packageReleaseJar UP-TO-DATE
+:Bluetooth_lib:compileReleaseNdk UP-TO-DATE
+:Bluetooth_lib:packageReleaseJniLibs UP-TO-DATE
+:Bluetooth_lib:packageReleaseLocalJar UP-TO-DATE
+:Bluetooth_lib:packageReleaseRenderscript UP-TO-DATE
+:Bluetooth_lib:packageReleaseResources UP-TO-DATE
+:Bluetooth_lib:bundleRelease UP-TO-DATE
+:Bluetooth_sample:preBuild
+:Bluetooth_sample:preDebugBuild
+:Bluetooth_sample:checkDebugManifest
+:Bluetooth_sample:preReleaseBuild
+:Bluetooth_sample:prepareBluetoothBluetooth_libUnspecifiedLibrary
+:Bluetooth_sample:prepareComAndroidSupportAppcompatV71910Library
+:Bluetooth_sample:prepareDebugDependencies
+:Bluetooth_sample:compileDebugAidl
+:Bluetooth_sample:compileDebugRenderscript
+:Bluetooth_sample:generateDebugBuildConfig
+:Bluetooth_sample:mergeDebugAssets
+:Bluetooth_sample:generateDebugResValues
+:Bluetooth_sample:generateDebugResources
+:Bluetooth_sample:mergeDebugResources
+:Bluetooth_sample:processDebugManifest
+:Bluetooth_sample:processDebugResources
+:Bluetooth_sample:generateDebugSources
+:Bluetooth_sample:compileDebugJava
+:Bluetooth_sample:preDexDebug
+:Bluetooth_sample:dexDebug
+:Bluetooth_sample:processDebugJavaRes UP-TO-DATE
+:Bluetooth_sample:validateDebugSigning
+:Bluetooth_sample:packageDebug
+:Bluetooth_sample:assembleDebug
+:Bluetooth_sample:checkReleaseManifest
+:Bluetooth_sample:prepareReleaseDependencies
+:Bluetooth_sample:compileReleaseAidl
+:Bluetooth_sample:compileReleaseRenderscript
+:Bluetooth_sample:generateReleaseBuildConfig
+:Bluetooth_sample:mergeReleaseAssets
+:Bluetooth_sample:generateReleaseResValues
+:Bluetooth_sample:generateReleaseResources
+:Bluetooth_sample:mergeReleaseResources
+:Bluetooth_sample:processReleaseManifest
+:Bluetooth_sample:processReleaseResources
+:Bluetooth_sample:generateReleaseSources
+:Bluetooth_sample:compileReleaseJava
+:Bluetooth_sample:lintVitalRelease
+:Bluetooth_sample:compileReleaseNdk
+:Bluetooth_sample:preDexRelease
+:Bluetooth_sample:dexRelease
+:Bluetooth_sample:processReleaseJavaRes UP-TO-DATE
+:Bluetooth_sample:packageRelease
+:Bluetooth_sample:assembleRelease
+:Bluetooth_sample:assemble
+:Bluetooth_sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.787 secs
+
+2018-04-09 18:05:01,389 INFO  FullProcessService - Found APK file: /tmp/rdisk/689/src/Android-Bluetooth-Library-master/Bluetooth/Bluetooth_sample/build/apk/Bluetooth_sample-release-unsigned.apk

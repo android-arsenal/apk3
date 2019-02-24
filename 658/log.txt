@@ -1,0 +1,1222 @@
+2018-05-22 09:17:38,169 INFO  DownloadService - Downloading "https://github.com/connectbot/connectbot/archive/master.zip", attempt 3
+2018-05-22 09:18:38,170 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 09:18:38,868 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 09:18:38,868 INFO  DownloadService - Downloading "https://github.com/connectbot/connectbot/archive/master.zip", attempt 3
+2018-05-22 09:19:39,883 DEBUG FullProcessService - Repository https://github.com/connectbot/connectbot available: true
+2018-05-22 09:19:39,883 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 09:19:39,883 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/connectbot/connectbot, /tmp/rdisk/658/src]
+2018-05-22 09:19:42,620 INFO  SysUtils - 
+2018-05-22 09:19:42,630 INFO  GitService - Deleted "/tmp/rdisk/658/src/.git": true
+2018-05-22 09:19:42,644 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-05-22 09:19:42,644 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/658/src]
+2018-05-22 09:19:42,661 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/658/src/.git/
+
+2018-05-22 09:19:42,671 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/658/src/gradlew
+2018-05-22 09:19:42,682 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/658/src/app/build.gradle /tmp/rdisk/658/src/build.gradle /tmp/rdisk/658/src/translations/build.gradle
+2018-05-22 09:19:42,692 INFO  ProjectBuildService - All script(s): /tmp/rdisk/658/src/translations/build.gradle /tmp/rdisk/658/src/settings.gradle /tmp/rdisk/658/src/config/quality.gradle /tmp/rdisk/658/src/build.gradle /tmp/rdisk/658/src/app/build.gradle
+2018-05-22 09:19:42,692 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 09:19:42,692 INFO  ProjectFixService - Fixing project...
+2018-05-22 09:19:42,721 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/658/src/app/local.properties
+2018-05-22 09:19:42,722 INFO  ProjectFixService - Build info for "/tmp/rdisk/658/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:19:42,722 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/658/src/local.properties
+2018-05-22 09:19:42,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2018-05-22 09:19:42,722 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2018-05-22 09:19:42,725 INFO  ProjectFixService - Build info for "/tmp/rdisk/658/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:19:42,725 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/658/src/translations/local.properties
+2018-05-22 09:19:42,727 INFO  ProjectFixService - Build info for "/tmp/rdisk/658/src/translations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-22 09:19:42,727 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 09:19:42,727 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 09:19:42,727 INFO  SysUtils - Execute command: [/tmp/rdisk/658/src/gradlew, -b, /tmp/rdisk/658/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 09:20:03,749 INFO  ProjectTaskService - Detected possible tasks: 101
+2018-05-22 09:20:03,749 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-05-22 09:20:03,749 INFO  SysUtils - Execute command: [/tmp/rdisk/658/src/gradlew, -b, /tmp/rdisk/658/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-05-22 09:22:30,912 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The option 'android.enableAapt2' is deprecated and should not be used anymore.
+Use 'android.enableAapt2=true' to remove this warning.
+It will be removed at the end of 2018..
+:app:preBuild UP-TO-DATE
+:app:preGoogleDebugBuild
+:app:compileGoogleDebugAidl
+:app:compileGoogleDebugRenderscript
+:app:checkGoogleDebugManifest
+:app:generateGoogleDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceGoogleDebug
+:app:generateGoogleDebugResValues
+:app:ribbonizeGoogleDebug
+:app:generateGoogleDebugResources
+:app:mergeGoogleDebugResourcesfatal: No names found, cannot describe anything.
+
+:app:createGoogleDebugCompatibleScreenManifests
+:app:processGoogleDebugManifest
+:app:splitsDiscoveryTaskGoogleDebug
+:app:processGoogleDebugResources
+:app:generateGoogleDebugSources
+:app:javaPreCompileGoogleDebug
+:app:compileGoogleDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/658/src/app/src/main/java/org/connectbot/HostEditorFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:generateJsonModelGoogleDebug
+External native generate JSON googleDebug: starting JSON generation
+External native generate JSON googleDebug: using platform version 14 for ABI ARMEABI_V7A and min SDK version 14
+External native generate JSON googleDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON googleDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a'
+External native generate JSON googleDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a'
+External native generate JSON googleDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a
+External native generate JSON googleDebug: done executing cmake
+External native generate JSON googleDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a/cmake_build_output.txt
+External native generate JSON googleDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/armeabi-v7a/cmake_build_command.txt
+External native generate JSON googleDebug: using platform version 21 for ABI X86_64 and min SDK version 14
+External native generate JSON googleDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64/android_gradle_build.json due to:
+External native generate JSON googleDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64'
+External native generate JSON googleDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64'
+External native generate JSON googleDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64
+External native generate JSON googleDebug: done executing cmake
+External native generate JSON googleDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64/cmake_build_output.txt
+External native generate JSON googleDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86_64/cmake_build_command.txt
+External native generate JSON googleDebug: using platform version 14 for ABI X86 and min SDK version 14
+External native generate JSON googleDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86/android_gradle_build.json due to:
+External native generate JSON googleDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86'
+External native generate JSON googleDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86'
+External native generate JSON googleDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86
+External native generate JSON googleDebug: done executing cmake
+External native generate JSON googleDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86/cmake_build_output.txt
+External native generate JSON googleDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/x86/cmake_build_command.txt
+External native generate JSON googleDebug: using platform version 21 for ABI ARM64_V8A and min SDK version 14
+External native generate JSON googleDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON googleDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a'
+External native generate JSON googleDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a'
+External native generate JSON googleDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/debug/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a
+External native generate JSON googleDebug: done executing cmake
+External native generate JSON googleDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a/cmake_build_output.txt
+External native generate JSON googleDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleDebug/arm64-v8a/cmake_build_command.txt
+External native generate JSON googleDebug: JSON generation completed without problems
+:app:externalNativeBuildGoogleDebug
+Build com_google_ase_Exec arm64-v8a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/debug/obj/arm64-v8a/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/debug/obj/x86/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86_64
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/debug/obj/x86_64/libcom_google_ase_Exec.so
+Build com_google_ase_Exec armeabi-v7a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/debug/obj/armeabi-v7a/libcom_google_ase_Exec.so
+:app:compileGoogleDebugSources
+:app:mergeGoogleDebugShaders
+:app:compileGoogleDebugShaders
+:app:generateGoogleDebugAssets
+:app:mergeGoogleDebugAssets
+:app:extractTryWithResourcesSupportJarGoogleDebug
+:app:transformClassesWithJacocoForGoogleDebug
+:app:transformClassesWithStackFramesFixerForGoogleDebug
+:app:transformClassesWithDesugarForGoogleDebug
+:app:transformClassesWithDexBuilderForGoogleDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForGoogleDebug
+:app:transformDexArchiveWithDexMergerForGoogleDebug
+:app:mergeGoogleDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForGoogleDebug
+:app:transformNativeLibsWithStripDebugSymbolForGoogleDebug
+:app:processGoogleDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForGoogleDebug
+:app:validateSigningGoogleDebug
+:app:packageGoogleDebug
+:app:assembleGoogleDebug
+:app:preOssDebugBuild
+:app:compileOssDebugAidl
+:app:compileOssDebugRenderscript
+:app:checkOssDebugManifest
+:app:generateOssDebugBuildConfig
+:app:mainApkListPersistenceOssDebug
+:app:generateOssDebugResValues
+:app:ribbonizeOssDebug
+:app:generateOssDebugResources
+:app:mergeOssDebugResourcesfatal: No names found, cannot describe anything.
+
+:app:createOssDebugCompatibleScreenManifests
+:app:processOssDebugManifest
+:app:splitsDiscoveryTaskOssDebug
+:app:processOssDebugResources
+:app:generateOssDebugSources
+:app:javaPreCompileOssDebug
+:app:compileOssDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/658/src/app/src/main/java/org/connectbot/HostEditorFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:generateJsonModelOssDebug
+External native generate JSON ossDebug: starting JSON generation
+External native generate JSON ossDebug: using platform version 14 for ABI ARMEABI_V7A and min SDK version 14
+External native generate JSON ossDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON ossDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a'
+External native generate JSON ossDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a'
+External native generate JSON ossDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a
+External native generate JSON ossDebug: done executing cmake
+External native generate JSON ossDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a/cmake_build_output.txt
+External native generate JSON ossDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/armeabi-v7a/cmake_build_command.txt
+External native generate JSON ossDebug: using platform version 21 for ABI X86_64 and min SDK version 14
+External native generate JSON ossDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64/android_gradle_build.json due to:
+External native generate JSON ossDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64'
+External native generate JSON ossDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64'
+External native generate JSON ossDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64
+External native generate JSON ossDebug: done executing cmake
+External native generate JSON ossDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64/cmake_build_output.txt
+External native generate JSON ossDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86_64/cmake_build_command.txt
+External native generate JSON ossDebug: using platform version 14 for ABI X86 and min SDK version 14
+External native generate JSON ossDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86/android_gradle_build.json due to:
+External native generate JSON ossDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86'
+External native generate JSON ossDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86'
+External native generate JSON ossDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86
+External native generate JSON ossDebug: done executing cmake
+External native generate JSON ossDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86/cmake_build_output.txt
+External native generate JSON ossDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/x86/cmake_build_command.txt
+External native generate JSON ossDebug: using platform version 21 for ABI ARM64_V8A and min SDK version 14
+External native generate JSON ossDebug: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON ossDebug: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossDebug: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossDebug: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a'
+External native generate JSON ossDebug: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a'
+External native generate JSON ossDebug: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/debug/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a
+External native generate JSON ossDebug: done executing cmake
+External native generate JSON ossDebug: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a/cmake_build_output.txt
+External native generate JSON ossDebug: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossDebug/arm64-v8a/cmake_build_command.txt
+External native generate JSON ossDebug: JSON generation completed without problems
+:app:externalNativeBuildOssDebug
+Build com_google_ase_Exec arm64-v8a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/debug/obj/arm64-v8a/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/debug/obj/x86/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86_64
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/debug/obj/x86_64/libcom_google_ase_Exec.so
+Build com_google_ase_Exec armeabi-v7a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/debug/obj/armeabi-v7a/libcom_google_ase_Exec.so
+:app:compileOssDebugSources
+:app:mergeOssDebugShaders
+:app:compileOssDebugShaders
+:app:generateOssDebugAssets
+:app:mergeOssDebugAssets
+:app:extractTryWithResourcesSupportJarOssDebug
+:app:transformClassesWithJacocoForOssDebug
+:app:transformClassesWithStackFramesFixerForOssDebug
+:app:transformClassesWithDesugarForOssDebug
+:app:transformClassesWithDexBuilderForOssDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForOssDebug
+:app:transformDexArchiveWithDexMergerForOssDebug
+:app:mergeOssDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForOssDebug
+:app:transformNativeLibsWithStripDebugSymbolForOssDebug
+:app:processOssDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForOssDebug
+:app:validateSigningOssDebug
+:app:packageOssDebug
+:app:assembleOssDebug
+:app:assembleDebug
+:app:extractProguardFiles
+:app:preGoogleReleaseBuild
+:app:compileGoogleReleaseAidl
+:app:compileGoogleReleaseRenderscript
+:app:checkGoogleReleaseManifest
+:app:generateGoogleReleaseBuildConfig
+:app:mainApkListPersistenceGoogleRelease
+:app:generateGoogleReleaseResValues
+:app:generateGoogleReleaseResources
+:app:mergeGoogleReleaseResourcesfatal: No names found, cannot describe anything.
+
+:app:createGoogleReleaseCompatibleScreenManifests
+:app:processGoogleReleaseManifest
+:app:splitsDiscoveryTaskGoogleRelease
+:app:processGoogleReleaseResources
+:app:generateGoogleReleaseSources
+:app:javaPreCompileGoogleRelease
+:app:compileGoogleReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/658/src/app/src/main/java/org/connectbot/HostEditorFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:generateJsonModelGoogleRelease
+External native generate JSON googleRelease: starting JSON generation
+External native generate JSON googleRelease: using platform version 14 for ABI ARMEABI_V7A and min SDK version 14
+External native generate JSON googleRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON googleRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a'
+External native generate JSON googleRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a'
+External native generate JSON googleRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a
+External native generate JSON googleRelease: done executing cmake
+External native generate JSON googleRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a/cmake_build_output.txt
+External native generate JSON googleRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/armeabi-v7a/cmake_build_command.txt
+External native generate JSON googleRelease: using platform version 21 for ABI X86_64 and min SDK version 14
+External native generate JSON googleRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64/android_gradle_build.json due to:
+External native generate JSON googleRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64'
+External native generate JSON googleRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64'
+External native generate JSON googleRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/release/obj/x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64
+External native generate JSON googleRelease: done executing cmake
+External native generate JSON googleRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64/cmake_build_output.txt
+External native generate JSON googleRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86_64/cmake_build_command.txt
+External native generate JSON googleRelease: using platform version 14 for ABI X86 and min SDK version 14
+External native generate JSON googleRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86/android_gradle_build.json due to:
+External native generate JSON googleRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86'
+External native generate JSON googleRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86'
+External native generate JSON googleRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/release/obj/x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86
+External native generate JSON googleRelease: done executing cmake
+External native generate JSON googleRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86/cmake_build_output.txt
+External native generate JSON googleRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/x86/cmake_build_command.txt
+External native generate JSON googleRelease: using platform version 21 for ABI ARM64_V8A and min SDK version 14
+External native generate JSON googleRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON googleRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON googleRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON googleRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a'
+External native generate JSON googleRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a'
+External native generate JSON googleRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/google/release/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a
+External native generate JSON googleRelease: done executing cmake
+External native generate JSON googleRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a/cmake_build_output.txt
+External native generate JSON googleRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/googleRelease/arm64-v8a/cmake_build_command.txt
+External native generate JSON googleRelease: JSON generation completed without problems
+:app:externalNativeBuildGoogleRelease
+Build com_google_ase_Exec arm64-v8a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/release/obj/arm64-v8a/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/release/obj/x86/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86_64
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/release/obj/x86_64/libcom_google_ase_Exec.so
+Build com_google_ase_Exec armeabi-v7a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/google/release/obj/armeabi-v7a/libcom_google_ase_Exec.so
+:app:compileGoogleReleaseSources
+:app:lintVitalGoogleRelease
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.2/espresso-intents-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-contrib/3.0.2/espresso-contrib-3.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-intents/3.0.2/espresso-intents-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-contrib/3.0.2/espresso-contrib-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/orchestrator/1.0.2/orchestrator-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/services/test-services/1.0.2/test-services-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/orchestrator/1.0.2/orchestrator-1.0.2.apk
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/services/test-services/1.0.2/test-services-1.0.2.apk
+:app:mergeGoogleReleaseShaders
+:app:compileGoogleReleaseShaders
+:app:generateGoogleReleaseAssets
+:app:mergeGoogleReleaseAssets
+:app:extractTryWithResourcesSupportJarGoogleRelease
+:app:transformClassesWithStackFramesFixerForGoogleRelease
+:app:transformClassesWithDesugarForGoogleRelease
+:app:processGoogleReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForGoogleRelease
+:app:transformClassesAndResourcesWithProguardForGoogleRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/1.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/2.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/3.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/4.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/5.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/6.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/7.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/8.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/9.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/10.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/11.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/12.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/13.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/14.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/15.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/16.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/17.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/18.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/19.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/20.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/21.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/22.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/23.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/24.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/25.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/26.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/27.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/28.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/29.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/30.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/31.jar] (filtered)
+Reading program directory [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/0] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/processing-tools/runtime-deps/google/release/desugar_try_with_resources.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/mergeJavaRes/google/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult.ReleasableResultGuardian'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.internal.safeparcel.SafeParcelable'
+Note: com.google.android.gms.internal.zzffl: can't find dynamically referenced class com.google.protobuf.ExtensionRegistry
+Note: com.google.android.gms.internal.zzffm: can't find dynamically referenced class com.google.protobuf.Extension
+Note: com.google.android.gms.internal.zzffp: can't find dynamically referenced class com.google.protobuf.ExtensionSchemaFull
+Note: com.google.android.gms.internal.zzfgq: can't find dynamically referenced class com.google.protobuf.DescriptorMessageInfoFactory
+Note: com.google.android.gms.internal.zzfhb: can't find dynamically referenced class com.google.protobuf.MapFieldSchemaFull
+Note: com.google.android.gms.internal.zzfhx: can't find dynamically referenced class com.google.protobuf.GeneratedMessage
+Note: com.google.android.gms.internal.zzfhx: can't find dynamically referenced class com.google.protobuf.UnknownFieldSetSchema
+Note: com.google.android.gms.internal.zzfiq: can't find dynamically referenced class libcore.io.Memory
+Note: com.google.android.gms.internal.zzfiq: can't find dynamically referenced class org.robolectric.Robolectric
+Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult.ReleasableResultGuardian <fields>' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
+Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.zzcf getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.zzce); }', but not the descriptor class 'com.google.android.gms.common.api.internal.zzce'
+Note: the configuration keeps the entry point 'com.google.android.gms.flags.impl.FlagProviderImpl { void init(com.google.android.gms.dynamic.IObjectWrapper); }', but not the descriptor class 'com.google.android.gms.dynamic.IObjectWrapper'
+Note: there were 2 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 references to unknown class members.
+      You should check your configuration for typos.
+Note: there were 2 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 9 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1346
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/658/src/app/build/outputs/mapping/google/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 3521
+  Final number of program classes:    2189
+Writing output...
+Preparing output jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/proguard/google/release/0.jar]
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/1.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/2.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/3.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/4.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/5.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/6.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/7.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/8.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/9.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/10.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/11.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/12.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/13.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/14.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/15.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/16.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/17.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/18.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/19.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/20.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/21.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/22.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/23.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/24.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/25.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/26.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/27.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/28.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/29.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/30.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/31.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/google/release/0] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/processing-tools/runtime-deps/google/release/desugar_try_with_resources.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/mergeJavaRes/google/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/658/src/app/build/outputs/mapping/google/release/dump.txt]...
+:app:transformClassesWithDexBuilderForGoogleRelease
+:app:transformDexArchiveWithDexMergerForGoogleRelease
+:app:mergeGoogleReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForGoogleRelease
+:app:transformNativeLibsWithStripDebugSymbolForGoogleRelease
+:app:packageGoogleRelease
+:app:assembleGoogleRelease
+:app:preOssReleaseBuild
+:app:compileOssReleaseAidl
+:app:compileOssReleaseRenderscript
+:app:checkOssReleaseManifest
+:app:generateOssReleaseBuildConfig
+:app:mainApkListPersistenceOssRelease
+:app:generateOssReleaseResValues
+:app:generateOssReleaseResources
+:app:mergeOssReleaseResourcesfatal: No names found, cannot describe anything.
+
+:app:createOssReleaseCompatibleScreenManifests
+:app:processOssReleaseManifest
+:app:splitsDiscoveryTaskOssRelease
+:app:processOssReleaseResources
+:app:generateOssReleaseSources
+:app:javaPreCompileOssRelease
+:app:compileOssReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/658/src/app/src/main/java/org/connectbot/HostEditorFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:generateJsonModelOssRelease
+External native generate JSON ossRelease: starting JSON generation
+External native generate JSON ossRelease: using platform version 14 for ABI ARMEABI_V7A and min SDK version 14
+External native generate JSON ossRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON ossRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a'
+External native generate JSON ossRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a'
+External native generate JSON ossRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a
+External native generate JSON ossRelease: done executing cmake
+External native generate JSON ossRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a/cmake_build_output.txt
+External native generate JSON ossRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/armeabi-v7a/cmake_build_command.txt
+External native generate JSON ossRelease: using platform version 21 for ABI X86_64 and min SDK version 14
+External native generate JSON ossRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64/android_gradle_build.json due to:
+External native generate JSON ossRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64'
+External native generate JSON ossRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64'
+External native generate JSON ossRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/release/obj/x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64
+External native generate JSON ossRelease: done executing cmake
+External native generate JSON ossRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64/cmake_build_output.txt
+External native generate JSON ossRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86_64/cmake_build_command.txt
+External native generate JSON ossRelease: using platform version 14 for ABI X86 and min SDK version 14
+External native generate JSON ossRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86/android_gradle_build.json due to:
+External native generate JSON ossRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86'
+External native generate JSON ossRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86'
+External native generate JSON ossRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/release/obj/x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86
+External native generate JSON ossRelease: done executing cmake
+External native generate JSON ossRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86/cmake_build_output.txt
+External native generate JSON ossRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/x86/cmake_build_command.txt
+External native generate JSON ossRelease: using platform version 21 for ABI ARM64_V8A and min SDK version 14
+External native generate JSON ossRelease: rebuilding JSON /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON ossRelease: - expected json /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON ossRelease: - missing previous command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON ossRelease: removing stale contents from '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a'
+External native generate JSON ossRelease: created folder '/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a'
+External native generate JSON ossRelease: executing cmake Executable : /root/Applications/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/tmp/rdisk/658/src/app
+-B/tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/tmp/rdisk/658/src/app/build/intermediates/cmake/oss/release/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/root/Applications/android-sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/root/Applications/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a
+External native generate JSON ossRelease: done executing cmake
+External native generate JSON ossRelease: write build output /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a/cmake_build_output.txt
+External native generate JSON ossRelease: write command file /tmp/rdisk/658/src/app/.externalNativeBuild/cmake/ossRelease/arm64-v8a/cmake_build_command.txt
+External native generate JSON ossRelease: JSON generation completed without problems
+:app:externalNativeBuildOssRelease
+Build com_google_ase_Exec arm64-v8a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/release/obj/arm64-v8a/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/release/obj/x86/libcom_google_ase_Exec.so
+Build com_google_ase_Exec x86_64
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/release/obj/x86_64/libcom_google_ase_Exec.so
+Build com_google_ase_Exec armeabi-v7a
+[1/2] Building CXX object CMakeFiles/com_google_ase_Exec.dir/src/main/cpp/com_google_ase_Exec.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/oss/release/obj/armeabi-v7a/libcom_google_ase_Exec.so
+:app:compileOssReleaseSources
+:app:lintVitalOssRelease
+:app:mergeOssReleaseShaders
+:app:compileOssReleaseShaders
+:app:generateOssReleaseAssets
+:app:mergeOssReleaseAssets
+:app:extractTryWithResourcesSupportJarOssRelease
+:app:transformClassesWithStackFramesFixerForOssRelease
+:app:transformClassesWithDesugarForOssRelease
+:app:processOssReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForOssRelease
+:app:transformClassesAndResourcesWithProguardForOssRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/1.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/2.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/3.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/4.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/5.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/6.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/7.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/8.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/9.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/10.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/11.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/12.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/13.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/14.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/15.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/16.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/17.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/18.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/19.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/20.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/21.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/22.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/23.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/24.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/25.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/26.jar] (filtered)
+Reading program directory [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/0] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/processing-tools/runtime-deps/oss/release/desugar_try_with_resources.jar] (filtered)
+Reading program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/mergeJavaRes/oss/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: org.conscrypt.Platform: can't find dynamically referenced class java.net.InetAddress$InetAddressHolder
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1388
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/658/src/app/build/outputs/mapping/oss/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2911
+  Final number of program classes:    2105
+Writing output...
+Preparing output jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/proguard/oss/release/0.jar]
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/1.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/2.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/3.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/4.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/5.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/6.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/7.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/8.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/9.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/10.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/11.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/12.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/13.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/14.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/15.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/16.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/17.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/18.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/19.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/20.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/21.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/22.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/23.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/24.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/25.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/26.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/658/src/app/build/intermediates/transforms/desugar/oss/release/0] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/processing-tools/runtime-deps/oss/release/desugar_try_with_resources.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/658/src/app/build/intermediates/transforms/mergeJavaRes/oss/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/658/src/app/build/outputs/mapping/oss/release/dump.txt]...
+:app:transformClassesWithDexBuilderForOssRelease
+:app:transformDexArchiveWithDexMergerForOssRelease
+:app:mergeOssReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForOssRelease
+:app:transformNativeLibsWithStripDebugSymbolForOssRelease
+:app:packageOssRelease
+:app:assembleOssRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 2m 26s
+130 actionable tasks: 130 executed
+
+2018-05-22 09:22:31,191 INFO  FullProcessService - Found APK file: /tmp/rdisk/658/src/app/build/outputs/apk/oss/release/app-oss-release-unsigned.apk

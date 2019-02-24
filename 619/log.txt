@@ -1,0 +1,14 @@
+2018-04-09 19:35:37,760 INFO  DownloadService - Downloading "https://github.com/yixia/VitamioBundle/archive/master.zip", attempt 3
+2018-04-09 19:36:38,274 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:36:38,946 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:36:38,946 INFO  DownloadService - Downloading "https://github.com/yixia/VitamioBundle/archive/master.zip", attempt 3
+2018-04-09 19:37:40,256 DEBUG FullProcessService - Repository https://github.com/yixia/VitamioBundle available: true
+2018-04-09 19:37:40,256 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:37:40,256 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/yixia/VitamioBundle, /tmp/rdisk/619/src]
+2018-04-09 19:38:26,147 INFO  SysUtils - 
+2018-04-09 19:38:26,156 INFO  GitService - Deleted "/tmp/rdisk/619/src/.git": true
+2018-04-09 19:38:26,160 INFO  FullProcessService - Size of directory with sources: 60 MB
+2018-04-09 19:38:26,160 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-04-09 19:38:26,160 ERROR FullProcessService - Project will not be processed
+2018-04-09 19:38:26,160 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 19:38:26,163 ERROR FullProcessService - Could not find generated or existed APK file

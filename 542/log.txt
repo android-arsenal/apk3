@@ -1,0 +1,21 @@
+2018-04-09 20:10:55,338 INFO  DownloadService - Downloading "https://github.com/47deg/android-wunderground-client/archive/master.zip", attempt 3
+2018-04-09 20:11:55,957 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:11:56,757 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:11:56,757 INFO  DownloadService - Downloading "https://github.com/47deg/android-wunderground-client/archive/master.zip", attempt 3
+2018-04-09 20:12:58,096 DEBUG FullProcessService - Repository https://github.com/47deg/android-wunderground-client available: true
+2018-04-09 20:12:58,096 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:12:58,096 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/47deg/android-wunderground-client, /tmp/rdisk/542/src]
+2018-04-09 20:12:59,495 INFO  SysUtils - 
+2018-04-09 20:12:59,509 INFO  GitService - Deleted "/tmp/rdisk/542/src/.git": true
+2018-04-09 20:12:59,511 INFO  FullProcessService - Size of directory with sources: 204 KB
+2018-04-09 20:12:59,511 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/542/src]
+2018-04-09 20:12:59,515 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/542/src/.git/
+
+2018-04-09 20:12:59,517 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 20:12:59,517 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 20:12:59,519 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 20:12:59,520 INFO  ProjectBuildService - All script(s): none
+2018-04-09 20:12:59,521 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:12:59,521 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 20:12:59,521 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 20:12:59,522 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,21 @@
+2018-04-09 19:01:44,924 INFO  DownloadService - Downloading "https://github.com/eddturtle/TurtlePlayer/archive/master.zip", attempt 3
+2018-04-09 19:02:45,423 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:02:46,494 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:02:46,494 INFO  DownloadService - Downloading "https://github.com/eddturtle/TurtlePlayer/archive/master.zip", attempt 3
+2018-04-09 19:03:47,750 DEBUG FullProcessService - Repository https://github.com/eddturtle/TurtlePlayer available: true
+2018-04-09 19:03:47,750 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:03:47,750 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/eddturtle/TurtlePlayer, /tmp/rdisk/629/src]
+2018-04-09 19:03:49,542 INFO  SysUtils - 
+2018-04-09 19:03:49,548 INFO  GitService - Deleted "/tmp/rdisk/629/src/.git": true
+2018-04-09 19:03:49,556 INFO  FullProcessService - Size of directory with sources: 829 KB
+2018-04-09 19:03:49,556 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/629/src]
+2018-04-09 19:03:49,561 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/629/src/.git/
+
+2018-04-09 19:03:49,567 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 19:03:49,567 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 19:03:49,572 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 19:03:49,577 INFO  ProjectBuildService - All script(s): none
+2018-04-09 19:03:49,577 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 19:03:49,577 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 19:03:49,577 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 19:03:49,582 ERROR FullProcessService - Could not find generated or existed APK file

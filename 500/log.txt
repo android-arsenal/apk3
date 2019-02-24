@@ -1,0 +1,876 @@
+2018-04-09 21:27:40,272 INFO  DownloadService - Downloading "https://github.com/tobykurien/xtendroid/archive/master.zip", attempt 3
+2018-04-09 21:28:40,747 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 21:28:41,433 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 21:28:41,433 INFO  DownloadService - Downloading "https://github.com/tobykurien/xtendroid/archive/master.zip", attempt 3
+2018-04-09 21:29:42,663 DEBUG FullProcessService - Repository https://github.com/tobykurien/xtendroid available: true
+2018-04-09 21:29:42,663 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 21:29:42,663 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tobykurien/xtendroid, /tmp/rdisk/500/src]
+2018-04-09 21:29:44,849 INFO  SysUtils - 
+2018-04-09 21:29:44,858 INFO  GitService - Deleted "/tmp/rdisk/500/src/.git": true
+2018-04-09 21:29:44,869 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-09 21:29:44,869 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/500/src]
+2018-04-09 21:29:44,874 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/500/src/.git/
+
+2018-04-09 21:29:44,882 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/500/src/gradlew
+2018-04-09 21:29:44,890 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/500/src/Xtendroid/build.gradle /tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle /tmp/rdisk/500/src/XtendroidTest/build.gradle /tmp/rdisk/500/src/examples/HandlerExample/build.gradle /tmp/rdisk/500/src/examples/HelloWorld/build.gradle /tmp/rdisk/500/src/examples/MovieSearchApp/build.gradle /tmp/rdisk/500/src/examples/Sample1/build.gradle /tmp/rdisk/500/src/build.gradle
+2018-04-09 21:29:44,898 INFO  ProjectBuildService - All script(s): /tmp/rdisk/500/src/settings.gradle /tmp/rdisk/500/src/repositories.gradle /tmp/rdisk/500/src/examples/settings.gradle /tmp/rdisk/500/src/examples/Sample1/settings.gradle /tmp/rdisk/500/src/examples/Sample1/build.gradle /tmp/rdisk/500/src/examples/MovieSearchApp/settings.gradle /tmp/rdisk/500/src/examples/MovieSearchApp/build.gradle /tmp/rdisk/500/src/examples/HelloWorld/settings.gradle /tmp/rdisk/500/src/examples/HelloWorld/build.gradle /tmp/rdisk/500/src/examples/HandlerExample/settings.gradle /tmp/rdisk/500/src/examples/HandlerExample/build.gradle /tmp/rdisk/500/src/dependencies.gradle /tmp/rdisk/500/src/build.gradle /tmp/rdisk/500/src/XtendroidTest/settings.gradle /tmp/rdisk/500/src/XtendroidTest/build.gradle /tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/settings.gradle /tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle /tmp/rdisk/500/src/Xtendroid/maven-push.gradle /tmp/rdisk/500/src/Xtendroid/build.gradle
+2018-04-09 21:29:44,899 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 21:29:44,899 INFO  ProjectFixService - Fixing project...
+2018-04-09 21:29:44,920 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/Xtendroid/local.properties
+2018-04-09 21:29:44,929 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/Xtendroid/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,929 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/Xtendroid/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,936 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/local.properties
+2018-04-09 21:29:44,939 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,939 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,939 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/XtendroidTest/local.properties
+2018-04-09 21:29:44,946 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/XtendroidTest/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,946 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/XtendroidTest/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,946 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/examples/HandlerExample/local.properties
+2018-04-09 21:29:44,951 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/examples/HandlerExample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,952 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/examples/HandlerExample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,952 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/examples/HelloWorld/local.properties
+2018-04-09 21:29:44,957 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/examples/HelloWorld/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,957 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/examples/HelloWorld/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,958 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/examples/MovieSearchApp/local.properties
+2018-04-09 21:29:44,973 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/examples/MovieSearchApp/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,973 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/examples/MovieSearchApp/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,974 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/examples/Sample1/local.properties
+2018-04-09 21:29:44,980 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/examples/Sample1/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,980 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/examples/Sample1/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,980 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/500/src/local.properties
+2018-04-09 21:29:44,981 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-04-09 21:29:44,981 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-04-09 21:29:44,986 INFO  ProjectFixService - Build info for "/tmp/rdisk/500/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=<null>]
+2018-04-09 21:29:44,987 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/500/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=27]
+2018-04-09 21:29:44,987 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 21:29:44,987 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:29:44,987 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/Xtendroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:30:03,805 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-04-09 21:30:03,805 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-09 21:30:03,805 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/Xtendroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-09 21:30:29,422 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 21:30:29,422 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:Xtendroid:preBuild UP-TO-DATE
+:Xtendroid:preDebugBuild UP-TO-DATE
+:Xtendroid:checkDebugManifest
+:Xtendroid:preDebugAndroidTestBuild UP-TO-DATE
+:Xtendroid:preDebugUnitTestBuild UP-TO-DATE
+:Xtendroid:preReleaseBuild UP-TO-DATE
+:Xtendroid:preReleaseUnitTestBuild UP-TO-DATE
+:Xtendroid:prepareComAndroidSupportAppcompatV72311Library
+:Xtendroid:prepareComAndroidSupportSupportV42311Library
+:Xtendroid:prepareDebugDependencies
+:Xtendroid:compileDebugAidl
+:Xtendroid:compileDebugNdk UP-TO-DATE
+:Xtendroid:compileLint
+:Xtendroid:copyDebugLint UP-TO-DATE
+:Xtendroid:compileDebugRenderscript
+:Xtendroid:generateDebugBuildConfig
+:Xtendroid:generateDebugResValues
+:Xtendroid:generateDebugResources
+:Xtendroid:mergeDebugResources
+:Xtendroid:processDebugManifest
+:Xtendroid:processDebugResources
+:Xtendroid:generateDebugXtext
+Download https://jcenter.bintray.com/org/xtext/xtext-gradle-builder/1.0.21/xtext-gradle-builder-1.0.21.pom
+Download https://jcenter.bintray.com/org/xtext/xtext-gradle-builder/1.0.21/xtext-gradle-builder-1.0.21.jar
+ERROR:The method findViewById(int) is undefined for the type FragmentActivity (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/ViewUtils.xtend line : 31 column : 60)
+WARNING:Unnecessary cast from FragmentActivity to FragmentActivity (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/ViewUtils.xtend line : 31 column : 41)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 10 column : 19)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 44)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 75)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 29 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 34 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 39 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 44 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 49 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 58 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 62 column : 8)
+ERROR:The method or field getMainLooper is undefined for the type FragmentActivity (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AlertUtils.xtend line : 30 column : 54)
+ERROR:Type mismatch: cannot convert from FragmentActivity to Context (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AlertUtils.xtend line : 72 column : 13)
+ERROR:Type mismatch: cannot convert from FragmentActivity to Context (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AlertUtils.xtend line : 86 column : 17)
+ERROR:Type mismatch: cannot convert from FragmentActivity to Context (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AlertUtils.xtend line : 117 column : 15)
+ERROR:Type mismatch: cannot convert from FragmentActivity to Context (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AlertUtils.xtend line : 126 column : 15)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 310 column : 9)
+WARNING:List is a raw type. References to generic type List<E> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 289 column : 32)
+WARNING:RegisterGlobalsParticipant is a raw type. References to generic type RegisterGlobalsParticipant<T> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 47 column : 97)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/EnumProperty.xtend line : 70 column : 6)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 214 column : 12)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 216 column : 21)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 218 column : 25)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 220 column : 105)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 249 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 280 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 282 column : 1)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 11 column : 25)
+WARNING:The method upperCaseFirst(String) from the type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 58 column : 55)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 16 column : 8)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 100 column : 27)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 160 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 201 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 203 column : 1)
+:Xtendroid:generateDebugXtext FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':Xtendroid:generateDebugXtext'.
+> Xtext validation failed, see build log for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':Xtendroid:generateDebugXtext'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: Xtext validation failed, see build log for details.
+	at org.xtext.gradle.builder.XtextGradleBuilder.build(XtextGradleBuilder.java:211)
+	at org.xtext.gradle.tasks.XtextGenerate.generate(XtextGenerate.java:150)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 25.053 secs
+
+2018-04-09 21:30:29,462 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:30:29,462 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:30:34,707 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 21:30:34,707 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 21:30:34,707 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 21:30:34,707 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 21:30:38,955 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 21:30:38,955 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle' line: 20
+
+* What went wrong:
+A problem occurred evaluating root project 'XtendroidTestCasesTest'.
+> Failed to apply plugin [id 'com.android.application']
+   > Gradle version 2.2 is required. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /root/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.2-all.zip
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'XtendroidTestCasesTest'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:177)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:182)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:540)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:93)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:121)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:153)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:112)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:113)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:36)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:80)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:136)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+	at build_ahnmjxpkf58gljcnbizuo5954.run(/tmp/rdisk/500/src/XtendroidTest/XtendroidTestCasesTest/build.gradle:20)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 50 more
+Caused by: org.gradle.tooling.BuildException: Gradle version 2.2 is required. Current version is 2.14.1. If using the gradle wrapper, try editing the distributionUrl in /root/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.2-all.zip
+	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.groovy:436)
+	at com.android.build.gradle.BasePlugin.configureProject(BasePlugin.groovy:265)
+	at com.android.build.gradle.BasePlugin$_apply_closure1.doCall(BasePlugin.groovy:252)
+	at com.android.build.gradle.BasePlugin$_apply_closure1.doCall(BasePlugin.groovy)
+	at com.android.build.gradle.internal.profile.SpanRecorders$2.call(SpanRecorders.groovy:52)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:48)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.groovy:54)
+	at com.android.build.gradle.BasePlugin.apply(BasePlugin.groovy:251)
+	at com.android.build.gradle.AppPlugin.super$2$apply(AppPlugin.groovy)
+	at com.android.build.gradle.AppPlugin.apply(AppPlugin.groovy:66)
+	at com.android.build.gradle.AppPlugin.apply(AppPlugin.groovy)
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginApplicator.applyImperative(ImperativeOnlyPluginApplicator.java:35)
+	at org.gradle.api.internal.plugins.RuleBasedPluginApplicator.applyImperative(RuleBasedPluginApplicator.java:43)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:137)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 3.814 secs
+
+2018-04-09 21:30:38,992 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:30:38,992 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/XtendroidTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:30:47,920 INFO  ProjectTaskService - Detected possible tasks: 79
+2018-04-09 21:30:47,920 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 21:30:47,920 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/XtendroidTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 21:31:26,419 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 21:31:26,420 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:checkDebugManifest
+:preReleaseBuild UP-TO-DATE
+:Xtendroid:preBuild UP-TO-DATE
+:Xtendroid:preReleaseBuild UP-TO-DATE
+:Xtendroid:checkReleaseManifest
+:Xtendroid:preDebugAndroidTestBuild UP-TO-DATE
+:Xtendroid:preDebugBuild UP-TO-DATE
+:Xtendroid:preDebugUnitTestBuild UP-TO-DATE
+:Xtendroid:preReleaseUnitTestBuild UP-TO-DATE
+:Xtendroid:prepareComAndroidSupportAppcompatV72311Library
+:Xtendroid:prepareComAndroidSupportSupportV42311Library
+:Xtendroid:prepareReleaseDependencies
+:Xtendroid:compileReleaseAidl
+:Xtendroid:compileReleaseNdk UP-TO-DATE
+:Xtendroid:compileLint
+:Xtendroid:copyReleaseLint UP-TO-DATE
+:Xtendroid:compileReleaseRenderscript
+:Xtendroid:generateReleaseBuildConfig
+:Xtendroid:generateReleaseResValues
+:Xtendroid:generateReleaseResources
+:Xtendroid:mergeReleaseResources
+:Xtendroid:processReleaseManifest
+:Xtendroid:processReleaseResources
+:Xtendroid:generateReleaseXtext
+WARNING:Unnecessary cast from FragmentActivity to FragmentActivity (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/ViewUtils.xtend line : 31 column : 41)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 10 column : 19)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 44)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 75)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 29 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 34 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 39 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 44 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 49 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 58 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 62 column : 8)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 310 column : 9)
+WARNING:List is a raw type. References to generic type List<E> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 289 column : 32)
+WARNING:RegisterGlobalsParticipant is a raw type. References to generic type RegisterGlobalsParticipant<T> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 47 column : 97)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/EnumProperty.xtend line : 70 column : 6)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 214 column : 12)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 216 column : 21)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 218 column : 25)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 220 column : 105)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 249 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 280 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 282 column : 1)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 11 column : 25)
+WARNING:The method upperCaseFirst(String) from the type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 58 column : 55)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 16 column : 8)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 100 column : 27)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 160 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 201 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 203 column : 1)
+:Xtendroid:generateReleaseSources
+:Xtendroid:incrementalReleaseJavaCompilationSafeguard
+:Xtendroid:compileReleaseJavaWithJavac
+:Xtendroid:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+/tmp/rdisk/500/src/Xtendroid/build/generated/source/xtend/release/org/xtendroid/utils/AsyncBuilder.java:71: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    return this.start(null);
+                      ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:Xtendroid:extractReleaseAnnotations
+:Xtendroid:mergeReleaseShaders
+:Xtendroid:compileReleaseShaders
+:Xtendroid:generateReleaseAssets
+:Xtendroid:mergeReleaseAssets
+:Xtendroid:mergeReleaseProguardFiles
+:Xtendroid:packageReleaseRenderscript UP-TO-DATE
+:Xtendroid:packageReleaseResources
+:Xtendroid:processReleaseJavaRes
+:Xtendroid:transformResourcesWithMergeJavaResForRelease
+:Xtendroid:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Xtendroid:mergeReleaseJniLibFolders
+:Xtendroid:transformNative_libsWithMergeJniLibsForRelease
+:Xtendroid:transformNative_libsWithSyncJniLibsForRelease
+:Xtendroid:bundleRelease
+:prepareComAndroidSupportAppcompatV72311Library
+:prepareComAndroidSupportRecyclerviewV72311Library
+:prepareComAndroidSupportSupportV42311Library
+:prepareXtendroidTestXtendroidUnspecifiedLibrary
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugXtext
+WARNING:The import 'android.content.Context' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 7 column : 1)
+WARNING:The import 'android.os.Parcelable' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 8 column : 1)
+WARNING:The import 'org.xtendroid.utils.BgLoader' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 14 column : 1)
+WARNING:The import 'org.xtendroid.app.AndroidActivity' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 12 column : 1)
+WARNING:The import 'org.xtendroid.utils.BgSupportLoader' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 15 column : 1)
+WARNING:The import 'android.support.v4.app.FragmentActivity' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 9 column : 1)
+WARNING:The import 'org.xtendroid.parcel.AndroidParcelable' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 13 column : 1)
+WARNING:The import 'android.app.Activity' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 3 column : 1)
+WARNING:The import 'org.xtendroid.utils.BgSupportLoader' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 17 column : 1)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 152 column : 9)
+WARNING:The inferred return type Loader uses the raw type Loader. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 155 column : 9)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 160 column : 29)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 164 column : 28)
+WARNING:LoaderCallbacks is a raw type. References to generic type LoaderCallbacks<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 151 column : 55)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 171 column : 9)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 172 column : 9)
+WARNING:The inferred return type Loader uses the raw type Loader. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 175 column : 9)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 181 column : 29)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 188 column : 28)
+WARNING:LoaderCallbacks is a raw type. References to generic type LoaderCallbacks<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/loaders/Loaders.xtend line : 170 column : 55)
+ERROR:Type mismatch: cannot convert from FragmentActivity to Activity (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/fragments/FragmentWithLoader.xtend line : 21 column : 48)
+WARNING:Loader is a raw type. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/fragments/FragmentWithLoader.xtend line : 16 column : 6)
+WARNING:The inferred return type Loader uses the raw type Loader. References to generic type Loader<D> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/fragments/FragmentWithLoader.xtend line : 19 column : 6)
+WARNING:Unnecessary cast from FragmentActivity to FragmentActivity (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/fragments/FragmentWithLoader.xtend line : 21 column : 60)
+WARNING:The value of the field BundleBean.intent is not used (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/bundle/Bundle.xtend line : 38 column : 9)
+WARNING:The import 'android.view.View' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/adapter/RVAdapter.xtend line : 3 column : 1)
+WARNING:The import 'android.support.v7.widget.RecyclerView$ViewHolder' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/adapter/RVAdapter.xtend line : 11 column : 1)
+WARNING:The method addPreferencesFromResource(int) from the type PreferenceActivity is deprecated (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/SettingsActivity.xtend line : 11 column : 7)
+WARNING:The import 'org.xtendroid.xtendroidtest.adapter.AdapterWithViewHolder' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/RecyclerViewActivity.xtend line : 7 column : 1)
+WARNING:This class is not an Android Activity. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/LoaderActivity.xtend line : 8 column : 50)
+WARNING:The inferred return type AsyncTask uses the raw type AsyncTask. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/DbTestActivity.xtend line : 22 column : 6)
+WARNING:The import 'org.xtendroid.annotations.BundleProperty' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BundleActivity.xtend line : 5 column : 1)
+WARNING:The inferred field type ArrayList<AsyncTask> uses the raw type AsyncTask. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BgTaskActivity.xtend line : 13 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BgTaskActivity.xtend line : 13 column : 30)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BgTaskActivity.xtend line : 55 column : 20)
+ERROR:The method or field userList is undefined (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BeanAdapterActivity.xtend line : 28 column : 9)
+ERROR:Type mismatch: cannot convert from BeanAdapterActivity to Context (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BeanAdapterActivity.xtend line : 27 column : 39)
+WARNING:This class is not an Android Activity. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/BeanAdapterActivity.xtend line : 14 column : 55)
+WARNING:The import 'org.xtendroid.xtendroidtest.BuildConfig' is never used. (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/AndroidResourcesActivity.xtend line : 7 column : 1)
+WARNING:The value of the field AndroidResourcesActivity.strings1 is not used (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/AndroidResourcesActivity.xtend line : 19 column : 18)
+WARNING:The value of the field AndroidResourcesActivity.integers1 is not used (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/AndroidResourcesActivity.xtend line : 22 column : 19)
+WARNING:The value of the field AndroidResourcesActivity.colors1 is not used (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/AndroidResourcesActivity.xtend line : 25 column : 17)
+WARNING:The value of the field AndroidResourcesActivity.dimens1 is not used (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/AndroidResourcesActivity.xtend line : 28 column : 17)
+WARNING:The value of the field AndroidResourcesActivity.bools1 is not used (file:/tmp/rdisk/500/src/XtendroidTest/src/org/xtendroid/xtendroidtest/activities/AndroidResourcesActivity.xtend line : 31 column : 16)
+:generateDebugXtext FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':generateDebugXtext'.
+> Xtext validation failed, see build log for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':generateDebugXtext'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:66)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:99)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:239)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:212)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.GradleException: Xtext validation failed, see build log for details.
+	at org.xtext.gradle.builder.XtextGradleBuilder.build(XtextGradleBuilder.java:211)
+	at org.xtext.gradle.tasks.XtextGenerate.generate(XtextGenerate.java:150)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:245)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:221)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:232)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:210)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 37.941 secs
+
+2018-04-09 21:31:26,518 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:31:26,518 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/examples/HandlerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:31:35,518 INFO  ProjectTaskService - Detected possible tasks: 79
+2018-04-09 21:31:35,518 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 21:31:35,518 INFO  SysUtils - Execute command: [/tmp/rdisk/500/src/gradlew, -b, /tmp/rdisk/500/src/examples/HandlerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 21:32:41,812 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:checkDebugManifest
+:preReleaseBuild UP-TO-DATE
+:Xtendroid:preBuild UP-TO-DATE
+:Xtendroid:preReleaseBuild UP-TO-DATE
+:Xtendroid:checkReleaseManifest
+:Xtendroid:preDebugAndroidTestBuild UP-TO-DATE
+:Xtendroid:preDebugBuild UP-TO-DATE
+:Xtendroid:preDebugUnitTestBuild UP-TO-DATE
+:Xtendroid:preReleaseUnitTestBuild UP-TO-DATE
+:Xtendroid:prepareComAndroidSupportAppcompatV72311Library
+:Xtendroid:prepareComAndroidSupportSupportV42311Library
+:Xtendroid:prepareReleaseDependencies
+:Xtendroid:compileReleaseAidl
+:Xtendroid:compileReleaseNdk UP-TO-DATE
+:Xtendroid:compileLint
+:Xtendroid:copyReleaseLint UP-TO-DATE
+:Xtendroid:compileReleaseRenderscript
+:Xtendroid:generateReleaseBuildConfig
+:Xtendroid:generateReleaseResValues
+:Xtendroid:generateReleaseResources
+:Xtendroid:mergeReleaseResources
+:Xtendroid:processReleaseManifest
+:Xtendroid:processReleaseResources
+:Xtendroid:generateReleaseXtext
+WARNING:Unnecessary cast from FragmentActivity to FragmentActivity (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/ViewUtils.xtend line : 31 column : 41)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 10 column : 19)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 44)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 75)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 29 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 34 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 39 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 44 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 49 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 58 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 62 column : 8)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 310 column : 9)
+WARNING:List is a raw type. References to generic type List<E> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 289 column : 32)
+WARNING:RegisterGlobalsParticipant is a raw type. References to generic type RegisterGlobalsParticipant<T> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 47 column : 97)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/EnumProperty.xtend line : 70 column : 6)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 214 column : 12)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 216 column : 21)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 218 column : 25)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 220 column : 105)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 249 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 280 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 282 column : 1)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 11 column : 25)
+WARNING:The method upperCaseFirst(String) from the type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 58 column : 55)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 16 column : 8)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 100 column : 27)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 160 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 201 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 203 column : 1)
+:Xtendroid:generateReleaseSources
+:Xtendroid:incrementalReleaseJavaCompilationSafeguard
+:Xtendroid:compileReleaseJavaWithJavac
+:Xtendroid:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+/tmp/rdisk/500/src/Xtendroid/build/generated/source/xtend/release/org/xtendroid/utils/AsyncBuilder.java:71: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    return this.start(null);
+                      ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:Xtendroid:extractReleaseAnnotations
+:Xtendroid:mergeReleaseShaders
+:Xtendroid:compileReleaseShaders
+:Xtendroid:generateReleaseAssets
+:Xtendroid:mergeReleaseAssets
+:Xtendroid:mergeReleaseProguardFiles
+:Xtendroid:packageReleaseRenderscript UP-TO-DATE
+:Xtendroid:packageReleaseResources
+:Xtendroid:processReleaseJavaRes
+:Xtendroid:transformResourcesWithMergeJavaResForRelease
+:Xtendroid:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Xtendroid:mergeReleaseJniLibFolders
+:Xtendroid:transformNative_libsWithMergeJniLibsForRelease
+:Xtendroid:transformNative_libsWithSyncJniLibsForRelease
+:Xtendroid:bundleRelease
+:prepareComAndroidSupportAppcompatV72311Library
+:prepareComAndroidSupportSupportV42311Library
+:prepareHandlerExampleXtendroidUnspecifiedLibrary
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugXtext
+:generateDebugSources
+:incrementalDebugJavaCompilationSafeguard
+:compileDebugJavaWithJavac
+:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:compileDebugNdk UP-TO-DATE
+:compileDebugSources
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:transformClassesWithDexForDebug
+:mergeDebugJniLibFolders
+:transformNative_libsWithMergeJniLibsForDebug
+:processDebugJavaRes
+:transformResourcesWithMergeJavaResForDebug
+:validateSigningDebug
+:packageDebug
+:assembleDebug
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseXtext
+:generateReleaseSources
+:incrementalReleaseJavaCompilationSafeguard
+:compileReleaseJavaWithJavac
+:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:compileReleaseNdk UP-TO-DATE
+:compileReleaseSources
+:lintVitalRelease
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:transformClassesWithDexForRelease
+:mergeReleaseJniLibFolders
+:transformNative_libsWithMergeJniLibsForRelease
+:processReleaseJavaRes
+:transformResourcesWithMergeJavaResForRelease
+:packageRelease
+:assembleRelease
+:assemble
+:build
+:Xtendroid:checkDebugManifest
+:Xtendroid:prepareDebugDependencies
+:Xtendroid:compileDebugAidl
+:Xtendroid:compileDebugNdk UP-TO-DATE
+:Xtendroid:copyDebugLint UP-TO-DATE
+:Xtendroid:compileDebugRenderscript
+:Xtendroid:generateDebugBuildConfig
+:Xtendroid:generateDebugResValues
+:Xtendroid:generateDebugResources
+:Xtendroid:mergeDebugResources
+:Xtendroid:processDebugManifest
+:Xtendroid:processDebugResources
+:Xtendroid:generateDebugXtext
+WARNING:Unnecessary cast from FragmentActivity to FragmentActivity (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/ViewUtils.xtend line : 31 column : 41)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 10 column : 19)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 44)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 18 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 75)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 22 column : 15)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 29 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 34 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 39 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 44 column : 8)
+WARNING:AsyncBuilder is a raw type. References to generic type AsyncBuilder<Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 49 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 58 column : 8)
+WARNING:AsyncTask is a raw type. References to generic type AsyncTask<Params, Progress, Result> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/utils/AsyncBuilder.xtend line : 62 column : 8)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 310 column : 9)
+WARNING:List is a raw type. References to generic type List<E> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 289 column : 32)
+WARNING:RegisterGlobalsParticipant is a raw type. References to generic type RegisterGlobalsParticipant<T> should be parameterized (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/content/res/AndroidResources.xtend line : 47 column : 97)
+WARNING:Single dispatch method. (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/EnumProperty.xtend line : 70 column : 6)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 214 column : 12)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 216 column : 21)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 218 column : 25)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 220 column : 105)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 249 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 280 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/BundleProperty.xtend line : 282 column : 1)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 11 column : 25)
+WARNING:The method upperCaseFirst(String) from the type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/annotations/AndroidView.xtend line : 58 column : 55)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 16 column : 8)
+WARNING:The type Utils is deprecated (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/BeanAdapter.xtend line : 100 column : 27)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 160 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 201 column : 1)
+WARNING:Inconsistent indentation (file:/tmp/rdisk/500/src/Xtendroid/src/org/xtendroid/adapter/AndroidAdapter.xtend line : 203 column : 1)
+:Xtendroid:generateDebugSources
+:Xtendroid:incrementalDebugJavaCompilationSafeguard
+:Xtendroid:compileDebugJavaWithJavac
+:Xtendroid:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+/tmp/rdisk/500/src/Xtendroid/build/generated/source/xtend/debug/org/xtendroid/utils/AsyncBuilder.java:71: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    return this.start(null);
+                      ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:Xtendroid:extractDebugAnnotations
+:Xtendroid:mergeDebugShaders
+:Xtendroid:compileDebugShaders
+:Xtendroid:generateDebugAssets
+:Xtendroid:mergeDebugAssets
+:Xtendroid:mergeDebugProguardFiles
+:Xtendroid:packageDebugRenderscript UP-TO-DATE
+:Xtendroid:packageDebugResources
+:Xtendroid:processDebugJavaRes
+:Xtendroid:transformResourcesWithMergeJavaResForDebug
+:Xtendroid:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Xtendroid:mergeDebugJniLibFolders
+:Xtendroid:transformNative_libsWithMergeJniLibsForDebug
+:Xtendroid:transformNative_libsWithSyncJniLibsForDebug
+:Xtendroid:bundleDebug
+:Xtendroid:compileDebugSources
+:Xtendroid:assembleDebug
+:Xtendroid:compileReleaseSources
+:Xtendroid:assembleRelease
+:Xtendroid:assemble
+:Xtendroid:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 5.674 secs
+
+2018-04-09 21:32:41,970 INFO  FullProcessService - Found APK file: /tmp/rdisk/500/src/examples/HandlerExample/build/outputs/apk/HandlerExample-release-unsigned.apk

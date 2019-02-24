@@ -1,0 +1,123 @@
+2018-04-09 18:14:54,738 INFO  DownloadService - Downloading "https://github.com/alt236/USB-Device-Info---Android/archive/master.zip", attempt 3
+2018-04-09 18:14:55,178 INFO  DownloadService - Downloaded https://github.com/alt236/USB-Device-Info---Android/archive/master.zip, attempt 3
+2018-04-09 18:14:55,178 INFO  DownloadService - Size of file "/tmp/rdisk/667/master.zip": 584 KB
+2018-04-09 18:14:55,178 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:14:55,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/667/master.zip: true
+2018-04-09 18:14:55,179 DEBUG ZipUtil - Extracting '/tmp/rdisk/667/master.zip' into '/tmp/rdisk/667/src'.
+2018-04-09 18:14:55,204 INFO  FullProcessService - Size of directory with sources: 752 KB
+2018-04-09 18:14:55,204 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/667/src]
+2018-04-09 18:14:55,214 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/667/src/.git/
+
+2018-04-09 18:14:55,219 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/667/src/USB-Device-Info---Android-master/gradlew
+2018-04-09 18:14:55,224 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/build.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/linuxapp/build.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/usbdeviceenumerator/build.gradle
+2018-04-09 18:14:55,228 INFO  ProjectBuildService - All script(s): /tmp/rdisk/667/src/USB-Device-Info---Android-master/usbdeviceenumerator/build.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/settings.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/linuxapp/build.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/build.gradle /tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build.gradle
+2018-04-09 18:14:55,229 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:14:55,229 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:14:55,239 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/667/src/USB-Device-Info---Android-master/app/local.properties
+2018-04-09 18:14:55,241 INFO  ProjectFixService - Build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:14:55,241 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:14:55,242 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/667/src/USB-Device-Info---Android-master/local.properties
+2018-04-09 18:14:55,243 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-09 18:14:55,243 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-09 18:14:55,245 INFO  ProjectFixService - Build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:14:55,246 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:14:55,246 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/667/src/USB-Device-Info---Android-master/linuxapp/local.properties
+2018-04-09 18:14:55,249 INFO  ProjectFixService - Build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/linuxapp/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:14:55,249 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/linuxapp/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:14:55,249 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/667/src/USB-Device-Info---Android-master/usbdeviceenumerator/local.properties
+2018-04-09 18:14:55,252 INFO  ProjectFixService - Build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/usbdeviceenumerator/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:14:55,252 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/667/src/USB-Device-Info---Android-master/usbdeviceenumerator/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:14:55,253 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:14:55,253 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:14:55,253 INFO  SysUtils - Execute command: [/tmp/rdisk/667/src/USB-Device-Info---Android-master/gradlew, -b, /tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:15:05,121 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-09 18:15:05,121 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:15:05,121 INFO  SysUtils - Execute command: [/tmp/rdisk/667/src/USB-Device-Info---Android-master/gradlew, -b, /tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:15:34,792 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2420Library
+:app:prepareComAndroidSupportAppcompatV72420Library
+:app:prepareComAndroidSupportDesign2420Library
+:app:prepareComAndroidSupportRecyclerviewV72420Library
+:app:prepareComAndroidSupportSupportCompat2420Library
+:app:prepareComAndroidSupportSupportCoreUi2420Library
+:app:prepareComAndroidSupportSupportCoreUtils2420Library
+:app:prepareComAndroidSupportSupportFragment2420Library
+:app:prepareComAndroidSupportSupportMediaCompat2420Library
+:app:prepareComAndroidSupportSupportV42420Library
+:app:prepareComAndroidSupportSupportVectorDrawable2420Library
+:app:prepareComJakewhartonButterknife840Library
+:usbdeviceenumerator:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:usbdeviceenumerator:processResources UP-TO-DATE
+:usbdeviceenumerator:classes
+:usbdeviceenumerator:jar
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 29.376 secs
+
+2018-04-09 18:15:34,845 INFO  FullProcessService - Found APK file: /tmp/rdisk/667/src/USB-Device-Info---Android-master/app/build/outputs/apk/app-debug.apk

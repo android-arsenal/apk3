@@ -1,0 +1,535 @@
+2018-05-16 17:38:39,590 INFO  DownloadService - Downloading "https://github.com/k9mail/k-9/archive/master.zip", attempt 3
+2018-05-16 17:38:42,202 INFO  DownloadService - Downloaded https://github.com/k9mail/k-9/archive/master.zip, attempt 3
+2018-05-16 17:38:42,203 INFO  DownloadService - Size of file "/tmp/rdisk/637/master.zip": 3 MB
+2018-05-16 17:38:42,203 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 17:38:42,205 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/637/master.zip: true
+2018-05-16 17:38:42,205 DEBUG ZipUtil - Extracting '/tmp/rdisk/637/master.zip' into '/tmp/rdisk/637/src'.
+2018-05-16 17:38:42,423 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-05-16 17:38:42,423 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/637/src]
+2018-05-16 17:38:42,428 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/637/src/.git/
+
+2018-05-16 17:38:42,452 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/637/src/k-9-master/gradlew
+2018-05-16 17:38:42,475 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/637/src/k-9-master/k9mail-library/build.gradle /tmp/rdisk/637/src/k-9-master/k9mail/build.gradle /tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/build.gradle /tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/build.gradle /tmp/rdisk/637/src/k-9-master/build.gradle
+2018-05-16 17:38:42,499 INFO  ProjectBuildService - All script(s): /tmp/rdisk/637/src/k-9-master/settings.gradle /tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/build.gradle /tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/build.gradle /tmp/rdisk/637/src/k-9-master/k9mail/build.gradle /tmp/rdisk/637/src/k-9-master/k9mail-library/build.gradle /tmp/rdisk/637/src/k-9-master/gradle/plugins/findbugs-android.gradle /tmp/rdisk/637/src/k-9-master/gradle/plugins/checkstyle-android.gradle /tmp/rdisk/637/src/k-9-master/build.gradle
+2018-05-16 17:38:42,500 INFO  ProjectBuildService - Remote scripts: none
+2018-05-16 17:38:42,500 INFO  ProjectFixService - Fixing project...
+2018-05-16 17:38:42,549 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/637/src/k-9-master/k9mail-library/local.properties
+2018-05-16 17:38:42,552 INFO  ProjectFixService - Build info for "/tmp/rdisk/637/src/k-9-master/k9mail-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=22]
+2018-05-16 17:38:42,552 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/637/src/k-9-master/k9mail-library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=22]
+2018-05-16 17:38:42,553 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/637/src/k-9-master/k9mail/local.properties
+2018-05-16 17:38:42,555 INFO  ProjectFixService - Build info for "/tmp/rdisk/637/src/k-9-master/k9mail/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=22]
+2018-05-16 17:38:42,555 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/637/src/k-9-master/k9mail/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=22]
+2018-05-16 17:38:42,556 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/local.properties
+2018-05-16 17:38:42,559 INFO  ProjectFixService - Build info for "/tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=22]
+2018-05-16 17:38:42,559 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=22]
+2018-05-16 17:38:42,560 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/local.properties
+2018-05-16 17:38:42,562 INFO  ProjectFixService - Build info for "/tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=22]
+2018-05-16 17:38:42,563 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=22]
+2018-05-16 17:38:42,563 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/637/src/k-9-master/local.properties
+2018-05-16 17:38:42,563 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5.1-all.zip
+2018-05-16 17:38:42,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5.1-bin.zip)
+2018-05-16 17:38:42,567 INFO  ProjectFixService - Build info for "/tmp/rdisk/637/src/k-9-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=22]
+2018-05-16 17:38:42,567 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/637/src/k-9-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=22]
+2018-05-16 17:38:42,567 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 17:38:42,567 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:38:42,567 INFO  SysUtils - Execute command: [/tmp/rdisk/637/src/k-9-master/gradlew, -b, /tmp/rdisk/637/src/k-9-master/k9mail-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:38:57,046 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-05-16 17:38:57,047 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-16 17:38:57,047 INFO  SysUtils - Execute command: [/tmp/rdisk/637/src/k-9-master/gradlew, -b, /tmp/rdisk/637/src/k-9-master/k9mail-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-16 17:39:27,901 INFO  SysUtils - Configuration on demand is an incubating feature.
+:k9mail-library:preBuild UP-TO-DATE
+:k9mail-library:preDebugBuild UP-TO-DATE
+:k9mail-library:compileDebugAidl
+:k9mail-library:compileDebugNdk NO-SOURCE
+:k9mail-library:compileDebugRenderscript
+:k9mail-library:checkDebugManifest
+:k9mail-library:generateDebugBuildConfig
+:k9mail-library:generateDebugResValues
+:k9mail-library:generateDebugResources
+:k9mail-library:packageDebugResources
+:k9mail-library:platformAttrExtractor
+:k9mail-library:processDebugManifest
+:k9mail-library:prepareLintJar
+:k9mail-library:mergeDebugShaders
+:k9mail-library:compileDebugShaders
+:k9mail-library:generateDebugAssets
+:k9mail-library:mergeDebugAssets
+:k9mail-library:mergeDebugConsumerProguardFiles
+:k9mail-library:packageDebugRenderscript NO-SOURCE
+:k9mail-library:processDebugJavaRes NO-SOURCE
+:k9mail-library:mergeDebugJniLibFolders
+:k9mail-library:transformNativeLibsWithMergeJniLibsForDebug
+:k9mail-library:transformNativeLibsWithStripDebugSymbolForDebug
+:k9mail-library:transformNativeLibsWithSyncJniLibsForDebug
+:k9mail-library:preReleaseBuild UP-TO-DATE
+:k9mail-library:compileReleaseAidl
+:k9mail-library:compileReleaseNdk NO-SOURCE
+:k9mail-library:compileReleaseRenderscript
+:k9mail-library:checkReleaseManifest
+:k9mail-library:generateReleaseBuildConfig
+:k9mail-library:generateReleaseResValues
+:k9mail-library:generateReleaseResources
+:k9mail-library:packageReleaseResources
+:k9mail-library:processReleaseManifest
+:k9mail-library:mergeReleaseShaders
+:k9mail-library:compileReleaseShaders
+:k9mail-library:generateReleaseAssets
+:k9mail-library:mergeReleaseAssets
+:k9mail-library:mergeReleaseConsumerProguardFiles
+:k9mail-library:packageReleaseRenderscript NO-SOURCE
+:k9mail-library:processReleaseJavaRes NO-SOURCE
+:k9mail-library:mergeReleaseJniLibFolders
+:k9mail-library:transformNativeLibsWithMergeJniLibsForRelease
+:k9mail-library:transformNativeLibsWithStripDebugSymbolForRelease
+:k9mail-library:transformNativeLibsWithSyncJniLibsForRelease
+:k9mail-library:mergeReleaseResources
+:k9mail-library:verifyReleaseResources
+:k9mail-library:processDebugResources
+:k9mail-library:compileDebugKotlin
+:k9mail-library:generateDebugSources
+:k9mail-library:javaPreCompileDebug
+:k9mail-library:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:k9mail-library:extractDebugAnnotations
+:k9mail-library:transformResourcesWithMergeJavaResForDebug
+:k9mail-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:k9mail-library:bundleDebug
+:k9mail-library:compileDebugSources
+:k9mail-library:assembleDebug
+:k9mail-library:processReleaseResources
+:k9mail-library:compileReleaseKotlin
+:k9mail-library:generateReleaseSources
+:k9mail-library:javaPreCompileRelease
+:k9mail-library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:k9mail-library:extractReleaseAnnotations
+:k9mail-library:transformResourcesWithMergeJavaResForRelease
+:k9mail-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:k9mail-library:bundleRelease
+:k9mail-library:compileReleaseSources
+:k9mail-library:assembleRelease
+:k9mail-library:assemble
+:k9mail-library:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 30s
+50 actionable tasks: 50 executed
+
+2018-05-16 17:39:27,944 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:39:27,944 INFO  SysUtils - Execute command: [/tmp/rdisk/637/src/k-9-master/gradlew, -b, /tmp/rdisk/637/src/k-9-master/k9mail/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:39:41,358 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-05-16 17:39:41,358 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-16 17:39:41,358 INFO  SysUtils - Execute command: [/tmp/rdisk/637/src/k-9-master/gradlew, -b, /tmp/rdisk/637/src/k-9-master/k9mail/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-16 17:41:59,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+:k9mail:preBuild UP-TO-DATE
+:k9mail-library:preBuild UP-TO-DATE
+:k9mail-library:preDebugBuild UP-TO-DATE
+:k9mail-library:checkDebugManifest UP-TO-DATE
+:k9mail-library:processDebugManifest UP-TO-DATE
+:plugins:HoloColorPicker:preBuild UP-TO-DATE
+:plugins:HoloColorPicker:preDebugBuild UP-TO-DATE
+:plugins:HoloColorPicker:checkDebugManifest
+:plugins:HoloColorPicker:processDebugManifest
+:plugins:openpgp-api-lib:openpgp-api:preBuild UP-TO-DATE
+:plugins:openpgp-api-lib:openpgp-api:preDebugBuild UP-TO-DATE
+:plugins:openpgp-api-lib:openpgp-api:checkDebugManifest
+:plugins:openpgp-api-lib:openpgp-api:processDebugManifest
+:k9mail:preDebugBuild
+:k9mail-library:compileDebugAidl UP-TO-DATE
+:plugins:HoloColorPicker:compileDebugAidl
+:plugins:openpgp-api-lib:openpgp-api:compileDebugAidl
+:k9mail:compileDebugAidl
+:k9mail-library:packageDebugRenderscript NO-SOURCE
+:plugins:HoloColorPicker:packageDebugRenderscript NO-SOURCE
+:plugins:openpgp-api-lib:openpgp-api:packageDebugRenderscript NO-SOURCE
+:k9mail:compileDebugRenderscript
+:k9mail:checkDebugManifest
+:k9mail:generateDebugBuildConfig
+:k9mail:generateDebugResValues
+:k9mail:generateDebugResources
+:k9mail-library:compileDebugRenderscript UP-TO-DATE
+:k9mail-library:generateDebugResValues UP-TO-DATE
+:k9mail-library:generateDebugResources UP-TO-DATE
+:k9mail-library:packageDebugResources UP-TO-DATE
+:plugins:HoloColorPicker:compileDebugRenderscript
+:plugins:HoloColorPicker:generateDebugResValues
+:plugins:HoloColorPicker:generateDebugResources
+:plugins:HoloColorPicker:packageDebugResources
+:plugins:openpgp-api-lib:openpgp-api:compileDebugRenderscript
+:plugins:openpgp-api-lib:openpgp-api:generateDebugResValues
+:plugins:openpgp-api-lib:openpgp-api:generateDebugResources
+:plugins:openpgp-api-lib:openpgp-api:packageDebugResources
+:k9mail:mergeDebugResources
+:k9mail:createDebugCompatibleScreenManifests
+:k9mail:processDebugManifest
+:k9mail:splitsDiscoveryTaskDebug
+:k9mail-library:platformAttrExtractor UP-TO-DATE
+:k9mail-library:processDebugResources UP-TO-DATE
+:plugins:HoloColorPicker:platformAttrExtractor
+:plugins:openpgp-api-lib:openpgp-api:platformAttrExtractor
+:k9mail-library:generateDebugBuildConfig UP-TO-DATE
+:k9mail-library:compileDebugKotlin UP-TO-DATE
+:plugins:HoloColorPicker:processDebugResources
+:k9mail-library:prepareLintJar UP-TO-DATE
+:k9mail-library:generateDebugSources UP-TO-DATE
+:k9mail-library:javaPreCompileDebug UP-TO-DATE
+:k9mail-library:compileDebugJavaWithJavac UP-TO-DATE
+:k9mail-library:processDebugJavaRes NO-SOURCE
+:k9mail-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:plugins:HoloColorPicker:generateDebugBuildConfig
+:plugins:HoloColorPicker:prepareLintJar
+:plugins:HoloColorPicker:generateDebugSources
+:plugins:HoloColorPicker:javaPreCompileDebug
+:plugins:HoloColorPicker:compileDebugJavaWithJavac
+:plugins:HoloColorPicker:processDebugJavaRes NO-SOURCE
+:plugins:HoloColorPicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:plugins:openpgp-api-lib:openpgp-api:generateDebugBuildConfig
+:plugins:openpgp-api-lib:openpgp-api:prepareLintJar
+:plugins:openpgp-api-lib:openpgp-api:javaPreCompileDebug
+:plugins:openpgp-api-lib:openpgp-api:processDebugJavaRes NO-SOURCE
+:k9mail:prepareLintJar
+:k9mail:compileDebugNdk NO-SOURCE
+:k9mail:mergeDebugShaders
+:k9mail:compileDebugShaders
+:k9mail:generateDebugAssets
+:k9mail-library:mergeDebugShaders UP-TO-DATE
+:k9mail-library:compileDebugShaders UP-TO-DATE
+:k9mail-library:generateDebugAssets UP-TO-DATE
+:k9mail-library:mergeDebugAssets UP-TO-DATE
+:plugins:HoloColorPicker:mergeDebugShaders
+:plugins:HoloColorPicker:compileDebugShaders
+:plugins:HoloColorPicker:generateDebugAssets
+:plugins:HoloColorPicker:mergeDebugAssets
+:plugins:openpgp-api-lib:openpgp-api:mergeDebugShaders
+:plugins:openpgp-api-lib:openpgp-api:compileDebugShaders
+:plugins:openpgp-api-lib:openpgp-api:generateDebugAssets
+:plugins:openpgp-api-lib:openpgp-api:mergeDebugAssets
+:k9mail:mergeDebugAssets
+:k9mail:mergeDebugJniLibFolders
+:k9mail-library:compileDebugNdk NO-SOURCE
+:k9mail-library:mergeDebugJniLibFolders UP-TO-DATE
+:k9mail-library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:k9mail-library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:k9mail-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:plugins:HoloColorPicker:compileDebugNdk NO-SOURCE
+:plugins:HoloColorPicker:mergeDebugJniLibFolders
+:plugins:HoloColorPicker:transformNativeLibsWithMergeJniLibsForDebug
+:plugins:HoloColorPicker:transformNativeLibsWithStripDebugSymbolForDebug
+:plugins:HoloColorPicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:plugins:openpgp-api-lib:openpgp-api:compileDebugNdk NO-SOURCE
+:plugins:openpgp-api-lib:openpgp-api:mergeDebugJniLibFolders
+:plugins:openpgp-api-lib:openpgp-api:transformNativeLibsWithMergeJniLibsForDebug
+:plugins:openpgp-api-lib:openpgp-api:transformNativeLibsWithStripDebugSymbolForDebug
+:plugins:openpgp-api-lib:openpgp-api:transformNativeLibsWithIntermediateJniLibsForDebug
+:k9mail:processDebugJavaRes NO-SOURCE
+:k9mail:validateSigningDebug
+:k9mail:extractProguardFiles
+:k9mail-library:preReleaseBuild UP-TO-DATE
+:k9mail-library:checkReleaseManifest UP-TO-DATE
+:k9mail-library:processReleaseManifest UP-TO-DATE
+:plugins:HoloColorPicker:preReleaseBuild UP-TO-DATE
+:plugins:HoloColorPicker:checkReleaseManifest
+:plugins:HoloColorPicker:processReleaseManifest
+:plugins:openpgp-api-lib:openpgp-api:preReleaseBuild UP-TO-DATE
+:plugins:openpgp-api-lib:openpgp-api:checkReleaseManifest
+:plugins:openpgp-api-lib:openpgp-api:processReleaseManifest
+:k9mail:preReleaseBuild
+:k9mail-library:compileReleaseAidl UP-TO-DATE
+:plugins:HoloColorPicker:compileReleaseAidl
+:plugins:openpgp-api-lib:openpgp-api:compileReleaseAidl
+:k9mail:compileReleaseAidl
+:k9mail-library:packageReleaseRenderscript NO-SOURCE
+:plugins:HoloColorPicker:packageReleaseRenderscript NO-SOURCE
+:plugins:openpgp-api-lib:openpgp-api:packageReleaseRenderscript NO-SOURCE
+:k9mail:compileReleaseRenderscript
+:k9mail:checkReleaseManifest
+:k9mail:generateReleaseBuildConfig
+:k9mail:generateReleaseResValues
+:k9mail:generateReleaseResources
+:k9mail-library:compileReleaseRenderscript UP-TO-DATE
+:k9mail-library:generateReleaseResValues UP-TO-DATE
+:k9mail-library:generateReleaseResources UP-TO-DATE
+:k9mail-library:packageReleaseResources UP-TO-DATE
+:plugins:HoloColorPicker:compileReleaseRenderscript
+:plugins:HoloColorPicker:generateReleaseResValues
+:plugins:HoloColorPicker:generateReleaseResources
+:plugins:HoloColorPicker:packageReleaseResources
+:plugins:openpgp-api-lib:openpgp-api:compileReleaseRenderscript
+:plugins:openpgp-api-lib:openpgp-api:generateReleaseResValues
+:plugins:openpgp-api-lib:openpgp-api:generateReleaseResources
+:plugins:openpgp-api-lib:openpgp-api:packageReleaseResources
+:k9mail:mergeReleaseResources
+:plugins:openpgp-api-lib:openpgp-api:processDebugResources
+:k9mail:processDebugResourceswarning: string 'account_settings_crypto_support_sign_only' has no default translation.
+warning: string 'account_settings_crypto_support_sign_only_off' has no default translation.
+warning: string 'account_settings_crypto_support_sign_only_on' has no default translation.
+
+
+:plugins:openpgp-api-lib:openpgp-api:generateDebugSources
+:plugins:openpgp-api-lib:openpgp-api:compileDebugJavaWithJavacNote: /tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/src/main/java/org/openintents/openpgp/util/OpenPgpAppPreference.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:plugins:openpgp-api-lib:openpgp-api:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:k9mail:compileDebugKotlin
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (59, 9): 'addPreferencesFromResource(Int): Unit' is deprecated. Deprecated in Java
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (60, 25): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (67, 31): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (74, 24): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+:k9mail:generateDebugSources
+:k9mail:javaPreCompileDebug
+:k9mail:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:k9mail:compileDebugSources
+:k9mail:transformClassesWithDexBuilderForDebug
+:k9mail:transformDexArchiveWithExternalLibsDexMergerForDebug
+:k9mail:transformDexArchiveWithDexMergerForDebug
+:k9mail:transformNativeLibsWithMergeJniLibsForDebug
+:k9mail:transformNativeLibsWithStripDebugSymbolForDebug
+:k9mail:transformResourcesWithMergeJavaResForDebug
+:k9mail:packageDebug
+:k9mail:assembleDebug
+:k9mail:createReleaseCompatibleScreenManifests
+:k9mail:processReleaseManifest
+:k9mail:splitsDiscoveryTaskRelease
+:k9mail-library:processReleaseResources UP-TO-DATE
+:plugins:HoloColorPicker:processReleaseResources
+:plugins:openpgp-api-lib:openpgp-api:processReleaseResources
+:k9mail:processReleaseResourceswarning: string 'account_settings_crypto_support_sign_only' has no default translation.
+warning: string 'account_settings_crypto_support_sign_only_off' has no default translation.
+warning: string 'account_settings_crypto_support_sign_only_on' has no default translation.
+
+
+:k9mail-library:generateReleaseBuildConfig UP-TO-DATE
+:k9mail-library:compileReleaseKotlin UP-TO-DATE
+:k9mail-library:generateReleaseSources UP-TO-DATE
+:k9mail-library:javaPreCompileRelease UP-TO-DATE
+:k9mail-library:compileReleaseJavaWithJavac UP-TO-DATE
+:k9mail-library:processReleaseJavaRes NO-SOURCE
+:k9mail-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:plugins:HoloColorPicker:generateReleaseBuildConfig
+:plugins:HoloColorPicker:generateReleaseSources
+:plugins:HoloColorPicker:javaPreCompileRelease
+:plugins:HoloColorPicker:compileReleaseJavaWithJavac
+:plugins:HoloColorPicker:processReleaseJavaRes NO-SOURCE
+:plugins:HoloColorPicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:plugins:openpgp-api-lib:openpgp-api:generateReleaseBuildConfig
+:plugins:openpgp-api-lib:openpgp-api:generateReleaseSources
+:plugins:openpgp-api-lib:openpgp-api:javaPreCompileRelease
+:plugins:openpgp-api-lib:openpgp-api:compileReleaseJavaWithJavacNote: /tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/src/main/java/org/openintents/openpgp/util/OpenPgpAppPreference.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:plugins:openpgp-api-lib:openpgp-api:processReleaseJavaRes NO-SOURCE
+:plugins:openpgp-api-lib:openpgp-api:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:k9mail:compileReleaseKotlin
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (59, 9): 'addPreferencesFromResource(Int): Unit' is deprecated. Deprecated in Java
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (60, 25): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (67, 31): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+w: /tmp/rdisk/637/src/k-9-master/k9mail/src/main/java/com/fsck/k9/widget/unread/UnreadWidgetConfigurationActivity.kt: (74, 24): 'findPreference(CharSequence!): Preference!' is deprecated. Deprecated in Java
+:k9mail:generateReleaseSources
+:k9mail:javaPreCompileRelease
+:k9mail:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:k9mail:compileReleaseNdk NO-SOURCE
+:k9mail:compileReleaseSources
+:k9mail:lintVitalRelease
+:k9mail:mergeReleaseShaders
+:k9mail:compileReleaseShaders
+:k9mail:generateReleaseAssets
+:k9mail-library:mergeReleaseShaders UP-TO-DATE
+:k9mail-library:compileReleaseShaders UP-TO-DATE
+:k9mail-library:generateReleaseAssets UP-TO-DATE
+:k9mail-library:mergeReleaseAssets UP-TO-DATE
+:plugins:HoloColorPicker:mergeReleaseShaders
+:plugins:HoloColorPicker:compileReleaseShaders
+:plugins:HoloColorPicker:generateReleaseAssets
+:plugins:HoloColorPicker:mergeReleaseAssets
+:plugins:openpgp-api-lib:openpgp-api:mergeReleaseShaders
+:plugins:openpgp-api-lib:openpgp-api:compileReleaseShaders
+:plugins:openpgp-api-lib:openpgp-api:generateReleaseAssets
+:plugins:openpgp-api-lib:openpgp-api:mergeReleaseAssets
+:k9mail:mergeReleaseAssets
+:k9mail:processReleaseJavaRes NO-SOURCE
+:k9mail:transformResourcesWithMergeJavaResForRelease
+:k9mail-library:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:plugins:HoloColorPicker:mergeReleaseConsumerProguardFiles
+:plugins:openpgp-api-lib:openpgp-api:mergeReleaseConsumerProguardFiles
+:k9mail:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/groupie-kotlin-android-extensions-2.0.3.aar/69f75e061a30b4547112dbf8370f3e5a/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.31/98678431965f7487d6dc9b399e59b6c4b3921073/kotlin-stdlib-jre7-1.2.31.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.2.0/c27dff1588c45efcff2e07c29e9d148ee707da29/moshi-1.2.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/library-5.4.1.aar/3d119516325a120b9a6103b1737ac518/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/81b41b6935f69c272e803bd135a2925c/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45199a6d912074eff3adc681d4f18f1c/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/groupie-2.0.3.aar/0eda3a9b8dcb3cc45217a587836c84d6/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/995ea75c4f21e20ada1af310f34e03db/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/koin-android-architecture-0.9.1.aar/bd8962aca8b3c05377d41800671c6a13/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/f3a6d2c0a2c85ca333e6173d6ab3a06c/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.2/e3eeb8a0b4ce1db246059a41e353cd7413dad226/jsoup-1.11.2.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/f6bbb72d75f16b83597dd390e03cde3c/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/6ebd5b06e60a174a7e137cb5b9a0b375/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/55cb26e4a82bcc8f9e98ba0a3515986e/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fd1e02ccee05f78bdb1c01d93d01b0f3/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-dom/0.8.1/f2d653c617004193f3350330d907f77b60c88c56/apache-mime4j-dom-0.8.1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-core/0.8.1/c62dfe18a3b827a2c626ade0ffba44562ddf3f61/apache-mime4j-core-0.8.1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-coroutines/0.10.4/f7550d88216109bf36e588b126da3743af0eff6b/anko-coroutines-0.10.4.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.2.31/fff69c16b9cc55a1bd19077020f989091ef2d022/kotlin-android-extensions-runtime-1.2.31.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.0.7/ba26d908c6eabe519ef645d81d4e267de7280f8f/jzlib-1.0.7.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.beetstra.jutf7/jutf7/1.0.0/5308ab88a1049e8d75fe3d6c0a9e7b1305dd0520/jutf7-1.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/248cf52e5881e9f11643ff4e224e9285/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/efc6303670806150587b14d833c6a035/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ae1f428c20a3239aa8d3eaa020afaa79/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/67e2ec63a361806bd90499a086b13326/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/33e1b796578248d7218325e8e330d550/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/62639ef202e02f96862210997116a730/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6e4da9298e50d2ab7b89782237bdbcdc/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/livedata-1.1.0.aar/c07248e130d0e00c2245cc3d994ccc59/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fc873473d6f8b8df2bf950461bd76af8/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6355c87474ed5cfe9eb0b5c6f1234921/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9aed3cbbf7538fbb3599c7749dc5dea6/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/20223461f9dd1f1e0fb5382f8d6fb05a/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f10e801b31115893fe1732291b8ab6c3/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/0.15/b1fece43d4273e8941d01784d6f64c7486da1990/kotlinx-coroutines-android-0.15.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/koin-android-0.9.1.aar/1db2087a7cee1433a18f2ec6a3eb0c6a/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.koin/koin-core/0.9.1/9fa501c0ccaa4504adcaa5745080b10bca40547b/koin-core-0.9.1.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/153dcd9ed9db246a7e36f4d7609e2a9f4718c674/kotlin-stdlib-1.2.31.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/relinker-1.2.1.aar/61603629fb9b15b4863154111fd3231f/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/tmp/rdisk/637/src/k-9-master/k9mail-library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/tmp/rdisk/637/src/k-9-master/k9mail/build/intermediates/classes/release] (filtered)
+Reading program directory [/tmp/rdisk/637/src/k-9-master/k9mail/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/tmp/rdisk/637/src/k-9-master/k9mail/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Initializing...
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk7.JDK7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: there were 4 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1581
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/637/src/k-9-master/k9mail/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 5483
+  Final number of program classes:    3405
+Inlining subroutines...
+Preverifying...
+Writing output...
+Preparing output jar [/tmp/rdisk/637/src/k-9-master/k9mail/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/groupie-kotlin-android-extensions-2.0.3.aar/69f75e061a30b4547112dbf8370f3e5a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.31/98678431965f7487d6dc9b399e59b6c4b3921073/kotlin-stdlib-jre7-1.2.31.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.2.0/c27dff1588c45efcff2e07c29e9d148ee707da29/moshi-1.2.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/library-5.4.1.aar/3d119516325a120b9a6103b1737ac518/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/81b41b6935f69c272e803bd135a2925c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/45199a6d912074eff3adc681d4f18f1c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/groupie-2.0.3.aar/0eda3a9b8dcb3cc45217a587836c84d6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/995ea75c4f21e20ada1af310f34e03db/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/koin-android-architecture-0.9.1.aar/bd8962aca8b3c05377d41800671c6a13/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/f3a6d2c0a2c85ca333e6173d6ab3a06c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.2/e3eeb8a0b4ce1db246059a41e353cd7413dad226/jsoup-1.11.2.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/f6bbb72d75f16b83597dd390e03cde3c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/6ebd5b06e60a174a7e137cb5b9a0b375/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/55cb26e4a82bcc8f9e98ba0a3515986e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/fd1e02ccee05f78bdb1c01d93d01b0f3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-dom/0.8.1/f2d653c617004193f3350330d907f77b60c88c56/apache-mime4j-dom-0.8.1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-core/0.8.1/c62dfe18a3b827a2c626ade0ffba44562ddf3f61/apache-mime4j-core-0.8.1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-coroutines/0.10.4/f7550d88216109bf36e588b126da3743af0eff6b/anko-coroutines-0.10.4.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.2.31/fff69c16b9cc55a1bd19077020f989091ef2d022/kotlin-android-extensions-runtime-1.2.31.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.jcraft/jzlib/1.0.7/ba26d908c6eabe519ef645d81d4e267de7280f8f/jzlib-1.0.7.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.beetstra.jutf7/jutf7/1.0.0/5308ab88a1049e8d75fe3d6c0a9e7b1305dd0520/jutf7-1.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/248cf52e5881e9f11643ff4e224e9285/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/efc6303670806150587b14d833c6a035/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ae1f428c20a3239aa8d3eaa020afaa79/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/67e2ec63a361806bd90499a086b13326/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/33e1b796578248d7218325e8e330d550/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/62639ef202e02f96862210997116a730/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/6e4da9298e50d2ab7b89782237bdbcdc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/livedata-1.1.0.aar/c07248e130d0e00c2245cc3d994ccc59/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fc873473d6f8b8df2bf950461bd76af8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6355c87474ed5cfe9eb0b5c6f1234921/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9aed3cbbf7538fbb3599c7749dc5dea6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/20223461f9dd1f1e0fb5382f8d6fb05a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f10e801b31115893fe1732291b8ab6c3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/0.15/b1fece43d4273e8941d01784d6f64c7486da1990/kotlinx-coroutines-android-0.15.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.15/5f0e2a96538d4ddc421ed042799e825016875f29/kotlinx-coroutines-core-0.15.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/koin-android-0.9.1.aar/1db2087a7cee1433a18f2ec6a3eb0c6a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.koin/koin-core/0.9.1/9fa501c0ccaa4504adcaa5745080b10bca40547b/koin-core-0.9.1.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/153dcd9ed9db246a7e36f4d7609e2a9f4718c674/kotlin-stdlib-1.2.31.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/relinker-1.2.1.aar/61603629fb9b15b4863154111fd3231f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/637/src/k-9-master/k9mail-library/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/637/src/k-9-master/plugins/HoloColorPicker/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/637/src/k-9-master/plugins/openpgp-api-lib/openpgp-api/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/637/src/k-9-master/k9mail/build/intermediates/classes/release] (filtered)
+  Copying resources from program directory [/tmp/rdisk/637/src/k-9-master/k9mail/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/tmp/rdisk/637/src/k-9-master/k9mail/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/637/src/k-9-master/k9mail/build/outputs/mapping/release/dump.txt]...
+:k9mail:transformClassesWithDexForRelease
+:k9mail:mergeReleaseJniLibFolders
+:k9mail-library:compileReleaseNdk NO-SOURCE
+:k9mail-library:mergeReleaseJniLibFolders UP-TO-DATE
+:k9mail-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:k9mail-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:k9mail-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:plugins:HoloColorPicker:compileReleaseNdk NO-SOURCE
+:plugins:HoloColorPicker:mergeReleaseJniLibFolders
+:plugins:HoloColorPicker:transformNativeLibsWithMergeJniLibsForRelease
+:plugins:HoloColorPicker:transformNativeLibsWithStripDebugSymbolForRelease
+:plugins:HoloColorPicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:plugins:openpgp-api-lib:openpgp-api:compileReleaseNdk NO-SOURCE
+:plugins:openpgp-api-lib:openpgp-api:mergeReleaseJniLibFolders
+:plugins:openpgp-api-lib:openpgp-api:transformNativeLibsWithMergeJniLibsForRelease
+:plugins:openpgp-api-lib:openpgp-api:transformNativeLibsWithStripDebugSymbolForRelease
+:plugins:openpgp-api-lib:openpgp-api:transformNativeLibsWithIntermediateJniLibsForRelease
+:k9mail:transformNativeLibsWithMergeJniLibsForRelease
+:k9mail:transformNativeLibsWithStripDebugSymbolForRelease
+:k9mail:packageRelease
+:k9mail:assembleRelease
+:k9mail:assemble
+:k9mail:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 17s
+172 actionable tasks: 135 executed, 37 up-to-date
+
+2018-05-16 17:41:59,928 INFO  FullProcessService - Found APK file: /tmp/rdisk/637/src/k-9-master/k9mail/build/outputs/apk/release/k9mail-release-unsigned.apk

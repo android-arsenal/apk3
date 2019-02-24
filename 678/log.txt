@@ -1,0 +1,140 @@
+2018-04-09 18:09:34,942 INFO  DownloadService - Downloading "https://github.com/jReddit/jReddit/archive/master.zip", attempt 3
+2018-04-09 18:09:35,380 INFO  DownloadService - Downloaded https://github.com/jReddit/jReddit/archive/master.zip, attempt 3
+2018-04-09 18:09:35,380 INFO  DownloadService - Size of file "/tmp/rdisk/678/master.zip": 231 KB
+2018-04-09 18:09:35,380 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:09:35,380 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/678/master.zip: true
+2018-04-09 18:09:35,380 DEBUG ZipUtil - Extracting '/tmp/rdisk/678/master.zip' into '/tmp/rdisk/678/src'.
+2018-04-09 18:09:35,403 INFO  FullProcessService - Size of directory with sources: 378 KB
+2018-04-09 18:09:35,403 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/678/src]
+2018-04-09 18:09:35,413 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/678/src/.git/
+
+2018-04-09 18:09:35,418 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/678/src/jReddit-master/gradlew /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/gradlew
+2018-04-09 18:09:35,423 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build.gradle /tmp/rdisk/678/src/jReddit-master/build.gradle /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/build.gradle
+2018-04-09 18:09:35,428 INFO  ProjectBuildService - All script(s): /tmp/rdisk/678/src/jReddit-master/settings.gradle /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/settings.gradle /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/build.gradle /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build.gradle /tmp/rdisk/678/src/jReddit-master/build.gradle
+2018-04-09 18:09:35,428 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:09:35,428 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:09:35,438 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/local.properties
+2018-04-09 18:09:35,439 INFO  ProjectFixService - Build info for "/tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=19,targetSdkVersion=21]
+2018-04-09 18:09:35,442 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/678/src/jReddit-master/local.properties
+2018-04-09 18:09:35,442 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2-bin.zip
+2018-04-09 18:09:35,444 INFO  ProjectFixService - Build info for "/tmp/rdisk/678/src/jReddit-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=19,targetSdkVersion=21]
+2018-04-09 18:09:35,444 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/local.properties
+2018-04-09 18:09:35,445 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 18:09:35,445 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 18:09:35,446 INFO  ProjectFixService - Build info for "/tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=19,targetSdkVersion=21]
+2018-04-09 18:09:35,446 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:09:35,446 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:09:35,446 INFO  SysUtils - Execute command: [/tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/gradlew, -b, /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:10:06,650 INFO  ProjectTaskService - Detected possible tasks: 60
+2018-04-09 18:10:06,650 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-09 18:10:06,651 INFO  SysUtils - Execute command: [/tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/gradlew, -b, /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-09 18:11:14,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72200Library
+:app:prepareComAndroidSupportSupportV42200Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+AAPT warning(Job{title=Cruncher abc_spinner_mtrl_am_alpha.9.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebugwarning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.codehaus.plexus.util.FastMap$KeySet$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.codehaus.plexus.util.cli.CommandLineUtils$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.codehaus.plexus.util.FastMap$EntrySet$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.codehaus.plexus.util.FastMap$Values$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.codehaus.plexus.classworlds.launcher.ConfigurationParser$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.codehaus.plexus.classworlds.launcher.Configurator$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResourcesAAPT err(907061407) : No Delegate set : lost message:/tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+Process list not empty
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 7.498 secs
+
+2018-04-09 18:11:14,654 INFO  FullProcessService - Found APK file: /tmp/rdisk/678/src/jReddit-master/examples/Jreddit-sample-project/app/build/outputs/apk/app-debug.apk

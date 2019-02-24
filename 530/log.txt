@@ -1,0 +1,746 @@
+2018-05-16 17:42:21,025 INFO  DownloadService - Downloading "https://github.com/Bilibili/ijkplayer/archive/master.zip", attempt 3
+2018-05-16 17:42:23,244 INFO  DownloadService - Downloaded https://github.com/Bilibili/ijkplayer/archive/master.zip, attempt 3
+2018-05-16 17:42:23,244 INFO  DownloadService - Size of file "/tmp/rdisk/530/master.zip": 1 MB
+2018-05-16 17:42:23,244 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 17:42:23,246 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/530/master.zip: true
+2018-05-16 17:42:23,246 DEBUG ZipUtil - Extracting '/tmp/rdisk/530/master.zip' into '/tmp/rdisk/530/src'.
+2018-05-16 17:42:23,358 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-05-16 17:42:23,359 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/530/src]
+2018-05-16 17:42:23,363 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/530/src/.git/
+
+2018-05-16 17:42:23,381 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew
+2018-05-16 17:42:23,400 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-exo/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-java/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86_64/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/build.gradle
+2018-05-16 17:42:23,420 INFO  ProjectBuildService - All script(s): /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/tools/gradle-on-demand.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/tools/gradle-mvn-push.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/tools/gradle-bintray-upload.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/settings.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86_64/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-java/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-exo/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build.gradle /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/build.gradle
+2018-05-16 17:42:23,420 INFO  ProjectBuildService - Remote scripts: none
+2018-05-16 17:42:23,420 INFO  ProjectFixService - Fixing project...
+2018-05-16 17:42:23,480 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/local.properties
+2018-05-16 17:42:23,494 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-16 17:42:23,495 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/local.properties
+2018-05-16 17:42:23,509 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-05-16 17:42:23,509 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/local.properties
+2018-05-16 17:42:23,519 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-05-16 17:42:23,520 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/local.properties
+2018-05-16 17:42:23,534 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-05-16 17:42:23,534 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-exo/local.properties
+2018-05-16 17:42:23,544 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-exo/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-05-16 17:42:23,544 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-java/local.properties
+2018-05-16 17:42:23,562 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-java/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-05-16 17:42:23,563 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86/local.properties
+2018-05-16 17:42:23,570 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-05-16 17:42:23,570 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86_64/local.properties
+2018-05-16 17:42:23,576 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-x86_64/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-16 17:42:23,576 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/local.properties
+2018-05-16 17:42:23,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-05-16 17:42:23,577 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-05-16 17:42:23,578 INFO  ProjectFixService - Build info for "/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-05-16 17:42:23,578 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 17:42:23,578 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:42:23,578 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:42:33,647 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-16 17:42:33,647 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-16 17:42:33,647 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-16 17:42:33,647 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-16 17:42:50,639 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ijkplayer-arm64:preBuild UP-TO-DATE
+:ijkplayer-arm64:preDebugBuild UP-TO-DATE
+:ijkplayer-arm64:compileDebugNdk UP-TO-DATE
+:ijkplayer-arm64:compileLint
+:ijkplayer-arm64:copyDebugLint UP-TO-DATE
+:ijkplayer-arm64:mergeDebugProguardFiles
+:ijkplayer-arm64:packageDebugRenderscript UP-TO-DATE
+:ijkplayer-arm64:checkDebugManifest
+:ijkplayer-arm64:prepareDebugDependencies
+:ijkplayer-arm64:compileDebugRenderscript
+:ijkplayer-arm64:generateDebugResValues
+:ijkplayer-arm64:generateDebugResources
+:ijkplayer-arm64:packageDebugResources
+:ijkplayer-arm64:compileDebugAidl
+:ijkplayer-arm64:generateDebugBuildConfig
+:ijkplayer-arm64:mergeDebugShaders
+:ijkplayer-arm64:compileDebugShaders
+:ijkplayer-arm64:generateDebugAssets
+:ijkplayer-arm64:mergeDebugAssets
+:ijkplayer-arm64:processDebugManifest
+:ijkplayer-arm64:processDebugResources
+:ijkplayer-arm64:generateDebugSources
+:ijkplayer-arm64:incrementalDebugJavaCompilationSafeguard
+:ijkplayer-arm64:compileDebugJavaWithJavac
+:ijkplayer-arm64:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-arm64:processDebugJavaRes UP-TO-DATE
+:ijkplayer-arm64:transformResourcesWithMergeJavaResForDebug
+:ijkplayer-arm64:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ijkplayer-arm64:mergeDebugJniLibFolders
+:ijkplayer-arm64:transformNative_libsWithMergeJniLibsForDebug
+:ijkplayer-arm64:transformNative_libsWithSyncJniLibsForDebug
+:ijkplayer-arm64:bundleDebug
+:ijkplayer-arm64:compileDebugSources
+:ijkplayer-arm64:assembleDebug
+:ijkplayer-arm64:preReleaseBuild UP-TO-DATE
+:ijkplayer-arm64:compileReleaseNdk UP-TO-DATE
+:ijkplayer-arm64:copyReleaseLint UP-TO-DATE
+:ijkplayer-arm64:mergeReleaseProguardFiles
+:ijkplayer-arm64:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-arm64:checkReleaseManifest
+:ijkplayer-arm64:prepareReleaseDependencies
+:ijkplayer-arm64:compileReleaseRenderscript
+:ijkplayer-arm64:generateReleaseResValues
+:ijkplayer-arm64:generateReleaseResources
+:ijkplayer-arm64:packageReleaseResources
+:ijkplayer-arm64:compileReleaseAidl
+:ijkplayer-arm64:generateReleaseBuildConfig
+:ijkplayer-arm64:mergeReleaseShaders
+:ijkplayer-arm64:compileReleaseShaders
+:ijkplayer-arm64:generateReleaseAssets
+:ijkplayer-arm64:mergeReleaseAssets
+:ijkplayer-arm64:processReleaseManifest
+:ijkplayer-arm64:processReleaseResources
+:ijkplayer-arm64:generateReleaseSources
+:ijkplayer-arm64:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-arm64:compileReleaseJavaWithJavac
+:ijkplayer-arm64:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-arm64:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-arm64:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-arm64:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-arm64:mergeReleaseJniLibFolders
+:ijkplayer-arm64:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-arm64:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-arm64:bundleRelease
+:ijkplayer-arm64:compileReleaseSources
+:ijkplayer-arm64:assembleRelease
+:ijkplayer-arm64:assemble
+:ijkplayer-arm64:lint
+Ran lint on variant release: 1 issues found
+Ran lint on variant debug: 1 issues found
+Wrote HTML report to file:///tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-arm64/build/outputs/lint-results-debug.xml
+:ijkplayer-arm64:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-arm64:preDebugUnitTestBuild UP-TO-DATE
+:ijkplayer-arm64:prepareDebugUnitTestDependencies
+:ijkplayer-arm64:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:ijkplayer-arm64:processDebugUnitTestJavaRes UP-TO-DATE
+:ijkplayer-arm64:compileDebugUnitTestSources UP-TO-DATE
+:ijkplayer-arm64:mockableAndroidJar
+:ijkplayer-arm64:assembleDebugUnitTest
+:ijkplayer-arm64:testDebugUnitTest
+:ijkplayer-arm64:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-arm64:preReleaseUnitTestBuild UP-TO-DATE
+:ijkplayer-arm64:prepareReleaseUnitTestDependencies
+:ijkplayer-arm64:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:ijkplayer-arm64:processReleaseUnitTestJavaRes UP-TO-DATE
+:ijkplayer-arm64:compileReleaseUnitTestSources UP-TO-DATE
+:ijkplayer-arm64:assembleReleaseUnitTest
+:ijkplayer-arm64:testReleaseUnitTest
+:ijkplayer-arm64:test
+:ijkplayer-arm64:check
+:ijkplayer-arm64:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.545 secs
+
+2018-05-16 17:42:50,664 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:42:50,665 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:42:58,307 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-16 17:42:58,307 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-16 17:42:58,307 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-16 17:42:58,307 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-16 17:43:09,012 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ijkplayer-armv5:preBuild UP-TO-DATE
+:ijkplayer-armv5:preDebugBuild UP-TO-DATE
+:ijkplayer-armv5:compileDebugNdk UP-TO-DATE
+:ijkplayer-armv5:compileLint
+:ijkplayer-armv5:copyDebugLint UP-TO-DATE
+:ijkplayer-armv5:mergeDebugProguardFiles
+:ijkplayer-armv5:packageDebugRenderscript UP-TO-DATE
+:ijkplayer-armv5:checkDebugManifest
+:ijkplayer-armv5:prepareDebugDependencies
+:ijkplayer-armv5:compileDebugRenderscript
+:ijkplayer-armv5:generateDebugResValues
+:ijkplayer-armv5:generateDebugResources
+:ijkplayer-armv5:packageDebugResources
+:ijkplayer-armv5:compileDebugAidl
+:ijkplayer-armv5:generateDebugBuildConfig
+:ijkplayer-armv5:mergeDebugShaders
+:ijkplayer-armv5:compileDebugShaders
+:ijkplayer-armv5:generateDebugAssets
+:ijkplayer-armv5:mergeDebugAssets
+:ijkplayer-armv5:processDebugManifest
+:ijkplayer-armv5:processDebugResources
+:ijkplayer-armv5:generateDebugSources
+:ijkplayer-armv5:incrementalDebugJavaCompilationSafeguard
+:ijkplayer-armv5:compileDebugJavaWithJavac
+:ijkplayer-armv5:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-armv5:processDebugJavaRes UP-TO-DATE
+:ijkplayer-armv5:transformResourcesWithMergeJavaResForDebug
+:ijkplayer-armv5:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ijkplayer-armv5:mergeDebugJniLibFolders
+:ijkplayer-armv5:transformNative_libsWithMergeJniLibsForDebug
+:ijkplayer-armv5:transformNative_libsWithSyncJniLibsForDebug
+:ijkplayer-armv5:bundleDebug
+:ijkplayer-armv5:compileDebugSources
+:ijkplayer-armv5:assembleDebug
+:ijkplayer-armv5:preReleaseBuild UP-TO-DATE
+:ijkplayer-armv5:compileReleaseNdk UP-TO-DATE
+:ijkplayer-armv5:copyReleaseLint UP-TO-DATE
+:ijkplayer-armv5:mergeReleaseProguardFiles
+:ijkplayer-armv5:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-armv5:checkReleaseManifest
+:ijkplayer-armv5:prepareReleaseDependencies
+:ijkplayer-armv5:compileReleaseRenderscript
+:ijkplayer-armv5:generateReleaseResValues
+:ijkplayer-armv5:generateReleaseResources
+:ijkplayer-armv5:packageReleaseResources
+:ijkplayer-armv5:compileReleaseAidl
+:ijkplayer-armv5:generateReleaseBuildConfig
+:ijkplayer-armv5:mergeReleaseShaders
+:ijkplayer-armv5:compileReleaseShaders
+:ijkplayer-armv5:generateReleaseAssets
+:ijkplayer-armv5:mergeReleaseAssets
+:ijkplayer-armv5:processReleaseManifest
+:ijkplayer-armv5:processReleaseResources
+:ijkplayer-armv5:generateReleaseSources
+:ijkplayer-armv5:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-armv5:compileReleaseJavaWithJavac
+:ijkplayer-armv5:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-armv5:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-armv5:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-armv5:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-armv5:mergeReleaseJniLibFolders
+:ijkplayer-armv5:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-armv5:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-armv5:bundleRelease
+:ijkplayer-armv5:compileReleaseSources
+:ijkplayer-armv5:assembleRelease
+:ijkplayer-armv5:assemble
+:ijkplayer-armv5:lint
+Ran lint on variant debug: 1 issues found
+Ran lint on variant release: 1 issues found
+Wrote HTML report to file:///tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv5/build/outputs/lint-results-debug.xml
+:ijkplayer-armv5:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-armv5:preDebugUnitTestBuild UP-TO-DATE
+:ijkplayer-armv5:prepareDebugUnitTestDependencies
+:ijkplayer-armv5:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:ijkplayer-armv5:processDebugUnitTestJavaRes UP-TO-DATE
+:ijkplayer-armv5:compileDebugUnitTestSources UP-TO-DATE
+:ijkplayer-armv5:mockableAndroidJar
+:ijkplayer-armv5:assembleDebugUnitTest
+:ijkplayer-armv5:testDebugUnitTest
+:ijkplayer-armv5:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-armv5:preReleaseUnitTestBuild UP-TO-DATE
+:ijkplayer-armv5:prepareReleaseUnitTestDependencies
+:ijkplayer-armv5:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:ijkplayer-armv5:processReleaseUnitTestJavaRes UP-TO-DATE
+:ijkplayer-armv5:compileReleaseUnitTestSources UP-TO-DATE
+:ijkplayer-armv5:assembleReleaseUnitTest
+:ijkplayer-armv5:testReleaseUnitTest
+:ijkplayer-armv5:test
+:ijkplayer-armv5:check
+:ijkplayer-armv5:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.267 secs
+
+2018-05-16 17:43:09,043 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:43:09,043 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:43:16,803 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-16 17:43:16,803 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-16 17:43:16,803 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-16 17:43:16,803 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-16 17:43:27,659 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ijkplayer-armv7a:preBuild UP-TO-DATE
+:ijkplayer-armv7a:preDebugBuild UP-TO-DATE
+:ijkplayer-armv7a:compileDebugNdk UP-TO-DATE
+:ijkplayer-armv7a:compileLint
+:ijkplayer-armv7a:copyDebugLint UP-TO-DATE
+:ijkplayer-armv7a:mergeDebugProguardFiles
+:ijkplayer-armv7a:packageDebugRenderscript UP-TO-DATE
+:ijkplayer-armv7a:checkDebugManifest
+:ijkplayer-armv7a:prepareDebugDependencies
+:ijkplayer-armv7a:compileDebugRenderscript
+:ijkplayer-armv7a:generateDebugResValues
+:ijkplayer-armv7a:generateDebugResources
+:ijkplayer-armv7a:packageDebugResources
+:ijkplayer-armv7a:compileDebugAidl
+:ijkplayer-armv7a:generateDebugBuildConfig
+:ijkplayer-armv7a:mergeDebugShaders
+:ijkplayer-armv7a:compileDebugShaders
+:ijkplayer-armv7a:generateDebugAssets
+:ijkplayer-armv7a:mergeDebugAssets
+:ijkplayer-armv7a:processDebugManifest
+:ijkplayer-armv7a:processDebugResources
+:ijkplayer-armv7a:generateDebugSources
+:ijkplayer-armv7a:incrementalDebugJavaCompilationSafeguard
+:ijkplayer-armv7a:compileDebugJavaWithJavac
+:ijkplayer-armv7a:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-armv7a:processDebugJavaRes UP-TO-DATE
+:ijkplayer-armv7a:transformResourcesWithMergeJavaResForDebug
+:ijkplayer-armv7a:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ijkplayer-armv7a:mergeDebugJniLibFolders
+:ijkplayer-armv7a:transformNative_libsWithMergeJniLibsForDebug
+:ijkplayer-armv7a:transformNative_libsWithSyncJniLibsForDebug
+:ijkplayer-armv7a:bundleDebug
+:ijkplayer-armv7a:compileDebugSources
+:ijkplayer-armv7a:assembleDebug
+:ijkplayer-armv7a:preReleaseBuild UP-TO-DATE
+:ijkplayer-armv7a:compileReleaseNdk UP-TO-DATE
+:ijkplayer-armv7a:copyReleaseLint UP-TO-DATE
+:ijkplayer-armv7a:mergeReleaseProguardFiles
+:ijkplayer-armv7a:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-armv7a:checkReleaseManifest
+:ijkplayer-armv7a:prepareReleaseDependencies
+:ijkplayer-armv7a:compileReleaseRenderscript
+:ijkplayer-armv7a:generateReleaseResValues
+:ijkplayer-armv7a:generateReleaseResources
+:ijkplayer-armv7a:packageReleaseResources
+:ijkplayer-armv7a:compileReleaseAidl
+:ijkplayer-armv7a:generateReleaseBuildConfig
+:ijkplayer-armv7a:mergeReleaseShaders
+:ijkplayer-armv7a:compileReleaseShaders
+:ijkplayer-armv7a:generateReleaseAssets
+:ijkplayer-armv7a:mergeReleaseAssets
+:ijkplayer-armv7a:processReleaseManifest
+:ijkplayer-armv7a:processReleaseResources
+:ijkplayer-armv7a:generateReleaseSources
+:ijkplayer-armv7a:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-armv7a:compileReleaseJavaWithJavac
+:ijkplayer-armv7a:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-armv7a:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-armv7a:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-armv7a:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-armv7a:mergeReleaseJniLibFolders
+:ijkplayer-armv7a:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-armv7a:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-armv7a:bundleRelease
+:ijkplayer-armv7a:compileReleaseSources
+:ijkplayer-armv7a:assembleRelease
+:ijkplayer-armv7a:assemble
+:ijkplayer-armv7a:lint
+Ran lint on variant debug: 1 issues found
+Ran lint on variant release: 1 issues found
+Wrote HTML report to file:///tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-armv7a/build/outputs/lint-results-debug.xml
+:ijkplayer-armv7a:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-armv7a:preDebugUnitTestBuild UP-TO-DATE
+:ijkplayer-armv7a:prepareDebugUnitTestDependencies
+:ijkplayer-armv7a:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:ijkplayer-armv7a:processDebugUnitTestJavaRes UP-TO-DATE
+:ijkplayer-armv7a:compileDebugUnitTestSources UP-TO-DATE
+:ijkplayer-armv7a:mockableAndroidJar
+:ijkplayer-armv7a:assembleDebugUnitTest
+:ijkplayer-armv7a:testDebugUnitTest
+:ijkplayer-armv7a:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-armv7a:preReleaseUnitTestBuild UP-TO-DATE
+:ijkplayer-armv7a:prepareReleaseUnitTestDependencies
+:ijkplayer-armv7a:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:ijkplayer-armv7a:processReleaseUnitTestJavaRes UP-TO-DATE
+:ijkplayer-armv7a:compileReleaseUnitTestSources UP-TO-DATE
+:ijkplayer-armv7a:assembleReleaseUnitTest
+:ijkplayer-armv7a:testReleaseUnitTest
+:ijkplayer-armv7a:test
+:ijkplayer-armv7a:check
+:ijkplayer-armv7a:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.414 secs
+
+2018-05-16 17:43:27,694 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:43:27,694 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:43:35,799 INFO  ProjectTaskService - Detected possible tasks: 90
+2018-05-16 17:43:35,799 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-05-16 17:43:35,799 INFO  SysUtils - Execute command: [/tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/gradlew, -b, /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-05-16 17:44:24,268 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ijkplayer-armv5:preBuild UP-TO-DATE
+:ijkplayer-armv5:preReleaseBuild UP-TO-DATE
+:ijkplayer-armv5:compileReleaseNdk UP-TO-DATE
+:ijkplayer-armv5:compileLint
+:ijkplayer-armv5:copyReleaseLint UP-TO-DATE
+:ijkplayer-armv5:mergeReleaseProguardFiles UP-TO-DATE
+:ijkplayer-armv5:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-armv5:checkReleaseManifest
+:ijkplayer-armv5:prepareReleaseDependencies
+:ijkplayer-armv5:compileReleaseRenderscript UP-TO-DATE
+:ijkplayer-armv5:generateReleaseResValues UP-TO-DATE
+:ijkplayer-armv5:generateReleaseResources UP-TO-DATE
+:ijkplayer-armv5:packageReleaseResources UP-TO-DATE
+:ijkplayer-armv5:compileReleaseAidl UP-TO-DATE
+:ijkplayer-armv5:generateReleaseBuildConfig UP-TO-DATE
+:ijkplayer-armv5:mergeReleaseShaders UP-TO-DATE
+:ijkplayer-armv5:compileReleaseShaders UP-TO-DATE
+:ijkplayer-armv5:generateReleaseAssets UP-TO-DATE
+:ijkplayer-armv5:mergeReleaseAssets UP-TO-DATE
+:ijkplayer-armv5:processReleaseManifest UP-TO-DATE
+:ijkplayer-armv5:processReleaseResources UP-TO-DATE
+:ijkplayer-armv5:generateReleaseSources UP-TO-DATE
+:ijkplayer-armv5:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-armv5:compileReleaseJavaWithJavac UP-TO-DATE
+:ijkplayer-armv5:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-armv5:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ijkplayer-armv5:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ijkplayer-armv5:mergeReleaseJniLibFolders UP-TO-DATE
+:ijkplayer-armv5:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:ijkplayer-armv5:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:ijkplayer-armv5:bundleRelease UP-TO-DATE
+:ijkplayer-armv7a:preBuild UP-TO-DATE
+:ijkplayer-armv7a:preReleaseBuild UP-TO-DATE
+:ijkplayer-armv7a:compileReleaseNdk UP-TO-DATE
+:ijkplayer-armv7a:compileLint
+:ijkplayer-armv7a:copyReleaseLint UP-TO-DATE
+:ijkplayer-armv7a:mergeReleaseProguardFiles UP-TO-DATE
+:ijkplayer-armv7a:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-armv7a:checkReleaseManifest
+:ijkplayer-armv7a:prepareReleaseDependencies
+:ijkplayer-armv7a:compileReleaseRenderscript UP-TO-DATE
+:ijkplayer-armv7a:generateReleaseResValues UP-TO-DATE
+:ijkplayer-armv7a:generateReleaseResources UP-TO-DATE
+:ijkplayer-armv7a:packageReleaseResources UP-TO-DATE
+:ijkplayer-armv7a:compileReleaseAidl UP-TO-DATE
+:ijkplayer-armv7a:generateReleaseBuildConfig UP-TO-DATE
+:ijkplayer-armv7a:mergeReleaseShaders UP-TO-DATE
+:ijkplayer-armv7a:compileReleaseShaders UP-TO-DATE
+:ijkplayer-armv7a:generateReleaseAssets UP-TO-DATE
+:ijkplayer-armv7a:mergeReleaseAssets UP-TO-DATE
+:ijkplayer-armv7a:processReleaseManifest UP-TO-DATE
+:ijkplayer-armv7a:processReleaseResources UP-TO-DATE
+:ijkplayer-armv7a:generateReleaseSources UP-TO-DATE
+:ijkplayer-armv7a:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-armv7a:compileReleaseJavaWithJavac UP-TO-DATE
+:ijkplayer-armv7a:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-armv7a:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ijkplayer-armv7a:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ijkplayer-armv7a:mergeReleaseJniLibFolders UP-TO-DATE
+:ijkplayer-armv7a:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:ijkplayer-armv7a:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:ijkplayer-armv7a:bundleRelease UP-TO-DATE
+:ijkplayer-example:preBuild UP-TO-DATE
+:ijkplayer-example:preAll32DebugBuild UP-TO-DATE
+:ijkplayer-example:checkAll32DebugManifest
+:ijkplayer-arm64:preBuild UP-TO-DATE
+:ijkplayer-arm64:preReleaseBuild UP-TO-DATE
+:ijkplayer-arm64:compileReleaseNdk UP-TO-DATE
+:ijkplayer-arm64:compileLint
+:ijkplayer-arm64:copyReleaseLint UP-TO-DATE
+:ijkplayer-arm64:mergeReleaseProguardFiles UP-TO-DATE
+:ijkplayer-arm64:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-arm64:checkReleaseManifest
+:ijkplayer-arm64:prepareReleaseDependencies
+:ijkplayer-arm64:compileReleaseRenderscript UP-TO-DATE
+:ijkplayer-arm64:generateReleaseResValues UP-TO-DATE
+:ijkplayer-arm64:generateReleaseResources UP-TO-DATE
+:ijkplayer-arm64:packageReleaseResources UP-TO-DATE
+:ijkplayer-arm64:compileReleaseAidl UP-TO-DATE
+:ijkplayer-arm64:generateReleaseBuildConfig UP-TO-DATE
+:ijkplayer-arm64:mergeReleaseShaders UP-TO-DATE
+:ijkplayer-arm64:compileReleaseShaders UP-TO-DATE
+:ijkplayer-arm64:generateReleaseAssets UP-TO-DATE
+:ijkplayer-arm64:mergeReleaseAssets UP-TO-DATE
+:ijkplayer-arm64:processReleaseManifest UP-TO-DATE
+:ijkplayer-arm64:processReleaseResources UP-TO-DATE
+:ijkplayer-arm64:generateReleaseSources UP-TO-DATE
+:ijkplayer-arm64:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ijkplayer-arm64:compileReleaseJavaWithJavac UP-TO-DATE
+:ijkplayer-arm64:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-arm64:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ijkplayer-arm64:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ijkplayer-arm64:mergeReleaseJniLibFolders UP-TO-DATE
+:ijkplayer-arm64:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:ijkplayer-arm64:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:ijkplayer-arm64:bundleRelease UP-TO-DATE
+:ijkplayer-example:preAll32ReleaseBuild UP-TO-DATE
+:ijkplayer-example:preAll64DebugBuild UP-TO-DATE
+:ijkplayer-example:preAll64ReleaseBuild UP-TO-DATE
+:ijkplayer-exo:preBuild UP-TO-DATE
+:ijkplayer-exo:preReleaseBuild UP-TO-DATE
+:ijkplayer-exo:compileReleaseNdk UP-TO-DATE
+:ijkplayer-exo:compileLint
+:ijkplayer-exo:copyReleaseLint UP-TO-DATE
+:ijkplayer-exo:mergeReleaseProguardFiles
+:ijkplayer-exo:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-exo:checkReleaseManifest
+:ijkplayer-exo:preDebugAndroidTestBuild UP-TO-DATE
+:ijkplayer-exo:preDebugBuild UP-TO-DATE
+:ijkplayer-exo:preDebugUnitTestBuild UP-TO-DATE
+:ijkplayer-exo:preReleaseUnitTestBuild UP-TO-DATE
+:ijkplayer-java:preBuild UP-TO-DATE
+:ijkplayer-java:preReleaseBuild UP-TO-DATE
+:ijkplayer-java:compileReleaseNdk UP-TO-DATE
+:ijkplayer-java:compileLint
+:ijkplayer-java:copyReleaseLint UP-TO-DATE
+:ijkplayer-java:mergeReleaseProguardFiles
+:ijkplayer-java:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-java:checkReleaseManifest
+:ijkplayer-java:prepareReleaseDependencies
+:ijkplayer-java:compileReleaseRenderscript
+:ijkplayer-java:generateReleaseResValues
+:ijkplayer-java:generateReleaseResources
+:ijkplayer-java:packageReleaseResources
+:ijkplayer-java:compileReleaseAidl
+:ijkplayer-java:generateReleaseBuildConfig
+:ijkplayer-java:mergeReleaseShaders
+:ijkplayer-java:compileReleaseShaders
+:ijkplayer-java:generateReleaseAssets
+:ijkplayer-java:mergeReleaseAssets
+:ijkplayer-java:processReleaseManifest
+:ijkplayer-java:processReleaseResources
+:ijkplayer-java:generateReleaseSources
+:ijkplayer-java:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-java:compileReleaseJavaWithJavac
+:ijkplayer-java:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ijkplayer-java:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-java:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-java:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-java:mergeReleaseJniLibFolders
+:ijkplayer-java:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-java:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-java:bundleRelease
+:ijkplayer-exo:prepareComGoogleAndroidExoplayerExoplayerR1511Library
+:ijkplayer-exo:prepareIjkplayerIjkplayerJavaUnspecifiedLibrary
+:ijkplayer-exo:prepareReleaseDependencies
+:ijkplayer-exo:compileReleaseRenderscript
+:ijkplayer-exo:generateReleaseResValues
+:ijkplayer-exo:generateReleaseResources
+:ijkplayer-exo:packageReleaseResources
+:ijkplayer-exo:compileReleaseAidl
+:ijkplayer-exo:generateReleaseBuildConfig
+:ijkplayer-exo:mergeReleaseShaders
+:ijkplayer-exo:compileReleaseShaders
+:ijkplayer-exo:generateReleaseAssets
+:ijkplayer-exo:mergeReleaseAssets
+:ijkplayer-exo:mergeReleaseResources
+:ijkplayer-exo:processReleaseManifest
+:ijkplayer-exo:processReleaseResources
+:ijkplayer-exo:generateReleaseSources
+:ijkplayer-exo:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-exo:compileReleaseJavaWithJavac
+:ijkplayer-exo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/IjkExoMediaPlayer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ijkplayer-exo:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-exo:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-exo:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-exo:mergeReleaseJniLibFolders
+:ijkplayer-exo:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-exo:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-exo:bundleRelease
+:ijkplayer-x86:preBuild UP-TO-DATE
+:ijkplayer-x86:preReleaseBuild UP-TO-DATE
+:ijkplayer-x86:compileReleaseNdk UP-TO-DATE
+:ijkplayer-x86:compileLint
+:ijkplayer-x86:copyReleaseLint UP-TO-DATE
+:ijkplayer-x86:mergeReleaseProguardFiles
+:ijkplayer-x86:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-x86:checkReleaseManifest
+:ijkplayer-x86:prepareReleaseDependencies
+:ijkplayer-x86:compileReleaseRenderscript
+:ijkplayer-x86:generateReleaseResValues
+:ijkplayer-x86:generateReleaseResources
+:ijkplayer-x86:packageReleaseResources
+:ijkplayer-x86:compileReleaseAidl
+:ijkplayer-x86:generateReleaseBuildConfig
+:ijkplayer-x86:mergeReleaseShaders
+:ijkplayer-x86:compileReleaseShaders
+:ijkplayer-x86:generateReleaseAssets
+:ijkplayer-x86:mergeReleaseAssets
+:ijkplayer-x86:processReleaseManifest
+:ijkplayer-x86:processReleaseResources
+:ijkplayer-x86:generateReleaseSources
+:ijkplayer-x86:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-x86:compileReleaseJavaWithJavac
+:ijkplayer-x86:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ijkplayer-x86:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-x86:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-x86:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-x86:mergeReleaseJniLibFolders
+:ijkplayer-x86:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-x86:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-x86:bundleRelease
+:ijkplayer-x86_64:preBuild UP-TO-DATE
+:ijkplayer-x86_64:preReleaseBuild UP-TO-DATE
+:ijkplayer-x86_64:compileReleaseNdk UP-TO-DATE
+:ijkplayer-x86_64:compileLint
+:ijkplayer-x86_64:copyReleaseLint UP-TO-DATE
+:ijkplayer-x86_64:mergeReleaseProguardFiles
+:ijkplayer-x86_64:packageReleaseRenderscript UP-TO-DATE
+:ijkplayer-x86_64:checkReleaseManifest
+:ijkplayer-x86_64:prepareReleaseDependencies
+:ijkplayer-x86_64:compileReleaseRenderscript
+:ijkplayer-x86_64:generateReleaseResValues
+:ijkplayer-x86_64:generateReleaseResources
+:ijkplayer-x86_64:packageReleaseResources
+:ijkplayer-x86_64:compileReleaseAidl
+:ijkplayer-x86_64:generateReleaseBuildConfig
+:ijkplayer-x86_64:mergeReleaseShaders
+:ijkplayer-x86_64:compileReleaseShaders
+:ijkplayer-x86_64:generateReleaseAssets
+:ijkplayer-x86_64:mergeReleaseAssets
+:ijkplayer-x86_64:processReleaseManifest
+:ijkplayer-x86_64:processReleaseResources
+:ijkplayer-x86_64:generateReleaseSources
+:ijkplayer-x86_64:incrementalReleaseJavaCompilationSafeguard
+:ijkplayer-x86_64:compileReleaseJavaWithJavac
+:ijkplayer-x86_64:processReleaseJavaRes UP-TO-DATE
+:ijkplayer-x86_64:transformResourcesWithMergeJavaResForRelease
+:ijkplayer-x86_64:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ijkplayer-x86_64:mergeReleaseJniLibFolders
+:ijkplayer-x86_64:transformNative_libsWithMergeJniLibsForRelease
+:ijkplayer-x86_64:transformNative_libsWithSyncJniLibsForRelease
+:ijkplayer-x86_64:bundleRelease
+:ijkplayer-example:prepareComAndroidSupportAppcompatV72301Library
+:ijkplayer-example:prepareComAndroidSupportPreferenceV72301Library
+:ijkplayer-example:prepareComAndroidSupportRecyclerviewV72301Library
+:ijkplayer-example:prepareComAndroidSupportSupportV42301Library
+:ijkplayer-example:prepareComGoogleAndroidExoplayerExoplayerR1511Library
+:ijkplayer-example:prepareIjkplayerIjkplayerArmv5UnspecifiedLibrary
+:ijkplayer-example:prepareIjkplayerIjkplayerArmv7aUnspecifiedLibrary
+:ijkplayer-example:prepareIjkplayerIjkplayerExoUnspecifiedLibrary
+:ijkplayer-example:prepareIjkplayerIjkplayerJavaUnspecifiedLibrary
+:ijkplayer-example:prepareIjkplayerIjkplayerX86UnspecifiedLibrary
+:ijkplayer-example:prepareAll32DebugDependencies
+:ijkplayer-example:compileAll32DebugAidl
+:ijkplayer-example:compileAll32DebugRenderscript
+:ijkplayer-example:generateAll32DebugBuildConfig
+:ijkplayer-example:mergeAll32DebugShaders
+:ijkplayer-example:compileAll32DebugShaders
+:ijkplayer-example:generateAll32DebugAssets
+:ijkplayer-example:mergeAll32DebugAssets
+:ijkplayer-example:generateAll32DebugResValues
+:ijkplayer-example:generateAll32DebugResources
+:ijkplayer-example:mergeAll32DebugResources
+:ijkplayer-example:processAll32DebugManifest
+:ijkplayer-example:processAll32DebugResources
+:ijkplayer-example:generateAll32DebugSources
+:ijkplayer-example:incrementalAll32DebugJavaCompilationSafeguard
+:ijkplayer-example:compileAll32DebugJavaWithJavac
+:ijkplayer-example:compileAll32DebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/src/main/java/tv/danmaku/ijk/media/example/widget/media/SurfaceRenderView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ijkplayer-example:compileAll32DebugNdk UP-TO-DATE
+:ijkplayer-example:compileAll32DebugSources
+:ijkplayer-example:prePackageMarkerForAll32Debug
+:ijkplayer-example:transformClassesWithDexForAll32Debug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:ijkplayer-example:mergeAll32DebugJniLibFolders
+:ijkplayer-example:transformNative_libsWithMergeJniLibsForAll32Debug
+:ijkplayer-example:processAll32DebugJavaRes UP-TO-DATE
+:ijkplayer-example:transformResourcesWithMergeJavaResForAll32Debug
+:ijkplayer-example:validateDebugSigning
+:ijkplayer-example:packageAll32Debug
+:ijkplayer-example:zipalignAll32Debug
+:ijkplayer-example:assembleAll32Debug
+:ijkplayer-example:checkAll64DebugManifest
+:ijkplayer-example:prepareIjkplayerIjkplayerArm64UnspecifiedLibrary
+:ijkplayer-example:prepareIjkplayerIjkplayerX86_64UnspecifiedLibrary
+:ijkplayer-example:prepareAll64DebugDependencies
+:ijkplayer-example:compileAll64DebugAidl
+:ijkplayer-example:compileAll64DebugRenderscript
+:ijkplayer-example:generateAll64DebugBuildConfig
+:ijkplayer-example:mergeAll64DebugShaders
+:ijkplayer-example:compileAll64DebugShaders
+:ijkplayer-example:generateAll64DebugAssets
+:ijkplayer-example:mergeAll64DebugAssets
+:ijkplayer-example:generateAll64DebugResValues
+:ijkplayer-example:generateAll64DebugResources
+:ijkplayer-example:mergeAll64DebugResources
+:ijkplayer-example:processAll64DebugManifest
+:ijkplayer-example:processAll64DebugResources
+:ijkplayer-example:generateAll64DebugSources
+:ijkplayer-example:incrementalAll64DebugJavaCompilationSafeguard
+:ijkplayer-example:compileAll64DebugJavaWithJavac
+:ijkplayer-example:compileAll64DebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/src/main/java/tv/danmaku/ijk/media/example/widget/media/SurfaceRenderView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ijkplayer-example:compileAll64DebugNdk UP-TO-DATE
+:ijkplayer-example:compileAll64DebugSources
+:ijkplayer-example:prePackageMarkerForAll64Debug
+:ijkplayer-example:transformClassesWithDexForAll64Debug
+:ijkplayer-example:mergeAll64DebugJniLibFolders
+:ijkplayer-example:transformNative_libsWithMergeJniLibsForAll64Debug
+:ijkplayer-example:processAll64DebugJavaRes UP-TO-DATE
+:ijkplayer-example:transformResourcesWithMergeJavaResForAll64Debug
+:ijkplayer-example:packageAll64Debug
+:ijkplayer-example:zipalignAll64Debug
+:ijkplayer-example:assembleAll64Debug
+:ijkplayer-example:assembleDebug
+:ijkplayer-example:checkAll32ReleaseManifest
+:ijkplayer-example:prepareAll32ReleaseDependencies
+:ijkplayer-example:compileAll32ReleaseAidl
+:ijkplayer-example:compileAll32ReleaseRenderscript
+:ijkplayer-example:generateAll32ReleaseBuildConfig
+:ijkplayer-example:mergeAll32ReleaseShaders
+:ijkplayer-example:compileAll32ReleaseShaders
+:ijkplayer-example:generateAll32ReleaseAssets
+:ijkplayer-example:mergeAll32ReleaseAssets
+:ijkplayer-example:generateAll32ReleaseResValues
+:ijkplayer-example:generateAll32ReleaseResources
+:ijkplayer-example:mergeAll32ReleaseResources
+:ijkplayer-example:processAll32ReleaseManifest
+:ijkplayer-example:processAll32ReleaseResources
+:ijkplayer-example:generateAll32ReleaseSources
+:ijkplayer-example:incrementalAll32ReleaseJavaCompilationSafeguard
+:ijkplayer-example:compileAll32ReleaseJavaWithJavac
+:ijkplayer-example:compileAll32ReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/src/main/java/tv/danmaku/ijk/media/example/widget/media/SurfaceRenderView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ijkplayer-example:compileAll32ReleaseNdk UP-TO-DATE
+:ijkplayer-example:compileAll32ReleaseSources
+:ijkplayer-example:lintVitalAll32Release
+:ijkplayer-example:prePackageMarkerForAll32Release
+:ijkplayer-example:transformClassesWithDexForAll32Release
+:ijkplayer-example:mergeAll32ReleaseJniLibFolders
+:ijkplayer-example:transformNative_libsWithMergeJniLibsForAll32Release
+:ijkplayer-example:processAll32ReleaseJavaRes UP-TO-DATE
+:ijkplayer-example:transformResourcesWithMergeJavaResForAll32Release
+:ijkplayer-example:packageAll32Release
+:ijkplayer-example:assembleAll32Release
+:ijkplayer-example:checkAll64ReleaseManifest
+:ijkplayer-example:prepareAll64ReleaseDependencies
+:ijkplayer-example:compileAll64ReleaseAidl
+:ijkplayer-example:compileAll64ReleaseRenderscript
+:ijkplayer-example:generateAll64ReleaseBuildConfig
+:ijkplayer-example:mergeAll64ReleaseShaders
+:ijkplayer-example:compileAll64ReleaseShaders
+:ijkplayer-example:generateAll64ReleaseAssets
+:ijkplayer-example:mergeAll64ReleaseAssets
+:ijkplayer-example:generateAll64ReleaseResValues
+:ijkplayer-example:generateAll64ReleaseResources
+:ijkplayer-example:mergeAll64ReleaseResources
+:ijkplayer-example:processAll64ReleaseManifest
+:ijkplayer-example:processAll64ReleaseResources
+:ijkplayer-example:generateAll64ReleaseSources
+:ijkplayer-example:incrementalAll64ReleaseJavaCompilationSafeguard
+:ijkplayer-example:compileAll64ReleaseJavaWithJavac
+:ijkplayer-example:compileAll64ReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/src/main/java/tv/danmaku/ijk/media/example/widget/media/SurfaceRenderView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ijkplayer-example:compileAll64ReleaseNdk UP-TO-DATE
+:ijkplayer-example:compileAll64ReleaseSources
+:ijkplayer-example:lintVitalAll64Release
+:ijkplayer-example:prePackageMarkerForAll64Release
+:ijkplayer-example:transformClassesWithDexForAll64Release
+:ijkplayer-example:mergeAll64ReleaseJniLibFolders
+:ijkplayer-example:transformNative_libsWithMergeJniLibsForAll64Release
+:ijkplayer-example:processAll64ReleaseJavaRes UP-TO-DATE
+:ijkplayer-example:transformResourcesWithMergeJavaResForAll64Release
+:ijkplayer-example:packageAll64Release
+:ijkplayer-example:assembleAll64Release
+:ijkplayer-example:assembleRelease
+:ijkplayer-example:assemble
+:ijkplayer-example:build
+
+BUILD SUCCESSFUL
+
+Total time: 48.009 secs
+
+2018-05-16 17:44:24,402 INFO  FullProcessService - Found APK file: /tmp/rdisk/530/src/ijkplayer-master/android/ijkplayer/ijkplayer-example/build/outputs/apk/ijkplayer-example-all64-release-unsigned.apk

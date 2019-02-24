@@ -1,0 +1,249 @@
+2018-04-09 21:10:46,805 INFO  DownloadService - Downloading "https://github.com/kshoji/USB-MIDI-Driver/archive/master.zip", attempt 3
+2018-04-09 21:11:47,282 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 21:11:47,940 INFO  GithubDownloadService - Default branch of this repository: develop
+2018-04-09 21:11:47,940 INFO  DownloadService - Downloading "https://github.com/kshoji/USB-MIDI-Driver/archive/develop.zip", attempt 3
+2018-04-09 21:12:49,151 DEBUG FullProcessService - Repository https://github.com/kshoji/USB-MIDI-Driver available: true
+2018-04-09 21:12:49,151 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 21:12:49,151 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kshoji/USB-MIDI-Driver, /tmp/rdisk/511/src]
+2018-04-09 21:12:51,253 INFO  SysUtils - 
+2018-04-09 21:12:51,260 INFO  GitService - Deleted "/tmp/rdisk/511/src/.git": true
+2018-04-09 21:12:51,268 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-09 21:12:51,268 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/511/src]
+2018-04-09 21:12:51,272 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/511/src/.git/
+
+2018-04-09 21:12:51,278 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/511/src/gradlew
+2018-04-09 21:12:51,283 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/511/src/MIDIDriver/build.gradle /tmp/rdisk/511/src/MIDIDriverSample/build.gradle /tmp/rdisk/511/src/build.gradle
+2018-04-09 21:12:51,288 INFO  ProjectBuildService - All script(s): /tmp/rdisk/511/src/settings.gradle /tmp/rdisk/511/src/build.gradle /tmp/rdisk/511/src/MIDIDriverSample/build.gradle /tmp/rdisk/511/src/MIDIDriver/build.gradle
+2018-04-09 21:12:51,289 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 21:12:51,289 INFO  ProjectFixService - Fixing project...
+2018-04-09 21:12:51,300 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/511/src/MIDIDriver/local.properties
+2018-04-09 21:12:51,301 INFO  ProjectFixService - Build info for "/tmp/rdisk/511/src/MIDIDriver/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=<null>]
+2018-04-09 21:12:51,301 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/511/src/MIDIDriver/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=27]
+2018-04-09 21:12:51,301 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/511/src/MIDIDriverSample/local.properties
+2018-04-09 21:12:51,302 INFO  ProjectFixService - Build info for "/tmp/rdisk/511/src/MIDIDriverSample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=<null>]
+2018-04-09 21:12:51,302 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/511/src/MIDIDriverSample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=27]
+2018-04-09 21:12:51,302 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/511/src/local.properties
+2018-04-09 21:12:51,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-09 21:12:51,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-09 21:12:51,304 INFO  ProjectFixService - Build info for "/tmp/rdisk/511/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=<null>]
+2018-04-09 21:12:51,304 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/511/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=27]
+2018-04-09 21:12:51,304 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 21:12:51,304 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:12:51,304 INFO  SysUtils - Execute command: [/tmp/rdisk/511/src/gradlew, -b, /tmp/rdisk/511/src/MIDIDriver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:13:02,939 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-09 21:13:02,939 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-09 21:13:02,939 INFO  SysUtils - Execute command: [/tmp/rdisk/511/src/gradlew, -b, /tmp/rdisk/511/src/MIDIDriver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-09 21:13:16,053 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:MIDIDriver:preBuild UP-TO-DATE
+:MIDIDriver:preDebugBuild UP-TO-DATE
+:MIDIDriver:checkDebugManifest
+:MIDIDriver:preDebugAndroidTestBuild UP-TO-DATE
+:MIDIDriver:preDebugUnitTestBuild UP-TO-DATE
+:MIDIDriver:preReleaseBuild UP-TO-DATE
+:MIDIDriver:preReleaseUnitTestBuild UP-TO-DATE
+:MIDIDriver:prepareJpKshojiJavaxSoundMidi004SNAPSHOTLibrary
+:MIDIDriver:prepareDebugDependencies
+:MIDIDriver:compileDebugAidl
+:MIDIDriver:compileDebugNdk UP-TO-DATE
+:MIDIDriver:compileLint
+:MIDIDriver:copyDebugLint UP-TO-DATE
+:MIDIDriver:compileDebugRenderscript
+:MIDIDriver:generateDebugBuildConfig
+:MIDIDriver:generateDebugResValues
+:MIDIDriver:generateDebugResources
+:MIDIDriver:mergeDebugResources
+:MIDIDriver:processDebugManifest
+:MIDIDriver:processDebugResources
+:MIDIDriver:generateDebugSources
+:MIDIDriver:incrementalDebugJavaCompilationSafeguard
+:MIDIDriver:javaPreCompileDebug
+:MIDIDriver:compileDebugJavaWithJavac
+:MIDIDriver:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:MIDIDriver:extractDebugAnnotations
+:MIDIDriver:mergeDebugShaders
+:MIDIDriver:compileDebugShaders
+:MIDIDriver:generateDebugAssets
+:MIDIDriver:mergeDebugAssets
+:MIDIDriver:mergeDebugProguardFiles
+:MIDIDriver:packageDebugRenderscript UP-TO-DATE
+:MIDIDriver:packageDebugResources
+:MIDIDriver:processDebugJavaRes UP-TO-DATE
+:MIDIDriver:transformResourcesWithMergeJavaResForDebug
+:MIDIDriver:transformClassesAndResourcesWithSyncLibJarsForDebug
+:MIDIDriver:mergeDebugJniLibFolders
+:MIDIDriver:transformNativeLibsWithMergeJniLibsForDebug
+:MIDIDriver:transformNativeLibsWithStripDebugSymbolForDebug
+:MIDIDriver:transformNativeLibsWithSyncJniLibsForDebug
+:MIDIDriver:bundleDebug
+:MIDIDriver:compileDebugSources
+:MIDIDriver:assembleDebug
+:MIDIDriver:checkReleaseManifest
+:MIDIDriver:prepareReleaseDependencies
+:MIDIDriver:compileReleaseAidl
+:MIDIDriver:compileReleaseNdk UP-TO-DATE
+:MIDIDriver:copyReleaseLint UP-TO-DATE
+:MIDIDriver:compileReleaseRenderscript
+:MIDIDriver:generateReleaseBuildConfig
+:MIDIDriver:generateReleaseResValues
+:MIDIDriver:generateReleaseResources
+:MIDIDriver:mergeReleaseResources
+:MIDIDriver:processReleaseManifest
+:MIDIDriver:processReleaseResources
+:MIDIDriver:generateReleaseSources
+:MIDIDriver:incrementalReleaseJavaCompilationSafeguard
+:MIDIDriver:javaPreCompileRelease
+:MIDIDriver:compileReleaseJavaWithJavac
+:MIDIDriver:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:MIDIDriver:extractReleaseAnnotations
+:MIDIDriver:mergeReleaseShaders
+:MIDIDriver:compileReleaseShaders
+:MIDIDriver:generateReleaseAssets
+:MIDIDriver:mergeReleaseAssets
+:MIDIDriver:mergeReleaseProguardFiles
+:MIDIDriver:packageReleaseRenderscript UP-TO-DATE
+:MIDIDriver:packageReleaseResources
+:MIDIDriver:processReleaseJavaRes UP-TO-DATE
+:MIDIDriver:transformResourcesWithMergeJavaResForRelease
+:MIDIDriver:transformClassesAndResourcesWithSyncLibJarsForRelease
+:MIDIDriver:mergeReleaseJniLibFolders
+:MIDIDriver:transformNativeLibsWithMergeJniLibsForRelease
+:MIDIDriver:transformNativeLibsWithStripDebugSymbolForRelease
+:MIDIDriver:transformNativeLibsWithSyncJniLibsForRelease
+:MIDIDriver:bundleRelease
+:MIDIDriver:compileReleaseSources
+:MIDIDriver:assembleRelease
+:MIDIDriver:assemble
+:MIDIDriver:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.876 secs
+
+2018-04-09 21:13:16,068 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:13:16,069 INFO  SysUtils - Execute command: [/tmp/rdisk/511/src/gradlew, -b, /tmp/rdisk/511/src/MIDIDriverSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:13:23,822 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-09 21:13:23,822 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 21:13:23,822 INFO  SysUtils - Execute command: [/tmp/rdisk/511/src/gradlew, -b, /tmp/rdisk/511/src/MIDIDriverSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 21:13:39,074 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:MIDIDriver:preBuild UP-TO-DATE
+:MIDIDriver:preReleaseBuild UP-TO-DATE
+:MIDIDriver:checkReleaseManifest
+:MIDIDriver:preDebugAndroidTestBuild UP-TO-DATE
+:MIDIDriver:preDebugBuild UP-TO-DATE
+:MIDIDriver:preDebugUnitTestBuild UP-TO-DATE
+:MIDIDriver:preReleaseUnitTestBuild UP-TO-DATE
+:MIDIDriver:prepareJpKshojiJavaxSoundMidi004SNAPSHOTLibrary UP-TO-DATE
+:MIDIDriver:prepareReleaseDependencies
+:MIDIDriver:compileReleaseAidl UP-TO-DATE
+:MIDIDriver:compileReleaseNdk UP-TO-DATE
+:MIDIDriver:compileLint UP-TO-DATE
+:MIDIDriver:copyReleaseLint UP-TO-DATE
+:MIDIDriver:compileReleaseRenderscript UP-TO-DATE
+:MIDIDriver:generateReleaseBuildConfig UP-TO-DATE
+:MIDIDriver:generateReleaseResValues UP-TO-DATE
+:MIDIDriver:generateReleaseResources UP-TO-DATE
+:MIDIDriver:mergeReleaseResources UP-TO-DATE
+:MIDIDriver:processReleaseManifest UP-TO-DATE
+:MIDIDriver:processReleaseResources UP-TO-DATE
+:MIDIDriver:generateReleaseSources UP-TO-DATE
+:MIDIDriver:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:MIDIDriver:javaPreCompileRelease
+:MIDIDriver:compileReleaseJavaWithJavac UP-TO-DATE
+:MIDIDriver:extractReleaseAnnotations UP-TO-DATE
+:MIDIDriver:mergeReleaseShaders UP-TO-DATE
+:MIDIDriver:compileReleaseShaders UP-TO-DATE
+:MIDIDriver:generateReleaseAssets UP-TO-DATE
+:MIDIDriver:mergeReleaseAssets UP-TO-DATE
+:MIDIDriver:mergeReleaseProguardFiles UP-TO-DATE
+:MIDIDriver:packageReleaseRenderscript UP-TO-DATE
+:MIDIDriver:packageReleaseResources UP-TO-DATE
+:MIDIDriver:processReleaseJavaRes UP-TO-DATE
+:MIDIDriver:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:MIDIDriver:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:MIDIDriver:mergeReleaseJniLibFolders UP-TO-DATE
+:MIDIDriver:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:MIDIDriver:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:MIDIDriver:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:MIDIDriver:bundleRelease UP-TO-DATE
+:MIDIDriverSample:preBuild UP-TO-DATE
+:MIDIDriverSample:preDebugBuild UP-TO-DATE
+:MIDIDriverSample:checkDebugManifest
+:MIDIDriverSample:preReleaseBuild UP-TO-DATE
+:MIDIDriverSample:prepareJpKshojiJavaxSoundMidi004SNAPSHOTLibrary
+:MIDIDriverSample:prepareDebugDependencies
+:MIDIDriverSample:compileDebugAidl
+:MIDIDriverSample:compileDebugRenderscript
+:MIDIDriverSample:generateDebugBuildConfig
+:MIDIDriverSample:generateDebugResValues
+:MIDIDriverSample:generateDebugResources
+:MIDIDriverSample:mergeDebugResources
+:MIDIDriverSample:processDebugManifest
+:MIDIDriverSample:processDebugResources
+:MIDIDriverSample:generateDebugSources
+:MIDIDriverSample:incrementalDebugJavaCompilationSafeguard
+:MIDIDriverSample:javaPreCompileDebug
+:MIDIDriverSample:compileDebugJavaWithJavac
+:MIDIDriverSample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:MIDIDriverSample:compileDebugNdk UP-TO-DATE
+:MIDIDriverSample:compileDebugSources
+:MIDIDriverSample:mergeDebugShaders
+:MIDIDriverSample:compileDebugShaders
+:MIDIDriverSample:generateDebugAssets
+:MIDIDriverSample:mergeDebugAssets
+:MIDIDriverSample:transformClassesWithDexForDebug
+:MIDIDriverSample:mergeDebugJniLibFolders
+:MIDIDriverSample:transformNativeLibsWithMergeJniLibsForDebug
+:MIDIDriverSample:transformNativeLibsWithStripDebugSymbolForDebug
+:MIDIDriverSample:processDebugJavaRes UP-TO-DATE
+:MIDIDriverSample:transformResourcesWithMergeJavaResForDebug
+:MIDIDriverSample:validateSigningDebug
+:MIDIDriverSample:packageDebug
+:MIDIDriverSample:assembleDebug
+:MIDIDriverSample:checkReleaseManifest
+:MIDIDriverSample:prepareReleaseDependencies
+:MIDIDriverSample:compileReleaseAidl
+:MIDIDriverSample:compileReleaseRenderscript
+:MIDIDriverSample:generateReleaseBuildConfig
+:MIDIDriverSample:generateReleaseResValues
+:MIDIDriverSample:generateReleaseResources
+:MIDIDriverSample:mergeReleaseResources
+:MIDIDriverSample:processReleaseManifest
+:MIDIDriverSample:processReleaseResources
+:MIDIDriverSample:generateReleaseSources
+:MIDIDriverSample:incrementalReleaseJavaCompilationSafeguard
+:MIDIDriverSample:javaPreCompileRelease
+:MIDIDriverSample:compileReleaseJavaWithJavac
+:MIDIDriverSample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:MIDIDriverSample:compileReleaseNdk UP-TO-DATE
+:MIDIDriverSample:compileReleaseSources
+:MIDIDriverSample:lintVitalRelease
+:MIDIDriverSample:mergeReleaseShaders
+:MIDIDriverSample:compileReleaseShaders
+:MIDIDriverSample:generateReleaseAssets
+:MIDIDriverSample:mergeReleaseAssets
+:MIDIDriverSample:transformClassesWithDexForRelease
+:MIDIDriverSample:mergeReleaseJniLibFolders
+:MIDIDriverSample:transformNativeLibsWithMergeJniLibsForRelease
+:MIDIDriverSample:transformNativeLibsWithStripDebugSymbolForRelease
+:MIDIDriverSample:processReleaseJavaRes UP-TO-DATE
+:MIDIDriverSample:transformResourcesWithMergeJavaResForRelease
+:MIDIDriverSample:packageRelease
+:MIDIDriverSample:assembleRelease
+:MIDIDriverSample:assemble
+:MIDIDriverSample:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.925 secs
+
+2018-04-09 21:13:39,099 INFO  FullProcessService - Found APK file: /tmp/rdisk/511/src/MIDIDriverSample/build/outputs/apk/MIDIDriverSample-release-unsigned.apk

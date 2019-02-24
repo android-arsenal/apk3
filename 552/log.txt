@@ -1,0 +1,105 @@
+2018-04-09 19:55:25,029 INFO  DownloadService - Downloading "https://github.com/novoda/simple-easy-xml-parser/archive/master.zip", attempt 3
+2018-04-09 19:56:25,522 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:56:26,216 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:56:26,216 INFO  DownloadService - Downloading "https://github.com/novoda/simple-easy-xml-parser/archive/master.zip", attempt 3
+2018-04-09 19:57:27,564 DEBUG FullProcessService - Repository https://github.com/novoda/simple-easy-xml-parser available: true
+2018-04-09 19:57:27,564 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:57:27,564 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/novoda/simple-easy-xml-parser, /tmp/rdisk/552/src]
+2018-04-09 19:57:29,339 INFO  SysUtils - 
+2018-04-09 19:57:29,345 INFO  GitService - Deleted "/tmp/rdisk/552/src/.git": true
+2018-04-09 19:57:29,351 INFO  FullProcessService - Size of directory with sources: 906 KB
+2018-04-09 19:57:29,351 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/552/src]
+2018-04-09 19:57:29,356 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/552/src/.git/
+
+2018-04-09 19:57:29,361 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/552/src/gradlew
+2018-04-09 19:57:29,365 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/552/src/demoAndroid/build.gradle /tmp/rdisk/552/src/build.gradle /tmp/rdisk/552/src/benchmark/build.gradle /tmp/rdisk/552/src/demo/build.gradle /tmp/rdisk/552/src/sexp/build.gradle
+2018-04-09 19:57:29,369 INFO  ProjectBuildService - All script(s): /tmp/rdisk/552/src/sexp/build.gradle /tmp/rdisk/552/src/settings.gradle /tmp/rdisk/552/src/demoAndroid/build.gradle /tmp/rdisk/552/src/demo/build.gradle /tmp/rdisk/552/src/build.gradle /tmp/rdisk/552/src/benchmark/build.gradle
+2018-04-09 19:57:29,370 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 19:57:29,370 INFO  ProjectFixService - Fixing project...
+2018-04-09 19:57:29,384 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/552/src/demoAndroid/local.properties
+2018-04-09 19:57:29,386 INFO  ProjectFixService - Build info for "/tmp/rdisk/552/src/demoAndroid/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 19:57:29,386 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/552/src/local.properties
+2018-04-09 19:57:29,387 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-2.3-all.zip
+2018-04-09 19:57:29,387 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-2.3-bin.zip)
+2018-04-09 19:57:29,388 INFO  ProjectFixService - Build info for "/tmp/rdisk/552/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 19:57:29,388 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/552/src/benchmark/local.properties
+2018-04-09 19:57:29,390 INFO  ProjectFixService - Build info for "/tmp/rdisk/552/src/benchmark/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 19:57:29,390 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/552/src/demo/local.properties
+2018-04-09 19:57:29,391 INFO  ProjectFixService - Build info for "/tmp/rdisk/552/src/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 19:57:29,391 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/552/src/sexp/local.properties
+2018-04-09 19:57:29,392 INFO  ProjectFixService - Build info for "/tmp/rdisk/552/src/sexp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 19:57:29,392 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 19:57:29,392 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 19:57:29,392 INFO  SysUtils - Execute command: [/tmp/rdisk/552/src/gradlew, -b, /tmp/rdisk/552/src/demoAndroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 19:57:41,031 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-04-09 19:57:41,032 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 19:57:41,032 INFO  SysUtils - Execute command: [/tmp/rdisk/552/src/gradlew, -b, /tmp/rdisk/552/src/demoAndroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 19:57:54,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sexp:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:sexp:processResources UP-TO-DATE
+:sexp:classes
+:sexp:jar
+:demo:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:demo:processResources UP-TO-DATE
+:demo:classes
+:demo:jar
+:demoAndroid:preBuild UP-TO-DATE
+:demoAndroid:preDebugBuild UP-TO-DATE
+:demoAndroid:checkDebugManifest
+:demoAndroid:prepareDebugDependencies
+:demoAndroid:compileDebugAidl
+:demoAndroid:compileDebugRenderscript
+:demoAndroid:generateDebugBuildConfig
+:demoAndroid:generateDebugAssets UP-TO-DATE
+:demoAndroid:mergeDebugAssets
+:demoAndroid:generateDebugResValues
+:demoAndroid:generateDebugResources
+:demoAndroid:mergeDebugResources
+:demoAndroid:processDebugManifest
+:demoAndroid:processDebugResources
+:demoAndroid:generateDebugSources
+:demoAndroid:processDebugJavaRes UP-TO-DATE
+:demoAndroid:compileDebugJavaWithJavac
+:demoAndroid:compileDebugNdk UP-TO-DATE
+:demoAndroid:compileDebugSources
+:demoAndroid:preDexDebug
+:demoAndroid:dexDebug
+:demoAndroid:validateDebugSigning
+:demoAndroid:packageDebug
+:demoAndroid:zipalignDebug
+:demoAndroid:assembleDebug
+:demoAndroid:preReleaseBuild UP-TO-DATE
+:demoAndroid:checkReleaseManifest
+:demoAndroid:prepareReleaseDependencies
+:demoAndroid:compileReleaseAidl
+:demoAndroid:compileReleaseRenderscript
+:demoAndroid:generateReleaseBuildConfig
+:demoAndroid:generateReleaseAssets UP-TO-DATE
+:demoAndroid:mergeReleaseAssets
+:demoAndroid:generateReleaseResValues
+:demoAndroid:generateReleaseResources
+:demoAndroid:mergeReleaseResources
+:demoAndroid:processReleaseManifest
+:demoAndroid:processReleaseResources
+:demoAndroid:generateReleaseSources
+:demoAndroid:processReleaseJavaRes UP-TO-DATE
+:demoAndroid:compileReleaseJavaWithJavac
+:demoAndroid:compileReleaseNdk UP-TO-DATE
+:demoAndroid:compileReleaseSources
+:demoAndroid:lintVitalRelease
+:demoAndroid:preDexRelease
+:demoAndroid:dexRelease
+:demoAndroid:packageRelease
+:demoAndroid:assembleRelease
+:demoAndroid:assemble
+:demoAndroid:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.84 secs
+
+2018-04-09 19:57:54,320 INFO  FullProcessService - Found APK file: /tmp/rdisk/552/src/demoAndroid/build/outputs/apk/demoAndroid-release-unsigned.apk

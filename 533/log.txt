@@ -1,0 +1,21 @@
+2018-04-09 20:32:25,717 INFO  DownloadService - Downloading "https://github.com/VenomVendor/AutoNotifyViewPager/archive/master.zip", attempt 3
+2018-04-09 20:33:26,197 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:33:26,882 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:33:26,882 INFO  DownloadService - Downloading "https://github.com/VenomVendor/AutoNotifyViewPager/archive/master.zip", attempt 3
+2018-04-09 20:34:28,477 DEBUG FullProcessService - Repository https://github.com/VenomVendor/AutoNotifyViewPager available: true
+2018-04-09 20:34:28,477 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:34:28,477 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/VenomVendor/AutoNotifyViewPager, /tmp/rdisk/533/src]
+2018-04-09 20:34:29,862 INFO  SysUtils - 
+2018-04-09 20:34:29,870 INFO  GitService - Deleted "/tmp/rdisk/533/src/.git": true
+2018-04-09 20:34:29,871 INFO  FullProcessService - Size of directory with sources: 134 KB
+2018-04-09 20:34:29,871 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/533/src]
+2018-04-09 20:34:29,875 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/533/src/.git/
+
+2018-04-09 20:34:29,876 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 20:34:29,876 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 20:34:29,877 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 20:34:29,879 INFO  ProjectBuildService - All script(s): none
+2018-04-09 20:34:29,879 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:34:29,879 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 20:34:29,879 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 20:34:29,880 ERROR FullProcessService - Could not find generated or existed APK file

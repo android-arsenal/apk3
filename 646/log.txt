@@ -1,0 +1,22 @@
+2018-04-09 18:28:53,039 INFO  DownloadService - Downloading "https://github.com/witheyjr/ListViewAnimator/archive/master.zip", attempt 3
+2018-04-09 18:29:53,665 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 18:29:54,520 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 18:29:54,521 INFO  DownloadService - Downloading "https://github.com/witheyjr/ListViewAnimator/archive/master.zip", attempt 3
+2018-04-09 18:30:55,798 DEBUG FullProcessService - Repository https://github.com/witheyjr/ListViewAnimator available: true
+2018-04-09 18:30:55,799 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 18:30:55,799 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/witheyjr/ListViewAnimator, /tmp/rdisk/646/src]
+2018-04-09 18:30:58,772 INFO  SysUtils - 
+2018-04-09 18:30:58,779 INFO  GitService - Deleted "/tmp/rdisk/646/src/.git": true
+2018-04-09 18:30:58,785 INFO  FullProcessService - Size of directory with sources: 14 MB
+2018-04-09 18:30:58,785 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/646/src]
+2018-04-09 18:30:58,789 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/646/src/.git/
+
+2018-04-09 18:30:58,793 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 18:30:58,793 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 18:30:58,797 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 18:30:58,801 INFO  ProjectBuildService - All script(s): none
+2018-04-09 18:30:58,801 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:30:58,801 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 18:30:58,801 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 18:30:58,805 INFO  FullProcessService - Found existed APK file in the project: /tmp/rdisk/646/src/bin/ListViewAnimator.apk
+2018-04-09 18:30:58,805 INFO  FullProcessService - Found APK file: /tmp/rdisk/646/src/bin/ListViewAnimator.apk

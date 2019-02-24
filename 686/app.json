@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.farproc.wifi.connecter",
+    "label" : "Wifi Connecter Library",
+    "icon" : "res/drawable/icon.png",
+    "versionName" : "2.0.3",
+    "versionCode" : 16,
+    "installLocation" : "auto",
+    "minSdkVersion" : "3",
+    "targetSdkVersion" : "14",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_WIFI_STATE", "android.permission.CHANGE_WIFI_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable/icon.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAIX0lEQVRo3u2ZWWyc1RXHf/d+33jGM+PYseMlNtkDgaRJWAIpS6sCBaqqq1ii0KoVVBWtKFVbVPWFB6Ty0oa2agtq+0BRVShdIqpSqqp5CZCEAiVpQiCBECeTxbuxxzOe9fvuPX2Yz47j2OMZx9gvvaOjkWau7j3r/5x7Dvx/LexSc7xvrpfMljEFaMAFagJyJvz+YS4bMG6AYkD+hN/PW+40h2ggBMRuuqth4xVb4k9a5dcgen4soaxocYtH3xx9cO/O5GEgA3iBUBVZIAzEvv/Ljz7S0Ky/6VsvshD+4+pQPjlgf7XjodceC4QoTrbCdBaoAWJta9XtbctjERFZmABVKtJ7evR24GeBBYqVuJAKLBBPpdMSzRYRa0sRJYJHnrCqnTK6FAojPlrpaYyrEGtAgVIOYPGlQEhFpj5Pa1LpggBxIBeQP9nXp1oOEBJjHQxgFVgI63oub/wsIgqsQqwgVkrhZRX54igfab6HqLMUO/7fuX2eX2BZw400RFZijE9Y1/PpS5/Atza4YxIZEGOdIB6dqbRSLohr/KLS1grWCmDZuvIhlkQvZSTTw0DmCFd3fI2W+HpePfVzRvM9fGbdE0RDizk5uIfLm77AJfXXcaDraTa23U28ZikvHPkGxjcU/SId8a2sb/0izdH1WE9AX2gDrcEvKh24tJ6O0Wnh1QZuIyJYY2mPb+HVU0+yuulWPFNkU9t2zgy/zurGW2mp28xg5n0yxUF8W2BFw40MZxNYsUTcRrpS+2lfdB3RmlbibhvXL/82XSP7cZSLYMfvmUx2BsApK0ChmCabT5HLpxCrKZoUqxtu4bKmTxF32+lPv8vh7ufxrIdYxckP9jKQ7iRfyJL3svz75K9JZwcYSB/n9NDraKmhUBzB8/OIKDoHXsbzC+N3TKZsPkWhmJ7IU8UuBMCmtm2sWdGGNR7xSDupXA9nRt5g9ZKbuWn1d6kLt3PtsvtoW3QltU49G5fehcZFAU2xtWxd/nU8W+DKju1sar+bt7qeY3F0DaPFfpSC7Vc/R0hHuH7Fg0FQT3YhRWe2F9hRVSZWQDuwdP/+/z6zefPGdcaYBYFRx3E4dOjwe9dcc9WXgR5gYDKU6pmz+kKv8jyUdSERwdpSgC0I6xXc7c5YDgZosCClaAX3lhXAGIO1FmsXzpVmij93rjSxUMutxA/nygJKlaBcxFaxv/zS86l5ay15f2RO40BXaoG5IM/k2Jf4EaX6qvxepRSe5xGPx+vr6upCC45CSqmSSygHhRo/UyYV0mP7RkdH6e7upqenxw0UraoWwPO8cSS6qIyqI7iEKJhRPD/HcP4UYb2IWKgZAXybm1A+aLq7u+nr6yMejwP4vu/Prha6+JaHBqU4PbKPU8nddKXfIOsNcPboa2gVpiO+hVWLb2ZVwy2l4KbkPkNDQ2itxzxAi4ielQDGmPFsPFP3I6TDGOtjg+aBq2s53PcHDvb9jqJJnxMIhZFSsyGRfIVTyVfYo3/MtUsf4IqWOxEMhUIB13XRypmxsTInLRJXhTk98joZbxCtXFwV4fTIPl498zgFPxVcoxFAxPKx5Y/wiRWPgigEjWey7D2zg2QugUITCoUoeh79maOMFM7KRdVCxpgZs6EhT2t0M+8NvUhX6j+EnTqOffA3HB2FC0BAkUi+jFYaKUmEwkGL5k+Ht3Hn+me5bN1ann7pfoYHR9H5JjUPtZAAio3N22iNb+b5I/fi6si0jbXE8G5AcHRtSQHi4egIH7/kYUQMqXwXzpIEYatIvH12NJ/P+8FhUpUAY5hcCYwKgm983u3/K45E8EwOhYurai6ASk2pzeSbHI6u5bZVjyNY9iYeI2uSbNuwk7bwteimQzR32IldOak6E1eaAxSKTKGPE0O7MVJkQ/N2WmIbMLaACJPIYjFcUncjt6/5KSeTL7Hr+MPkTAZNiEN9z3LN0gfwrUU544zLrIu5SvKAQpMY2UM630NIRyj6GYzxzrtWsHgmy7oln2ND890c7P0t/zr2PQRBEx7f+07vn6l1GmmMrKXLP1j2VaMrjYGZyIqQLvSWmlY6xLHBv/NB9hiomhK+Y3BUhE2tX2HN4jvYd/pxEsk94+4lEz6uE+GdgZ1sarsXdb7ipWoUqrQaVYC1fklXSnACjYp4OE6Uq1rvI+w28Fb/M7zT/xc0qrTHTq3Xok2TKyS5bdUOfsE9H24eGNNgLNSGFQkcVjDiUVfTwR1rfoJSLi+dfHQc6yXQ7XQEmkN9z2DEL9uEKGsB3/ereBMLy+pvIFbTTKY4QEt0Izet+AEnh3bzj3e/VcrOqjawSmWwkCsOszvxw/l7E8ecFlbWf5JoqJGORVvZnXiU4dwJanRslkMehXART8pqYsDRNSCKrR3f4fmjX2J/z1M4OIRUdNbluJKgQXyxb+KZa32H3vQhzqZeY1n99bTENpDMnyiVEgv5Jh5/dJTRoEZzoPs3HO7/I66u5cjgTj5/2VPkvWG6Um+i1OxxQgTsxVSjYwFcHv9hMPc+SoVKx4nDwd7fc2Xr/VhkiixcBdmZm4O6THVWUSKzYljfvC24EZQoTgzt4vjwLpqjV2BMgbJ4WQmd40mqEsBxnPE36vQEy+pvYHXjbYgSUOA6tRwf+iebW7+KdkLn3lJVkjof+auqhQyQP3DgwHBnZ2fK931dAgVR08KdrOTtrhfOO2K06UWsbKVzaBeqChgVEDSiFTafkWEgD1Pj6XTt9caAtgArgQYgEsyq5mN5AdNJIAG8CQwBqeC/8mMbSlPBGNACLALqKE0unflqiQIFIB0w3U9pTpyhwjnxmAaGKI02UwHzep4EsIEQY6PV/GTNz2QBHTDsTvhW8yyAUJoJmwnfF4Dq/wBImiTQWD0aHgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 41,
+  "locales" : [ "", "zh_CN", "ru", "zh_TW", "it" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"16\" android:versionName=\"2.0.3\" android:installLocation=\"auto\" package=\"com.farproc.wifi.connecter\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"3\" android:targetSdkVersion=\"14\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />\n\t<application android:label=\"Wifi Connecter Library\" android:icon=\"res/drawable/icon.png\">\n\t\t<activity android:theme=\"resourceId:0x7f060000\" android:name=\"com.farproc.wifi.connecter.MainActivity\" android:excludeFromRecents=\"true\" android:launchMode=\"singleInstance\" android:noHistory=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<category android:name=\"android.intent.category.INFO\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.farproc.wifi.connecter.action.CONNECT_OR_EDIT\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"com.farproc.wifi.connecter.ReenableAllApsWhenNetworkStateChanged$BackgroundService\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 41672,
+  "crc32" : 1893813649,
+  "sha256" : "ca00a4e9b2fa9197d804c8dba9ea558ae3b722f9a26dbfa6a917c97fdffeb46c",
+  "buildTime" : 1523297175000
+}

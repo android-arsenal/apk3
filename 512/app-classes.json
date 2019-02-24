@@ -1,0 +1,5 @@
+{
+  "com.hoho.android.usbserial.a" : [ "a", "b", "c", "d", "e", "f", "g", "h", "i" ],
+  "com.hoho.android.usbserial.b" : [ "a", "b", "c", "d" ],
+  "com.hoho.android.usbserial.examples" : [ "DeviceListActivity", "SerialConsoleActivity", "a", "b", "c", "d", "e", "f", "g", "h" ]
+}

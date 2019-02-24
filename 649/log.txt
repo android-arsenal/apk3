@@ -1,0 +1,636 @@
+2018-05-15 04:56:41,685 INFO  DownloadService - Downloading "https://github.com/google/ExoPlayer/archive/master.zip", attempt 3
+2018-05-15 04:57:42,170 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-15 04:57:42,876 INFO  GithubDownloadService - Default branch of this repository: release-v2
+2018-05-15 04:57:42,877 INFO  DownloadService - Downloading "https://github.com/google/ExoPlayer/archive/release-v2.zip", attempt 3
+2018-05-15 04:58:44,310 DEBUG FullProcessService - Repository https://github.com/google/ExoPlayer available: true
+2018-05-15 04:58:44,310 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-15 04:58:44,310 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/google/ExoPlayer, /tmp/rdisk/649/src]
+2018-05-15 04:58:47,319 INFO  SysUtils - 
+2018-05-15 04:58:47,351 INFO  GitService - Deleted "/tmp/rdisk/649/src/.git": true
+2018-05-15 04:58:47,404 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-05-15 04:58:47,404 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/649/src]
+2018-05-15 04:58:47,444 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/649/src/.git/
+
+2018-05-15 04:58:47,483 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/649/src/gradlew
+2018-05-15 04:58:47,523 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/649/src/demos/cast/build.gradle /tmp/rdisk/649/src/demos/ima/build.gradle /tmp/rdisk/649/src/demos/main/build.gradle /tmp/rdisk/649/src/extensions/cast/build.gradle /tmp/rdisk/649/src/extensions/cronet/build.gradle /tmp/rdisk/649/src/extensions/ffmpeg/build.gradle /tmp/rdisk/649/src/extensions/flac/build.gradle /tmp/rdisk/649/src/extensions/gvr/build.gradle /tmp/rdisk/649/src/extensions/ima/build.gradle /tmp/rdisk/649/src/extensions/jobdispatcher/build.gradle /tmp/rdisk/649/src/extensions/leanback/build.gradle /tmp/rdisk/649/src/extensions/mediasession/build.gradle /tmp/rdisk/649/src/extensions/okhttp/build.gradle /tmp/rdisk/649/src/extensions/opus/build.gradle /tmp/rdisk/649/src/extensions/rtmp/build.gradle /tmp/rdisk/649/src/extensions/vp9/build.gradle /tmp/rdisk/649/src/library/all/build.gradle /tmp/rdisk/649/src/library/core/build.gradle /tmp/rdisk/649/src/library/dash/build.gradle /tmp/rdisk/649/src/library/hls/build.gradle /tmp/rdisk/649/src/library/smoothstreaming/build.gradle /tmp/rdisk/649/src/library/ui/build.gradle /tmp/rdisk/649/src/playbacktests/build.gradle /tmp/rdisk/649/src/testutils/build.gradle /tmp/rdisk/649/src/testutils_robolectric/build.gradle /tmp/rdisk/649/src/build.gradle
+2018-05-15 04:58:47,560 INFO  ProjectBuildService - All script(s): /tmp/rdisk/649/src/testutils_robolectric/build.gradle /tmp/rdisk/649/src/testutils/build.gradle /tmp/rdisk/649/src/settings.gradle /tmp/rdisk/649/src/publish.gradle /tmp/rdisk/649/src/playbacktests/build.gradle /tmp/rdisk/649/src/library/ui/build.gradle /tmp/rdisk/649/src/library/smoothstreaming/build.gradle /tmp/rdisk/649/src/library/hls/build.gradle /tmp/rdisk/649/src/library/dash/build.gradle /tmp/rdisk/649/src/library/core/build.gradle /tmp/rdisk/649/src/library/all/build.gradle /tmp/rdisk/649/src/javadoc_util.gradle /tmp/rdisk/649/src/javadoc_library.gradle /tmp/rdisk/649/src/javadoc_combined.gradle /tmp/rdisk/649/src/extensions/vp9/build.gradle /tmp/rdisk/649/src/extensions/rtmp/build.gradle /tmp/rdisk/649/src/extensions/opus/build.gradle /tmp/rdisk/649/src/extensions/okhttp/build.gradle /tmp/rdisk/649/src/extensions/mediasession/build.gradle /tmp/rdisk/649/src/extensions/leanback/build.gradle /tmp/rdisk/649/src/extensions/jobdispatcher/build.gradle /tmp/rdisk/649/src/extensions/ima/build.gradle /tmp/rdisk/649/src/extensions/gvr/build.gradle /tmp/rdisk/649/src/extensions/flac/build.gradle /tmp/rdisk/649/src/extensions/ffmpeg/build.gradle /tmp/rdisk/649/src/extensions/cronet/build.gradle /tmp/rdisk/649/src/extensions/cast/build.gradle /tmp/rdisk/649/src/demos/main/build.gradle /tmp/rdisk/649/src/demos/ima/build.gradle /tmp/rdisk/649/src/demos/cast/build.gradle /tmp/rdisk/649/src/core_settings.gradle /tmp/rdisk/649/src/constants.gradle /tmp/rdisk/649/src/build.gradle
+2018-05-15 04:58:47,564 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:58:47,564 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:58:47,660 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/demos/cast/local.properties
+2018-05-15 04:58:47,676 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/demos/cast/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-15 04:58:47,677 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/demos/ima/local.properties
+2018-05-15 04:58:47,691 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/demos/ima/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-15 04:58:47,691 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/demos/main/local.properties
+2018-05-15 04:58:47,705 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/demos/main/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-15 04:58:47,705 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/cast/local.properties
+2018-05-15 04:58:47,719 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/cast/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-05-15 04:58:47,720 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/cronet/local.properties
+2018-05-15 04:58:47,736 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/cronet/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,736 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/ffmpeg/local.properties
+2018-05-15 04:58:47,752 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/ffmpeg/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,752 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/flac/local.properties
+2018-05-15 04:58:47,768 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/flac/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,768 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/gvr/local.properties
+2018-05-15 04:58:47,782 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/gvr/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-05-15 04:58:47,783 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/ima/local.properties
+2018-05-15 04:58:47,799 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/ima/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,799 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/jobdispatcher/local.properties
+2018-05-15 04:58:47,815 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/jobdispatcher/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,815 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/leanback/local.properties
+2018-05-15 04:58:47,829 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/leanback/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=17,targetSdkVersion=27]
+2018-05-15 04:58:47,829 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/mediasession/local.properties
+2018-05-15 04:58:47,845 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/mediasession/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,845 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/okhttp/local.properties
+2018-05-15 04:58:47,861 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/okhttp/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,861 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/opus/local.properties
+2018-05-15 04:58:47,877 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/opus/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,877 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/rtmp/local.properties
+2018-05-15 04:58:47,891 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/rtmp/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,891 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/extensions/vp9/local.properties
+2018-05-15 04:58:47,907 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/extensions/vp9/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,908 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/library/all/local.properties
+2018-05-15 04:58:47,924 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/library/all/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,924 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/library/core/local.properties
+2018-05-15 04:58:47,940 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/library/core/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,941 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/library/dash/local.properties
+2018-05-15 04:58:47,957 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/library/dash/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,958 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/library/hls/local.properties
+2018-05-15 04:58:47,973 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/library/hls/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,974 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/library/smoothstreaming/local.properties
+2018-05-15 04:58:47,990 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/library/smoothstreaming/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:47,990 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/library/ui/local.properties
+2018-05-15 04:58:48,006 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/library/ui/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:48,007 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/playbacktests/local.properties
+2018-05-15 04:58:48,022 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/playbacktests/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:48,023 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/testutils/local.properties
+2018-05-15 04:58:48,039 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/testutils/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:48,039 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/testutils_robolectric/local.properties
+2018-05-15 04:58:48,054 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/testutils_robolectric/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:48,055 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/649/src/local.properties
+2018-05-15 04:58:48,056 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-05-15 04:58:48,056 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-05-15 04:58:48,072 INFO  ProjectFixService - Build info for "/tmp/rdisk/649/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 04:58:48,072 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:58:48,072 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:58:48,073 INFO  SysUtils - Execute command: [/tmp/rdisk/649/src/gradlew, -b, /tmp/rdisk/649/src/demos/cast/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:58:55,420 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-15 04:58:55,421 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:58:55,421 INFO  SysUtils - Execute command: [/tmp/rdisk/649/src/gradlew, -b, /tmp/rdisk/649/src/demos/cast/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 05:00:11,722 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo-cast:preBuild UP-TO-DATE
+:extension-cast:preBuild UP-TO-DATE
+:extension-cast:preDebugBuild UP-TO-DATE
+:extension-cast:checkDebugManifest
+:extension-cast:processDebugManifest
+:library-core:preBuild UP-TO-DATE
+:library-core:preDebugBuild UP-TO-DATE
+:library-core:checkDebugManifest
+:library-core:processDebugManifest
+:library-dash:preBuild UP-TO-DATE
+:library-dash:preDebugBuild UP-TO-DATE
+:library-dash:checkDebugManifest
+:library-dash:processDebugManifest
+:library-hls:preBuild UP-TO-DATE
+:library-hls:preDebugBuild UP-TO-DATE
+:library-hls:checkDebugManifest
+:library-hls:processDebugManifest
+:library-smoothstreaming:preBuild UP-TO-DATE
+:library-smoothstreaming:preDebugBuild UP-TO-DATE
+:library-smoothstreaming:checkDebugManifest
+:library-smoothstreaming:processDebugManifest
+:library-ui:preBuild UP-TO-DATE
+:library-ui:preDebugBuild UP-TO-DATE
+:library-ui:checkDebugManifest
+:library-ui:processDebugManifest
+:demo-cast:preDebugBuild
+:library-core:compileDebugAidl
+:library-ui:compileDebugAidl
+:extension-cast:compileDebugAidl
+:library-dash:compileDebugAidl
+:library-hls:compileDebugAidl
+:library-smoothstreaming:compileDebugAidl
+:demo-cast:compileDebugAidl
+:extension-cast:packageDebugRenderscript NO-SOURCE
+:library-core:packageDebugRenderscript NO-SOURCE
+:library-dash:packageDebugRenderscript NO-SOURCE
+:library-hls:packageDebugRenderscript NO-SOURCE
+:library-smoothstreaming:packageDebugRenderscript NO-SOURCE
+:library-ui:packageDebugRenderscript NO-SOURCE
+:demo-cast:compileDebugRenderscript
+:demo-cast:checkDebugManifest
+:demo-cast:generateDebugBuildConfig
+:demo-cast:prepareLintJar
+:demo-cast:mainApkListPersistenceDebug
+:demo-cast:generateDebugResValues
+:demo-cast:generateDebugResources
+:extension-cast:compileDebugRenderscript
+:extension-cast:generateDebugResValues
+:extension-cast:generateDebugResources
+:extension-cast:packageDebugResources
+:library-core:compileDebugRenderscript
+:library-core:generateDebugResValues
+:library-core:generateDebugResources
+:library-core:packageDebugResources
+:library-dash:compileDebugRenderscript
+:library-dash:generateDebugResValues
+:library-dash:generateDebugResources
+:library-dash:packageDebugResources
+:library-hls:compileDebugRenderscript
+:library-hls:generateDebugResValues
+:library-hls:generateDebugResources
+:library-hls:packageDebugResources
+:library-smoothstreaming:compileDebugRenderscript
+:library-smoothstreaming:generateDebugResValues
+:library-smoothstreaming:generateDebugResources
+:library-smoothstreaming:packageDebugResources
+:library-ui:compileDebugRenderscript
+:library-ui:generateDebugResValues
+:library-ui:generateDebugResources
+:library-ui:packageDebugResources
+:demo-cast:mergeDebugResources
+:demo-cast:createDebugCompatibleScreenManifests
+:demo-cast:processDebugManifest
+:demo-cast:splitsDiscoveryTaskDebug
+:extension-cast:platformAttrExtractor
+:library-core:platformAttrExtractor
+:library-ui:platformAttrExtractor
+:library-dash:platformAttrExtractor
+:library-hls:platformAttrExtractor
+:library-smoothstreaming:platformAttrExtractor
+:extension-cast:generateDebugBuildConfig
+:extension-cast:prepareLintJar
+:library-core:generateDebugBuildConfig
+:library-core:prepareLintJar
+:library-core:javaPreCompileDebug
+:library-core:processDebugJavaRes NO-SOURCE
+:library-ui:generateDebugBuildConfig
+:library-ui:prepareLintJar
+:library-ui:processDebugJavaRes NO-SOURCE
+:extension-cast:processDebugJavaRes NO-SOURCE
+:library-dash:generateDebugBuildConfig
+:library-dash:prepareLintJar
+:library-dash:processDebugJavaRes NO-SOURCE
+:library-hls:generateDebugBuildConfig
+:library-hls:prepareLintJar
+:library-hls:processDebugJavaRes NO-SOURCE
+:library-smoothstreaming:generateDebugBuildConfig
+:library-smoothstreaming:prepareLintJar
+:library-smoothstreaming:processDebugJavaRes NO-SOURCE
+:demo-cast:compileDebugNdk NO-SOURCE
+:demo-cast:mergeDebugShaders
+:demo-cast:compileDebugShaders
+:demo-cast:generateDebugAssets
+:extension-cast:mergeDebugShaders
+:extension-cast:compileDebugShaders
+:extension-cast:generateDebugAssets
+:extension-cast:packageDebugAssets
+:library-core:mergeDebugShaders
+:library-core:compileDebugShaders
+:library-core:generateDebugAssets
+:library-core:packageDebugAssets
+:library-dash:mergeDebugShaders
+:library-dash:compileDebugShaders
+:library-dash:generateDebugAssets
+:library-dash:packageDebugAssets
+:library-hls:mergeDebugShaders
+:library-hls:compileDebugShaders
+:library-hls:generateDebugAssets
+:library-hls:packageDebugAssets
+:library-smoothstreaming:mergeDebugShaders
+:library-smoothstreaming:compileDebugShaders
+:library-smoothstreaming:generateDebugAssets
+:library-smoothstreaming:packageDebugAssets
+:library-ui:mergeDebugShaders
+:library-ui:compileDebugShaders
+:library-ui:generateDebugAssets
+:library-ui:packageDebugAssets
+:demo-cast:mergeDebugAssets
+:demo-cast:mergeDebugJniLibFolders
+:extension-cast:compileDebugNdk NO-SOURCE
+:extension-cast:mergeDebugJniLibFolders
+:extension-cast:transformNativeLibsWithMergeJniLibsForDebug
+:extension-cast:transformNativeLibsWithStripDebugSymbolForDebug
+:extension-cast:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-core:compileDebugNdk NO-SOURCE
+:library-core:mergeDebugJniLibFolders
+:library-core:transformNativeLibsWithMergeJniLibsForDebug
+:library-core:transformNativeLibsWithStripDebugSymbolForDebug
+:library-core:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-dash:compileDebugNdk NO-SOURCE
+:library-dash:mergeDebugJniLibFolders
+:library-dash:transformNativeLibsWithMergeJniLibsForDebug
+:library-dash:transformNativeLibsWithStripDebugSymbolForDebug
+:library-dash:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-hls:compileDebugNdk NO-SOURCE
+:library-hls:mergeDebugJniLibFolders
+:library-hls:transformNativeLibsWithMergeJniLibsForDebug
+:library-hls:transformNativeLibsWithStripDebugSymbolForDebug
+:library-hls:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-smoothstreaming:compileDebugNdk NO-SOURCE
+:library-smoothstreaming:mergeDebugJniLibFolders
+:library-smoothstreaming:transformNativeLibsWithMergeJniLibsForDebug
+:library-smoothstreaming:transformNativeLibsWithStripDebugSymbolForDebug
+:library-smoothstreaming:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-ui:compileDebugNdk NO-SOURCE
+:library-ui:mergeDebugJniLibFolders
+:library-ui:transformNativeLibsWithMergeJniLibsForDebug
+:library-ui:transformNativeLibsWithStripDebugSymbolForDebug
+:library-ui:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo-cast:processDebugJavaRes NO-SOURCE
+:demo-cast:validateSigningDebug
+:demo-cast:extractProguardFiles
+:extension-cast:preReleaseBuild UP-TO-DATE
+:extension-cast:checkReleaseManifest
+:extension-cast:processReleaseManifest
+:library-core:preReleaseBuild UP-TO-DATE
+:library-core:checkReleaseManifest
+:library-core:processReleaseManifest
+:library-dash:preReleaseBuild UP-TO-DATE
+:library-dash:checkReleaseManifest
+:library-dash:processReleaseManifest
+:library-hls:preReleaseBuild UP-TO-DATE
+:library-hls:checkReleaseManifest
+:library-hls:processReleaseManifest
+:library-smoothstreaming:preReleaseBuild UP-TO-DATE
+:library-smoothstreaming:checkReleaseManifest
+:library-smoothstreaming:processReleaseManifest
+:library-ui:preReleaseBuild UP-TO-DATE
+:library-ui:checkReleaseManifest
+:library-ui:processReleaseManifest
+:demo-cast:preReleaseBuild
+:library-core:compileReleaseAidl
+:library-ui:compileReleaseAidl
+:extension-cast:compileReleaseAidl
+:library-dash:compileReleaseAidl
+:library-hls:compileReleaseAidl
+:library-smoothstreaming:compileReleaseAidl
+:demo-cast:compileReleaseAidl
+:extension-cast:packageReleaseRenderscript NO-SOURCE
+:library-core:packageReleaseRenderscript NO-SOURCE
+:library-dash:packageReleaseRenderscript NO-SOURCE
+:library-hls:packageReleaseRenderscript NO-SOURCE
+:library-smoothstreaming:packageReleaseRenderscript NO-SOURCE
+:library-ui:packageReleaseRenderscript NO-SOURCE
+:demo-cast:compileReleaseRenderscript
+:demo-cast:checkReleaseManifest
+:demo-cast:generateReleaseBuildConfig
+:demo-cast:mainApkListPersistenceRelease
+:demo-cast:generateReleaseResValues
+:demo-cast:generateReleaseResources
+:extension-cast:compileReleaseRenderscript
+:extension-cast:generateReleaseResValues
+:extension-cast:generateReleaseResources
+:extension-cast:packageReleaseResources
+:library-core:compileReleaseRenderscript
+:library-core:generateReleaseResValues
+:library-core:generateReleaseResources
+:library-core:packageReleaseResources
+:library-dash:compileReleaseRenderscript
+:library-dash:generateReleaseResValues
+:library-dash:generateReleaseResources
+:library-dash:packageReleaseResources
+:library-hls:compileReleaseRenderscript
+:library-hls:generateReleaseResValues
+:library-hls:generateReleaseResources
+:library-hls:packageReleaseResources
+:library-smoothstreaming:compileReleaseRenderscript
+:library-smoothstreaming:generateReleaseResValues
+:library-smoothstreaming:generateReleaseResources
+:library-smoothstreaming:packageReleaseResources
+:library-ui:compileReleaseRenderscript
+:library-ui:generateReleaseResValues
+:library-ui:generateReleaseResources
+:library-ui:packageReleaseResources
+:demo-cast:mergeReleaseResources
+:demo-cast:createReleaseCompatibleScreenManifests
+:demo-cast:processReleaseManifest
+:demo-cast:splitsDiscoveryTaskRelease
+:extension-cast:generateReleaseBuildConfig
+:library-core:generateReleaseBuildConfig
+:library-core:javaPreCompileRelease
+:library-core:processReleaseJavaRes NO-SOURCE
+:library-ui:generateReleaseBuildConfig
+:library-ui:processReleaseJavaRes NO-SOURCE
+:extension-cast:processReleaseJavaRes NO-SOURCE
+:library-dash:generateReleaseBuildConfig
+:library-dash:processReleaseJavaRes NO-SOURCE
+:library-hls:generateReleaseBuildConfig
+:library-hls:processReleaseJavaRes NO-SOURCE
+:library-smoothstreaming:generateReleaseBuildConfig
+:library-smoothstreaming:processReleaseJavaRes NO-SOURCE
+:demo-cast:compileReleaseNdk NO-SOURCE
+:demo-cast:mergeReleaseShaders
+:demo-cast:compileReleaseShaders
+:demo-cast:generateReleaseAssets
+:extension-cast:mergeReleaseShaders
+:extension-cast:compileReleaseShaders
+:extension-cast:generateReleaseAssets
+:extension-cast:packageReleaseAssets
+:library-core:mergeReleaseShaders
+:library-core:compileReleaseShaders
+:library-core:generateReleaseAssets
+:library-core:packageReleaseAssets
+:library-dash:mergeReleaseShaders
+:library-dash:compileReleaseShaders
+:library-dash:generateReleaseAssets
+:library-dash:packageReleaseAssets
+:library-hls:mergeReleaseShaders
+:library-hls:compileReleaseShaders
+:library-hls:generateReleaseAssets
+:library-hls:packageReleaseAssets
+:library-smoothstreaming:mergeReleaseShaders
+:library-smoothstreaming:compileReleaseShaders
+:library-smoothstreaming:generateReleaseAssets
+:library-smoothstreaming:packageReleaseAssets
+:library-ui:mergeReleaseShaders
+:library-ui:compileReleaseShaders
+:library-ui:generateReleaseAssets
+:library-ui:packageReleaseAssets
+:demo-cast:mergeReleaseAssets
+:demo-cast:processReleaseJavaRes NO-SOURCE
+:extension-cast:mergeReleaseConsumerProguardFiles
+:library-core:mergeReleaseConsumerProguardFiles
+:library-dash:mergeReleaseConsumerProguardFiles
+:library-hls:mergeReleaseConsumerProguardFiles
+:library-smoothstreaming:mergeReleaseConsumerProguardFiles
+:library-ui:mergeReleaseConsumerProguardFiles
+:demo-cast:mergeReleaseJniLibFolders
+:extension-cast:compileReleaseNdk NO-SOURCE
+:extension-cast:mergeReleaseJniLibFolders
+:extension-cast:transformNativeLibsWithMergeJniLibsForRelease
+:extension-cast:transformNativeLibsWithStripDebugSymbolForRelease
+:extension-cast:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-core:compileReleaseNdk NO-SOURCE
+:library-core:mergeReleaseJniLibFolders
+:library-core:transformNativeLibsWithMergeJniLibsForRelease
+:library-core:transformNativeLibsWithStripDebugSymbolForRelease
+:library-core:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-dash:compileReleaseNdk NO-SOURCE
+:library-dash:mergeReleaseJniLibFolders
+:library-dash:transformNativeLibsWithMergeJniLibsForRelease
+:library-dash:transformNativeLibsWithStripDebugSymbolForRelease
+:library-dash:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-hls:compileReleaseNdk NO-SOURCE
+:library-hls:mergeReleaseJniLibFolders
+:library-hls:transformNativeLibsWithMergeJniLibsForRelease
+:library-hls:transformNativeLibsWithStripDebugSymbolForRelease
+:library-hls:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-smoothstreaming:compileReleaseNdk NO-SOURCE
+:library-smoothstreaming:mergeReleaseJniLibFolders
+:library-smoothstreaming:transformNativeLibsWithMergeJniLibsForRelease
+:library-smoothstreaming:transformNativeLibsWithStripDebugSymbolForRelease
+:library-smoothstreaming:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-ui:compileReleaseNdk NO-SOURCE
+:library-ui:mergeReleaseJniLibFolders
+:library-ui:transformNativeLibsWithMergeJniLibsForRelease
+:library-ui:transformNativeLibsWithStripDebugSymbolForRelease
+:library-ui:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-core:generateDebugRFile
+:library-ui:generateDebugRFile
+:extension-cast:generateDebugRFile
+:library-dash:generateDebugRFile
+:library-hls:generateDebugRFile
+:library-smoothstreaming:generateDebugRFile
+:demo-cast:processDebugResources
+:demo-cast:generateDebugSources
+:extension-cast:generateDebugSources
+:library-core:generateDebugSources
+:library-core:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-ui:generateDebugSources
+:library-ui:javaPreCompileDebug
+:library-ui:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library-ui:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:extension-cast:javaPreCompileDebug
+:extension-cast:compileDebugJavaWithJavac
+:extension-cast:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-dash:generateDebugSources
+:library-dash:javaPreCompileDebug
+:library-dash:compileDebugJavaWithJavac
+:library-dash:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-hls:generateDebugSources
+:library-hls:javaPreCompileDebug
+:library-hls:compileDebugJavaWithJavac
+:library-hls:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-smoothstreaming:generateDebugSources
+:library-smoothstreaming:javaPreCompileDebug
+:library-smoothstreaming:compileDebugJavaWithJavac
+:library-smoothstreaming:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo-cast:javaPreCompileDebug
+:demo-cast:compileDebugJavaWithJavac
+:demo-cast:compileDebugSources
+:demo-cast:transformClassesWithDexBuilderForDebug
+:demo-cast:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo-cast:transformDexArchiveWithDexMergerForDebug
+:demo-cast:transformNativeLibsWithMergeJniLibsForDebug
+:demo-cast:transformNativeLibsWithStripDebugSymbolForDebug
+:demo-cast:transformResourcesWithMergeJavaResForDebug
+:demo-cast:packageDebug
+:demo-cast:assembleDebug
+:library-core:generateReleaseRFile
+:library-ui:generateReleaseRFile
+:extension-cast:generateReleaseRFile
+:library-dash:generateReleaseRFile
+:library-hls:generateReleaseRFile
+:library-smoothstreaming:generateReleaseRFile
+:demo-cast:processReleaseResources
+:demo-cast:generateReleaseSources
+:extension-cast:generateReleaseSources
+:library-core:generateReleaseSources
+:library-core:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-ui:generateReleaseSources
+:library-ui:javaPreCompileRelease
+:library-ui:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library-ui:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:extension-cast:javaPreCompileRelease
+:extension-cast:compileReleaseJavaWithJavac
+:extension-cast:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-dash:generateReleaseSources
+:library-dash:javaPreCompileRelease
+:library-dash:compileReleaseJavaWithJavac
+:library-dash:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-hls:generateReleaseSources
+:library-hls:javaPreCompileRelease
+:library-hls:compileReleaseJavaWithJavac
+:library-hls:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-smoothstreaming:generateReleaseSources
+:library-smoothstreaming:javaPreCompileRelease
+:library-smoothstreaming:compileReleaseJavaWithJavac
+:library-smoothstreaming:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo-cast:javaPreCompileRelease
+:demo-cast:compileReleaseJavaWithJavac
+:demo-cast:compileReleaseSources
+:demo-cast:lintVitalRelease
+:demo-cast:transformResourcesWithMergeJavaResForRelease
+:demo-cast:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-12.0.0.aar/c908e134bdac2006e309a8347c534c58/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-12.0.0.aar/b02bf7e301d2323efb1fc9d2fb6f3be8/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/33eed2fd1f1f5450a5f7eed71872e48f/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/82abc6498de1a5901ec410202ea84c44/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/bd5486adc52a3a211383c8f721809f45/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/b099aac87b4e7229aec3c5e9ee8a3179/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.0.aar/103dc12ecea8d5ada87f4b0e1b59e598/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ff1e70631ba130a71ba49b9fe6b780b6/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/563ef465bfde2b316c02fd345873672c/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/dc45629e21d9f44664002d2df32c1709/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/3294f6e76932c40b89023808e2529049/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/palette-v7-27.0.0.aar/05929a66d96e56a932f1237353ea2e3b/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/ae9f55fe10fb29219fae62ad00bfbccc/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/8107e2423a294945e4c5255c6852c037/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/ae96480f0258e93afb623a7590ac0eb6/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/4b4f5c6e1d4a198a4e80183ce413eb00/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/ce3b7c6687f128cf37cc80dc6e399957/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.0/a7782471b2a0de8fec071b8094a8aaf61c46ab70/support-annotations-27.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.5.0/f03b9f07c2b002f35f81338e6cde3fc191b91951/checker-qual-2.5.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-12.0.0.aar/c33d1ba95e5786eb06f6e8cca0336809/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1d8b40bd46d19fe1f90b662607b1e8d/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/ad16551c7ae8d9a7cc27aedf11eb5bf3/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-12.0.0.aar/15a752737011cc05c782f45494b7bc92/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/6e6283d82e93face708ce6728bdc2075/jars/classes.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/1bf4c0c9d2cfe18e378607f181a9a9ba/jars/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/649/src/library/dash/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/649/src/library/hls/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/649/src/library/smoothstreaming/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/649/src/extensions/cast/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/649/src/library/ui/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/649/src/library/core/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/tmp/rdisk/649/src/demos/cast/buildout/intermediates/classes/release] (filtered)
+Reading program jar [/tmp/rdisk/649/src/demos/cast/buildout/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/android.jar]
+Reading library jar [/root/Applications/android-sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult.ReleasableResultGuardian'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.internal.safeparcel.SafeParcelable'
+Note: com.google.android.exoplayer2.util.Util: can't find dynamically referenced class android.os.SystemProperties
+Note: com.google.android.gms.internal.zzfgo: can't find dynamically referenced class libcore.io.Memory
+Note: com.google.android.gms.internal.zzfgo: can't find dynamically referenced class org.robolectric.Robolectric
+Note: com.google.android.gms.internal.zzfhl: can't find dynamically referenced class com.google.protobuf.ExtensionRegistry
+Note: com.google.android.gms.internal.zzfhm: can't find dynamically referenced class com.google.protobuf.Extension
+Note: com.google.android.gms.internal.zzfhp: can't find dynamically referenced class com.google.protobuf.ExtensionSchemaFull
+Note: com.google.android.gms.internal.zzfiq: can't find dynamically referenced class com.google.protobuf.DescriptorMessageInfoFactory
+Note: com.google.android.gms.internal.zzfiz: can't find dynamically referenced class com.google.protobuf.MapFieldSchemaFull
+Note: com.google.android.gms.internal.zzfjk: can't find dynamically referenced class com.google.protobuf.NewInstanceSchemaFull
+Note: com.google.android.gms.internal.zzfjx: can't find dynamically referenced class com.google.protobuf.GeneratedMessage
+Note: com.google.android.gms.internal.zzfjx: can't find dynamically referenced class com.google.protobuf.UnknownFieldSetSchema
+Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult.ReleasableResultGuardian <fields>' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.AspectRatioFrameLayout { void setAspectRatioListener(com.google.android.exoplayer2.ui.AspectRatioFrameLayout$AspectRatioListener); }', but not the descriptor class 'com.google.android.exoplayer2.ui.AspectRatioFrameLayout$AspectRatioListener'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerControlView { void setPlayer(com.google.android.exoplayer2.Player); }', but not the descriptor class 'com.google.android.exoplayer2.Player'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerControlView { void setVisibilityListener(com.google.android.exoplayer2.ui.PlayerControlView$VisibilityListener); }', but not the descriptor class 'com.google.android.exoplayer2.ui.PlayerControlView$VisibilityListener'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerControlView { void setPlaybackPreparer(com.google.android.exoplayer2.PlaybackPreparer); }', but not the descriptor class 'com.google.android.exoplayer2.PlaybackPreparer'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerControlView { void setControlDispatcher(com.google.android.exoplayer2.ControlDispatcher); }', but not the descriptor class 'com.google.android.exoplayer2.ControlDispatcher'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerView { void setPlayer(com.google.android.exoplayer2.Player); }', but not the descriptor class 'com.google.android.exoplayer2.Player'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerView { void setErrorMessageProvider(com.google.android.exoplayer2.util.ErrorMessageProvider); }', but not the descriptor class 'com.google.android.exoplayer2.util.ErrorMessageProvider'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerView { void setControllerVisibilityListener(com.google.android.exoplayer2.ui.PlayerControlView$VisibilityListener); }', but not the descriptor class 'com.google.android.exoplayer2.ui.PlayerControlView$VisibilityListener'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerView { void setPlaybackPreparer(com.google.android.exoplayer2.PlaybackPreparer); }', but not the descriptor class 'com.google.android.exoplayer2.PlaybackPreparer'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerView { void setControlDispatcher(com.google.android.exoplayer2.ControlDispatcher); }', but not the descriptor class 'com.google.android.exoplayer2.ControlDispatcher'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.PlayerView { void setAspectRatioListener(com.google.android.exoplayer2.ui.AspectRatioFrameLayout$AspectRatioListener); }', but not the descriptor class 'com.google.android.exoplayer2.ui.AspectRatioFrameLayout$AspectRatioListener'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.SubtitleView { void setStyle(com.google.android.exoplayer2.text.CaptionStyleCompat); }', but not the descriptor class 'com.google.android.exoplayer2.text.CaptionStyleCompat'
+Note: the configuration keeps the entry point 'com.google.android.exoplayer2.ui.TrackSelectionView { void setTrackNameProvider(com.google.android.exoplayer2.ui.TrackNameProvider); }', but not the descriptor class 'com.google.android.exoplayer2.ui.TrackNameProvider'
+Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.zzcf getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.zzce); }', but not the descriptor class 'com.google.android.gms.common.api.internal.zzce'
+Note: the configuration keeps the entry point 'com.google.android.gms.flags.impl.FlagProviderImpl { void init(com.google.android.gms.dynamic.IObjectWrapper); }', but not the descriptor class 'com.google.android.gms.dynamic.IObjectWrapper'
+Note: there were 2 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 references to unknown class members.
+      You should check your configuration for typos.
+Note: there were 15 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 11 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1360
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/649/src/demos/cast/buildout/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 4600
+  Final number of program classes:    2345
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/tmp/rdisk/649/src/demos/cast/buildout/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/tmp/rdisk/649/src/demos/cast/buildout/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-12.0.0.aar/c908e134bdac2006e309a8347c534c58/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-12.0.0.aar/b02bf7e301d2323efb1fc9d2fb6f3be8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/33eed2fd1f1f5450a5f7eed71872e48f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/82abc6498de1a5901ec410202ea84c44/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/bd5486adc52a3a211383c8f721809f45/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/b099aac87b4e7229aec3c5e9ee8a3179/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.0.aar/103dc12ecea8d5ada87f4b0e1b59e598/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/ff1e70631ba130a71ba49b9fe6b780b6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/563ef465bfde2b316c02fd345873672c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/dc45629e21d9f44664002d2df32c1709/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/3294f6e76932c40b89023808e2529049/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/palette-v7-27.0.0.aar/05929a66d96e56a932f1237353ea2e3b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/ae9f55fe10fb29219fae62ad00bfbccc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/8107e2423a294945e4c5255c6852c037/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/ae96480f0258e93afb623a7590ac0eb6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/4b4f5c6e1d4a198a4e80183ce413eb00/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/ce3b7c6687f128cf37cc80dc6e399957/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.0/a7782471b2a0de8fec071b8094a8aaf61c46ab70/support-annotations-27.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.5.0/f03b9f07c2b002f35f81338e6cde3fc191b91951/checker-qual-2.5.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-12.0.0.aar/c33d1ba95e5786eb06f6e8cca0336809/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a1d8b40bd46d19fe1f90b662607b1e8d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/ad16551c7ae8d9a7cc27aedf11eb5bf3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-12.0.0.aar/15a752737011cc05c782f45494b7bc92/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/6e6283d82e93face708ce6728bdc2075/jars/classes.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.0.aar/1bf4c0c9d2cfe18e378607f181a9a9ba/jars/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/library/dash/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/library/hls/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/library/smoothstreaming/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/extensions/cast/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/library/ui/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/library/core/buildout/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/649/src/demos/cast/buildout/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/tmp/rdisk/649/src/demos/cast/buildout/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/tmp/rdisk/649/src/demos/cast/buildout/outputs/mapping/release/dump.txt]...
+:demo-cast:transformClassesWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 1649KB to 1483KB: Removed 10%
+:demo-cast:transformClassesWithDexBuilderForRelease
+:demo-cast:transformDexArchiveWithDexMergerForRelease
+:demo-cast:transformNativeLibsWithMergeJniLibsForRelease
+:demo-cast:transformNativeLibsWithStripDebugSymbolForRelease
+:demo-cast:packageRelease
+:demo-cast:assembleRelease
+:demo-cast:assemble
+:demo-cast:build
+
+BUILD SUCCESSFUL in 1m 15s
+289 actionable tasks: 289 executed
+
+2018-05-15 05:00:11,957 INFO  FullProcessService - Found APK file: /tmp/rdisk/649/src/demos/cast/buildout/outputs/apk/release/demo-cast-release-unsigned.apk

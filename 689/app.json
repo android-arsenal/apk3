@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ramimartin.sample.bluetooth",
+    "label" : "Bluetooth",
+    "icon" : "res/drawable-mdpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.BLUETOOTH", "android.permission.BLUETOOTH_ADMIN" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 836,
+  "locales" : [ "", "sl", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "pt", "ar", "ru", "fa", "sk", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "es", "hy_AM", "tr", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "fr", "ja", "lo_LA", "iw", "de", "en_IN", "es_US", "nb", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.ramimartin.sample.bluetooth\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"Bluetooth\" android:icon=\"res/drawable-mdpi/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Bluetooth\" android:name=\"com.ramimartin.sample.bluetooth.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 818668,
+  "crc32" : 1996506787,
+  "sha256" : "27ec56e346bad1214cbf2818b130e8f474ba490a1e536cb25b1e0e0c1114d6c4",
+  "buildTime" : 1523297100000
+}

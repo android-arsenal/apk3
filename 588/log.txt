@@ -1,0 +1,171 @@
+2018-04-09 19:48:08,369 INFO  DownloadService - Downloading "https://github.com/lemberg/mappwidget/archive/master.zip", attempt 3
+2018-04-09 19:49:09,085 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:49:09,885 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:49:09,885 INFO  DownloadService - Downloading "https://github.com/lemberg/mappwidget/archive/master.zip", attempt 3
+2018-04-09 19:50:11,283 DEBUG FullProcessService - Repository https://github.com/lemberg/mappwidget available: true
+2018-04-09 19:50:11,283 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:50:11,283 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lemberg/mappwidget, /tmp/rdisk/588/src]
+2018-04-09 19:50:14,897 INFO  SysUtils - 
+2018-04-09 19:50:14,911 INFO  GitService - Deleted "/tmp/rdisk/588/src/.git": true
+2018-04-09 19:50:14,931 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-04-09 19:50:14,931 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/588/src]
+2018-04-09 19:50:14,935 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/588/src/.git/
+
+2018-04-09 19:50:14,948 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/588/src/mAppWidget/gradlew
+2018-04-09 19:50:14,962 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/588/src/mAppWidget/demo1app/build.gradle /tmp/rdisk/588/src/mAppWidget/demo2app/build.gradle /tmp/rdisk/588/src/mAppWidget/mappwidgetlib/build.gradle /tmp/rdisk/588/src/mAppWidget/build.gradle
+2018-04-09 19:50:14,976 INFO  ProjectBuildService - All script(s): /tmp/rdisk/588/src/mAppWidget/settings.gradle /tmp/rdisk/588/src/mAppWidget/mappwidgetlib/build.gradle /tmp/rdisk/588/src/mAppWidget/demo2app/build.gradle /tmp/rdisk/588/src/mAppWidget/demo1app/build.gradle /tmp/rdisk/588/src/mAppWidget/build.gradle
+2018-04-09 19:50:14,976 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 19:50:14,977 INFO  ProjectFixService - Fixing project...
+2018-04-09 19:50:14,990 INFO  ManifestFixService - Found manifest(s): /tmp/rdisk/588/src/slicingtool/META-INF/MANIFEST.MF
+2018-04-09 19:50:15,009 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/588/src/mAppWidget/demo1app/local.properties
+2018-04-09 19:50:15,009 INFO  ProjectFixService - Build info for "/tmp/rdisk/588/src/mAppWidget/demo1app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2018-04-09 19:50:15,009 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/588/src/mAppWidget/demo2app/local.properties
+2018-04-09 19:50:15,010 INFO  ProjectFixService - Build info for "/tmp/rdisk/588/src/mAppWidget/demo2app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2018-04-09 19:50:15,010 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/588/src/mAppWidget/mappwidgetlib/local.properties
+2018-04-09 19:50:15,010 INFO  ProjectFixService - Build info for "/tmp/rdisk/588/src/mAppWidget/mappwidgetlib/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2018-04-09 19:50:15,010 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/588/src/mAppWidget/local.properties
+2018-04-09 19:50:15,011 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 19:50:15,011 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 19:50:15,012 INFO  ProjectFixService - Build info for "/tmp/rdisk/588/src/mAppWidget/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2018-04-09 19:50:15,012 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 19:50:15,012 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 19:50:15,012 INFO  SysUtils - Execute command: [/tmp/rdisk/588/src/mAppWidget/gradlew, -b, /tmp/rdisk/588/src/mAppWidget/demo1app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 19:50:24,046 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-09 19:50:24,046 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-09 19:50:24,046 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-09 19:50:24,046 INFO  SysUtils - Execute command: [/tmp/rdisk/588/src/mAppWidget/gradlew, -b, /tmp/rdisk/588/src/mAppWidget/demo1app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-09 19:50:57,801 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo1app:preBuild UP-TO-DATE
+:demo1app:preDebugBuild UP-TO-DATE
+:demo1app:checkDebugManifest
+:demo1app:preReleaseBuild UP-TO-DATE
+:mappwidgetlib:preBuild UP-TO-DATE
+:mappwidgetlib:preReleaseBuild UP-TO-DATE
+:mappwidgetlib:compileReleaseNdk UP-TO-DATE
+:mappwidgetlib:compileLint
+:mappwidgetlib:copyReleaseLint UP-TO-DATE
+:mappwidgetlib:checkReleaseManifest
+:mappwidgetlib:preDebugAndroidTestBuild UP-TO-DATE
+:mappwidgetlib:preDebugBuild UP-TO-DATE
+:mappwidgetlib:preDebugUnitTestBuild UP-TO-DATE
+:mappwidgetlib:preReleaseUnitTestBuild UP-TO-DATE
+:mappwidgetlib:prepareComAndroidSupportSupportV42311Library
+:mappwidgetlib:prepareReleaseDependencies
+:mappwidgetlib:compileReleaseAidl
+:mappwidgetlib:compileReleaseRenderscript
+:mappwidgetlib:generateReleaseBuildConfig
+:mappwidgetlib:generateReleaseAssets UP-TO-DATE
+:mappwidgetlib:mergeReleaseAssets
+:mappwidgetlib:generateReleaseResValues
+:mappwidgetlib:generateReleaseResources
+:mappwidgetlib:mergeReleaseResources
+:mappwidgetlib:processReleaseManifest
+:mappwidgetlib:processReleaseResources
+:mappwidgetlib:generateReleaseSources
+:mappwidgetlib:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mappwidgetlib:extractReleaseAnnotations
+:mappwidgetlib:mergeReleaseProguardFiles
+:mappwidgetlib:packageReleaseRenderscript UP-TO-DATE
+:mappwidgetlib:packageReleaseResources
+:mappwidgetlib:processReleaseJavaRes UP-TO-DATE
+:mappwidgetlib:transformResourcesWithMergeJavaResForRelease
+:mappwidgetlib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mappwidgetlib:mergeReleaseJniLibFolders
+:mappwidgetlib:transformNative_libsWithMergeJniLibsForRelease
+:mappwidgetlib:transformNative_libsWithSyncJniLibsForRelease
+:mappwidgetlib:bundleRelease
+:demo1app:prepareComAndroidSupportAppcompatV72311Library
+:demo1app:prepareComAndroidSupportSupportV42311Library
+:demo1app:prepareMAppWidgetMappwidgetlibUnspecifiedLibrary
+:demo1app:prepareDebugDependencies
+:demo1app:compileDebugAidl
+:demo1app:compileDebugRenderscript
+:demo1app:generateDebugBuildConfig
+:demo1app:generateDebugAssets UP-TO-DATE
+:demo1app:mergeDebugAssets
+:demo1app:generateDebugResValues
+:demo1app:generateDebugResources
+:demo1app:mergeDebugResources
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable/map_icon_leasure.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable/map_icon_kids.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable/map_icon_attractions.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable-hdpi/map_object.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:demo1app:processDebugManifest
+:demo1app:processDebugResources
+:demo1app:generateDebugSources
+:demo1app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo1app:compileDebugNdk UP-TO-DATE
+:demo1app:compileDebugSources
+:demo1app:transformClassesWithDexForDebug
+:demo1app:mergeDebugJniLibFolders
+:demo1app:transformNative_libsWithMergeJniLibsForDebug
+:demo1app:processDebugJavaRes UP-TO-DATE
+:demo1app:transformResourcesWithMergeJavaResForDebug
+:demo1app:validateDebugSigning
+:demo1app:packageDebug
+:demo1app:zipalignDebug
+:demo1app:assembleDebug
+:demo1app:checkReleaseManifest
+:demo1app:prepareReleaseDependencies
+:demo1app:compileReleaseAidl
+:demo1app:compileReleaseRenderscript
+:demo1app:generateReleaseBuildConfig
+:demo1app:generateReleaseAssets UP-TO-DATE
+:demo1app:mergeReleaseAssets
+:demo1app:generateReleaseResValues
+:demo1app:generateReleaseResources
+:demo1app:mergeReleaseResources
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable/map_icon_leasure.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable/map_icon_kids.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable/map_icon_attractions.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /tmp/rdisk/588/src/mAppWidget/demo1app/src/main/res/drawable-hdpi/map_object.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:demo1app:processReleaseManifest
+:demo1app:processReleaseResources
+:demo1app:generateReleaseSources
+:demo1app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo1app:compileReleaseNdk UP-TO-DATE
+:demo1app:compileReleaseSources
+:demo1app:lintVitalRelease
+:demo1app:transformClassesWithDexForRelease
+:demo1app:mergeReleaseJniLibFolders
+:demo1app:transformNative_libsWithMergeJniLibsForRelease
+:demo1app:processReleaseJavaRes UP-TO-DATE
+:demo1app:transformResourcesWithMergeJavaResForRelease
+:demo1app:packageRelease
+:demo1app:assembleRelease
+:demo1app:assemble
+:demo1app:compileLint
+:demo1app:lint
+Wrote HTML report to file:///tmp/rdisk/588/src/mAppWidget/demo1app/build/outputs/lint-results.html
+Wrote XML report to file:///tmp/rdisk/588/src/mAppWidget/demo1app/build/outputs/lint-results.xml
+Lint found 0 errors and 46 warnings
+:demo1app:preDebugUnitTestBuild UP-TO-DATE
+:demo1app:prepareDebugUnitTestDependencies
+:demo1app:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:demo1app:processDebugUnitTestJavaRes UP-TO-DATE
+:demo1app:compileDebugUnitTestSources UP-TO-DATE
+:demo1app:mockableAndroidJar
+:demo1app:assembleDebugUnitTest
+:demo1app:testDebugUnitTest
+:demo1app:preReleaseUnitTestBuild UP-TO-DATE
+:demo1app:prepareReleaseUnitTestDependencies
+:demo1app:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:demo1app:processReleaseUnitTestJavaRes UP-TO-DATE
+:demo1app:compileReleaseUnitTestSources UP-TO-DATE
+:demo1app:assembleReleaseUnitTest
+:demo1app:testReleaseUnitTest
+:demo1app:test
+:demo1app:check
+:demo1app:build
+
+BUILD SUCCESSFUL
+
+Total time: 33.32 secs
+
+2018-04-09 19:50:57,870 INFO  FullProcessService - Found APK file: /tmp/rdisk/588/src/mAppWidget/demo1app/build/outputs/apk/demo1app-release-unsigned.apk

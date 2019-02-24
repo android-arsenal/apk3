@@ -1,0 +1,163 @@
+2018-05-14 07:06:58,224 INFO  DownloadService - Downloading "https://github.com/prolificinteractive/ParallaxPager/archive/master.zip", attempt 3
+2018-05-14 07:07:58,706 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-14 07:07:59,425 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-14 07:07:59,426 INFO  DownloadService - Downloading "https://github.com/prolificinteractive/ParallaxPager/archive/master.zip", attempt 3
+2018-05-14 07:09:00,888 DEBUG FullProcessService - Repository https://github.com/prolificinteractive/ParallaxPager available: true
+2018-05-14 07:09:00,888 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-14 07:09:00,888 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/prolificinteractive/ParallaxPager, /tmp/rdisk/537/src]
+2018-05-14 07:09:04,486 INFO  SysUtils - 
+2018-05-14 07:09:04,501 INFO  GitService - Deleted "/tmp/rdisk/537/src/.git": true
+2018-05-14 07:09:04,504 INFO  FullProcessService - Size of directory with sources: 537 KB
+2018-05-14 07:09:04,504 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/537/src]
+2018-05-14 07:09:04,508 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/537/src/.git/
+
+2018-05-14 07:09:04,510 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/537/src/gradlew /tmp/rdisk/537/src/gradle/gradlew
+2018-05-14 07:09:04,513 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/537/src/example/build.gradle /tmp/rdisk/537/src/parallaxpager/build.gradle /tmp/rdisk/537/src/build.gradle
+2018-05-14 07:09:04,515 INFO  ProjectBuildService - All script(s): /tmp/rdisk/537/src/settings.gradle /tmp/rdisk/537/src/parallaxpager/build.gradle /tmp/rdisk/537/src/example/build.gradle /tmp/rdisk/537/src/build.gradle
+2018-05-14 07:09:04,515 INFO  ProjectBuildService - Remote scripts: none
+2018-05-14 07:09:04,515 INFO  ProjectFixService - Fixing project...
+2018-05-14 07:09:04,521 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/537/src/example/local.properties
+2018-05-14 07:09:04,521 INFO  ProjectFixService - Build info for "/tmp/rdisk/537/src/example/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-14 07:09:04,521 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/537/src/parallaxpager/local.properties
+2018-05-14 07:09:04,521 INFO  ProjectFixService - Build info for "/tmp/rdisk/537/src/parallaxpager/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-14 07:09:04,522 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/537/src/local.properties
+2018-05-14 07:09:04,522 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-bin.zip
+2018-05-14 07:09:04,523 INFO  ProjectFixService - Build info for "/tmp/rdisk/537/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-14 07:09:04,523 INFO  ProjectFixService - Project was maybe fixed
+2018-05-14 07:09:04,523 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-14 07:09:04,523 INFO  SysUtils - Execute command: [/tmp/rdisk/537/src/gradlew, -b, /tmp/rdisk/537/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-14 07:09:13,091 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-14 07:09:13,091 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-14 07:09:13,091 INFO  SysUtils - Execute command: [/tmp/rdisk/537/src/gradlew, -b, /tmp/rdisk/537/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-14 07:09:46,452 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (23.0.3) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.2.
+Android SDK Build Tools 27.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+:example:preBuild UP-TO-DATE
+:parallaxpager:preBuild UP-TO-DATE
+:parallaxpager:preDebugBuild UP-TO-DATE
+:parallaxpager:checkDebugManifest
+:parallaxpager:processDebugManifest
+:example:preDebugBuild
+:parallaxpager:compileDebugAidl
+:example:compileDebugAidl
+:parallaxpager:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:parallaxpager:compileDebugRenderscript
+:parallaxpager:generateDebugResValues
+:parallaxpager:generateDebugResources
+:parallaxpager:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:parallaxpager:platformAttrExtractor
+:parallaxpager:generateDebugBuildConfig
+:parallaxpager:prepareLintJar
+:parallaxpager:javaPreCompileDebug
+:parallaxpager:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:parallaxpager:generateDebugSources
+:parallaxpager:compileDebugJavaWithJavac
+:parallaxpager:processDebugJavaRes NO-SOURCE
+:parallaxpager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:parallaxpager:mergeDebugShaders
+:parallaxpager:compileDebugShaders
+:parallaxpager:generateDebugAssets
+:parallaxpager:packageDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:mergeDebugJniLibFolders
+:parallaxpager:compileDebugNdk NO-SOURCE
+:parallaxpager:mergeDebugJniLibFolders
+:parallaxpager:transformNativeLibsWithMergeJniLibsForDebug
+:parallaxpager:transformNativeLibsWithStripDebugSymbolForDebug
+:parallaxpager:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:parallaxpager:preReleaseBuild UP-TO-DATE
+:parallaxpager:checkReleaseManifest
+:parallaxpager:processReleaseManifest
+:example:preReleaseBuild
+:parallaxpager:compileReleaseAidl
+:example:compileReleaseAidl
+:parallaxpager:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:parallaxpager:compileReleaseRenderscript
+:parallaxpager:generateReleaseResValues
+:parallaxpager:generateReleaseResources
+:parallaxpager:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:parallaxpager:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:parallaxpager:generateReleaseBuildConfig
+:parallaxpager:generateReleaseSources
+:parallaxpager:javaPreCompileRelease
+:parallaxpager:compileReleaseJavaWithJavac
+:parallaxpager:processReleaseJavaRes NO-SOURCE
+:parallaxpager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:parallaxpager:mergeReleaseShaders
+:parallaxpager:compileReleaseShaders
+:parallaxpager:generateReleaseAssets
+:parallaxpager:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:mergeReleaseJniLibFolders
+:parallaxpager:compileReleaseNdk NO-SOURCE
+:parallaxpager:mergeReleaseJniLibFolders
+:parallaxpager:transformNativeLibsWithMergeJniLibsForRelease
+:parallaxpager:transformNativeLibsWithStripDebugSymbolForRelease
+:parallaxpager:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 33s
+91 actionable tasks: 91 executed
+
+2018-05-14 07:09:46,517 INFO  FullProcessService - Found APK file: /tmp/rdisk/537/src/example/build/outputs/apk/release/example-release-unsigned.apk

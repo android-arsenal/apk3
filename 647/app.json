@@ -1,0 +1,36 @@
+{
+  "meta" : {
+    "packageName" : "net.osmand.parkingPlugin",
+    "label" : "OsmAnd Parking",
+    "icon" : "res/drawable-ldpi-v4/icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 6,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : true,
+    "smallScreens" : true,
+    "normalScreens" : true,
+    "largeScreens" : true,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.touchscreen",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/icon.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 8,
+  "locales" : [ "", "in", "sl", "bg", "mr", "zh_TW", "it", "ko", "uk", "da", "be", "fi", "es", "lv", "tr", "eu", "bs", "ro", "hr", "lt", "pl", "zh_CN", "pt", "ka", "sq", "ar", "fr", "ru", "gl", "ja", "fa", "sk", "iw", "de", "sc", "et", "nb", "hi", "cs", "sv", "el", "ca", "nl", "hu", "af", "hy" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"1.0\" package=\"net.osmand.parkingPlugin\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<uses-feature android:name=\"android.hardware.touchscreen\" android:required=\"false\" />\n\t<supports-screens android:anyDensity=\"true\" android:smallScreens=\"true\" android:normalScreens=\"true\" android:largeScreens=\"true\" android:resizeable=\"true\" android:xlargeScreens=\"true\" />\n\t<application android:label=\"OsmAnd Parking\" android:icon=\"res/drawable-ldpi-v4/icon.png\" android:debuggable=\"true\">\n\t\t<activity android:label=\"OsmAnd Parking\" android:name=\"net.osmand.parkingPlugin.ParkingPluginActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 79552,
+  "crc32" : 529590347,
+  "sha256" : "fde2b918fcbcdc225d2542be74d84d2848d355c46f09d8b692333db7ef63f10c",
+  "buildTime" : 1496784444000
+}

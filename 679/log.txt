@@ -1,0 +1,94 @@
+2018-04-09 18:08:46,177 INFO  DownloadService - Downloading "https://github.com/dlukashev/AndroidSlidingUpPanel-foursquare-map-demo/archive/master.zip", attempt 3
+2018-04-09 18:08:46,555 INFO  DownloadService - Downloaded https://github.com/dlukashev/AndroidSlidingUpPanel-foursquare-map-demo/archive/master.zip, attempt 3
+2018-04-09 18:08:46,556 INFO  DownloadService - Size of file "/tmp/rdisk/679/master.zip": 137 KB
+2018-04-09 18:08:46,556 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:08:46,556 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/679/master.zip: true
+2018-04-09 18:08:46,556 DEBUG ZipUtil - Extracting '/tmp/rdisk/679/master.zip' into '/tmp/rdisk/679/src'.
+2018-04-09 18:08:46,564 INFO  FullProcessService - Size of directory with sources: 201 KB
+2018-04-09 18:08:46,564 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/679/src]
+2018-04-09 18:08:46,568 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/679/src/.git/
+
+2018-04-09 18:08:46,570 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/gradlew
+2018-04-09 18:08:46,572 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/build.gradle /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/build.gradle
+2018-04-09 18:08:46,574 INFO  ProjectBuildService - All script(s): /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/settings.gradle /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/build.gradle /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/build.gradle
+2018-04-09 18:08:46,574 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:08:46,574 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:08:46,578 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/local.properties
+2018-04-09 18:08:46,579 INFO  ProjectFixService - Build info for "/tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 18:08:46,579 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/local.properties
+2018-04-09 18:08:46,579 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 18:08:46,580 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 18:08:46,580 INFO  ProjectFixService - Build info for "/tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-04-09 18:08:46,581 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:08:46,581 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:08:46,581 INFO  SysUtils - Execute command: [/tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/gradlew, -b, /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:08:56,194 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-09 18:08:56,194 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:08:56,194 INFO  SysUtils - Execute command: [/tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/gradlew, -b, /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:09:26,135 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72301Library
+:app:prepareComAndroidSupportRecyclerviewV72301Library
+:app:prepareComAndroidSupportSupportV42301Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase810Library
+:app:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:app:prepareComGoogleAndroidGmsPlayServicesLocation810Library
+:app:prepareComGoogleAndroidGmsPlayServicesMaps810Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 29.502 secs
+
+2018-04-09 18:09:26,183 INFO  FullProcessService - Found APK file: /tmp/rdisk/679/src/AndroidSlidingUpPanel-foursquare-map-demo-master/app/build/outputs/apk/app-debug.apk

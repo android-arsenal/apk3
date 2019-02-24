@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "eu.inmite.demo.validation",
+    "label" : "ValidationDemo",
+    "icon" : "res/drawable-xhdpi-v4/ic_launcher.png",
+    "versionName" : "0.9.5-SNAPSHOT",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-xhdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAACSVBMVEX///8AAAAAAAD///8AAAAAAAAAAAAAAAAAAADq6uoAAADp6en39/f+/v709PT19fX7+/v++u/6z1/3sgD3tw/72H/o6Oju7u761G/4wC/v7+/w37L07+Tr6+v29vb8/Pz136fs7Ozu3bD203n4+Pj+9d/4ux/s2q700Xj88M798c/q4cvxz3Xy8vL4yU73tg/u1JH5+fn2tg/zxEn97L/73Y/n5+fzvznu0IL1uR35xT/99N7s1p/s483wyWXz8/P3uh7p4Mr3thDvzHP8893zyFnywkjr2q30vCv00nny4bTt05D047bzyFjz4rX1vSzx0oT84p/2tQ7o5Nnxz3bq3bzm5ub6+vrp3Lvn49js0o/3txDo38n5yk/01ojxxVbq2azx8fH0vCr3vy74wz74zV741X3557v02pf4+/Lk7snQ4qHJ3ZPW5q7yz3bt6d671XiuzV2nyFCTvCiZwDXx9+Tywkfp4cvd6rygxELC2Yb1uBy81IHr1p7wyWS00Wvn7NqqyVnl5eXZ5re/04nG1p7w9ePQ27bt7e2fw0GixEunxlff58urylqYvjO3znrb4M3g4tmyy27B2IXa5L+60X3G15fI2pmdwT/3+vGZvzTC143W4Lvw8PC0znLk5OTG2pHR27aewkD9/f3I15/K2aHQ2rW50Hyty1zf4djU4bPa38zg6MzC1o3j4+PC1ozB1YzE1pXP2bTi4uKzzXG70IbO2LPd4NaryGLh4eHg4ODJyckAAAAAAAAAAAAAAAAAAAAAAAAAAADvCOv6AAAAw3RSTlMAAgX/DgkcDCb/K////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////0xkcTlLVQ0OWEVaAAAD0klEQVRo3u3aiVMSUQAG8OQBoutiuBxliVF2UVRUrmkHFd13Vkt3dodigUtld62VlVnZfZMddt/3afWXtTdLMOi27zljwzfjwtt5+/3g7S7DjPTokUknkqUDSKLLEgGdHg2g14mAwYgGMBpEINuUgySmbBHQ56IBcvUygCFJBuhGQE4eALgZIZDP3zY90QGWAoKw2oBZA2BPF0cvgktvHLOrS6cBQoitEBHQRwSsfaECRU4cFJsxBUD0gwm4cP7SwV12e38JGAATKBlYYCUG2SysMFgChsAEhlqFdXfj2DAJGM6fcrMHgwGMkM6s22kfKT4fxa6cl1u3IgjAaOllWy1FY8Snw7gzM9ZWanGqBsiklEkAUeAcJzwpJ124u4Izx5OdSlpgggwQAycKj5Mw3C2cmQIIADkp/hZ8k/nHKV6xn5gKAyD9sjBtOredkW+xSnugAOTMWdKH0GxuOwdUSP3lcACSnCuc6kHz2M180Et+S34ogMvj8/kWLOQKF7F/4xfL/ZVLIABYifj9bzG78P6yyqXueP8yUjVAJSUA3KU2m610LLBUVC6nVqxcJfWXraY6mXRAoWWNVFixlmtcLr76dVXyHLtrvc9X6Po3wNc7fqMR/J4NGzdt3rLVy4VvLwyIa4g7sX8AtsXrK/38Hmf8azk7chQDEKyuCYVqq9kdZvXA9nj9Dm+xnaLMIByRwo2CtXW0kGh4JwjY1QLSbbxrdx63ChjlDdNy2HdTv4dWZC8IqAWq+Pp9VQ4cVEf2BB3UfkXferCXTkxd0KcSoA7sKjtYhXlB8BC3CoepI4o6EKb/Th3A0gJMqnjY66Q+yh/fwBxVtNXQyQnlJxd0BACwMyIdzhyjO8hx9UCoTj46wjR2BIRPqAYUR0dzmI6AqFkLQLuYk38VnmpqStzRoAk4zTSz2zNnj50V68+xE1rOK6dc0ARcZC6JrZf5/hZhilKIaAKusNfpVa7Vc40bnhOntFxXnARNwA3mJt3IkLeKQT07ui3Pua2Ykw6IpYoSuBNrvRu7dQ+AEHfn3ZfnPFDMSSpQB7Q9LAHBGuEzrk2e0woLeBR7/ATURMXRU3lOGzwg9iySouoxROB5yiqIwB2kQHMsFkINRLQAL1JFCbxMGKaelFSgBniFGjiKGniNGnjT7YEX3R1o1gq8TRXFse8Sh6knJRWoAN6jBj6gBj4iBq6+RQx8QgNoTlcCn5EkA2SADJAAfEGSrgS+Isl/BGSbvn3/AT3fv8n/cjcY23/+gp6f7fKPBnR6oykXekxG+WcPWTrDbz30/DbIP9zIJG3+AHaQE59Xt/qJAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 535,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"0.9.5-SNAPSHOT\" package=\"eu.inmite.demo.validation\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"21\" />\n\t<application android:theme=\"resourceId:0x7f0900cd\" android:label=\"ValidationDemo\" android:icon=\"res/drawable-xhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"ValidationDemo\" android:icon=\"res/drawable-xhdpi-v4/ic_launcher.png\" android:name=\"eu.inmite.demo.validation.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 560394,
+  "crc32" : 1522639774,
+  "sha256" : "bb2c43a47b551acb7426b412aaacc5c9a718430a3f4523c2b24a6c6aead22de5",
+  "buildTime" : 1523306897000
+}

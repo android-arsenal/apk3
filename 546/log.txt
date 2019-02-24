@@ -1,0 +1,21 @@
+2018-04-09 20:00:11,634 INFO  DownloadService - Downloading "https://github.com/koush/android-websockets/archive/master.zip", attempt 3
+2018-04-09 20:01:12,782 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:01:13,559 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:01:13,559 INFO  DownloadService - Downloading "https://github.com/koush/android-websockets/archive/master.zip", attempt 3
+2018-04-09 20:02:14,870 DEBUG FullProcessService - Repository https://github.com/koush/android-websockets available: true
+2018-04-09 20:02:14,870 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:02:14,870 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/koush/android-websockets, /tmp/rdisk/546/src]
+2018-04-09 20:02:16,340 INFO  SysUtils - 
+2018-04-09 20:02:16,348 INFO  GitService - Deleted "/tmp/rdisk/546/src/.git": true
+2018-04-09 20:02:16,349 INFO  FullProcessService - Size of directory with sources: 65 KB
+2018-04-09 20:02:16,349 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/546/src]
+2018-04-09 20:02:16,354 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/546/src/.git/
+
+2018-04-09 20:02:16,355 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 20:02:16,356 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 20:02:16,357 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 20:02:16,358 INFO  ProjectBuildService - All script(s): none
+2018-04-09 20:02:16,358 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:02:16,358 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 20:02:16,358 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 20:02:16,359 ERROR FullProcessService - Could not find generated or existed APK file

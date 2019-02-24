@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.jakewharton.u2020.internal.debug.test",
+    "label" : null,
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 2557,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.jakewharton.u2020.internal.debug.test\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<instrumentation android:label=\"Tests for com.jakewharton.u2020.internal.debug\" android:name=\"com.jakewharton.u2020.U2020TestRunner\" android:targetPackage=\"com.jakewharton.u2020.internal.debug\" android:handleProfiling=\"false\" android:functionalTest=\"false\" />\n\t<application android:debuggable=\"true\">\n\t\t<uses-library android:name=\"android.test.runner\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1012281,
+  "crc32" : 2732193921,
+  "sha256" : "ec86f564ac5d7a501bc10684e5a65e23b5343ee8a9c1a86504b1a650394fafe6",
+  "buildTime" : 1496784444000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "me.imid.swipebacklayout.demo",
+    "label" : "SwipeBackDemo",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.VIBRATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAACUlBMVEUAAAAAAACxaBk0IAcAAAAAAAAgFQUAAAAAAAAVDQOVWRUAAADblijblScAAADalScAAAAAAADWlycAAADYlSerZhgAAACUXxQAAACPXBMAAAAAAAAAAADQhhzcnCjinCmOWxPMgxwAAACbZBW/bxykYxfBgiI3IwgAAADYix5GLgsAAAAAAACcZRXOhBzonyu7ahv7tjH8tzKiXBj3sjDDfhv3sTCGTBTsqS7DcB3vqy63Zxu4aRvWiSTIdx/XkCfKeR3elCjhlij+uTPJeB+6bRzupi2nXhnBbxzYlSj0sTChWxf9uTO6eyH6tTGdWRevZBqPUhX1ry+XVhbMjCasYhnenSqSVxelXhjzrC+4aBuaWBetYhnimCmxcx+aXRipYBmaVxaWWhejXBj2sjGRUhXDcR2yZRrdnCr8uDKbWBfEfxuSVRa/bRzopi3amSqQVBWNUBXzrS+1dR+XVRa7eCDOfyGiZhvajiaSUxXFdB7vrC+9axy3aBu8axv7uDLajB6QUhWsYRnYjCWlaBzOiyXglijEch7WlSi7dyDTjiaKThSNUhXEhSTspCywZBrrqC7RkSf5tDGmXhjbjR6RUxWxZBrqoSvIiSXYix62ZxuOURWYVhbooiyfWhfKiiWUVBbAbRzFcxyYWxi6ahuqbB3tqi6+bBzrqS77tjLQgSLspy3Cbxy1dyDJfyHZih6zZhqNURXGfxvTiB21ZxrMgxz/uzPBbhzkmyqVVRbZjB67bRyqYRn9uTKPURWvYxmcWBfSjibUjyeWVRb+ujO0ZhrvNCzmAAAAL3RSTlOkD/ieM7JlOwxgviLv8CDwHDTfferYH7QRegYSP9vY/B+tsXX9zdYUAfKkABqo3OqajSQAAAIfSURBVFjDY9CmEmDQ1tZQUNScQgHQVFTQABukLosq0dCwayZpQE8dZJCUMqo5Mzdv3ZRtShqQlAIaJKG73mHNQjhYPiuidNmRbaQBOWmgQTriixYigSXuxdtIBkICQIMEVJHNWXh0zgrSDRIRAxkkimLQtKlHSDeInw/ToP59pJuzjXfUoFGDRg2iokHVE6upYtCEnu6NHdQwaP7hAyWFvVQwqLVpy/55jXH1FBt0sHZhzdHkynIvSg3qsgFVDZN3Ls6jgkELl9vsmVOQTwWDFuYuicmaPYMKBi3Mreuft29tJgkGZYSbI4NCYxuokpoNxqktKcQblJS6ABkkJiyB18ZbJi+ItyDaoOg909KRwAab5Yh6PSohOCeMWIP21OUuxAVyl4RGB4YQadA03OYATTII8J/t60OUQekL8YKadO/UpZlUMAgY5BELOqhhEDDIJ3tSxaCFy9ftpY5BFUeoEdgLPXYQGf0EDGp320YVg1yCiM4irvjMWeVHfKadW4XbnGZnCsojJ7ia7bEUFWyOsNyf1kdZUWsPLY/siqhR+C9cWDZpG1UMst1LcQV5CGRQGxWqbKvdCy2nU6VZY6ZvMtr0GzVo1KBBZxBZAwg8oJEIHS7KhzTUQGMjEpwqlA6yRLKBRmukWJiZtiO1MKwjOlevNCIBGMprsYDGj7QZZYQZlFjJBkoMwjKMkDE2Dm5BdgqAIDcHZIyNaqN+1AEANaOo2899sHcAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1609,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"me.imid.swipebacklayout.demo\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<application android:theme=\"resourceId:0x7f0c0006\" android:label=\"SwipeBackDemo\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SwipeBackDemo\" android:name=\"me.imid.swipebacklayout.demo.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1384422,
+  "crc32" : 2645556074,
+  "sha256" : "34172d99b06e78c3158bca49cffc1b8b9454d0f1a43ccca3c8babc4d5539a3d9",
+  "buildTime" : 1526279344000
+}

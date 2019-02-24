@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "org.curiouscreature.android.roadtrip",
+    "label" : "Road Trip USA",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACqVBMVEUAAACxsbGfn5+enp6vr6/IyMi5ubm6urrGxsY/Pz////8VFRUPDw8ODg6k3PB9zup6zemv4fLd8vn8/v5NvOI0s944tN89tuBBt+BLu+JwyeiV1+204vPO7Pfk9Pr3/P7+/v7U7viR1u0MDAzu+Pwysd48tuBAt+BEueFHuuFOvONSvuNVv+RYwORiw+Vyyeh8zeqC0OuG0eum3fDK6/by+vz0+v2S1u0qrtzV7/gLCwue2u8vsd4zst43tN87td8/t+BCuOFGueFKu+JQveNTvuNWv+RaweRcwuVdwuXV7vjf8/r5/P7o9vtQvOMortx4zOlAtuAusN0yst42s986td9IuuJRveNUv+RZweRsx+dZwORdwuSM0+yR1e3v+fzE6PVOvOIqr92P1Oz9/v7C6PUprt0ssN0wsd5DuOFJuuJMvOJPveNXwORpxubS7fdWv+Og2+9iw+Ysr935/P2X1+4nrtwrr91jxOat4PJdweXg8/rE6fVJuuEtr91dweQmrdwtsN0+tuBnxeZEuODU7vdSvePN6/ZixOYkrdw1s99HueFhw+U9tt+J0uwKCgqn3fAirNslrdw/tuDJ6vYgq9sjrNxFueFTvePp9vshq9tDuOD2/P0eqtsnrtu+5vQfq9s5tN95zOn7/f7u+PttyOcJCQkkrNsxsd70+/0JCQlawOQvsN33+/3L6/YcqtuX2O4sr9yy4vOh3O+F0esYqNqv4PGa2O78/f6V1+4jq9uQ1e3e8vnG6fWR1eyf2u/2+/31+/0dqttFuOHW7/h0yugQpdmN1Oyy4vIZqNqo3vHx+fxUvuNmxeYICAi75fTm9frQ7fcHBwf5+fnw8PDl5eUHBwfb29vS0tIDAwMBAQEBAQEBAQEBAQEfHx8FBQUFBQUFBQUEBAQ32FMGAAAA43RSTlMAnP//m6D//6AC/wYICf///////////////////////////wr/////////////////////////////C////////////////////////////////////////////////////////////////////////////////////////////////////////////////wz/////////////////////////////Df///w7//////////////////////////////////////////////w////8Q////Ef//KkZPUFIEFhgZGlk8c+EAAANASURBVEjHzdb3c9JgHAZwrVr1ddRBAjhbBwTauuuooVBainWhBGjdijVJqXWbqHWQOoMTtK3irKOte++99957/CW+CaBBTxv9qU/uyPu9PB/ycpfLUatWzUztmDrCARNTJ3yOiR6FI6ZupF8vtj6M+CEmNlZ6+nEttn6DUL8hkJ2GImgkHzQSQWP5oPH/gSbyQZMaDZrGNWveouU/AAWCKlXqVq3btG3XXrwWHx/dTejwA3SEq06dEVSjxXRqfWJScpeu3br36N6zV0pvCejTtx8AHUWQCsf+uCHNaEo3ZygyLVnJ1gHZ2dkDrK0HDhrcPtwfMtQ2DIDUCEgZbiccTqUKc6n1OblZySOsVusI68hRo8eMHSfUx0+wuyfmScAkkqLhnkz5Zk/B5BxLUlZhYWFWkiVnytRp0wUwg6ZmzgISMJthceEW8FdkFOgzEy25ubmWxEz9nLm6eUVg/gICZxf2lIJFXpKDtzAWqzCdR63QZwrRK9SLE7Al7ZYuQ2gOWw6kYAXPsHbCh2qgMLsy1AUKhaJAneFa2UqlXbXaR9jZNeAnWAvAOn+ApOCmoNDmY2ady+PxuHRmLF9brEEdBE6t3yCCtRGQUFLqdXO0wYEalSZVOoaVlZVhWLrKpDSiDgPNuTduigYptiDPQAF35dQoTVqVEK1JqXGiPgL2mc1bogGYstUvCJxAHKjTqFEK0RidqAMhcNjnt23/BRQt3iEIyk5Dkoai5eXlKJoG67Sdgn3/zl2/ALB7DxRekuVwmjAgiM/nQxADQeMcS3p5f1wekIAKcb2rKK6yNMCQLGXHabqqqoqmcTvFkkygNDh5b/iJqhDBvsgDOXB/Jb/yAOlmKYrjOIpi3SQDv74kuCnS2BcNADhYFH/ogJex2UiStNkYbwDWtx7um/dHIOSI/yjPBwIBni/1m9ocO35ixslTfwUHT585WxIMnjt/4eKly+LmkcorfwMwV4uvXb/xc7x563Y1ANy5e08y3X/wMAo8+h2cebxBOj55Gl48EsEz+e+lZzUWPJedMHghO2HwUnZC4NVr2XkVAm9kJwRS3757/+Fjtfnw/t3b0HvpU8XnL1+/VZuvXz5XfPqP/yXfAe2ZFwuLg/HDAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 132,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"org.curiouscreature.android.roadtrip\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"21\" />\n\t<application android:label=\"Road Trip USA\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:largeHeap=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f080001\" android:label=\"Road Trip USA\" android:name=\"org.curiouscreature.android.roadtrip.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1982058,
+  "crc32" : 233405173,
+  "sha256" : "9942ab33db7c00b553b8d97716297e216c2b83be3e35106655e1fc84813edd76",
+  "buildTime" : 1523302116000
+}

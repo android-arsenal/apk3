@@ -1,0 +1,149 @@
+2018-04-09 21:16:04,343 INFO  DownloadService - Downloading "https://github.com/JakeWharton/madge/archive/master.zip", attempt 3
+2018-04-09 21:17:04,799 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 21:17:05,529 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 21:17:05,530 INFO  DownloadService - Downloading "https://github.com/JakeWharton/madge/archive/master.zip", attempt 3
+2018-04-09 21:18:06,948 DEBUG FullProcessService - Repository https://github.com/JakeWharton/madge available: true
+2018-04-09 21:18:06,948 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 21:18:06,948 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/JakeWharton/madge, /tmp/rdisk/508/src]
+2018-04-09 21:18:09,425 INFO  SysUtils - 
+2018-04-09 21:18:09,438 INFO  GitService - Deleted "/tmp/rdisk/508/src/.git": true
+2018-04-09 21:18:09,440 INFO  FullProcessService - Size of directory with sources: 182 KB
+2018-04-09 21:18:09,440 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/508/src]
+2018-04-09 21:18:09,448 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/508/src/.git/
+
+2018-04-09 21:18:09,450 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/508/src/gradlew
+2018-04-09 21:18:09,452 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/508/src/madge-example/build.gradle /tmp/rdisk/508/src/madge/build.gradle /tmp/rdisk/508/src/build.gradle
+2018-04-09 21:18:09,454 INFO  ProjectBuildService - All script(s): /tmp/rdisk/508/src/settings.gradle /tmp/rdisk/508/src/madge/build.gradle /tmp/rdisk/508/src/madge-example/build.gradle /tmp/rdisk/508/src/gradle/gradle-mvn-push.gradle /tmp/rdisk/508/src/build.gradle
+2018-04-09 21:18:09,455 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 21:18:09,455 INFO  ProjectFixService - Fixing project...
+2018-04-09 21:18:09,461 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/508/src/madge-example/local.properties
+2018-04-09 21:18:09,463 INFO  ProjectFixService - Build info for "/tmp/rdisk/508/src/madge-example/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 21:18:09,463 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/508/src/madge-example/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 21:18:09,464 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/508/src/madge/local.properties
+2018-04-09 21:18:09,465 INFO  ProjectFixService - Build info for "/tmp/rdisk/508/src/madge/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 21:18:09,465 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/508/src/madge/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 21:18:09,466 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/508/src/local.properties
+2018-04-09 21:18:09,466 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
+2018-04-09 21:18:09,466 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2018-04-09 21:18:09,468 INFO  ProjectFixService - Build info for "/tmp/rdisk/508/src/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 21:18:09,468 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/508/src/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 21:18:09,468 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 21:18:09,468 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 21:18:09,468 INFO  SysUtils - Execute command: [/tmp/rdisk/508/src/gradlew, -b, /tmp/rdisk/508/src/madge-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 21:18:18,780 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-09 21:18:18,780 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 21:18:18,780 INFO  SysUtils - Execute command: [/tmp/rdisk/508/src/gradlew, -b, /tmp/rdisk/508/src/madge-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 21:18:32,088 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:madge:preBuild UP-TO-DATE
+:madge:preReleaseBuild UP-TO-DATE
+:madge:compileReleaseNdk UP-TO-DATE
+:madge:compileLint
+:madge:copyReleaseLint UP-TO-DATE
+:madge:mergeReleaseProguardFiles
+:madge:packageReleaseRenderscript UP-TO-DATE
+:madge:checkReleaseManifest
+:madge:prepareReleaseDependencies
+:madge:compileReleaseRenderscript
+:madge:generateReleaseResValues
+:madge:generateReleaseResources
+:madge:packageReleaseResources
+:madge:compileReleaseAidl
+:madge:generateReleaseBuildConfig
+:madge:mergeReleaseShaders
+:madge:compileReleaseShaders
+:madge:generateReleaseAssets
+:madge:mergeReleaseAssets
+:madge:processReleaseManifest
+:madge:processReleaseResources
+:madge:generateReleaseSources
+:madge:incrementalReleaseJavaCompilationSafeguard
+:madge:compileReleaseJavaWithJavac
+:madge:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/508/src/madge/src/main/java/com/jakewharton/madge/DelegateCanvas.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:madge:processReleaseJavaRes UP-TO-DATE
+:madge:transformResourcesWithMergeJavaResForRelease
+:madge:transformClassesAndResourcesWithSyncLibJarsForRelease
+:madge:mergeReleaseJniLibFolders
+:madge:transformNative_libsWithMergeJniLibsForRelease
+:madge:transformNative_libsWithSyncJniLibsForRelease
+:madge:bundleRelease
+:madge-example:preBuild UP-TO-DATE
+:madge-example:preDebugBuild UP-TO-DATE
+:madge-example:checkDebugManifest
+:madge-example:prepareComJakewhartonMadgeMadge115SNAPSHOTLibrary
+:madge-example:prepareDebugDependencies
+:madge-example:compileDebugAidl
+:madge-example:compileDebugRenderscript
+:madge-example:generateDebugBuildConfig
+:madge-example:mergeDebugShaders
+:madge-example:compileDebugShaders
+:madge-example:generateDebugAssets
+:madge-example:mergeDebugAssets
+:madge-example:generateDebugResValues
+:madge-example:generateDebugResources
+:madge-example:mergeDebugResources
+:madge-example:processDebugManifest
+:madge-example:processDebugResources
+:madge-example:generateDebugSources
+:madge-example:incrementalDebugJavaCompilationSafeguard
+:madge-example:compileDebugJavaWithJavacNote: /tmp/rdisk/508/src/madge-example/src/main/java/com/example/madge/FooView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:madge-example:compileDebugNdk UP-TO-DATE
+:madge-example:compileDebugSources
+:madge-example:prePackageMarkerForDebug
+:madge-example:transformClassesWithDexForDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:madge-example:mergeDebugJniLibFolders
+:madge-example:transformNative_libsWithMergeJniLibsForDebug
+:madge-example:processDebugJavaRes UP-TO-DATE
+:madge-example:transformResourcesWithMergeJavaResForDebug
+:madge-example:validateDebugSigning
+:madge-example:packageDebug
+:madge-example:zipalignDebug
+:madge-example:assembleDebug
+:madge-example:preReleaseBuild UP-TO-DATE
+:madge-example:checkReleaseManifest
+:madge-example:prepareReleaseDependencies
+:madge-example:compileReleaseAidl
+:madge-example:compileReleaseRenderscript
+:madge-example:generateReleaseBuildConfig
+:madge-example:mergeReleaseShaders
+:madge-example:compileReleaseShaders
+:madge-example:generateReleaseAssets
+:madge-example:mergeReleaseAssets
+:madge-example:generateReleaseResValues
+:madge-example:generateReleaseResources
+:madge-example:mergeReleaseResources
+:madge-example:processReleaseManifest
+:madge-example:processReleaseResources
+:madge-example:generateReleaseSources
+:madge-example:incrementalReleaseJavaCompilationSafeguard
+:madge-example:compileReleaseJavaWithJavacNote: /tmp/rdisk/508/src/madge-example/src/main/java/com/example/madge/FooView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:madge-example:compileReleaseNdk UP-TO-DATE
+:madge-example:compileReleaseSources
+:madge-example:lintVitalRelease
+:madge-example:prePackageMarkerForRelease
+:madge-example:transformClassesWithDexForRelease
+:madge-example:mergeReleaseJniLibFolders
+:madge-example:transformNative_libsWithMergeJniLibsForRelease
+:madge-example:processReleaseJavaRes UP-TO-DATE
+:madge-example:transformResourcesWithMergeJavaResForRelease
+:madge-example:packageRelease
+:madge-example:assembleRelease
+:madge-example:assemble
+:madge-example:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.847 secs
+
+2018-04-09 21:18:32,099 INFO  FullProcessService - Found APK file: /tmp/rdisk/508/src/madge-example/build/outputs/apk/madge-example-release-unsigned.apk

@@ -1,0 +1,776 @@
+2018-04-09 20:07:46,094 INFO  DownloadService - Downloading "https://github.com/survivingwithandroid/WeatherLib/archive/master.zip", attempt 3
+2018-04-09 20:08:46,545 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:08:47,284 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:08:47,285 INFO  DownloadService - Downloading "https://github.com/survivingwithandroid/WeatherLib/archive/master.zip", attempt 3
+2018-04-09 20:09:48,533 DEBUG FullProcessService - Repository https://github.com/survivingwithandroid/WeatherLib available: true
+2018-04-09 20:09:48,533 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:09:48,533 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/survivingwithandroid/WeatherLib, /tmp/rdisk/543/src]
+2018-04-09 20:09:56,037 INFO  SysUtils - 
+2018-04-09 20:09:56,047 INFO  GitService - Deleted "/tmp/rdisk/543/src/.git": true
+2018-04-09 20:09:56,060 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-04-09 20:09:56,060 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/543/src]
+2018-04-09 20:09:56,064 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/543/src/.git/
+
+2018-04-09 20:09:56,073 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/543/src/gradlew
+2018-04-09 20:09:56,083 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/543/src/OkHttpClient/build.gradle /tmp/rdisk/543/src/demo/build.gradle /tmp/rdisk/543/src/demo15/build.gradle /tmp/rdisk/543/src/lib/build.gradle /tmp/rdisk/543/src/volleyclient/build.gradle /tmp/rdisk/543/src/build.gradle
+2018-04-09 20:09:56,091 INFO  ProjectBuildService - All script(s): /tmp/rdisk/543/src/volleyclient/build.gradle /tmp/rdisk/543/src/settings.gradle /tmp/rdisk/543/src/maven_push.gradle /tmp/rdisk/543/src/lib/build.gradle /tmp/rdisk/543/src/demo15/build.gradle /tmp/rdisk/543/src/demo/build.gradle /tmp/rdisk/543/src/build.gradle /tmp/rdisk/543/src/OkHttpClient/build.gradle
+2018-04-09 20:09:56,092 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:09:56,092 INFO  ProjectFixService - Fixing project...
+2018-04-09 20:09:56,113 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/543/src/OkHttpClient/local.properties
+2018-04-09 20:09:56,115 INFO  ProjectFixService - Build info for "/tmp/rdisk/543/src/OkHttpClient/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 20:09:56,115 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/543/src/demo/local.properties
+2018-04-09 20:09:56,117 INFO  ProjectFixService - Build info for "/tmp/rdisk/543/src/demo/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=19]
+2018-04-09 20:09:56,117 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/543/src/demo15/local.properties
+2018-04-09 20:09:56,118 INFO  ProjectFixService - Build info for "/tmp/rdisk/543/src/demo15/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=19]
+2018-04-09 20:09:56,118 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/543/src/lib/local.properties
+2018-04-09 20:09:56,120 INFO  ProjectFixService - Build info for "/tmp/rdisk/543/src/lib/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 20:09:56,120 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/543/src/volleyclient/local.properties
+2018-04-09 20:09:56,122 INFO  ProjectFixService - Build info for "/tmp/rdisk/543/src/volleyclient/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 20:09:56,122 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/543/src/local.properties
+2018-04-09 20:09:56,122 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 20:09:56,122 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 20:09:56,123 INFO  ProjectFixService - Build info for "/tmp/rdisk/543/src/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=19]
+2018-04-09 20:09:56,123 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 20:09:56,123 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 20:09:56,123 INFO  SysUtils - Execute command: [/tmp/rdisk/543/src/gradlew, -b, /tmp/rdisk/543/src/OkHttpClient/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 20:10:12,442 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-04-09 20:10:12,442 INFO  ProjectTaskService - Excluded tasks (8): lintDebug deviceCheck lint connectedCheck uninstallAll check connectedAndroidTest lintRelease
+2018-04-09 20:10:12,442 INFO  SysUtils - Execute command: [/tmp/rdisk/543/src/gradlew, -b, /tmp/rdisk/543/src/OkHttpClient/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-09 20:10:21,322 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 20:10:21,322 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+RELEASE BUILD
+RELEASE BUILD
+:OkHttpClient:androidJavadocs/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:26: error: package com.squareup.okhttp does not exist
+import com.squareup.okhttp.Callback;
+                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:27: error: package com.squareup.okhttp does not exist
+import com.squareup.okhttp.OkHttpClient;
+                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:28: error: package com.squareup.okhttp does not exist
+import com.squareup.okhttp.Request;
+                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:29: error: package com.squareup.okhttp does not exist
+import com.squareup.okhttp.RequestBody;
+                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:30: error: package com.squareup.okhttp does not exist
+import com.squareup.okhttp.Response;
+                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:31: error: cannot find symbol
+import com.survivingwithandroid.weather.lib.WeatherClient;
+                                           ^
+  symbol:   class WeatherClient
+  location: package com.survivingwithandroid.weather.lib
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:32: error: package com.survivingwithandroid.weather.lib.exception does not exist
+import com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException;
+                                                     ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:33: error: package com.survivingwithandroid.weather.lib.exception does not exist
+import com.survivingwithandroid.weather.lib.exception.LocationProviderNotFoundException;
+                                                     ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:34: error: package com.survivingwithandroid.weather.lib.exception does not exist
+import com.survivingwithandroid.weather.lib.exception.WeatherLibException;
+                                                     ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:35: error: package com.survivingwithandroid.weather.lib.model does not exist
+import com.survivingwithandroid.weather.lib.model.City;
+                                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:36: error: package com.survivingwithandroid.weather.lib.model does not exist
+import com.survivingwithandroid.weather.lib.model.CurrentWeather;
+                                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:37: error: package com.survivingwithandroid.weather.lib.model does not exist
+import com.survivingwithandroid.weather.lib.model.HistoricalWeather;
+                                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:38: error: package com.survivingwithandroid.weather.lib.model does not exist
+import com.survivingwithandroid.weather.lib.model.HourForecast;
+                                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:39: error: package com.survivingwithandroid.weather.lib.model does not exist
+import com.survivingwithandroid.weather.lib.model.WeatherForecast;
+                                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:40: error: package com.survivingwithandroid.weather.lib.model does not exist
+import com.survivingwithandroid.weather.lib.model.WeatherHourForecast;
+                                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:41: error: package com.survivingwithandroid.weather.lib.request does not exist
+import com.survivingwithandroid.weather.lib.request.Params;
+                                                   ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:42: error: package com.survivingwithandroid.weather.lib.request does not exist
+import com.survivingwithandroid.weather.lib.request.WeatherProviderFeature;
+                                                   ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:43: error: package com.survivingwithandroid.weather.lib.request does not exist
+import com.survivingwithandroid.weather.lib.request.WeatherRequest;
+                                                   ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:44: error: package com.survivingwithandroid.weather.lib.response does not exist
+import com.survivingwithandroid.weather.lib.response.GenericResponseParser;
+                                                    ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:45: error: package com.survivingwithandroid.weather.lib.util does not exist
+import com.survivingwithandroid.weather.lib.util.LogUtils;
+                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:52: error: cannot find symbol
+public class WeatherDefaultClient extends WeatherClient {
+                                          ^
+  symbol: class WeatherClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:70: error: cannot find symbol
+    public void getCurrentCondition(String location, final WeatherEventListener listener) throws ApiKeyRequiredException {
+                                                           ^
+  symbol:   class WeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:70: error: cannot find symbol
+    public void getCurrentCondition(String location, final WeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                                                 ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:90: error: cannot find symbol
+    public void searchCity(String pattern, final CityEventListener listener) throws ApiKeyRequiredException {
+                                                 ^
+  symbol:   class CityEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:90: error: cannot find symbol
+    public void searchCity(String pattern, final CityEventListener listener) throws ApiKeyRequiredException {
+                                                                                    ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:142: error: cannot find symbol
+    public void searchCity(double lat, double lon, CityEventListener listener) throws ApiKeyRequiredException {
+                                                   ^
+  symbol:   class CityEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:142: error: cannot find symbol
+    public void searchCity(double lat, double lon, CityEventListener listener) throws ApiKeyRequiredException {
+                                                                                      ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:147: error: cannot find symbol
+    private void _doSearchCity(String url, final CityEventListener listener) throws ApiKeyRequiredException {
+                                                 ^
+  symbol:   class CityEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:147: error: cannot find symbol
+    private void _doSearchCity(String url, final CityEventListener listener) throws ApiKeyRequiredException {
+                                                                                    ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:194: error: cannot find symbol
+    public void getForecastWeather(String location, final ForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                          ^
+  symbol:   class ForecastWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:194: error: cannot find symbol
+    public void getForecastWeather(String location, final ForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                                                        ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:215: error: cannot find symbol
+    public void getHourForecastWeather(String location, final HourForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                              ^
+  symbol:   class HourForecastWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:215: error: cannot find symbol
+    public void getHourForecastWeather(String location, final HourForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                                                                ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:238: error: cannot find symbol
+    public void getHistoricalWeather(String location, Date d1, Date d2, final HistoricalWeatherEventListener listener) {
+                                                                              ^
+  symbol:   class HistoricalWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:249: error: cannot find symbol
+    public void getDefaultProviderImage(String icon, WeatherImageListener listener) {
+                                                     ^
+  symbol:   class WeatherImageListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:270: error: cannot find symbol
+    public void searchCityByLocation(Criteria criteria, CityEventListener listener) throws LocationProviderNotFoundException {
+                                                        ^
+  symbol:   class CityEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:270: error: cannot find symbol
+    public void searchCityByLocation(Criteria criteria, CityEventListener listener) throws LocationProviderNotFoundException {
+                                                                                           ^
+  symbol:   class LocationProviderNotFoundException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:283: error: cannot find symbol
+    public void getWeatherImage(String cityId, Params params, final WeatherImageListener listener) {
+                                               ^
+  symbol:   class Params
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:283: error: cannot find symbol
+    public void getWeatherImage(String cityId, Params params, final WeatherImageListener listener) {
+                                                                    ^
+  symbol:   class WeatherImageListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:288: error: cannot find symbol
+    private void downloadImage(String urlImage, final WeatherImageListener listener)  {
+                                                      ^
+  symbol:   class WeatherImageListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:315: error: cannot find symbol
+    protected void searchCityByLocation(Location location, final CityEventListener listener) throws ApiKeyRequiredException {
+                                                                 ^
+  symbol:   class CityEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:315: error: cannot find symbol
+    protected void searchCityByLocation(Location location, final CityEventListener listener) throws ApiKeyRequiredException {
+                                                                                                    ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:366: error: cannot find symbol
+    public void getCurrentCondition(WeatherRequest wRequest, final WeatherEventListener listener) throws ApiKeyRequiredException {
+                                    ^
+  symbol:   class WeatherRequest
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:366: error: cannot find symbol
+    public void getCurrentCondition(WeatherRequest wRequest, final WeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                   ^
+  symbol:   class WeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:366: error: cannot find symbol
+    public void getCurrentCondition(WeatherRequest wRequest, final WeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                                                         ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:412: error: cannot find symbol
+    public void getForecastWeather(WeatherRequest wRequest, final ForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                   ^
+  symbol:   class WeatherRequest
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:412: error: cannot find symbol
+    public void getForecastWeather(WeatherRequest wRequest, final ForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                  ^
+  symbol:   class ForecastWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:412: error: cannot find symbol
+    public void getForecastWeather(WeatherRequest wRequest, final ForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                                                                ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:458: error: cannot find symbol
+    public void getHourForecastWeather(WeatherRequest wRequest, final HourForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                       ^
+  symbol:   class WeatherRequest
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:458: error: cannot find symbol
+    public void getHourForecastWeather(WeatherRequest wRequest, final HourForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                      ^
+  symbol:   class HourForecastWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:458: error: cannot find symbol
+    public void getHourForecastWeather(WeatherRequest wRequest, final HourForecastWeatherEventListener listener) throws ApiKeyRequiredException {
+                                                                                                                        ^
+  symbol:   class ApiKeyRequiredException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:512: error: cannot find symbol
+    public void getHistoricalWeather(WeatherRequest wRequest, Date d1, Date d2, final HistoricalWeatherEventListener listener) {
+                                     ^
+  symbol:   class WeatherRequest
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:512: error: cannot find symbol
+    public void getHistoricalWeather(WeatherRequest wRequest, Date d1, Date d2, final HistoricalWeatherEventListener listener) {
+                                                                                      ^
+  symbol:   class HistoricalWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:559: error: cannot find symbol
+    public <T extends WeatherProviderFeature, S extends Object> void getProviderWeatherFeature(WeatherRequest wRequest, T extRequest, final GenericResponseParser<S> parser, final GenericRequestWeatherEventListener<S> listener) {
+                      ^
+  symbol:   class WeatherProviderFeature
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:559: error: cannot find symbol
+    public <T extends WeatherProviderFeature, S extends Object> void getProviderWeatherFeature(WeatherRequest wRequest, T extRequest, final GenericResponseParser<S> parser, final GenericRequestWeatherEventListener<S> listener) {
+                                                                                               ^
+  symbol:   class WeatherRequest
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:559: error: cannot find symbol
+    public <T extends WeatherProviderFeature, S extends Object> void getProviderWeatherFeature(WeatherRequest wRequest, T extRequest, final GenericResponseParser<S> parser, final GenericRequestWeatherEventListener<S> listener) {
+                                                                                                                                            ^
+  symbol:   class GenericResponseParser
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:559: error: cannot find symbol
+    public <T extends WeatherProviderFeature, S extends Object> void getProviderWeatherFeature(WeatherRequest wRequest, T extRequest, final GenericResponseParser<S> parser, final GenericRequestWeatherEventListener<S> listener) {
+                                                                                                                                                                                   ^
+  symbol:   class GenericRequestWeatherEventListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:600: error: cannot find symbol
+    public void getImage(String url, WeatherImageListener listener) {
+                                     ^
+  symbol:   class WeatherImageListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:605: error: cannot find symbol
+    private void notifyConnectionError(final Throwable t, final WeatherClientListener listener) {
+                                                                ^
+  symbol:   class WeatherClientListener
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:615: error: cannot find symbol
+    private void notifyWeatherError(final WeatherLibException wle, final WeatherClientListener listener) {
+                                          ^
+  symbol:   class WeatherLibException
+  location: class WeatherDefaultClient
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:615: error: cannot find symbol
+    private void notifyWeatherError(final WeatherLibException wle, final WeatherClientListener listener) {
+                                                                         ^
+  symbol:   class WeatherClientListener
+  location: class WeatherDefaultClient
+javadoc: warning - Error reading file: /root/Applications/android-sdk/docs/reference/package-list
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:56: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:65: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:66: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:66: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:67: error: reference not found
+     * @deprecated use instead {@link com.survivingwithandroid.weather.lib.WeatherClient#getCurrentCondition(com.survivingwithandroid.weather.lib.request.WeatherRequest, com.survivingwithandroid.weather.lib.WeatherClient.WeatherEventListener)}
+                                      ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:77: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.CityEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:86: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.CityEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:87: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:87: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:127: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.CityEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:137: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.CityEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:138: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:138: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:180: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.ForecastWeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:183: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.WeatherForecast} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:189: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.ForecastWeatherEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:190: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:190: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:191: error: reference not found
+     * @deprecated use instead {@link com.survivingwithandroid.weather.lib.WeatherClient#getForecastWeather(com.survivingwithandroid.weather.lib.request.WeatherRequest, com.survivingwithandroid.weather.lib.WeatherClient.ForecastWeatherEventListener)}
+                                      ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:201: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HourForecastWeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:204: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.WeatherHourForecast} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:210: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HourForecastWeatherEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:211: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:211: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:212: error: reference not found
+     * @deprecated use instead {@link com.survivingwithandroid.weather.lib.WeatherClient#getHourForecastWeather(com.survivingwithandroid.weather.lib.request.WeatherRequest, com.survivingwithandroid.weather.lib.WeatherClient.HourForecastWeatherEventListener)}
+                                      ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:222: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HistoricalWeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:225: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.HistoricalWeather} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:232: warning: no description for @param
+     * @param d2
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:233: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HistoricalWeatherEventListener}  @param2 d2 is the end date
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:234: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:234: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:235: error: reference not found
+     * @deprecated use instead {@link com.survivingwithandroid.weather.lib.WeatherClient#getHistoricalWeather(com.survivingwithandroid.weather.lib.request.WeatherRequest, java.util.Date, java.util.Date, com.survivingwithandroid.weather.lib.WeatherClient.HistoricalWeatherEventListener)}
+                                      ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:246: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherImageListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:257: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.CityEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:266: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.CityEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:267: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:267: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:276: error: reference not found
+     * This method retrieves the image using the url generated by the weahter provider {@link com.survivingwithandroid.weather.lib.provider.IWeatherProvider}
+                                                                                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:279: error: reference not found
+     * @param params   {@link com.survivingwithandroid.weather.lib.request.Params}: list of parameters used to create the image
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:280: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherImageListener} listener that gets notified when the image is ready to use
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:353: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:361: error: reference not found
+     * @param wRequest  {@link com.survivingwithandroid.weather.lib.request.WeatherRequest}
+                               ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:362: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:363: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:363: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:399: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.ForecastWeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:402: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.WeatherForecast} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:407: error: reference not found
+     * @param wRequest  {@link com.survivingwithandroid.weather.lib.request.WeatherRequest}
+                               ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:408: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.ForecastWeatherEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:409: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:409: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:445: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HourForecastWeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:448: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.WeatherHourForecast} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:453: error: reference not found
+     * @param wRequest  {@link com.survivingwithandroid.weather.lib.request.WeatherRequest}
+                               ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:454: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HourForecastWeatherEventListener}
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:455: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:455: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:497: error: reference not found
+     * This method is an async method, in other word you have to implement your listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HistoricalWeatherEventListener} to
+                                                                                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:500: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.HistoricalWeather} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:505: error: reference not found
+     * @param wRequest  {@link com.survivingwithandroid.weather.lib.request.WeatherRequest}
+                               ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:507: warning: no description for @param
+     * @param d2
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:508: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.HistoricalWeatherEventListener}  @param2 d2 is the end date
+                              ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:509: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:509: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:547: error: reference not found
+     * When the data is ready this method calls the onWeatherRetrieved passing the {@link com.survivingwithandroid.weather.lib.model.HistoricalWeather} weather information.
+                                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:552: error: reference not found
+     * @param wRequest    {@link com.survivingwithandroid.weather.lib.request.WeatherRequest}
+                                 ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:554: error: reference not found
+     * @param parser     is the parser used to parsed the response {@link com.survivingwithandroid.weather.lib.response.GenericResponseParser}
+                                                                          ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:555: error: reference not found
+     * @param listener   {@link com.survivingwithandroid.weather.lib.WeatherClient.GenericRequestWeatherEventListener}
+                                ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:556: error: reference not found
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:556: warning: no description for @throws
+     * @throws com.survivingwithandroid.weather.lib.exception.ApiKeyRequiredException
+       ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:559: warning: no @param for <T>
+    public <T extends WeatherProviderFeature, S extends Object> void getProviderWeatherFeature(WeatherRequest wRequest, T extRequest, final GenericResponseParser<S> parser, final GenericRequestWeatherEventListener<S> listener) {
+                                                                     ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:559: warning: no @param for <S>
+    public <T extends WeatherProviderFeature, S extends Object> void getProviderWeatherFeature(WeatherRequest wRequest, T extRequest, final GenericResponseParser<S> parser, final GenericRequestWeatherEventListener<S> listener) {
+                                                                     ^
+/tmp/rdisk/543/src/OkHttpClient/src/main/java/com/survivingwithandroid/weather/lib/client/okhttp/WeatherDefaultClient.java:596: error: reference not found
+     * @param listener {@link com.survivingwithandroid.weather.lib.WeatherClient.WeatherImageListener}
+                              ^
+
+57 errors
+78 warnings
+:OkHttpClient:androidJavadocs FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':OkHttpClient:androidJavadocs'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/543/src/OkHttpClient/build/tmp/androidJavadocs/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':OkHttpClient:androidJavadocs'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/543/src/OkHttpClient/build/tmp/androidJavadocs/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:55)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:140)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:128)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 8.437 secs
+
+2018-04-09 20:10:21,333 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 20:10:21,334 INFO  SysUtils - Execute command: [/tmp/rdisk/543/src/gradlew, -b, /tmp/rdisk/543/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 20:10:29,056 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-09 20:10:29,056 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 20:10:29,056 INFO  SysUtils - Execute command: [/tmp/rdisk/543/src/gradlew, -b, /tmp/rdisk/543/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 20:10:51,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+RELEASE BUILD
+RELEASE BUILD
+:demo:preBuild
+:demo:compileDebugNdk
+:demo:preDebugBuild
+:demo:checkDebugManifest
+:demo:preReleaseBuild
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:mergeReleaseProguardFiles
+:lib:preBuild
+:lib:preReleaseBuild
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:compileReleaseJavaNote: /tmp/rdisk/543/src/lib/src/main/java/com/survivingwithandroid/weather/lib/WeatherClient.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:packageReleaseJar
+:lib:compileReleaseNdk
+:lib:packageReleaseJniLibs UP-TO-DATE
+:lib:packageReleaseLocalJar UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:bundleRelease
+:volleyclient:compileLint
+:volleyclient:copyReleaseLint UP-TO-DATE
+:volleyclient:mergeReleaseProguardFiles
+:volleyclient:preBuild
+:volleyclient:preReleaseBuild
+:volleyclient:checkReleaseManifest
+:volleyclient:preDebugBuild
+:volleyclient:preDebugTestBuild
+:volleyclient:prepareComMcxiaokeVolleyLibrary106Library
+:volleyclient:prepareComSurvivingwithandroidLib160Library
+:volleyclient:prepareReleaseDependencies
+:volleyclient:compileReleaseAidl
+:volleyclient:compileReleaseRenderscript
+:volleyclient:generateReleaseBuildConfig
+:volleyclient:generateReleaseAssets UP-TO-DATE
+:volleyclient:mergeReleaseAssets
+:volleyclient:generateReleaseResValues
+:volleyclient:generateReleaseResources
+:volleyclient:mergeReleaseResources
+:volleyclient:processReleaseManifest
+:volleyclient:processReleaseResources
+:volleyclient:generateReleaseSources
+:volleyclient:compileReleaseJava
+:volleyclient:processReleaseJavaRes UP-TO-DATE
+:volleyclient:packageReleaseJar
+:volleyclient:compileReleaseNdk
+:volleyclient:packageReleaseJniLibs UP-TO-DATE
+:volleyclient:packageReleaseLocalJar UP-TO-DATE
+:volleyclient:packageReleaseRenderscript UP-TO-DATE
+:volleyclient:packageReleaseResources
+:volleyclient:bundleRelease
+:demo:prepareComAndroidSupportSupportV42000Library
+:demo:prepareComMcxiaokeVolleyLibrary106Library
+:demo:prepareComSurvivingwithandroidLib160Library
+:demo:prepareComSurvivingwithandroidVolleyclient160Library
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugAssets UP-TO-DATE
+:demo:mergeDebugAssets
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources/tmp/rdisk/543/src/demo/src/main/res/drawable/ic_action_refresh.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:preDexDebug
+:demo:dexDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:validateDebugSigning
+:demo:packageDebug
+:demo:zipalignDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseAssets UP-TO-DATE
+:demo:mergeReleaseAssets
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources/tmp/rdisk/543/src/demo/src/main/res/drawable/ic_action_refresh.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:lintVitalRelease
+:demo:compileReleaseNdk
+:demo:preDexRelease
+:demo:dexRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.187 secs
+
+2018-04-09 20:10:51,704 INFO  FullProcessService - Found APK file: /tmp/rdisk/543/src/demo/build/outputs/apk/demo-release-unsigned.apk

@@ -1,0 +1,88 @@
+2018-04-09 18:06:54,527 INFO  DownloadService - Downloading "https://github.com/Tibolte/Android-Anim-Playground/archive/master.zip", attempt 3
+2018-04-09 18:06:56,573 INFO  DownloadService - Downloaded https://github.com/Tibolte/Android-Anim-Playground/archive/master.zip, attempt 3
+2018-04-09 18:06:56,573 INFO  DownloadService - Size of file "/tmp/rdisk/682/master.zip": 2 MB
+2018-04-09 18:06:56,573 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:06:56,574 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/682/master.zip: true
+2018-04-09 18:06:56,574 DEBUG ZipUtil - Extracting '/tmp/rdisk/682/master.zip' into '/tmp/rdisk/682/src'.
+2018-04-09 18:06:56,619 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-09 18:06:56,619 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/682/src]
+2018-04-09 18:06:56,623 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/682/src/.git/
+
+2018-04-09 18:06:56,628 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/gradlew
+2018-04-09 18:06:56,633 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build.gradle
+2018-04-09 18:06:56,638 INFO  ProjectBuildService - All script(s): /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build.gradle
+2018-04-09 18:06:56,638 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 18:06:56,638 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:06:56,648 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/local.properties
+2018-04-09 18:06:56,649 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 18:06:56,649 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 18:06:56,649 INFO  ProjectFixService - Build info for "/tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:06:56,649 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:06:56,650 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:06:56,650 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:06:56,650 INFO  SysUtils - Execute command: [/tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/gradlew, -b, /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:07:05,290 INFO  ProjectTaskService - Detected possible tasks: 57
+2018-04-09 18:07:05,291 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:07:05,291 INFO  SysUtils - Execute command: [/tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/gradlew, -b, /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:07:33,249 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild
+:compileDebugNdk
+:preDebugBuild
+:checkDebugManifest
+:preReleaseBuild
+:prepareComAndroidSupportAppcompatV72211Library
+:prepareComAndroidSupportSupportV42211Library
+:prepareComGithubTibolteElasticdownload104Library
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:preDexDebug
+:dexDebug
+:processDebugJavaRes UP-TO-DATE
+:validateDebugSigning
+:packageDebug
+:zipalignDebug
+:assembleDebug
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lintVitalRelease
+:compileReleaseNdk
+:preDexRelease
+:dexRelease
+:processReleaseJavaRes UP-TO-DATE
+:packageRelease
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 27.533 secs
+
+2018-04-09 18:07:33,288 INFO  FullProcessService - Found APK file: /tmp/rdisk/682/src/Android-Anim-Playground-master/AnimationPlayground/build/outputs/apk/AnimationPlayground-release-unsigned.apk

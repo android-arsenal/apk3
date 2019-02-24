@@ -1,0 +1,130 @@
+2018-04-09 17:59:52,782 INFO  DownloadService - Downloading "https://github.com/felipecsl/QuickReturn/archive/master.zip", attempt 3
+2018-04-09 17:59:53,195 INFO  DownloadService - Downloaded https://github.com/felipecsl/QuickReturn/archive/master.zip, attempt 3
+2018-04-09 17:59:53,195 INFO  DownloadService - Size of file "/tmp/rdisk/697/master.zip": 131 KB
+2018-04-09 17:59:53,195 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 17:59:53,195 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/697/master.zip: true
+2018-04-09 17:59:53,196 DEBUG ZipUtil - Extracting '/tmp/rdisk/697/master.zip' into '/tmp/rdisk/697/src'.
+2018-04-09 17:59:53,204 INFO  FullProcessService - Size of directory with sources: 164 KB
+2018-04-09 17:59:53,204 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/697/src]
+2018-04-09 17:59:53,210 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/697/src/.git/
+
+2018-04-09 17:59:53,212 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/697/src/QuickReturn-master/gradlew
+2018-04-09 17:59:53,216 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/697/src/QuickReturn-master/app/build.gradle /tmp/rdisk/697/src/QuickReturn-master/library/build.gradle /tmp/rdisk/697/src/QuickReturn-master/build.gradle
+2018-04-09 17:59:53,218 INFO  ProjectBuildService - All script(s): /tmp/rdisk/697/src/QuickReturn-master/settings.gradle /tmp/rdisk/697/src/QuickReturn-master/library/gradle-mvn-push.gradle /tmp/rdisk/697/src/QuickReturn-master/library/build.gradle /tmp/rdisk/697/src/QuickReturn-master/build.gradle /tmp/rdisk/697/src/QuickReturn-master/app/build.gradle
+2018-04-09 17:59:53,218 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 17:59:53,218 INFO  ProjectFixService - Fixing project...
+2018-04-09 17:59:53,229 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/697/src/QuickReturn-master/app/local.properties
+2018-04-09 17:59:53,229 INFO  ProjectFixService - Build info for "/tmp/rdisk/697/src/QuickReturn-master/app/build.gradle": [buildToolsVersion=22.0.0,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=22]
+2018-04-09 17:59:53,229 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/697/src/QuickReturn-master/library/local.properties
+2018-04-09 17:59:53,230 INFO  ProjectFixService - Build info for "/tmp/rdisk/697/src/QuickReturn-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-09 17:59:53,231 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/697/src/QuickReturn-master/local.properties
+2018-04-09 17:59:53,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 17:59:53,231 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 17:59:53,234 INFO  ProjectFixService - Build info for "/tmp/rdisk/697/src/QuickReturn-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2018-04-09 17:59:53,234 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 17:59:53,234 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 17:59:53,234 INFO  SysUtils - Execute command: [/tmp/rdisk/697/src/QuickReturn-master/gradlew, -b, /tmp/rdisk/697/src/QuickReturn-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:00:05,563 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-09 18:00:05,563 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:00:05,563 INFO  SysUtils - Execute command: [/tmp/rdisk/697/src/QuickReturn-master/gradlew, -b, /tmp/rdisk/697/src/QuickReturn-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:00:30,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+Release build
+Snapshot build
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72200Library
+:app:prepareComAndroidSupportSupportV42200Library
+:app:prepareQuickReturnMasterLibraryUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+AAPT: /tmp/rdisk/697/src/QuickReturn-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJavaWithJavacNote: /tmp/rdisk/697/src/QuickReturn-master/app/src/main/java/com/felipecsl/quickreturn/app/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+AAPT: /tmp/rdisk/697/src/QuickReturn-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJavaWithJavacNote: /tmp/rdisk/697/src/QuickReturn-master/app/src/main/java/com/felipecsl/quickreturn/app/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.747 secs
+
+2018-04-09 18:00:30,786 INFO  FullProcessService - Found APK file: /tmp/rdisk/697/src/QuickReturn-master/app/build/outputs/apk/app-debug.apk

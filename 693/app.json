@@ -1,0 +1,36 @@
+{
+  "meta" : {
+    "packageName" : "uk.co.alt236.btlescan",
+    "label" : "Bluetooth LE Scanner",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.1",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "18",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.BLUETOOTH", "android.permission.BLUETOOTH_ADMIN" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.bluetooth_le",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACE1BMVEUAAAAAqv8AgP8AgP8AeeQAd+YAe+UAgOYAdeQAdeIAdeMAdOIAdOEAb9cAAAAAdOAAdOEAdeIAdOMAb9gAWbEAYMEAc+AAcNkAT54AYLMAdOAAT5gAZ8gAf/gAgfoAe+8AVaoAgPgAacsAU6wAW60AfvYAgPkAgPoAeewARIcAVaoAAAAAbtgAZ8oAAAAAGDcAZcgAd+cAeewAeuwAd+gAZcQAFzQAAAAAAAAAI0YAMmAAMFwAL1sAM2YAAAAAAAAAQL8AdeMAdeKJuOSyzeQvi+OryeTl5eXS3OUyjOPW3uUBduI2j+ODteSAtOTX3uWmxuTg4uUNe+K3zuRboeNMmuMXgOIEd+ITf+Le4eUbgeLC1OVfo+MVf+J6sOQDd+K80eTG1uWTveRHl+OtyuR1ruSBtOQ/k+ONuuTh4+Uwi+MGeOLE1eUYgOK+0uSox+Tk5eV9seS0zeQtiuPK1+V7sOQ6keMAgPoXjPrQ5/z9/f2Px/wbjvrV6f3f7v2Hw/w+n/sAgfsVi/rK5PyJxPwBgfogkPrX6v3H4/yZzPwtl/uOx/yXy/y83fz3+v0Nh/r5+/04nPsIhPru9v3L5Py/3/yAwPxKpfu93vxlsvuRyPyn0/w1mvvW6v2Gw/wCgfpUqvv1+f3t9f08nvsajfrP5vxFovsOh/q32/zs9f03m/vo8/00mvvF4vwAgvwAf/cAfvY58MR4AAAAQXRSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4qJe/87yruJysc7Pn97CIDCKmtAyqw7fDv7bEsCSBCTUtMBQsOBDsjvXEAAAJ2SURBVEjHvdb3W9NAGAfwlBYRJ1TFXTdoUdSiMipog/hCS90MRRQX7j0OX1wV4gLBAY66cIto9U/0cpfQJs0l8gvfJ8+T9Pr9pLkkz3OVpLGKK8MhLkPd7XY+ZWqHHnoyx9km08Nqej9rfPYEh2RPzBoRbmlSSHbO5CkacEmeqXJOrtc2uTmhadMlPvMMaUae7E05VdWW6vTze0MzZ9EqB7PnGMBWqKm2AnOTIM8EoKZ2lADCtf8BIpEkgHCdI4hEt0WSALbXOYBIFIALCnbsNIt0sGs3aIKCPfUpoqHR+pKadKECuX6vLvY17xdMWhcMtDTTDwfo6MFWONQouK2aUEFLKz2MsikdBjgieg5cHAU4pvbb+E07DnBC+OCYOMk2Np2GU7J8OgxnxE+aCRa1f/ZcFR07DxeaxK+GLi6yPlxS316AyzbvEpsutGlHV+j+KsA1I5g3n/iInvbrSNNBj27cRLxF97cR7xBfbMFCS3C3E1m6FELu3ccHdOgh4iMh0PuI3Uz00LHH2NsnAqz/hG1cPCXk2XPsJwLA+t0DiC/UiXQobPAlvT4B4H3lFeJrNvU4E28Q31oDrU9UQNrf0Q/v6eiHfhwglkDvczD4EfHTZ/UXvnz9Zgm+630GBnv1PiF9xBIoca2vgh8pfR6LS1LivK8CNPctJ63wPgdDxr741dDA0E8yKjBs7pvAIhMY/kVswWLjL/T8Tu+rYIkGXNLSZbH8Ap9tCvITy1dIfm3JKlz5JxFL2CaW+LuqcGSNK1q9Zm2gOGCT4sC69RuKkstoSWlZeTAY3CgI/aq8rLQkdaGuqNzkkMoK4+Lv3+wQ/5j9i/kH/rAHg5VOM/YAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1991,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"1.1.1\" package=\"uk.co.alt236.btlescan\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />\n\t<uses-permission-sdk-23 android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-feature android:name=\"android.hardware.bluetooth_le\" android:required=\"false\" />\n\t<application android:theme=\"resourceId:0x7f080038\" android:label=\"Bluetooth LE Scanner\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Bluetooth LE Scanner\" android:name=\"uk.co.alt236.btlescan.ui.main.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"uk.co.alt236.btlescan.ui.details.DeviceDetailsActivity\" />\n\t\t<activity android:name=\"uk.co.alt236.btlescan.ui.control.DeviceControlActivity\" />\n\t\t<service android:name=\"uk.co.alt236.btlescan.services.BluetoothLeService\" android:enabled=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1553715,
+  "crc32" : 1020835261,
+  "sha256" : "d8db58aa3bfb521b543246e9365ae27fcf4858d44e40facd8638814d61a5e7b2",
+  "buildTime" : 1523297009000
+}

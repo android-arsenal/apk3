@@ -1,0 +1,21 @@
+2018-04-09 20:53:40,685 INFO  DownloadService - Downloading "https://github.com/coreform/android-formidable-validation/archive/master.zip", attempt 3
+2018-04-09 20:54:41,296 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 20:54:41,981 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 20:54:41,981 INFO  DownloadService - Downloading "https://github.com/coreform/android-formidable-validation/archive/master.zip", attempt 3
+2018-04-09 20:55:43,287 DEBUG FullProcessService - Repository https://github.com/coreform/android-formidable-validation available: true
+2018-04-09 20:55:43,287 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 20:55:43,287 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/coreform/android-formidable-validation, /tmp/rdisk/524/src]
+2018-04-09 20:55:45,110 INFO  SysUtils - 
+2018-04-09 20:55:45,114 INFO  GitService - Deleted "/tmp/rdisk/524/src/.git": true
+2018-04-09 20:55:45,117 INFO  FullProcessService - Size of directory with sources: 525 KB
+2018-04-09 20:55:45,117 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/524/src]
+2018-04-09 20:55:45,121 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/524/src/.git/
+
+2018-04-09 20:55:45,123 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 20:55:45,123 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 20:55:45,126 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 20:55:45,128 INFO  ProjectBuildService - All script(s): none
+2018-04-09 20:55:45,128 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 20:55:45,128 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 20:55:45,128 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 20:55:45,131 ERROR FullProcessService - Could not find generated or existed APK file

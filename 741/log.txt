@@ -1,0 +1,183 @@
+2018-05-22 09:11:23,241 INFO  DownloadService - Downloading "https://github.com/PhilJay/MPAndroidChart/archive/master.zip", attempt 3
+2018-05-22 09:12:23,243 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-22 09:12:24,113 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-22 09:12:24,113 INFO  DownloadService - Downloading "https://github.com/PhilJay/MPAndroidChart/archive/master.zip", attempt 3
+2018-05-22 09:13:24,993 DEBUG FullProcessService - Repository https://github.com/PhilJay/MPAndroidChart available: true
+2018-05-22 09:13:24,993 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-22 09:13:24,993 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PhilJay/MPAndroidChart, /tmp/rdisk/741/src]
+2018-05-22 09:13:34,581 INFO  SysUtils - 
+2018-05-22 09:13:34,590 INFO  GitService - Deleted "/tmp/rdisk/741/src/.git": true
+2018-05-22 09:13:34,601 INFO  FullProcessService - Size of directory with sources: 8 MB
+2018-05-22 09:13:34,601 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/741/src]
+2018-05-22 09:13:34,606 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/741/src/.git/
+
+2018-05-22 09:13:34,614 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/741/src/gradlew
+2018-05-22 09:13:34,622 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/741/src/MPChartExample/build.gradle /tmp/rdisk/741/src/MPChartLib/build.gradle /tmp/rdisk/741/src/build.gradle
+2018-05-22 09:13:34,630 INFO  ProjectBuildService - All script(s): /tmp/rdisk/741/src/settings.gradle /tmp/rdisk/741/src/build.gradle /tmp/rdisk/741/src/MPChartLib/build.gradle /tmp/rdisk/741/src/MPChartExample/build.gradle
+2018-05-22 09:13:34,630 INFO  ProjectBuildService - Remote scripts: none
+2018-05-22 09:13:34,630 INFO  ProjectFixService - Fixing project...
+2018-05-22 09:13:34,647 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/741/src/MPChartExample/local.properties
+2018-05-22 09:13:34,647 INFO  ProjectFixService - Build info for "/tmp/rdisk/741/src/MPChartExample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-05-22 09:13:34,647 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/741/src/MPChartLib/local.properties
+2018-05-22 09:13:34,648 INFO  ProjectFixService - Build info for "/tmp/rdisk/741/src/MPChartLib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2018-05-22 09:13:34,648 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/741/src/local.properties
+2018-05-22 09:13:34,648 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-05-22 09:13:34,648 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-05-22 09:13:34,654 INFO  ProjectFixService - Build info for "/tmp/rdisk/741/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2018-05-22 09:13:34,655 INFO  ProjectFixService - Project was maybe fixed
+2018-05-22 09:13:34,655 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-22 09:13:34,655 INFO  SysUtils - Execute command: [/tmp/rdisk/741/src/gradlew, -b, /tmp/rdisk/741/src/MPChartExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-22 09:13:43,035 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-22 09:13:43,035 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-22 09:13:43,036 INFO  SysUtils - Execute command: [/tmp/rdisk/741/src/gradlew, -b, /tmp/rdisk/741/src/MPChartExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-22 09:14:30,486 INFO  SysUtils - Configuration on demand is an incubating feature.
+:MPChartExample:preBuild UP-TO-DATE
+:MPChartLib:preBuild UP-TO-DATE
+:MPChartLib:preDebugBuild UP-TO-DATE
+:MPChartLib:checkDebugManifest
+:MPChartLib:processDebugManifest
+:MPChartExample:preDebugBuild
+:MPChartLib:compileDebugAidl
+:MPChartExample:compileDebugAidl
+:MPChartLib:packageDebugRenderscript NO-SOURCE
+:MPChartExample:compileDebugRenderscript
+:MPChartExample:checkDebugManifest
+:MPChartExample:generateDebugBuildConfig
+:MPChartExample:prepareLintJar
+:MPChartExample:mainApkListPersistenceDebug
+:MPChartExample:generateDebugResValues
+:MPChartExample:generateDebugResources
+:MPChartLib:compileDebugRenderscript
+:MPChartLib:generateDebugResValues
+:MPChartLib:generateDebugResources
+:MPChartLib:packageDebugResources
+:MPChartExample:mergeDebugResources
+:MPChartExample:createDebugCompatibleScreenManifests
+:MPChartExample:processDebugManifest
+:MPChartExample:splitsDiscoveryTaskDebug
+:MPChartLib:platformAttrExtractor
+:MPChartLib:generateDebugBuildConfig
+:MPChartLib:prepareLintJar
+:MPChartLib:javaPreCompileDebug
+:MPChartLib:processDebugJavaRes NO-SOURCE
+:MPChartExample:compileDebugNdk NO-SOURCE
+:MPChartExample:mergeDebugShaders
+:MPChartExample:compileDebugShaders
+:MPChartExample:generateDebugAssets
+:MPChartLib:mergeDebugShaders
+:MPChartLib:compileDebugShaders
+:MPChartLib:generateDebugAssets
+:MPChartLib:packageDebugAssets
+:MPChartExample:mergeDebugAssets
+:MPChartExample:mergeDebugJniLibFolders
+:MPChartLib:compileDebugNdk NO-SOURCE
+:MPChartLib:mergeDebugJniLibFolders
+:MPChartLib:transformNativeLibsWithMergeJniLibsForDebug
+:MPChartLib:transformNativeLibsWithStripDebugSymbolForDebug
+:MPChartLib:transformNativeLibsWithIntermediateJniLibsForDebug
+:MPChartExample:processDebugJavaRes NO-SOURCE
+:MPChartExample:validateSigningDebug
+:MPChartLib:preReleaseBuild UP-TO-DATE
+:MPChartLib:checkReleaseManifest
+:MPChartLib:processReleaseManifest
+:MPChartExample:preReleaseBuild
+:MPChartLib:compileReleaseAidl
+:MPChartExample:compileReleaseAidl
+:MPChartLib:packageReleaseRenderscript NO-SOURCE
+:MPChartExample:compileReleaseRenderscript
+:MPChartExample:checkReleaseManifest
+:MPChartExample:generateReleaseBuildConfig
+:MPChartExample:mainApkListPersistenceRelease
+:MPChartExample:generateReleaseResValues
+:MPChartExample:generateReleaseResources
+:MPChartLib:compileReleaseRenderscript
+:MPChartLib:generateReleaseResValues
+:MPChartLib:generateReleaseResources
+:MPChartLib:packageReleaseResources
+:MPChartExample:mergeReleaseResources
+:MPChartExample:createReleaseCompatibleScreenManifests
+:MPChartExample:processReleaseManifest
+:MPChartExample:splitsDiscoveryTaskRelease
+:MPChartLib:generateReleaseBuildConfig
+:MPChartLib:javaPreCompileRelease
+:MPChartLib:processReleaseJavaRes NO-SOURCE
+:MPChartExample:compileReleaseNdk NO-SOURCE
+:MPChartExample:mergeReleaseShaders
+:MPChartExample:compileReleaseShaders
+:MPChartExample:generateReleaseAssets
+:MPChartLib:mergeReleaseShaders
+:MPChartLib:compileReleaseShaders
+:MPChartLib:generateReleaseAssets
+:MPChartLib:packageReleaseAssets
+:MPChartExample:mergeReleaseAssets
+:MPChartExample:mergeReleaseJniLibFolders
+:MPChartLib:compileReleaseNdk NO-SOURCE
+:MPChartLib:mergeReleaseJniLibFolders
+:MPChartLib:transformNativeLibsWithMergeJniLibsForRelease
+:MPChartLib:transformNativeLibsWithStripDebugSymbolForRelease
+:MPChartLib:transformNativeLibsWithIntermediateJniLibsForRelease
+:MPChartExample:processReleaseJavaRes NO-SOURCE
+:MPChartLib:generateDebugRFile
+:MPChartExample:processDebugResources
+:MPChartExample:generateDebugSources
+:MPChartLib:generateDebugSources
+:MPChartLib:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:MPChartLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:MPChartExample:javaPreCompileDebug
+:MPChartExample:compileDebugJavaWithJavacNote: Version 5.1.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class Score
+Note: Processing class RealmFloat
+Note: Processing class RealmDemoData
+Note: Creating DefaultRealmModule
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:MPChartExample:compileDebugSources
+:MPChartExample:transformClassesWithRealmTransformerForDebug
+:MPChartExample:transformClassesWithDexBuilderForDebug
+:MPChartExample:transformDexArchiveWithDexMergerForDebug
+:MPChartExample:transformNativeLibsWithMergeJniLibsForDebug
+:MPChartExample:transformNativeLibsWithStripDebugSymbolForDebug
+:MPChartExample:transformResourcesWithMergeJavaResForDebug
+:MPChartExample:packageDebug
+:MPChartExample:assembleDebug
+:MPChartLib:generateReleaseRFile
+:MPChartExample:processReleaseResources
+:MPChartExample:generateReleaseSources
+:MPChartLib:generateReleaseSources
+:MPChartLib:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:MPChartLib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:MPChartExample:javaPreCompileRelease
+:MPChartExample:compileReleaseJavaWithJavacNote: Version 5.1.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class Score
+Note: Processing class RealmFloat
+Note: Processing class RealmDemoData
+Note: Creating DefaultRealmModule
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:MPChartExample:compileReleaseSources
+:MPChartExample:lintVitalRelease
+:MPChartExample:transformClassesWithRealmTransformerForRelease
+:MPChartExample:transformClassesWithDexBuilderForRelease
+:MPChartExample:transformDexArchiveWithDexMergerForRelease
+:MPChartExample:transformNativeLibsWithMergeJniLibsForRelease
+:MPChartExample:transformNativeLibsWithStripDebugSymbolForRelease
+:MPChartExample:transformResourcesWithMergeJavaResForRelease
+:MPChartExample:packageRelease
+:MPChartExample:assembleRelease
+:MPChartExample:assemble
+:MPChartExample:build
+
+BUILD SUCCESSFUL in 47s
+91 actionable tasks: 91 executed
+
+2018-05-22 09:14:30,569 INFO  FullProcessService - Found APK file: /tmp/rdisk/741/src/MPChartExample/build/outputs/apk/release/MPChartExample-release-unsigned.apk

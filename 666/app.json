@@ -1,0 +1,36 @@
+{
+  "meta" : {
+    "packageName" : "jp.ksksue.app.terminal",
+    "label" : "Android USB Serial Monitor Lite",
+    "icon" : "res/drawable-ldpi/terminal.png",
+    "versionName" : "1.1.7",
+    "versionCode" : 11,
+    "installLocation" : null,
+    "minSdkVersion" : "13",
+    "targetSdkVersion" : null,
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.usb.host",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi/terminal.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAABhlBMVEUAAAD////7+/v29vb19fXt7e3MzMz6+vrt7e3o6Ojn5+fk5OTi4uLd3d0AAADx8fHl5eWKiop7e3t9fX2Hh4ff39/Y2NgAAAAAAADw8PBpaWllZWVkZGTa2trU1NQAAAAAAADe3t5nZ2diYmIAAAAAAABXV1dcXFxmZmZdXV1SUlJOTk5KSkpLS0tMTExQUFBUVFRWVlZZWVleXl5fX19hYWFjY2NJSUnb29uMjIzS0tLDw8NPT0/BwcGWlpbLy8tVVVV0dHSkpKSwsLBRUVG9vb1ycnJzc3PW1tZxcXGsrKzu7u7KyspNTU3FxcWRkZGBgYFtbW28vLyrq6tTU1N+fn7T09OXl5fg4ODMzMyoqKjh4eFGRkZFRUVERETc3NzV1dXu7u46xFEvyUkwxknh4eHf39/d3d1CuVY2sEs5sU3W1tbIyMgAAAC3t7fR0dHHx8fFxcW7u7sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADdcYH2AAAAgnRSTlMAJNj//+U+1f7////+9h7+/////////18I////////eRT///96Ff///////////////////////////////////////////////////////////////////////////////v///9X+//////72fSjY/+U6lA4CLxIXnVUBBjZNTjEFTg99sgAAATJJREFUOMtjYBjegJGJmYUZN2BlAyli5+Dkwg24eXj5gIr4BQSFhHEBIRFRMXEJBgZJUSlp3EBGVk5eAahIUUkGtyJlMTkVVaIVqanLaEjLSKMqBfE0ZDS1YIq0dXT19A0MjdSNTUxNlc2UTU1NjNWN1Az09XR1zZEU4QR4FWkoAQk1C0u8iqysdXVtbO3wmmSv6aDr6ITfOmcXXV1XN10Nd3yKPHQ9vbR0db198Cjy9fP3CwiUCQrWwKlIW09dLAToNXc8QRDKHRauRyicZCMsQrAEpi+KIrfIKCwhHh0TixPExcRDFHFHJ3jgAgnRimBFidGi0ThAUnKKqIUVSFFqWno8DpCRmWWRnZMLVJSX71OABxQWFZcwMJSWleMDFZVV1cA8VVNbV48b1DU0DsoyBQARK7sdidjpnAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 124,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"11\" android:versionName=\"1.1.7\" package=\"jp.ksksue.app.terminal\">\n\t<uses-sdk android:minSdkVersion=\"13\" />\n\t<uses-feature android:name=\"android.hardware.usb.host\" />\n\t<application android:label=\"Android USB Serial Monitor Lite\" android:icon=\"res/drawable-ldpi/terminal.png\" android:debuggable=\"true\">\n\t\t<activity android:label=\"Android USB Serial Monitor Lite\" android:name=\".AndroidUSBSerialMonitorLite\" android:launchMode=\"singleTask\" android:configChanges=\"0x80\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.hardware.usb.action.USB_DEVICE_ATTACHED\" />\n\t\t\t</intent-filter>\n\t\t\t<meta-data android:name=\"android.hardware.usb.action.USB_DEVICE_ATTACHED\" android:resource=\"res/xml/device_filter.xml\" />\n\t\t</activity>\n\t\t<activity android:name=\".AndroidUSBSerialMonitorLitePrefActivity\" />\n\t\t<activity android:name=\".WordListActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 120102,
+  "crc32" : 636771525,
+  "sha256" : "d1d4c53e855557ba16ee1fe260824a29a95ddb320a00ac5cb9b5ed045e5ef9e8",
+  "buildTime" : 1496784444000
+}

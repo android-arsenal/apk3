@@ -1,0 +1,102 @@
+2018-04-09 19:12:38,282 INFO  DownloadService - Downloading "https://github.com/lemonlabs/u2020-mortar/archive/master.zip", attempt 3
+2018-04-09 19:13:38,921 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 19:13:39,732 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 19:13:39,732 INFO  DownloadService - Downloading "https://github.com/lemonlabs/u2020-mortar/archive/master.zip", attempt 3
+2018-04-09 19:14:41,262 DEBUG FullProcessService - Repository https://github.com/lemonlabs/u2020-mortar available: true
+2018-04-09 19:14:41,262 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 19:14:41,262 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lemonlabs/u2020-mortar, /tmp/rdisk/627/src]
+2018-04-09 19:14:43,671 INFO  SysUtils - 
+2018-04-09 19:14:43,677 INFO  GitService - Deleted "/tmp/rdisk/627/src/.git": true
+2018-04-09 19:14:43,684 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-09 19:14:43,684 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/627/src]
+2018-04-09 19:14:43,689 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/627/src/.git/
+
+2018-04-09 19:14:43,694 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/627/src/gradlew
+2018-04-09 19:14:43,699 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/627/src/app/build.gradle /tmp/rdisk/627/src/build.gradle
+2018-04-09 19:14:43,704 INFO  ProjectBuildService - All script(s): /tmp/rdisk/627/src/settings.gradle /tmp/rdisk/627/src/build.gradle /tmp/rdisk/627/src/app/build.gradle
+2018-04-09 19:14:43,705 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 19:14:43,705 INFO  ProjectFixService - Fixing project...
+2018-04-09 19:14:43,715 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/627/src/app/local.properties
+2018-04-09 19:14:43,716 INFO  ProjectFixService - Build info for "/tmp/rdisk/627/src/app/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=14,targetSdkVersion=20]
+2018-04-09 19:14:43,716 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/627/src/local.properties
+2018-04-09 19:14:43,717 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-09 19:14:43,717 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-09 19:14:43,718 INFO  ProjectFixService - Build info for "/tmp/rdisk/627/src/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=14,targetSdkVersion=20]
+2018-04-09 19:14:43,718 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 19:14:43,718 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 19:14:43,718 INFO  SysUtils - Execute command: [/tmp/rdisk/627/src/gradlew, -b, /tmp/rdisk/627/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 19:15:07,313 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-04-09 19:15:07,313 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-04-09 19:15:07,313 INFO  SysUtils - Execute command: [/tmp/rdisk/627/src/gradlew, -b, /tmp/rdisk/627/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-04-09 19:15:56,495 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42000Library
+:app:prepareComEtsyAndroidGridLibrary103Library
+:app:prepareComJakewhartonEspressoEspresso11R3Library
+:app:prepareComJakewhartonEspressoEspressoRunner11R3Library
+:app:prepareComJakewhartonEspressoEspressoRunnerRuntime11R3Library
+:app:prepareComJakewhartonHugoHugoRuntime110Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+advice defined in hugo.weaving.internal.Hugo has not been applied [Xlint:adviceDidNotMatch]
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaNote: /tmp/rdisk/627/src/app/src/main/java/co/lemonlabs/mortar/example/ui/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 48.73 secs
+
+2018-04-09 19:15:56,518 INFO  FullProcessService - Found APK file: /tmp/rdisk/627/src/app/build/outputs/apk/ll-mortar-release-v1.0.0.apk

@@ -1,0 +1,310 @@
+2018-04-09 18:01:05,298 INFO  DownloadService - Downloading "https://github.com/Pkmmte/CircularImageView/archive/master.zip", attempt 3
+2018-04-09 18:01:05,955 INFO  DownloadService - Downloaded https://github.com/Pkmmte/CircularImageView/archive/master.zip, attempt 3
+2018-04-09 18:01:05,957 INFO  DownloadService - Size of file "/tmp/rdisk/695/master.zip": 2 MB
+2018-04-09 18:01:05,957 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-09 18:01:05,957 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/695/master.zip: true
+2018-04-09 18:01:05,957 DEBUG ZipUtil - Extracting '/tmp/rdisk/695/master.zip' into '/tmp/rdisk/695/src'.
+2018-04-09 18:01:05,987 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-09 18:01:05,987 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/695/src]
+2018-04-09 18:01:05,998 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/695/src/.git/
+
+2018-04-09 18:01:06,001 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/695/src/CircularImageView-master/gradlew
+2018-04-09 18:01:06,005 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build.gradle /tmp/rdisk/695/src/CircularImageView-master/circularimageview/build.gradle /tmp/rdisk/695/src/CircularImageView-master/build.gradle
+2018-04-09 18:01:06,009 INFO  ProjectBuildService - All script(s): /tmp/rdisk/695/src/CircularImageView-master/settings.gradle /tmp/rdisk/695/src/CircularImageView-master/circularimageview/build.gradle /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build.gradle /tmp/rdisk/695/src/CircularImageView-master/build.gradle
+2018-04-09 18:01:06,016 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-09 18:01:06,706 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-09 18:01:06,707 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-04-09 18:01:06,707 INFO  ProjectFixService - Fixing project...
+2018-04-09 18:01:06,723 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/local.properties
+2018-04-09 18:01:06,725 INFO  ProjectFixService - Build info for "/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:01:06,729 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:01:06,730 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/695/src/CircularImageView-master/circularimageview/local.properties
+2018-04-09 18:01:06,731 INFO  ProjectFixService - Build info for "/tmp/rdisk/695/src/CircularImageView-master/circularimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:01:06,732 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/695/src/CircularImageView-master/circularimageview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:01:06,732 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/695/src/CircularImageView-master/local.properties
+2018-04-09 18:01:06,732 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 18:01:06,733 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 18:01:06,734 INFO  ProjectFixService - Build info for "/tmp/rdisk/695/src/CircularImageView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-09 18:01:06,734 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/695/src/CircularImageView-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-09 18:01:06,735 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 18:01:06,735 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 18:01:06,735 INFO  SysUtils - Execute command: [/tmp/rdisk/695/src/CircularImageView-master/gradlew, -b, /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 18:01:29,050 INFO  ProjectTaskService - Detected possible tasks: 61
+2018-04-09 18:01:29,051 INFO  ProjectTaskService - Excluded tasks (14): lintDebug androidJavadocs deviceCheck lint androidSourcesJar uninstallRelease connectedCheck uninstallAll androidJavadocsJar check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 18:01:29,051 INFO  SysUtils - Execute command: [/tmp/rdisk/695/src/CircularImageView-master/gradlew, -b, /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 18:01:37,890 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-09 18:01:37,891 INFO  SysUtils - Configuration on demand is an incubating feature.
+:circularimageview-sample:preBuild
+:circularimageview-sample:compileDebugNdk
+:circularimageview-sample:preDebugBuild
+:circularimageview-sample:checkDebugManifest
+:circularimageview-sample:preReleaseBuild
+:circularimageview-sample:prepareComAndroidSupportSupportV42000Library
+:circularimageview-sample:prepareComPkmmteViewCircularimageview11Library
+:circularimageview-sample:prepareDebugDependencies
+:circularimageview-sample:compileDebugAidl
+:circularimageview-sample:compileDebugRenderscript
+:circularimageview-sample:generateDebugBuildConfig
+:circularimageview-sample:generateDebugAssets UP-TO-DATE
+:circularimageview-sample:mergeDebugAssets
+:circularimageview-sample:generateDebugResValues
+:circularimageview-sample:generateDebugResources
+:circularimageview-sample:mergeDebugResources
+:circularimageview-sample:processDebugManifest
+:circularimageview-sample:processDebugResources/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+
+/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':circularimageview-sample:processDebugResources'.
+> com.android.ide.common.internal.LoggedErrorException: Failed to run command:
+  	/root/Applications/android-sdk/build-tools/21.1.2/aapt package -f --no-crunch -I /root/Applications/android-sdk/platforms/android-21/android.jar -M /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/manifests/full/debug/AndroidManifest.xml -S /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug -A /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/assets/debug -m -J /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/generated/source/r/debug -F /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/resources-debug.ap_ --debug-mode --custom-package com.example.circularimageview -0 apk --output-text-symbols /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/symbols/debug
+  Error Code:
+  	1
+  Output:
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+  	
+  	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+  	
+
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':circularimageview-sample:processDebugResources'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.internal.UncheckedException: com.android.ide.common.internal.LoggedErrorException: Failed to run command:
+	/root/Applications/android-sdk/build-tools/21.1.2/aapt package -f --no-crunch -I /root/Applications/android-sdk/platforms/android-21/android.jar -M /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/manifests/full/debug/AndroidManifest.xml -S /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug -A /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/assets/debug -m -J /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/generated/source/r/debug -F /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/resources-debug.ap_ --debug-mode --custom-package com.example.circularimageview -0 apk --output-text-symbols /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/symbols/debug
+Error Code:
+	1
+Output:
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+	
+
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:39)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:66)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: com.android.ide.common.internal.LoggedErrorException: Failed to run command:
+	/root/Applications/android-sdk/build-tools/21.1.2/aapt package -f --no-crunch -I /root/Applications/android-sdk/platforms/android-21/android.jar -M /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/manifests/full/debug/AndroidManifest.xml -S /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug -A /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/assets/debug -m -J /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/generated/source/r/debug -F /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/resources-debug.ap_ --debug-mode --custom-package com.example.circularimageview -0 apk --output-text-symbols /tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/symbols/debug
+Error Code:
+	1
+Output:
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/footer.xml:72: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_border' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_borderWidth' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/header.xml:20: error: No resource identifier found for attribute 'civ_shadow' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selector' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeColor' in package 'com.example.circularimageview'
+	
+	/tmp/rdisk/695/src/CircularImageView-master/circularimageview-sample/build/intermediates/res/debug/layout/row.xml:10: error: No resource identifier found for attribute 'civ_selectorStrokeWidth' in package 'com.example.circularimageview'
+	
+
+	at com.android.ide.common.internal.CommandLineRunner.runCmdLine(CommandLineRunner.java:123)
+	at com.android.ide.common.internal.CommandLineRunner.runCmdLine(CommandLineRunner.java:96)
+	at com.android.ide.common.internal.CommandLineRunner.runCmdLine(CommandLineRunner.java:76)
+	at com.android.builder.core.AndroidBuilder.processResources(AndroidBuilder.java:738)
+	at com.android.builder.core.AndroidBuilder$processResources$7.call(Unknown Source)
+	at com.android.build.gradle.tasks.ProcessAndroidResources.doFullTaskAction(ProcessAndroidResources.groovy:120)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:64)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	... 53 more
+
+
+BUILD FAILED
+
+Total time: 8.248 secs
+
+2018-04-09 18:01:37,899 INFO  FullProcessService - Found APK file: /tmp/rdisk/695/src/CircularImageView-master/circularimageview-eclipse/CircularImageView-Sample.apk

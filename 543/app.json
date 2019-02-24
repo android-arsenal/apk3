@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.survivingwithandroid.weatherapp",
+    "label" : "WeatherApp",
+    "icon" : "res/drawable/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_FINE_LOCATION" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABg1BMVEX///8eHh4cHBodHRwdHRsdHRsAAAAeHhseHhsdHRsdHR0cHBseHhsdHRseHhsdHRscHBweHhodHR0dHRsdHRsfHxodHRsdHRsdHRoAAAAeHhgdHRodHRsdHRodHRsdHRkhIRkdHRsdHRwdHRscHBweHhsdHRscHBoeHhodHRodHRsdHRoAAAAcHBscHBwaGhoXFxcbGxsaGhodHRsjIxccHBsdHRsAAAAbGxsdHRsbGxsdHRoeHhoeHhwdHR0VFRUdHRodHR0cHBwcHBodHRodHRsgIBgzMzMdHRscHBwdHRseHhwdHRscHBwdHRscHBwcHBwdHRsdHRsdHRoUFBQdHRscHBwdHRsdHRweHhsdHRseHhscHBwdHRseHhsdHRsdHRwdHRwdHRsdHRsfHx8fHxscHBsdHRsdHRsdHRscHBseHhodHR0cHBseHhwdHRwaGhodHRscHBsdHRogICAeHhsdHRsbGxseHhsfHxcdHRodHRwdHRseHh4rKyseHhocHBw6H5ADAAAAgXRSTlMAK4ew0PABXsb/GrxM7M+VbURH+8My8/hXAiphj+fuPR+y8fYtVe91mqX8ywPpUwoLEx22FrTRBDj+OWubZjUM1CxckUb1IAXTN/2KyiWtQErWn3QNaWSDi0Pi2AnAZ5fCnGjdGUuQ7afHvTs0mXe5J3rXUAi+90HyIcHe5iIGTVrSNmRzAAACVUlEQVRIx5VV519aQRBcEMUBRYoKqNiw8VCxoT5RUEARFBKVFE0MSkw0vXdT/vTsgU/AAsd+uN+VGd7e3OxCdD10+gZDY6OhQa8jiWgyNuMymo1NtfAmMyrCbKqOb2kVKEub1WaztlnEvLWlGt7uYEi7/XLZzkuH/XZ8RyfgdJXvuJxAZ8dNWHdXd4/eA/T2Ve739QIefU93l7tiu39gsHhH79DVXxryFk8GB/pLm8Mjmiij1789qp2NDGvZjImlw+IzKP7x64Rxv2LwWYQaGCvmZeXpxGSAZ1PTN11veoqHwOQEw6xiPcPSzM7VtsDcLAs2w5MgML8gY5qFeSBItAioSyQVSyqwSCHAR5LhA0K0DKzIElaAZfIDYVlCGPATaxSRJURYJ1oF1mQJa8CquEhUlhAVArFVYrKEmDBbHFjfkMNvrANxSmyyM+QI7I3NBFEyBWwlasMTW0AqeZEZttPFjpS5cxV3N1PsTultaLeN8NtB3dndi5kVeEslnxXDPQWKOba3u8M+gj+ifUwtNSLn/Ysiyj7grvawrEWpZYnvH5QdPHKJdvf48EmxtrQ42K9INW3MHR3nw7anfOThck8E1ROiQ67FZ+H88VHOmL5Fi8Dz1ClbxX2GF1ycCl6e1JTv1Wse3gBviYzv4pIeYMnxnpuCrGc+MP4jyUdIiKKXx0cLr5KUJ2QKsn+SJ3z+Ighfv8kzssJn+B6WZ/woJPVTnuAS+F8mecIZ489/y+P/8N/Rqa6Oh7PXd2OiXF2acpmdO/7Wg+c28q8uPOnz9eGpuov+A79jTWBMoxKnAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 840,
+  "locales" : [ "", "de", "bn", "zh", "tr", "it", "nl" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.survivingwithandroid.weatherapp\" platformBuildVersionCode=\"19\" platformBuildVersionName=\"4.4.2-1456859\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<application android:theme=\"resourceId:0x7f0b0009\" android:label=\"WeatherApp\" android:icon=\"res/drawable/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"WeatherApp\" android:name=\"com.survivingwithandroid.weatherapp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.survivingwithandroid.weatherapp.settings.WeatherPreferenceActivity\" android:parentActivityName=\"com.survivingwithandroid.weatherapp.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.survivingwithandroid.weatherapp.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:name=\"com.survivingwithandroid.weatherapp.settings.SearchLocationActivity\" android:parentActivityName=\"com.survivingwithandroid.weatherapp.settings.WeatherPreferenceActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.survivingwithandroid.weatherapp.settings.WeatherPreferenceActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 702703,
+  "crc32" : 3546635730,
+  "sha256" : "6061a0b38dae69e238dc29b30da716afe2fcfc05a43072328cc7f0eb83efc3fe",
+  "buildTime" : 1523304651000
+}
